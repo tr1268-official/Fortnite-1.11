@@ -1,0 +1,4403 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "Actions",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanelActions_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelActions.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnGadgetsClicked__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnClosed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Initialize",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TeamMemberInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:SetTeamMemberInfo'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortTeamMemberInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTeamMemberInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaLobbyPlayerPanel_C:SetTeamMemberInfo.TeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Refresh",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetUINavigationManager_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Focus'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.8"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortUINavigationManager'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Focus",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:Focus.CallFunc_GetUINavigationManager_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.7"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaLobbyPlayerPanel_C:Focus.CallFunc_HasValidActions_bHasValidActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.25"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:InitializeContextEvents'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.10"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'FortUITeamInfo:OnTeamMemberStateChangedDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "InitializeContextEvents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'AthenaLobbyPlayerPanel_C:InitializeContextEvents.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:InitializeContextEvents.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.106"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:InitializeContextEvents.CallFunc_GetLocalPlayerTeam_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.107"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TeamMemberInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortTeamMemberInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnTeamMemberStateChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged.TeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.11"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged.CallFunc_AreUniqueIDsIdentical_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Cancel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaLobbyPlayerPanel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Bindings": [
+        {
+          "ObjectName": "MenuActions",
+          "PropertyName": "OnGetMenuContentEvent",
+          "FunctionName": "None",
+          "SourcePath": {
+            "Segments": []
+          },
+          "Kind": "EBindingKind::Function"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Frontend/AthenaLobbyPlayerPanel.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Cancel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.13"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.12"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:InitializeContextEvents'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.10"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Focus'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.8"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Refresh'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.6"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:SetTeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.5"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Initialize'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.3"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnClosed__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.2"
+      },
+      {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnGadgetsClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.1"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:Actions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:Border-TabM'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaLobbyPlayerPanel_C:Details'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.105"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaLobbyPlayerPanel_C:TeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.124"
+      },
+      {
+        "ObjectName": "MulticastDelegateProperty'AthenaLobbyPlayerPanel_C:OnGadgetsClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.99"
+      },
+      {
+        "ObjectName": "MulticastDelegateProperty'AthenaLobbyPlayerPanel_C:OnClosed'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.98"
+      }
+    ],
+    "FuncMap": {
+      "OnGadgetsClicked__DelegateSignature": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnGadgetsClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.1"
+      },
+      "OnClosed__DelegateSignature": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnClosed__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.2"
+      },
+      "Initialize": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Initialize'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.3"
+      },
+      "SetTeamMemberInfo": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:SetTeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.5"
+      },
+      "Refresh": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Refresh'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.6"
+      },
+      "Focus": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Focus'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.8"
+      },
+      "InitializeContextEvents": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:InitializeContextEvents'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.10"
+      },
+      "OnTeamMemberStateChanged": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.12"
+      },
+      "Cancel": {
+        "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Cancel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.13"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaLobbyPlayerPanel_C'Default__AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.15"
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanel_C",
+    "Name": "Default__AthenaLobbyPlayerPanel_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.AthenaLobbyPlayerPanel_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel",
+    "Properties": {
+      "TeamMemberInfo": {
+        "MemberUniqueId": "INVALID",
+        "PartyLeaderUniqueId": "INVALID",
+        "ConsoleUniqueId": "INVALID",
+        "PlayerName": {
+          "CultureInvariantString": null
+        },
+        "bPartyLeader": false,
+        "bIsInZone": false,
+        "bHasBoostXp": false,
+        "bHasRestXp": false,
+        "NumPlayersInParty": 0,
+        "PlayerIndex": -1,
+        "TeamAffiliation": "EFortTeam::MAX",
+        "HeroClass": {
+          "CultureInvariantString": null
+        },
+        "HeroLevel": {
+          "CultureInvariantString": null
+        },
+        "HeroXP": -1,
+        "HeroItem": null,
+        "SelectedGadgetItems": [],
+        "HeroIcon": {
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "ResourceObject": null,
+          "ResourceName": "None",
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "bIsDynamicallyLoaded": false
+        },
+        "HomeBaseInfo": {
+          "BannerIconId": "",
+          "BannerColorId": "",
+          "Name": {
+            "CultureInvariantString": null
+          },
+          "ValidData": false
+        }
+      },
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanel_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.AthenaLobbyPlayerPanel_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel",
+    "Template": {
+      "ObjectName": "AthenaLobbyPlayerPanel_C'Default__AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.15"
+    },
+    "Properties": {
+      "Actions": {
+        "ObjectName": "AthenaLobbyPlayerPanelActions_C'WidgetArchetype:WidgetTree_0.Actions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.18"
+      },
+      "Border-TabM": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Border-TabM'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.43"
+      },
+      "Details": {
+        "ObjectName": "AthenaLobbyPlayerPanelDetails_C'WidgetArchetype:WidgetTree_0.Details'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.20"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanelActions_C",
+    "Name": "Actions",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelActions.AthenaLobbyPlayerPanelActions_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Template": {
+      "ObjectName": "AthenaLobbyPlayerPanelActions_C'Default__AthenaLobbyPlayerPanelActions_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelActions.2"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.135"
+      }
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanelActions_C",
+    "Name": "Actions",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelActions.AthenaLobbyPlayerPanelActions_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Template": {
+      "ObjectName": "AthenaLobbyPlayerPanelActions_C'Default__AthenaLobbyPlayerPanelActions_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelActions.2"
+    },
+    "Properties": {
+      "BoxActions": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      },
+      "ButtonAddFriend": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.86"
+      },
+      "ButtonInviteParty": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.87"
+      },
+      "ButtonManage": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.88"
+      },
+      "ViewProfileButton": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.89"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.150"
+      }
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanelDetails_C",
+    "Name": "Details",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelDetails.AthenaLobbyPlayerPanelDetails_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Template": {
+      "ObjectName": "AthenaLobbyPlayerPanelDetails_C'Default__AthenaLobbyPlayerPanelDetails_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelDetails.2"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.136"
+      }
+    }
+  },
+  {
+    "Type": "AthenaLobbyPlayerPanelDetails_C",
+    "Name": "Details",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelDetails.AthenaLobbyPlayerPanelDetails_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Template": {
+      "ObjectName": "AthenaLobbyPlayerPanelDetails_C'Default__AthenaLobbyPlayerPanelDetails_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelDetails.2"
+    },
+    "Properties": {
+      "BattlePassBoostActiveIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassBoostActiveIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.94"
+      },
+      "BattlePassOwnerLine": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassOwnerLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.53"
+      },
+      "BattlePassRow": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+      },
+      "BattlePassSelfXpGainLine": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassSelfXpGainLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.54"
+      },
+      "BattlePassSharedXpGainLine": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassSharedXpGainLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.55"
+      },
+      "PlayerBanner": {
+        "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.117"
+      },
+      "SeasonPassIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.SeasonPassIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.97"
+      },
+      "TextInviteSent": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.TextInviteSent'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.56"
+      },
+      "TextPlayerName": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.TextPlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.57"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.151"
+      }
+    }
+  },
+  {
+    "Type": "BackgroundBlur",
+    "Name": "BackgroundBlurWidget_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BackgroundBlur'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Properties": {
+      "BlurStrength": 15.0,
+      "Slots": [
+        {
+          "ObjectName": "BackgroundBlurSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BackgroundBlurWidget_0.BackgroundBlurSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BackgroundBlur",
+    "Name": "BackgroundBlurWidget_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BackgroundBlur'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "BlurStrength": 15.0,
+      "Slots": [
+        {
+          "ObjectName": "BackgroundBlurSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BackgroundBlurWidget_0.BackgroundBlurSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BackgroundBlurSlot",
+    "Name": "BackgroundBlurSlot_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BackgroundBlurSlot'",
+    "Outer": {
+      "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BackgroundBlurWidget_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.21"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BackgroundBlurWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.21"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.42"
+      }
+    }
+  },
+  {
+    "Type": "BackgroundBlurSlot",
+    "Name": "BackgroundBlurSlot_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BackgroundBlurSlot'",
+    "Outer": {
+      "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BackgroundBlurWidget_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.22"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BackgroundBlurWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.22"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.44"
+      }
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasValidActions_bHasValidActions",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:Focus'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_AreUniqueIDsIdentical_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnTeamMemberStateChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.31"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.32"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.33"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.35"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.27"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.27"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.28"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.28"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.29"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.29"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.42"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 24.0,
+        "Top": 24.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.42"
+      },
+      "Content": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.58"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.30"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.CommonBorder_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.44"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.129"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.66"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.70"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.74"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.78"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "Border-TabM",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-TabM_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-TabM.0"
+      },
+      "Padding": {
+        "Left": 100.0,
+        "Top": 0.0,
+        "Right": 100.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-TabM'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-TabM.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.111"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-MainL-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-MainL-Black.0"
+      },
+      "VerticalAlignment": "VAlign_Top",
+      "Padding": {
+        "Left": 24.0,
+        "Top": 24.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 32.0
+        },
+        "Margin": {
+          "Left": 0.1,
+          "Top": 0.45,
+          "Right": 0.9,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-MainL'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-MainL.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.34"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BackgroundBlurSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BackgroundBlurWidget_0.BackgroundBlurSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.23"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.152"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "Border-TabM",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-TabM_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-TabM.0"
+      },
+      "Padding": {
+        "Left": 100.0,
+        "Top": 0.0,
+        "Right": 100.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-TabM'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-TabM.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.115"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-MainL-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-MainL-Black.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.CommonBorder_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BackgroundBlurSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BackgroundBlurWidget_0.BackgroundBlurSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.24"
+      }
+    }
+  },
+  {
+    "Type": "CommonLoadGuard",
+    "Name": "LoadGuard",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonLoadGuard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+    },
+    "Properties": {
+      "LoadingText": {
+        "CultureInvariantString": null
+      },
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.121"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.113"
+      }
+    }
+  },
+  {
+    "Type": "CommonLoadGuard",
+    "Name": "SurroundLoadGuard",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonLoadGuard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+    },
+    "Properties": {
+      "LoadingText": {
+        "CultureInvariantString": null
+      },
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.122"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.114"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-MineShaft_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-MineShaft.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "BF22136844C222B0B7F151ADF6695625",
+        "SourceString": "PLAYER MENU",
+        "LocalizedString": "PLAYER MENU"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.112"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.65"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.69"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.73"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.77"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-MineShaft_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-MineShaft.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "BF22136844C222B0B7F151ADF6695625",
+        "SourceString": "PLAYER MENU",
+        "LocalizedString": "PLAYER MENU"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.116"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "BattlePassOwnerLine",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Header-M_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Header-M.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "6EC79D2943BE8575B3A5D9A413205173",
+        "SourceString": "BATTLE PASS",
+        "LocalizedString": "BATTLE PASS"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 4.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.142"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "BattlePassSelfXpGainLine",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "AE43EA2C4413690AF38EBDAEA5FF744D",
+        "SourceString": "0% match XP boost active",
+        "LocalizedString": "0% match XP boost active"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.141"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "BattlePassSharedXpGainLine",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "83E5DB6F451F1DF0EDBC4DBC267E272F",
+        "SourceString": "0% match XP boost for friends",
+        "LocalizedString": "0% match XP boost for friends"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.143"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextInviteSent",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "C2F8EF34479CBE0DF51D57AF6F448554",
+        "SourceString": "Invite Sent",
+        "LocalizedString": "Invite Sent"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14.VerticalBoxSlot_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.147"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextPlayerName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-M-B-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-M-B-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 4.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14.VerticalBoxSlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.146"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonWidgetSwitcher",
+    "Name": "Switcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Properties": {
+      "TransitionDuration": 0.0,
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.Switcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.153"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.34"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.66"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.67"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.65"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.31"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.70"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.71"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.69"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.74"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.75"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.73"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.33"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.78"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.79"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.77"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.80"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.35"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "BattlePassRow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.81"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.83"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.144"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.84"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.145"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.48"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.37"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.90"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.100"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.49"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.38"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.91"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.101"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.50"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.39"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.92"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.102"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.51"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.40"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.93"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.103"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.SeasonPassIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.97"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassBoostActiveIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.94"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.64"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.64"
+      },
+      "Content": {
+        "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.117"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.64"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 12.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.64"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.130"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonAddFriend",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.48"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.27"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.90"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.100"
+      },
+      "ButtonText": {
+        "Namespace": "",
+        "Key": "D77381254214675CD8BF6BA27A424F8F",
+        "SourceString": "Add Friend",
+        "LocalizedString": "Add Friend"
+      },
+      "ContentAlignment": "HAlign_Left",
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.37"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.138"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonInviteParty",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.49"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.28"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.91"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.101"
+      },
+      "ButtonText": {
+        "Namespace": "",
+        "Key": "5930C39B4AB6BA3B649EE5BCAFF2C0E0",
+        "SourceString": "Invite to Party",
+        "LocalizedString": "Invite to Party"
+      },
+      "ContentAlignment": "HAlign_Left",
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.38"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.139"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonManage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.50"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.29"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.92"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.102"
+      },
+      "ButtonText": {
+        "Namespace": "",
+        "Key": "1E67279F43560D9ECC4A498025C9D7BA",
+        "SourceString": "Manage",
+        "LocalizedString": "Manage"
+      },
+      "ContentAlignment": "HAlign_Left",
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.39"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_9'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.140"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ViewProfileButton",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.51"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.30"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.93"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.103"
+      },
+      "ButtonText": {
+        "Namespace": "",
+        "Key": "3E07D1534BC55E082460609664CA5DCC",
+        "SourceString": "View Profile",
+        "LocalizedString": "View Profile"
+      },
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.40"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.137"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.67"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.75"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.79"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BattlePassBoostActiveIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-XPBoost-Single'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/XPBoost/M-XPBoost-Single.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BannerImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'BannerIcon'",
+          "ObjectPath": "FortniteGame/Content/UI/Banner/BannerIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.121"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SurroundImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-BR-Banner-Inst-Bronze'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Banner/BR-Banner/M-BR-Banner-Inst-Bronze.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.122"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SeasonPassIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-BattlePassBadge'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/XPBoost/M-BattlePassBadge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.81"
+      }
+    }
+  },
+  {
+    "Type": "MulticastDelegateProperty",
+    "Name": "OnClosed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MulticastDelegateProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+    "SignatureFunction": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnClosed__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.2"
+    }
+  },
+  {
+    "Type": "MulticastDelegateProperty",
+    "Name": "OnGadgetsClicked",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MulticastDelegateProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+    "SignatureFunction": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:OnGadgetsClicked__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.1"
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.157"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.68"
+      }
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.158"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.72"
+      }
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.159"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.76"
+      }
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.160"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.80"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Border-TabM",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Details",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanelDetails_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanelDetails.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:InitializeContextEvents'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.10"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPartyContext'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalPlayerTeam_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaLobbyPlayerPanel_C:InitializeContextEvents'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.10"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortUITeamInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.111"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.112"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_24'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.134"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.113"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.114"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.115"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.116"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_24'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.149"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 100.0,
+        "Top": 1.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'AthenaLobbyPlayerPanel_C:WidgetTree.Border-TabM'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.41"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 18.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaLobbyPlayerPanel_C:WidgetTree.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.47"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+      },
+      "Content": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.45"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+      },
+      "Content": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.46"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.110"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 100.0,
+        "Top": 1.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.110"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Border-TabM'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.43"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.110"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 18.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.110"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.52"
+      }
+    }
+  },
+  {
+    "Type": "PlayerBanner_C",
+    "Name": "PlayerBanner",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.PlayerBanner_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Template": {
+      "ObjectName": "PlayerBanner_C'Default__PlayerBanner_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.2"
+    },
+    "Properties": {
+      "BannerImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.BannerImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.95"
+      },
+      "LoadGuard": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.45"
+      },
+      "SurroundImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.96"
+      },
+      "SurroundLoadGuard": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.46"
+      },
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 80.0
+        }
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.162"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.84"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 512.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.120"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 512.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.123"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.118"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.118"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.45"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.BannerImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.95"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.46"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.46"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.96"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.119"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.119"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.131"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TeamMemberInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortTeamMemberInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_24'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.134"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.133"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.120"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaLobbyPlayerPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.154"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.136"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.135"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.133"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "BoxActions",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.156"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.140"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.138"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.139"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.137"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.Switcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.153"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.142"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.143"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.141"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow.HorizontalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.83"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.145"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.144"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.CommonBorder_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.36"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.161"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14.VerticalBoxSlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.146"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14.VerticalBoxSlot_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.147"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.85"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_24'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.149"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.148"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.123"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.155"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.151"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.150"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.148"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+      },
+      "Content": {
+        "ObjectName": "AthenaLobbyPlayerPanelActions_C'AthenaLobbyPlayerPanel_C:WidgetTree.Actions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.17"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+      },
+      "Content": {
+        "ObjectName": "AthenaLobbyPlayerPanelDetails_C'AthenaLobbyPlayerPanel_C:WidgetTree.Details'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.19"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.89"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.86"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.87"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.88"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassSelfXpGainLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.54"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": -8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassOwnerLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.53"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.128"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassSharedXpGainLine'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.55"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.129"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 14.0,
+        "Top": 12.0,
+        "Right": 14.0,
+        "Bottom": 6.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.129"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BattlePassRow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.63"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.129"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 14.0,
+        "Top": 12.0,
+        "Right": 14.0,
+        "Bottom": 6.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.129"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.64"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.130"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.130"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.TextPlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.57"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.130"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.VerticalBox_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.130"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.TextInviteSent'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.56"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.131"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.131"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.132"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.131"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.131"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.110"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.132"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.132"
+      },
+      "Content": {
+        "ObjectName": "AthenaLobbyPlayerPanelActions_C'WidgetArchetype:WidgetTree_0.Actions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.18"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.132"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.132"
+      },
+      "Content": {
+        "ObjectName": "AthenaLobbyPlayerPanelDetails_C'WidgetArchetype:WidgetTree_0.Details'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.20"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.CommonBorder_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.42"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.Switcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.58"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.58"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BoxActions'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.127"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobbyPlayerPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.14"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.118"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "SizeBox'AthenaLobbyPlayerPanel_C:WidgetTree.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.118"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.125"
+        },
+        {
+          "ObjectName": "Overlay'AthenaLobbyPlayerPanel_C:WidgetTree.Overlay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.108"
+        },
+        {
+          "ObjectName": "CommonBorder'AthenaLobbyPlayerPanel_C:WidgetTree.Border-TabM'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.41"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaLobbyPlayerPanel_C:WidgetTree.CommonTextBlock_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.47"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaLobbyPlayerPanel_C:WidgetTree.VerticalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.126"
+        },
+        {
+          "ObjectName": "AthenaLobbyPlayerPanelDetails_C'AthenaLobbyPlayerPanel_C:WidgetTree.Details'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.19"
+        },
+        {
+          "ObjectName": "AthenaLobbyPlayerPanelActions_C'AthenaLobbyPlayerPanel_C:WidgetTree.Actions'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaLobbyPlayerPanel_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.16"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.119"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaLobbyPlayerPanelActions_C'WidgetArchetype:WidgetTree_0.Actions'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.18"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.BackgroundBlurWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.21"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.86"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.27"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.27"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.59"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.37"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.90"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.48"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonAddFriend.WidgetTree_5.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.100"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.87"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.28"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.28"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.60"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.38"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.91"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.49"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonInviteParty.WidgetTree_6.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.101"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.88"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.29"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.29"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.61"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.39"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.92"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.50"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ButtonManage.WidgetTree_4.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.102"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.89"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.30"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.30"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.62"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.40"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.93"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.51"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.Actions.WidgetTree_3.ViewProfileButton.WidgetTree_7.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.103"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaLobbyPlayerPanelDetails_C'WidgetArchetype:WidgetTree_0.Details'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.20"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "BackgroundBlur'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.BackgroundBlurWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.22"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.117"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.109"
+        },
+        {
+          "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.LoadGuard'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.45"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.BannerImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.95"
+        },
+        {
+          "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundLoadGuard'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.46"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Details.WidgetTree_1.PlayerBanner.WidgetTree_2.SurroundImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobbyPlayerPanel.96"
+        }
+      ]
+    }
+  }
+]

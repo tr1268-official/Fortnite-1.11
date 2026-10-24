@@ -1,0 +1,1794 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaNews_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Frontend/AthenaNews.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaNews_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaNews_C:ExecuteUbergraph_AthenaNews'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.24"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaNewsWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaNews_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.0"
+      },
+      {
+        "ObjectName": "Function'AthenaNews_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.22"
+      },
+      {
+        "ObjectName": "Function'AthenaNews_C:ExecuteUbergraph_AthenaNews'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.24"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaNews": {
+        "ObjectName": "Function'AthenaNews_C:ExecuteUbergraph_AthenaNews'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.24"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaNews_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.22"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaNews_C'Default__AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.2"
+    }
+  },
+  {
+    "Type": "AthenaNews_C",
+    "Name": "Default__AthenaNews_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaNews.AthenaNews_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaNews_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaNews.AthenaNews_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews",
+    "Template": {
+      "ObjectName": "AthenaNews_C'Default__AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.2"
+    },
+    "Properties": {
+      "Title1": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.13"
+      },
+      "Body1": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Body1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.10"
+      },
+      "Image1": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.19"
+      },
+      "Title2": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.14"
+      },
+      "Body2": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Body2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.11"
+      },
+      "Image2": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.20"
+      },
+      "Title3": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.15"
+      },
+      "Body3": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.body3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.12"
+      },
+      "Image3": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.21"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Body1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.52"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Body2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.57"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "body3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_3.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.59"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.51"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.56"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_3.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.58"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Body1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.61"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Body2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.66"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "body3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E511DCD74CC5DB60DF3A0AABF5BD23BA",
+        "SourceString": "Some body text",
+        "LocalizedString": "Some body text"
+      },
+      "AutoWrapText": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_3.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.68"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.60"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.65"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Title3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "B09C75C44FF4C7BEFA9DF1ADF546E9F3",
+        "SourceString": "Title",
+        "LocalizedString": "Title"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_3.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.67"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.32"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.34"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.36"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.38"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.40"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "EpicCMSImage",
+    "Name": "Image3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EpicCMSImage'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.42"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaNews_C:ExecuteUbergraph_AthenaNews'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaNews",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaNews_C:ExecuteUbergraph_AthenaNews.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.32"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.53"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.34"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.33"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.54"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.36"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.55"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.38"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.62"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.40"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.63"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.42"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.16"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.17"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.18"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.28"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.28"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.47"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.28"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.28"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.19"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.29"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.29"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.49"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.29"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.29"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.20"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.30"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.30"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.50"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.30"
+      },
+      "Content": {
+        "ObjectName": "EpicCMSImage'WidgetArchetype:WidgetTree_0.Image3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.21"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.51"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.31"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.53"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.54"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.55"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.56"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.33"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaNews_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.69"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_3.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.58"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaNews_C:WidgetTree.VerticalBox_3.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.59"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaNews_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.35"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.60"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.37"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.62"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.63"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.64"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.65"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.39"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.70"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_3.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.67"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_3.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.41"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.7"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Body1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.4"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.8"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Body2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.5"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.9"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.body3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.6"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.47"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.47"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.13"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.47"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.47"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Body1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.10"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.28"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.29"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Top": 8.0,
+        "Right": 8.0,
+        "Bottom": 8.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.30"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.49"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.49"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.14"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.49"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.49"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Body2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.11"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.50"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.50"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Title3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.15"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.50"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.50"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.body3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.12"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaNews_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.44"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.25"
+        },
+        {
+          "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.16"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.43"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.7"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Body1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.4"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.26"
+        },
+        {
+          "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.17"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.45"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.8"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Body2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.5"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaNews_C:WidgetTree.HorizontalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.27"
+        },
+        {
+          "ObjectName": "EpicCMSImage'AthenaNews_C:WidgetTree.Image3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.18"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaNews_C:WidgetTree.VerticalBox_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.46"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.Title3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.9"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaNews_C:WidgetTree.body3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaNews_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaNews.48"
+      }
+    }
+  }
+]

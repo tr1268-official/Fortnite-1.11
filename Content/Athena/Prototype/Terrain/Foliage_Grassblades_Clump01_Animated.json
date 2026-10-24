@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_298",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Foliage_Grassblades_Clump01_Animated'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Foliage_Grassblades_Clump01_Animated.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "A5784E154A84F2976F3C029AA7CCE9E9",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5177,
+        "SizeOnDisk": 5177,
+        "OffsetInFile": "0x6522"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Foliage_Grassblades_Clump01_Animated'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Foliage_Grassblades_Clump01_Animated.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x79A3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Foliage_Grassblades_Clump01_Animated",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/Foliage_Grassblades_Clump01_Animated",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Foliage_Grassblades_Straight'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Shrubs/Materials/MI_Foliage_Grassblades_Straight.0"
+          },
+          "MaterialSlotName": "MI_Foliage_Grassblades_Straight",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 201.12111,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -2.014658,
+          "Y": -3.4379978,
+          "Z": 20.81802
+        },
+        "BoxExtent": {
+          "X": 29.076002,
+          "Y": 24.624027,
+          "Z": 21.283575
+        },
+        "SphereRadius": 34.9411
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Foliage_Grassblades_Clump01_Animated:BodySetup_298'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Foliage_Grassblades_Clump01_Animated.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Foliage_Grassblades_Clump01_Animated:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Foliage_Grassblades_Clump01_Animated.1"
+    },
+    "LightingGuid": "44974EE2-45693F6C-73D31B8D-6559A4BB",
+    "RenderData": null
+  }
+]

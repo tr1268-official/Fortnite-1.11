@@ -1,0 +1,231 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Foundation_1x1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_1x1.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 256.09988,
+                "Y": -256.1126,
+                "Z": -40.125
+              },
+              {
+                "X": 256.09988,
+                "Y": -256.1126,
+                "Z": -16.362606
+              },
+              {
+                "X": 256.09988,
+                "Y": 256.09375,
+                "Z": -16.349922
+              },
+              {
+                "X": 256.09988,
+                "Y": 256.09375,
+                "Z": -40.1
+              },
+              {
+                "X": -256.10007,
+                "Y": 256.125,
+                "Z": -40.125
+              },
+              {
+                "X": -256.10007,
+                "Y": 256.125,
+                "Z": -16.375011
+              },
+              {
+                "X": -256.10007,
+                "Y": -256.09998,
+                "Z": -16.35007
+              },
+              {
+                "X": -256.10007,
+                "Y": -256.1126,
+                "Z": -40.1
+              },
+              {
+                "X": -192.04192,
+                "Y": 192.0419,
+                "Z": 47.708076
+              },
+              {
+                "X": 192.0419,
+                "Y": 192.0419,
+                "Z": 47.708076
+              },
+              {
+                "X": 192.0419,
+                "Y": -192.04185,
+                "Z": 47.708076
+              },
+              {
+                "X": -192.04193,
+                "Y": -192.04181,
+                "Z": 47.708076
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -256.10007,
+                "Y": -256.1126,
+                "Z": -40.125
+              },
+              "Max": {
+                "X": 256.09988,
+                "Y": 256.125,
+                "Z": 47.708076
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "631007624770983ED7F82BA1F9F3DE20",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1259,
+        "SizeOnDisk": 1259,
+        "OffsetInFile": "0x3972"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Foundation_1x1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_1x1.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 745,
+        "SizeOnDisk": 745,
+        "OffsetInFile": "0x3EA5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FORT_Foundation_1x1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_1x1",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Foundation_Texture'",
+            "ObjectPath": "FortniteGame/Content/Environments/World/Foundations/Materials/M_Foundation_Texture.0"
+          },
+          "MaterialSlotName": "02 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 24875.238,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 24875.238,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -6.1035156E-05,
+          "Z": 23.804039
+        },
+        "BoxExtent": {
+          "X": 256.00006,
+          "Y": 256.00018,
+          "Z": 23.804039
+        },
+        "SphereRadius": 362.8205
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FORT_Foundation_1x1:BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_1x1.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FORT_Foundation_1x1:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_1x1.1"
+    },
+    "LightingGuid": "2ECE4497-414A04EC-523E85B1-B460AD88",
+    "RenderData": null
+  }
+]

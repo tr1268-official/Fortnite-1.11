@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Pebble_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Pebbles/SM_Athena_Pebble_01.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "3F8646EA4D3036AF8BB2429060C83405",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1425,
+        "SizeOnDisk": 1425,
+        "OffsetInFile": "0x375D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Pebble_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Pebbles/SM_Athena_Pebble_01.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3D36"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Athena_Pebble_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/Pebbles/SM_Athena_Pebble_01",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Athena_Pebbles_01'",
+            "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/MI_Athena_Pebbles_01.0"
+          },
+          "MaterialSlotName": "default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 232.0875,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 232.0875,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -19.906303,
+          "Y": -0.14627838,
+          "Z": 16.808027
+        },
+        "BoxExtent": {
+          "X": 25.350098,
+          "Y": 38.38182,
+          "Z": 16.857845
+        },
+        "SphereRadius": 42.45649
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Athena_Pebble_01:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Pebbles/SM_Athena_Pebble_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Athena_Pebble_01:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Pebbles/SM_Athena_Pebble_01.1"
+    },
+    "LightingGuid": "ACC98CB5-4A97DF52-7702DFA4-17F6D796",
+    "RenderData": null
+  }
+]

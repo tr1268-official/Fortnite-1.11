@@ -1,0 +1,1 @@
+class UAthena_Terrain_LS_01_C : public UFortLevelScriptActor;

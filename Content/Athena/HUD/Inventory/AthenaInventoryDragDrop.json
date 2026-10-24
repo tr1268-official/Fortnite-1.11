@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "BoolProperty",
+    "Name": "SplitTheStack",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Drop Action",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragDrop_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'AthenaDragDropAction'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaDragDropAction.0"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowDropIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "ByteProperty'AthenaInventoryDragDrop_C:ShowDropIcon.Drop Action'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.1"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragDrop_C:ShowDropIcon.K2Node_DynamicCast_AsAthena_Inventory_Drag_Visual'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.6"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragDrop_C:ShowDropIcon.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.5"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AthenaInventoryDragDrop_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop",
+    "SuperStruct": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AthenaInventoryDragDrop_C:ShowDropIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.2"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragDrop_C:SplitTheStack'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.0"
+      }
+    ],
+    "FuncMap": {
+      "ShowDropIcon": {
+        "ObjectName": "Function'AthenaInventoryDragDrop_C:ShowDropIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaInventoryDragDrop_C'Default__AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.4"
+    }
+  },
+  {
+    "Type": "AthenaInventoryDragDrop_C",
+    "Name": "Default__AthenaInventoryDragDrop_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.AthenaInventoryDragDrop_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragDrop_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.2"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Inventory_Drag_Visual",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragDrop_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    }
+  }
+]

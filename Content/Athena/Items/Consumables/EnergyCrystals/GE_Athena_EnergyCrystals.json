@@ -1,0 +1,443 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_EnergyCrystals_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/EnergyCrystals/GE_Athena_EnergyCrystals",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_EnergyCrystals_C'Default__GE_Athena_EnergyCrystals_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/EnergyCrystals/GE_Athena_EnergyCrystals.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_EnergyCrystals_C",
+    "Name": "Default__GE_Athena_EnergyCrystals_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/EnergyCrystals/GE_Athena_EnergyCrystals.GE_Athena_EnergyCrystals_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/EnergyCrystals/GE_Athena_EnergyCrystals",
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::HasDuration",
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 20.0
+        }
+      },
+      "bExecutePeriodicEffectOnApplication": false,
+      "Modifiers": [
+        {
+          "Attribute": {
+            "AttributeName": "WeaponRateOfFire",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortWeaponAttrSet:WeaponRateOfFire'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortWeaponAttrSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Multiplicitive",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 3.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "SpeedMultiplier",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortMovementSet:SpeedMultiplier'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortMovementSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Multiplicitive",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 0.5,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "WeaponReloadSpeed",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortWeaponAttrSet:WeaponReloadSpeed'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortWeaponAttrSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Multiplicitive",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 3.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        }
+      ],
+      "Executions": [
+        {
+          "CalculationClass": null,
+          "PassedInTags": [],
+          "CalculationModifiers": [],
+          "ConditionalGameplayEffects": []
+        }
+      ],
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "AttributeName": "",
+            "Attribute": null,
+            "AttributeOwner": null
+          },
+          "MinLevel": 0.0,
+          "MaxLevel": 0.0,
+          "GameplayCueTags": [
+            "GameplayCue.Abilities.PurpleStuff"
+          ]
+        }
+      ],
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Athena.Item.PurpleStuff"
+        ],
+        "Added": [
+          "Athena.Item.PurpleStuff"
+        ]
+      },
+      "StackLimitCount": 1,
+      "GrantedAbilities": [
+        {
+          "Ability": {
+            "ObjectName": "BlueprintGeneratedClass'GAT_Athena_PurpleStuff_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.1"
+          },
+          "Level": -1,
+          "LevelScalableFloat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "InputID": -1,
+          "RemovalPolicy": "EGameplayEffectGrantedAbilityRemovePolicy::CancelAbilityImmediately",
+          "SourceObject": null,
+          "AssignedHandle": {
+            "Handle": -1
+          }
+        }
+      ]
+    }
+  }
+]

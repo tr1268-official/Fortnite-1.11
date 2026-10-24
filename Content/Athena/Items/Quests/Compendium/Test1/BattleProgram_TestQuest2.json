@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_TestQuest2",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test1/BattleProgram_TestQuest2",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 100
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_edit_wood_wall",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "buildingedit_wood_wall"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "950E5D174A0A5312ED4F1989BA75C0AD",
+            "SourceString": "Edit 10 wood walls",
+            "LocalizedString": "Edit 10 wood walls"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "35A6CEFF4BBA4CF2AC5830A463118030",
+            "SourceString": "Edit 10 wood walls",
+            "LocalizedString": "Edit 10 wood walls"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 10,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": true,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0F46DFDB44539040B3FAB0BE19C3740C",
+        "SourceString": "Builder Editor",
+        "LocalizedString": "Builder Editor"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "2F89A49D4B34472FA4ADD8A476B4ACBF",
+        "SourceString": "Edit 50 wood walls",
+        "LocalizedString": "Edit 50 wood walls"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "34501A4B45F523BD21396B87DA6EDF5C",
+        "SourceString": "Edit 50 wood walls",
+        "LocalizedString": "Edit 50 wood walls"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'Icon-Quest-HarvestOptimizer-M'",
+        "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HarvestOptimizer-M.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Icons/Icon-QuestCategory/Icon-Quest-HarvestOptimizer-XL.Icon-Quest-HarvestOptimizer-XL",
+        "SubPathString": ""
+      }
+    }
+  }
+]

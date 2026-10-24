@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "HitMarker_Death_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeDelay'HitMarker_Death_Cue:SoundNodeDelay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Enemy_Bullet_Impact_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Enemy_Bullet_Impact_PSM.0"
+      },
+      "SoundConcurrencySettings": {
+        "ObjectName": "SoundConcurrency'HitNotifications_TwoMaximum_StopOldest_VolumeScale'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Concurrency_Rules/HitNotifications_TwoMaximum_StopOldest_VolumeScale.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.930771
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Death_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.2,
+      "DelayMax": 0.2,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'HitMarker_Death_Cue:SoundNodeMixer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Death_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Death_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Death_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Death_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/HitNotifications/sfx_hitmarker_bighit.sfx_hitmarker_bighit",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_hitmarker_bighit'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/sfx_hitmarker_bighit.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Death_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Death_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Character/SFX_PlayerKilled_UILayer.SFX_PlayerKilled_UILayer",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_PlayerKilled_UILayer'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/SFX_PlayerKilled_UILayer.0"
+    }
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_Prop_ShippingContainer_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 295.76413,
+                "Y": 121.00094,
+                "Z": -7.491698E-15
+              },
+              {
+                "X": 295.7641,
+                "Y": -121.632256,
+                "Z": 7.3653005E-15
+              },
+              {
+                "X": -294.1939,
+                "Y": 121.00096,
+                "Z": -7.4917E-15
+              },
+              {
+                "X": -294.19394,
+                "Y": -121.63223,
+                "Z": 7.365299E-15
+              },
+              {
+                "X": 295.76413,
+                "Y": 121.00094,
+                "Z": 293.16315
+              },
+              {
+                "X": 295.7641,
+                "Y": -121.632256,
+                "Z": 293.16315
+              },
+              {
+                "X": -294.1939,
+                "Y": 121.00096,
+                "Z": 293.1632
+              },
+              {
+                "X": -294.19394,
+                "Y": -121.63223,
+                "Z": 293.1632
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -294.19394,
+                "Y": -121.632256,
+                "Z": -7.4917E-15
+              },
+              "Max": {
+                "X": 295.76413,
+                "Y": 121.00096,
+                "Z": 293.1632
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "PhysicsType": "PhysType_Kinematic",
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "594F273142941435444CE9BD633CE1EF",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 3547,
+        "SizeOnDisk": 3547,
+        "OffsetInFile": "0x1AD68"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_Prop_ShippingContainer_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 457,
+        "SizeOnDisk": 457,
+        "OffsetInFile": "0x1BB8B"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Athena_Prop_ShippingContainer_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_ShippingContainer_01'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Industrial/Materials/MI_ShippingContainer_01.0"
+          },
+          "MaterialSlotName": "MI_ShippingContainer_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 884.2001,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 884.2001,
+      "LightMapResolution": 64,
+      "LODForCollision": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.29104614,
+          "Y": -0.2735443,
+          "Z": 146.74109
+        },
+        "BoxExtent": {
+          "X": 298.66495,
+          "Y": 121.19066,
+          "Z": 146.44153
+        },
+        "SphereRadius": 351.75543
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Athena_Prop_ShippingContainer_01:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Athena_Prop_ShippingContainer_01:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01.1"
+    },
+    "LightingGuid": "EFE1424A-460B7782-0DB18384-287F41DC",
+    "RenderData": null
+  }
+]

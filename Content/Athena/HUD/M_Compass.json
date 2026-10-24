@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Compass",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/M_Compass",
+    "Properties": {
+      "BaseColor": null,
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 67,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+        "UseConstant": false,
+        "Constant": {
+          "B": 75,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00004B"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 480,
+      "EditorY": 16,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Compass:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.4"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Compass:MaterialExpressionMaterialFunctionCall_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.2"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_Compass:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.3"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Compass:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.1"
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "AB126D3E-46D0D8F7-A271B2BC-7BC932DA",
+          "Function": {
+            "ObjectName": "MaterialFunction'SmoothStep'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "7C5115CC-4E67C495-F6CC59BA-9394E127"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_Compass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'SmoothStep'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/SmoothStep.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "9AADDF33-49C43991-E958EF8B-35E9F58F",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B98314F9-4FA8A73C-BACC2081-2094BC41",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7235916",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionConstant_1"
+          }
+        },
+        {
+          "ExpressionInputId": "C6C742CC-41E33043-EA9A37BB-56607421",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7889228",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionConstant_2"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A8569B36-420DAE6B-1AB292B2-F0B47E99",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_Compass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_Compass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_Compass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Compass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.25,
+      "SliderMin": -10.0,
+      "SliderMax": 10.0,
+      "ParameterName": "CompassPan",
+      "ExpressionGUID": "618192A2-4916C331-D26D97A5-5BDB0552",
+      "Material": {
+        "ObjectName": "Material'M_Compass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Compass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/SmoothStep",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 61,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2_98"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Compass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/T_Compass.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Compass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Cue_Athena_BigPoppy_Inflate",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Cue_Athena_BigPoppy_Inflate",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Cue_Athena_BigPoppy_Inflate:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Cue_Athena_BigPoppy_Inflate.1"
+      },
+      "VolumeMultiplier": 1.2,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_UI_HomeBase_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_UI_HomeBase_PSM.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 4.813125
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Cue_Athena_BigPoppy_Inflate'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Cue_Athena_BigPoppy_Inflate.0"
+    },
+    "Properties": {
+      "PitchMin": 0.45,
+      "PitchMax": 0.45,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Cue_Athena_BigPoppy_Inflate:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Cue_Athena_BigPoppy_Inflate.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Cue_Athena_BigPoppy_Inflate'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Cue_Athena_BigPoppy_Inflate.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/HomeBase/homebase_mid_build.homebase_mid_build",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'homebase_mid_build'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/HomeBase/homebase_mid_build.0"
+    }
+  }
+]

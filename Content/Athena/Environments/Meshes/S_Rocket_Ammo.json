@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_3199",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Rocket_Ammo'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_Rocket_Ammo.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "C03CAC4C4DF5EBEFCA2E44BB1ADCD606",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 16526,
+        "SizeOnDisk": 16526,
+        "OffsetInFile": "0xC46F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Rocket_Ammo'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_Rocket_Ammo.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x10545"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Rocket_Ammo",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/S_Rocket_Ammo",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_FORT_RocketLaunchers_RPG_Inst'",
+            "ObjectPath": "FortniteGame/Content/Weapons/FORT_RocketLaunchers/Materials/MI_FORT_RocketLaunchers_RPG_Inst.0"
+          },
+          "MaterialSlotName": "MI_FORT_RocketLaunchers_RPG_Inst",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 71.0268,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Frag_Grenade_Inst'",
+            "ObjectPath": "FortniteGame/Content/Weapons/FORT_GrenadeLaunchers/Materials/M_Frag_Grenade_Inst.0"
+          },
+          "MaterialSlotName": "M_Frag_Grenade_Inst",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 70.67648,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 71.01934,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.6848049,
+          "Y": 0.108392715,
+          "Z": 9.471506
+        },
+        "BoxExtent": {
+          "X": 12.10545,
+          "Y": 13.09433,
+          "Z": 31.109043
+        },
+        "SphereRadius": 32.526886
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Rocket_Ammo:BodySetup_3199'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_Rocket_Ammo.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Rocket_Ammo:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_Rocket_Ammo.1"
+    },
+    "LightingGuid": "F5F3C62F-49790749-D521A298-C98966F0",
+    "RenderData": null
+  }
+]

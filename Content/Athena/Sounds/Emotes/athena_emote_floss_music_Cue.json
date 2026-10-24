@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Emote_Floss_Music_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_floss_music_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'Athena_Emote_Floss_Music_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_floss_music_Cue.1"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_DanceMusic_1P_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_DanceMusic_1P_PSM.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Emotes_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Emotes_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_Floss_Music_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_floss_music_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_floss_music.athena_emote_floss_music",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'athena_emote_floss_music'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_floss_music.0"
+    }
+  }
+]

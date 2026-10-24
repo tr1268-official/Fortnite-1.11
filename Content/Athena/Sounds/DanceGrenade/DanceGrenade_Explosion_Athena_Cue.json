@@ -1,0 +1,200 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "DanceGrenade_Explosion_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'DanceGrenade_Explosion_Athena_Cue:SoundNodeMixer_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.2"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 3.4903855,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Explosion_DanceGrenade_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Explosion_DanceGrenade_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.4,
+      "DelayMax": 0.4,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'DanceGrenade_Explosion_Athena_Cue:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.2
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'DanceGrenade_Explosion_Athena_Cue:SoundNodeModulator_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeDelay'DanceGrenade_Explosion_Athena_Cue:SoundNodeDelay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'DanceGrenade_Explosion_Athena_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.6,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'DanceGrenade_Explosion_Athena_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'DanceGrenade_Explosion_Athena_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'DanceGrenade_Explosion_Athena_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Explosives/bomb_explode_stereo_01.bomb_explode_stereo_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bomb_explode_stereo_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Explosives/bomb_explode_stereo_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Explosives/bomb_explode_stereo_02.bomb_explode_stereo_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bomb_explode_stereo_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Explosives/bomb_explode_stereo_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'DanceGrenade_Explosion_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/DanceGrenade_Explosion_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/DanceGrenade/sfx_dancegreande_explosion_close.sfx_dancegreande_explosion_close",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_dancegreande_explosion_close'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/DanceGrenade/sfx_dancegreande_explosion_close.0"
+    }
+  }
+]

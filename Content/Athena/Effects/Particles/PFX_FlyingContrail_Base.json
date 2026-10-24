@@ -1,0 +1,1367 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Base:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.16"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.19"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.20"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.21"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatParticleParameter",
+    "Name": "DistributionFloatParticleParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.15"
+    },
+    "Properties": {
+      "ParameterName": "UVOffset",
+      "ParamMode": "DPM_Direct"
+    }
+  },
+  {
+    "Type": "DistributionFloatParticleParameter",
+    "Name": "DistributionFloatParticleParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.15"
+    },
+    "Properties": {
+      "ParameterName": "TrailAlpha",
+      "ParamMode": "DPM_Direct"
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Base:ParticleModuleColor_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.12"
+    },
+    "Properties": {
+      "ParameterName": "TrailColor",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Abs",
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Base:ParticleModuleColorOverLife_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.13"
+    },
+    "Properties": {
+      "ParameterName": "TrailColor",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Direct",
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.24"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Base:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.16"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Base:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.14"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Base:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Base:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.17"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Base:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Base:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.13"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Base:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.11"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Base:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.12"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.15"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'PFX_FlyingContrail_Base:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.22"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.19"
+      },
+      "PeakActiveParticles": 570
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.24"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Base:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.16"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Base:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.14"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Base:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Base:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.17"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Base:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Base:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.13"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Base:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.11"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Base:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.12"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.15"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'PFX_FlyingContrail_Base:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.22"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.20"
+      },
+      "PeakActiveParticles": 4
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.24"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Base:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.16"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Base:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.14"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Base:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Base:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.17"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Base:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Base:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.13"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Base:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.11"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Base:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.12"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.15"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'PFX_FlyingContrail_Base:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.22"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Base:ParticleModuleSpawn_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.21"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MinValue": -3.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": -3.0,
+          "Y": -3.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 3.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -3.0,
+            -3.0,
+            0.0,
+            3.0,
+            3.0,
+            0.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Base:ParticleModuleColor_0.DistributionVectorParticleParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.6"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Base:ParticleModuleColorOverLife_0.DistributionVectorParticleParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.7"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1,
+          "TimeScale": 16.43908,
+          "TimeBias": 0.087540135,
+          "Values": [
+            0.0,
+            0.20149718,
+            0.61327434,
+            0.94906247,
+            0.9938543,
+            0.95187306,
+            0.87675923,
+            0.7762859,
+            0.6583081,
+            0.5306534,
+            0.40115213,
+            0.27762765,
+            0.1679429,
+            0.07985932,
+            0.02133163,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.5
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleParameterDynamic'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": {
+              "ObjectName": "DistributionFloatParticleParameter'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1.DistributionFloatParticleParameter_0'",
+              "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.4"
+            },
+            "Table": {
+              "Op": 0,
+              "EntryCount": 0,
+              "EntryStride": 0,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": {
+              "ObjectName": "DistributionFloatParticleParameter'PFX_FlyingContrail_Base:ParticleModuleParameterDynamic_1.DistributionFloatParticleParameter_1'",
+              "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.5"
+            },
+            "Table": {
+              "Op": 0,
+              "EntryCount": 0,
+              "EntryStride": 0,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon.0"
+      },
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.1,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Base:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "bOverrideSystemMacroUV": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            5.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": -0.00029451866,
+        "MaxValue": 3.9861946,
+        "MinValueVec": {
+          "X": -0.00029451866,
+          "Y": -0.00029451866,
+          "Z": -0.00029451866
+        },
+        "MaxValueVec": {
+          "X": 3.9861946,
+          "Y": 3.9861946,
+          "Z": 3.9861946
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 3,
+          "TimeScale": 126.55338,
+          "TimeBias": -0.0035292706,
+          "Values": [
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            -0.00029451866,
+            0.22541279,
+            0.22541279,
+            0.22541279,
+            0.5197957,
+            0.5197957,
+            0.5197957,
+            0.76318085,
+            0.76318085,
+            0.76318085,
+            0.9615861,
+            0.9615861,
+            0.9615861,
+            1.1210302,
+            1.1210302,
+            1.1210302,
+            1.2475317,
+            1.2475317,
+            1.2475317,
+            1.3471088,
+            1.3471088,
+            1.3471088,
+            1.4257803,
+            1.4257803,
+            1.4257803,
+            1.4895643,
+            1.4895643,
+            1.4895643,
+            1.545552,
+            1.545552,
+            1.545552,
+            1.6003273,
+            1.6003273,
+            1.6003273,
+            1.6542493,
+            1.6542493,
+            1.6542493,
+            1.7073255,
+            1.7073255,
+            1.7073255,
+            1.7595626,
+            1.7595626,
+            1.7595626,
+            1.8109683,
+            1.8109683,
+            1.8109683,
+            1.8615494,
+            1.8615494,
+            1.8615494,
+            1.9113127,
+            1.9113127,
+            1.9113127,
+            1.9602658,
+            1.9602658,
+            1.9602658,
+            2.0084157,
+            2.0084157,
+            2.0084157,
+            2.0557692,
+            2.0557692,
+            2.0557692,
+            2.1023338,
+            2.1023338,
+            2.1023338,
+            2.1481166,
+            2.1481166,
+            2.1481166,
+            2.1931248,
+            2.1931248,
+            2.1931248,
+            2.2373652,
+            2.2373652,
+            2.2373652,
+            2.280845,
+            2.280845,
+            2.280845,
+            2.3235714,
+            2.3235714,
+            2.3235714,
+            2.3655517,
+            2.3655517,
+            2.3655517,
+            2.406793,
+            2.406793,
+            2.406793,
+            2.447302,
+            2.447302,
+            2.447302,
+            2.4870863,
+            2.4870863,
+            2.4870863,
+            2.5261526,
+            2.5261526,
+            2.5261526,
+            2.5645084,
+            2.5645084,
+            2.5645084,
+            2.6021607,
+            2.6021607,
+            2.6021607,
+            2.6391163,
+            2.6391163,
+            2.6391163,
+            2.675383,
+            2.675383,
+            2.675383,
+            2.7109673,
+            2.7109673,
+            2.7109673,
+            2.7458768,
+            2.7458768,
+            2.7458768,
+            2.7801185,
+            2.7801185,
+            2.7801185,
+            2.8136988,
+            2.8136988,
+            2.8136988,
+            2.8466258,
+            2.8466258,
+            2.8466258,
+            2.8789062,
+            2.8789062,
+            2.8789062,
+            2.9105475,
+            2.9105475,
+            2.9105475,
+            2.941556,
+            2.941556,
+            2.941556,
+            2.9719396,
+            2.9719396,
+            2.9719396,
+            3.0017052,
+            3.0017052,
+            3.0017052,
+            3.03086,
+            3.03086,
+            3.03086,
+            3.0594106,
+            3.0594106,
+            3.0594106,
+            3.0873647,
+            3.0873647,
+            3.0873647,
+            3.1147292,
+            3.1147292,
+            3.1147292,
+            3.1415112,
+            3.1415112,
+            3.1415112,
+            3.167718,
+            3.167718,
+            3.167718,
+            3.1933565,
+            3.1933565,
+            3.1933565,
+            3.2184339,
+            3.2184339,
+            3.2184339,
+            3.2429576,
+            3.2429576,
+            3.2429576,
+            3.2669344,
+            3.2669344,
+            3.2669344,
+            3.2903714,
+            3.2903714,
+            3.2903714,
+            3.313276,
+            3.313276,
+            3.313276,
+            3.3356547,
+            3.3356547,
+            3.3356547,
+            3.3575153,
+            3.3575153,
+            3.3575153,
+            3.3788648,
+            3.3788648,
+            3.3788648,
+            3.3997102,
+            3.3997102,
+            3.3997102,
+            3.4200587,
+            3.4200587,
+            3.4200587,
+            3.439917,
+            3.439917,
+            3.439917,
+            3.459293,
+            3.459293,
+            3.459293,
+            3.4781933,
+            3.4781933,
+            3.4781933,
+            3.496625,
+            3.496625,
+            3.496625,
+            3.5145955,
+            3.5145955,
+            3.5145955,
+            3.5321114,
+            3.5321114,
+            3.5321114,
+            3.5491807,
+            3.5491807,
+            3.5491807,
+            3.56581,
+            3.56581,
+            3.56581,
+            3.5820057,
+            3.5820057,
+            3.5820057,
+            3.5977764,
+            3.5977764,
+            3.5977764,
+            3.6131284,
+            3.6131284,
+            3.6131284,
+            3.6280687,
+            3.6280687,
+            3.6280687,
+            3.6426048,
+            3.6426048,
+            3.6426048,
+            3.6567435,
+            3.6567435,
+            3.6567435,
+            3.6704922,
+            3.6704922,
+            3.6704922,
+            3.683858,
+            3.683858,
+            3.683858,
+            3.6968474,
+            3.6968474,
+            3.6968474,
+            3.7094684,
+            3.7094684,
+            3.7094684,
+            3.7217276,
+            3.7217276,
+            3.7217276,
+            3.733633,
+            3.733633,
+            3.733633,
+            3.7451901,
+            3.7451901,
+            3.7451901,
+            3.7564073,
+            3.7564073,
+            3.7564073,
+            3.7672915,
+            3.7672915,
+            3.7672915,
+            3.7778502,
+            3.7778502,
+            3.7778502,
+            3.7880888,
+            3.7880888,
+            3.7880888,
+            3.7980165,
+            3.7980165,
+            3.7980165,
+            3.8076394,
+            3.8076394,
+            3.8076394,
+            3.8169644,
+            3.8169644,
+            3.8169644,
+            3.825999,
+            3.825999,
+            3.825999,
+            3.8347504,
+            3.8347504,
+            3.8347504,
+            3.8432264,
+            3.8432264,
+            3.8432264,
+            3.8514323,
+            3.8514323,
+            3.8514323,
+            3.8593774,
+            3.8593774,
+            3.8593774,
+            3.8670666,
+            3.8670666,
+            3.8670666,
+            3.8745086,
+            3.8745086,
+            3.8745086,
+            3.88171,
+            3.88171,
+            3.88171,
+            3.8886778,
+            3.8886778,
+            3.8886778,
+            3.89542,
+            3.89542,
+            3.89542,
+            3.9019425,
+            3.9019425,
+            3.9019425,
+            3.908253,
+            3.908253,
+            3.908253,
+            3.9143586,
+            3.9143586,
+            3.9143586,
+            3.9202664,
+            3.9202664,
+            3.9202664,
+            3.925983,
+            3.925983,
+            3.925983,
+            3.9315174,
+            3.9315174,
+            3.9315174,
+            3.936874,
+            3.936874,
+            3.936874,
+            3.9420624,
+            3.9420624,
+            3.9420624,
+            3.947088,
+            3.947088,
+            3.947088,
+            3.9519582,
+            3.9519582,
+            3.9519582,
+            3.9566805,
+            3.9566805,
+            3.9566805,
+            3.9612625,
+            3.9612625,
+            3.9612625,
+            3.9657106,
+            3.9657106,
+            3.9657106,
+            3.970032,
+            3.970032,
+            3.970032,
+            3.9742339,
+            3.9742339,
+            3.9742339,
+            3.9783237,
+            3.9783237,
+            3.9783237,
+            3.9823084,
+            3.9823084,
+            3.9823084,
+            3.9861946,
+            3.9861946,
+            3.9861946
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 100.0,
+        "MaxValue": 100.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            100.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Base:ParticleModuleSpawn_0.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.1"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 40.0,
+        "MaxValue": 40.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            40.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Base:ParticleModuleSpawn_1.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.2"
+        }
+      },
+      "LODValidity": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            10.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Base:ParticleModuleSpawn_2.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.3"
+        }
+      },
+      "LODValidity": 4
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "bTangentRecalculationEveryFrame": true,
+      "bSpawnInitialParticle": true,
+      "TilingDistance": 256.0,
+      "DistanceTessellationStepSize": 10.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -10.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -10.0,
+            -10.0,
+            50.0,
+            10.0,
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "bInWorldSpace": true,
+      "bEnabled": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.25"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.8"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0.ParticleLODLevel_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.9"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0.ParticleLODLevel_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "PFX_FlyingContrail_Base",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Base:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Base.24"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0,
+        800.0,
+        2200.0
+      ],
+      "LODSettings": [
+        {},
+        {},
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

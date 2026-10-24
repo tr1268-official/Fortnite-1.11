@@ -1,0 +1,295 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_Farm_Roof1_Peak3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.3"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "D635E7B343AE138DA20EE3A881478E63",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 11445,
+        "SizeOnDisk": 11445,
+        "OffsetInFile": "0x3DFD0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_LOD_Farm_Roof1_Peak3",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BaseFlattenMaterial'",
+        "ObjectPath": "Engine/Content/EngineMaterials/BaseFlattenMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "MetallicConst",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "16B059D0-44221A3F-374E1891-C270FC15"
+        },
+        {
+          "ParameterName": "RoughnessConst",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "D267A77E-41FA7EC1-5E9D5BAE-BBF80B38"
+        },
+        {
+          "ParameterName": "SpecularConst",
+          "ParameterValue": 0.075,
+          "ExpressionGUID": "28B5BE19-4FC55461-751117AD-2CD30525"
+        },
+        {
+          "ParameterName": "OpacityConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "54F848F8-429DCBC2-7FFE98BC-6B68D0FF"
+        },
+        {
+          "ParameterName": "OpacityMaskConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "E97FC7E1-48654DF8-73D2E8A2-879E06C7"
+        },
+        {
+          "ParameterName": "AmbientOcclusionConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "423DC731-407F9562-94B756BF-6321AC88"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "DiffuseTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_LOD_Farm_Roof1_Peak3_Diffuse'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.4"
+          },
+          "ExpressionGUID": "FA983522-483B48DB-7302F694-A9E59879"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_Farm_Roof1_Peak3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.3"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x5892D"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_LOD_Farm_Roof1_Peak3",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_LOD_Farm_Roof1_Peak3'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.1"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 3966.5286,
+            "LocalUVDensities[1]": 3467.9805,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 3966.5286,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.1123352,
+          "Y": 0.21054077,
+          "Z": 287.49423
+        },
+        "BoxExtent": {
+          "X": 328.82697,
+          "Y": 319.35883,
+          "Z": 679.1236
+        },
+        "SphereRadius": 788.3872
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_LOD_Farm_Roof1_Peak3:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_LOD_Farm_Roof1_Peak3:NavCollision_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD.2"
+    },
+    "LightingGuid": "E1D01FAB-46FADFDA-592F1C86-444F8D4E",
+    "RenderData": null
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "T_LOD_Farm_Roof1_Peak3_Diffuse",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Package": "FortniteGame/Content/Athena/Maps/Buildings/1x1/HLOD/Athena_SS_1x1_Outdoor3_006_HLOD",
+    "Properties": {
+      "ImportedSize": {
+        "X": 128,
+        "Y": 128
+      },
+      "LightingGuid": "D0DFC705-406EA5EC-DBB7F09C-9CF3333D",
+      "LODGroup": "TEXTUREGROUP_HierarchicalLOD"
+    },
+    "SizeX": 128,
+    "SizeY": 128,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x0"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x77D5C"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x7857C"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0x7879C"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0x7883C"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x7887C"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x788A4"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x788CC"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

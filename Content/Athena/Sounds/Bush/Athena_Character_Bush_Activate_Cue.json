@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Character_Bush_Activate_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Bush/Athena_Character_Bush_Activate_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'Athena_Character_Bush_Activate_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Bush/Athena_Character_Bush_Activate_Cue.1"
+      },
+      "VolumeMultiplier": 1.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_VO_Players_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_VO_Players_PSM.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 2.2407255,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Consumable_Use_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Consumable_Use_Athena_Att.0"
+      },
+      "Priority": 0.5
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Bush_Activate_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Bush/Athena_Character_Bush_Activate_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Bush/sfx_item_bush_activate.sfx_item_bush_activate",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_item_bush_activate'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Bush/sfx_item_bush_activate.0"
+    }
+  }
+]

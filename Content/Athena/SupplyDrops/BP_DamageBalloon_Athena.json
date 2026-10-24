@@ -1,0 +1,1021 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DamageBalloon_Athena_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena",
+    "Properties": {
+      "NumReplicatedProperties": 1,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.39"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingSMActor'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.0"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.26"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.16"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:CrateIsGone'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.13"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.12"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+      },
+      {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnBalloonDestroyed__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:ExplosionParticle'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:FortHealthBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.23"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:DestroyBalloon'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.3"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:DontPlayDestroyAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.4"
+      },
+      {
+        "ObjectName": "MulticastDelegateProperty'BP_DamageBalloon_Athena_C:OnBalloonDestroyed'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.27"
+      }
+    ],
+    "FuncMap": {
+      "OnBalloonDestroyed__DelegateSignature": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnBalloonDestroyed__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.6"
+      },
+      "ExecuteUbergraph_BP_DamageBalloon_Athena": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.12"
+      },
+      "CrateIsGone": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:CrateIsGone'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.13"
+      },
+      "OnDamageServer": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.16"
+      },
+      "ShouldDie": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+      },
+      "OnRep_DestroyBalloon": {
+        "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.26"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "Interfaces": [
+      {
+        "Class": {
+          "ObjectName": "Class'FortMissionInterface'",
+          "ObjectPath": "/Script/FortniteGame"
+        },
+        "PointerProperty": null,
+        "PointerOffset": 0,
+        "bImplementedByK2": true
+      }
+    ],
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DamageBalloon_Athena_C'Default__BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.2"
+    }
+  },
+  {
+    "Type": "BP_DamageBalloon_Athena_C",
+    "Name": "Default__BP_DamageBalloon_Athena_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.BP_DamageBalloon_Athena_C'",
+    "Package": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena",
+    "Properties": {
+      "UberGraphFrame": {},
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Balloon_SupplyDrop_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena.2"
+      },
+      "bAllowResourceDrop": false,
+      "bAllowWeakSpots": false,
+      "bUseComplexForWeakSpots": false,
+      "bNeedsDamageOverlay": false,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_DamageBalloon_Athena_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.40"
+      },
+      "InteractionText": {
+        "CultureInvariantString": null
+      },
+      "DisplayName": {
+        "CultureInvariantString": null
+      },
+      "AttributeInitKey": {
+        "AttributeInitCategory": "AthenaSupplyDrop"
+      },
+      "PrimarySurfaceType": "SurfaceType3",
+      "WeaponResponseType": "EFortBaseWeaponDamage::Combat",
+      "bForceDisableRootNavigationRelevance": true,
+      "bIsNavigationRelevant": false,
+      "bIsMovable": true,
+      "bUseCentroidForBlockBuildingsCheck": false,
+      "LDMaxDrawDistance": 250000.0,
+      "bAlwaysRelevant": true,
+      "bReplicateMovement": true,
+      "bNetUseOwnerRelevancy": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__BP_DamageBalloon_Athena_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.40"
+      }
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DestroyBalloon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | Net | DisableEditOnInstance | RepNotify",
+    "RepNotifyFunc": "OnRep_DestroyBalloon",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DontPlayDestroyAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExplosionParticle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBalloonDestroyed__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_Delegate | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_DamageBalloon_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.7"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.Temp_bool_IsClosed_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.11"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_Damage'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.21"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_DamageTags'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.41"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_Momentum'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.44"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_HitInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_InstigatedBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_DamageCauser'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.28"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.K2Node_Event_EffectContext'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.42"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.CallFunc_GetHealth_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.20"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.CallFunc_LessEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.9"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena.Temp_bool_Has_Been_Initd_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Has_Been_Initd_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_IsClosed_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CrateIsGone",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Damage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDamageServer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BuildingActor:OnDamageServer'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BP_DamageBalloon_Athena_C:OnDamageServer.Damage'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.14"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:OnDamageServer.DamageTags'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.45"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:OnDamageServer.Momentum'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.48"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:OnDamageServer.HitInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:OnDamageServer.InstigatedBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:OnDamageServer.DamageCauser'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.30"
+      },
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:OnDamageServer.EffectContext'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.46"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Damage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ShouldDie",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BuildingActor:ShouldDie'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BP_DamageBalloon_Athena_C:ShouldDie.Damage'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:ShouldDie.EventInstigator'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:ShouldDie.DamageCauser'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.32"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_DamageBalloon_Athena_C:ShouldDie.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintAuthorityOnly | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetHealth_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_Damage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    }
+  },
+  {
+    "Type": "FortHealthBarComponent",
+    "Name": "FortHealthBar_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortHealthBarComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "Properties": {
+      "DisplayText": {
+        "CultureInvariantString": null
+      },
+      "MaxDistance": 50000.0,
+      "ScaleOverDistanceCurve": {
+        "ObjectName": "CurveFloat'BalloonHealthBar_ScaleOverDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BalloonHealthBar_ScaleOverDistance.0"
+      },
+      "HealthBarColorCurve": {
+        "ObjectName": "CurveLinearColor'HealthBarGradient'",
+        "ObjectPath": "FortniteGame/Content/Widgets/SFortHealthBarComponentWidget/HealthBarGradient.0"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 640.0
+      },
+      "bShouldUpdatePhysicsVolume": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FortHealthBar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'FortHealthBarComponent'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnEmitterAtLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.26"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetSocketLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.26"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRep_DestroyBalloon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon.CallFunc_GetSocketLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_DamageBalloon_Athena_C:OnRep_DestroyBalloon.CallFunc_SpawnEmitterAtLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.24"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MulticastDelegateProperty",
+    "Name": "OnBalloonDestroyed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MulticastDelegateProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | BlueprintAssignable | BlueprintCallable",
+    "SignatureFunction": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnBalloonDestroyed__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.6"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Event_DamageCauser",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Event_InstigatedBy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Controller'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DamageCauser",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "InstigatedBy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Controller'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DamageCauser",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EventInstigator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ShouldDie'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.18"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Controller'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ExplosionParticle_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'P_BottleRocket_Explo'",
+        "ObjectPath": "FortniteGame/Content/Gadgets/Assets/BottleRocket/P_BottleRocket_Explo.217"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 640.0
+      },
+      "RelativeScale3D": {
+        "X": 3.0,
+        "Y": 3.0,
+        "Z": 3.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.39"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'BP_DamageBalloon_Athena_C:ExplosionParticle_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.34"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0D15FAAF-46D3F5B8-9C3B4DAC-B24F9DF2",
+      "InternalVariableName": "ExplosionParticle"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.39"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DamageBalloon_Athena_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.35"
+      },
+      "VariableGuid": "5CA29B08-4C085B87-6A1F08A7-1892F3D7",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.39"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'FortHealthBarComponent'",
+        "ObjectPath": "/Script/FortniteGame"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "FortHealthBarComponent'BP_DamageBalloon_Athena_C:FortHealthBar_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.22"
+      },
+      "ParentComponentOrVariableName": "StaticMeshComponent0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "5C365A3A-46916C96-D570C991-C08244D1",
+      "InternalVariableName": "FortHealthBar"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2.SCS_Node_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.36"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2.SCS_Node_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.38"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.36"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DamageBalloon_Athena_C:SimpleConstructionScript_2.SCS_Node_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.37"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BP_DamageBalloon_Athena_C'Default__BP_DamageBalloon_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_Balloon_SupplyDrop_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena.2"
+      },
+      "bReceivesDecals": false,
+      "bUseAsOccluder": false,
+      "CanCharacterStepUpOn": "ECB_No",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom"
+      },
+      "RelativeScale3D": {
+        "X": 0.9,
+        "Y": 0.9,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_DamageTags",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_EffectContext",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_HitInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_Momentum",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:ExecuteUbergraph_BP_DamageBalloon_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.8"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "DamageTags",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTagContainer'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EffectContext",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEffectContextHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "HitInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Momentum",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_DamageBalloon_Athena_C:OnDamageServer'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/BP_DamageBalloon_Athena.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

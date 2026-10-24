@@ -1,0 +1,4353 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaCustomizationSlotButton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Bindings": [
+        {
+          "ObjectName": "EmptyImage",
+          "PropertyName": "Visibility",
+          "FunctionName": "Get_EmptyImage_Visibility_0",
+          "SourcePath": {
+            "Segments": [
+              {
+                "Name": "ShouldShowEmptyImage",
+                "ArrayIndex": -1
+              }
+            ]
+          },
+          "Kind": "EBindingKind::Function"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Customization/AthenaCustomizationSlotButton.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaCustomizationSlotSelectorButton'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.0"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.16"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.12"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.11"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.9"
+      },
+      {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCustomizationSlotButton_C:EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCustomizationSlotButton_C:ImageSlotType'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.66"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCustomizationSlotButton_C:NormalBangWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.67"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCustomizationSlotButton_C:OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.68"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaCustomizationSlotButton_C:TooltipBody'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.131"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaCustomizationSlotButton_C:TooltipHeader'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.132"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:ShowSubTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.22"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:SubTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.124"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:bSuppressTooltip'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.4"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:SlottedItemCardSize'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.46"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaCustomizationSlotButton_C:TypeIconVerticalOffset'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.47"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaCustomizationSlotButton": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.7"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.11"
+      },
+      "Update SubType Icon Image": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.12"
+      },
+      "Update SubType Icon Glow": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+      },
+      "UpdateTypeIconOffset": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.16"
+      },
+      "ShouldShowEmptyImage": {
+        "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaCustomizationSlotButton_C'Default__AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.2"
+    }
+  },
+  {
+    "Type": "AthenaCustomizationSlotButton_C",
+    "Name": "Default__AthenaCustomizationSlotButton_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.AthenaCustomizationSlotButton_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton",
+    "Properties": {
+      "UberGraphFrame": {},
+      "SubTypeIcon": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 32.0
+        },
+        "Margin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          },
+          "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+        },
+        "ResourceObject": null,
+        "ResourceName": "None",
+        "UVRegion": {
+          "Min": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Max": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "bIsValid": 0
+        },
+        "DrawAs": "ESlateBrushDrawType::Image",
+        "Tiling": "ESlateBrushTileType::NoTile",
+        "Mirroring": "ESlateBrushMirrorType::NoMirror",
+        "ImageType": "ESlateBrushImageType::NoImage",
+        "bIsDynamicallyLoaded": false
+      },
+      "SlottedItemCardSize": "EFortItemCardSize::L",
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ItemManagementTileButtonStyle-AthenaLocker_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Frontend/ItemManagement/InventoryPanel/ItemTileButtonStyles/ItemManagementTileButtonStyle-AthenaLocker.0"
+      },
+      "bSelectable": false,
+      "bInteractableWhenSelected": false,
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaCustomizationSlotButton_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.AthenaCustomizationSlotButton_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton",
+    "Template": {
+      "ObjectName": "AthenaCustomizationSlotButton_C'Default__AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.2"
+    },
+    "Properties": {
+      "EmptyImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.52"
+      },
+      "ImageSlotType": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageSlotType'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.53"
+      },
+      "NormalBangWrapper": {
+        "ObjectName": "NormalBangWrapper_C'WidgetArchetype:WidgetTree_0.NormalBangWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.65"
+      },
+      "OverlayTypeIcon": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.79"
+      },
+      "ItemWidget": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.49"
+      },
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.29"
+      },
+      "NormalStyle": {
+        "Disabled": {}
+      },
+      "SelectedStyle": {
+        "Disabled": {}
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bSuppressTooltip",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EmptyImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.7"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaCustomizationSlotButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.6"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ExecuteUbergraph_AthenaCustomizationSlotButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.7"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Update SubType Icon Image",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "GlowIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Update SubType Icon Glow",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.GlowIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.13"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.23"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.K2Node_MakeStruct_SlateColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.126"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.K2Node_MakeStruct_SlateColor2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.127"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.128"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:Update SubType Icon Glow.K2Node_MakeStruct_SlateBrush'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.125"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "VerticalOffset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.16"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateTypeIconOffset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset.VerticalOffset'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.15"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.129"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset.K2Node_MakeStruct_WidgetTransform'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.130"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.18"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.17"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ShouldShowEmptyImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.18"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.21"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.44"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.45"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.20"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.43"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ShowSubTypeIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.43"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.44"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.45"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaCustomizationSlotButton_C:SlottedItemCardSize'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.46"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 44.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.80"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 16.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 44.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.86"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 16.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "Border_Count",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-Bang_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-Bang.0"
+      },
+      "Padding": {
+        "Left": 20.0,
+        "Top": 0.0,
+        "Right": 20.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 45.0,
+          "Y": 45.0
+        },
+        "Margin": {
+          "Left": 0.596195,
+          "Right": 0.699115
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.96"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "Border_NoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-Bang_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-Bang.0"
+      },
+      "Padding": {
+        "Left": 20.0,
+        "Top": 0.0,
+        "Right": 20.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 45.0,
+          "Y": 45.0
+        },
+        "Margin": {
+          "Left": 0.596195,
+          "Right": 0.699115
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.92"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "Border_Small",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.100"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.6,
+        "Hex": "99000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.102"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.103"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-Bang_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-Bang.0"
+      },
+      "Padding": {
+        "Left": 20.0,
+        "Top": 0.0,
+        "Right": 20.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 45.0,
+          "Y": 45.0
+        },
+        "Margin": {
+          "Left": 0.596195,
+          "Right": 0.699115
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.6,
+        "Hex": "99000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.94"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-Bang_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-Bang.0"
+      },
+      "Padding": {
+        "Left": 20.0,
+        "Top": 0.0,
+        "Right": 20.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 45.0,
+          "Y": 45.0
+        },
+        "Margin": {
+          "Left": 0.596195,
+          "Right": 0.699115
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.6,
+        "Hex": "99000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.95"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "Margin": {
+          "Left": 0.4,
+          "Right": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-Bang'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-Bang.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.6,
+        "Hex": "99000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.99"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "TutorialBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 18.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.4,
+          "Top": 0.4,
+          "Right": 0.4,
+          "Bottom": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-TutorialTabGlow'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-TutorialTabGlow.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.91"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "EE6FE82A447EE61E281C208F117FCCDD",
+        "SourceString": "88",
+        "LocalizedString": "88"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.121"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -4.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "827533D042991701B72FF6BD1F565E21",
+        "SourceString": "!",
+        "LocalizedString": "!"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.120"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -4.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CountText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-M-B_Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-M-B_Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "9FD9EB2344E6568F2ADEA8B37EEC7A7D",
+        "SourceString": "25",
+        "LocalizedString": "25"
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2.SizeBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.119"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "NoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-M-B_Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-M-B_Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "9FDEA9C74820DBE50647C9924F12E928",
+        "SourceString": "!",
+        "LocalizedString": "!"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1.SizeBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.118"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.24"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.25"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.19"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaCustomizationSlotButton_C:ShouldShowEmptyImage.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.26"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "SlottedItemCardSize",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "Enum": {
+      "ObjectName": "Enum'EFortItemCardSize'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaCustomizationSlotButton_C:SlottedItemCardSize.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.27"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "TypeIconVerticalOffset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::S",
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.83"
+      }
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::S",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_3.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.104"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EmptyImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Slot_Empty_Faded'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/Slot/M_Slot_Empty_Faded.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3.OverlaySlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.84"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageSlotType",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Food_FishTaco'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Consumables/Inventory_Food_FishTaco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.85"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EmptyImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Slot_Empty_Faded'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/Slot/M_Slot_Empty_Faded.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_3.OverlaySlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.105"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageSlotType",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Inventory_Food_FishTaco'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Consumables/Inventory_Food_FishTaco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTypeIcon.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.106"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "TutorialGlow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.137"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Guid": "61B35527-425FEBBC-E4CB3BB7-6DCFC727",
+          "Name": "TutorialBorder",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CommonBorder'",
+            "ObjectPath": "/Script/CommonUI"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "61B35527-425FEBBC-E4CB3BB7-6DCFC727",
+          "BindingName": "TutorialBorder",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.56"
+            },
+            {
+              "ObjectName": "MovieSceneColorTrack'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.62"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "LowerBound": {
+          "Type": "ERangeBoundTypes::Inclusive"
+        },
+        "UpperBound": {
+          "Type": "ERangeBoundTypes::Inclusive",
+          "Value": 1.0
+        }
+      },
+      "Signature": "31E362F0-4EAD43A6-5A12C681-D4843ECB"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.56"
+    },
+    "Properties": {
+      "Scale": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 2.0,
+            "ArriveTangent": 3.0452328,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.57"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.58"
+        }
+      },
+      "EndTime": 1.0,
+      "Signature": "1D2066A4-4A91D368-1483DD97-990283A8"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.54"
+    },
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.55"
+        }
+      ],
+      "EvalOptions": {
+        "bEvalNearestSection": true
+      },
+      "Signature": "9124C4D0-40AEE7D7-E7AF38B5-8CFFEF43"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.55"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.55"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.61"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.61"
+    }
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Outer": {
+      "ObjectName": "MovieSceneColorTrack'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.62"
+    },
+    "Properties": {
+      "RedCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "GreenCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "BlueCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "AlphaCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Break",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.9,
+            "Value": 0.756161,
+            "ArriveTangent": 3.0218413,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseInFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.59"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1.EaseOutFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.60"
+        }
+      },
+      "EndTime": 1.0,
+      "Signature": "F5C32862-47245115-1B7C009D-75CD39F5"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.54"
+    },
+    "Properties": {
+      "PropertyName": "BrushColor",
+      "PropertyPath": "BrushColor",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.61"
+        }
+      ],
+      "EvalOptions": {
+        "bEvalNearestSection": true
+      },
+      "Signature": "885FCEFC-40FEA969-00A560BF-F8AB5EE1"
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "Content",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content.PanelSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.107"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.90"
+      }
+    }
+  },
+  {
+    "Type": "NormalBangWrapper_C",
+    "Name": "NormalBangWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Bangs/NormalBangWrapper.NormalBangWrapper_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Template": {
+      "ObjectName": "NormalBangWrapper_C'Default__NormalBangWrapper_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Bangs/NormalBangWrapper.2"
+    },
+    "Properties": {
+      "UseSmallVersion": true,
+      "NamedSlotBindings": [
+        {
+          "Name": "Content",
+          "Content": {
+            "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NormalBangWrapper_C",
+    "Name": "NormalBangWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Bangs/NormalBangWrapper.NormalBangWrapper_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Template": {
+      "ObjectName": "NormalBangWrapper_C'Default__NormalBangWrapper_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Bangs/NormalBangWrapper.2"
+    },
+    "Properties": {
+      "TutorialGlow": {
+        "ObjectName": "WidgetAnimation'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.137"
+      },
+      "BigBang": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.108"
+      },
+      "BigBangCount": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.109"
+      },
+      "CommonTextBlock_0": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.39"
+      },
+      "CommonTextBlock_5": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.40"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.63"
+      },
+      "CountText": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CountText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.41"
+      },
+      "ModeSwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      },
+      "NoCount": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.NoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.42"
+      },
+      "SmallBang": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.114"
+      },
+      "SmallBangCount": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.115"
+      },
+      "TutorialBorder": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.TutorialBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.38"
+      },
+      "UseSmallVersion": true,
+      "NamedSlotBindings": [
+        {
+          "Name": "Content",
+          "Content": {
+            "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+          }
+        }
+      ],
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ImageSlotType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NormalBangWrapper",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NormalBangWrapper_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Bangs/NormalBangWrapper.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "OverlayTypeIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Overlay'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "ItemOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.82"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.80"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.81"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3.OverlaySlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.84"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.135"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "OverlayTypeIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.81"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 34.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "ItemOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.88"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.86"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.87"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content.PanelSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.107"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.91"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.90"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.89"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.94"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.92"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.116"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.95"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.96"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.97"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount.SizeBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.117"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.99"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.100"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.98"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang.SizeBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.122"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.102"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.103"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.101"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount.SizeBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.123"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_3.OverlaySlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.105"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_3.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.104"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.136"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "OverlayTypeIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTypeIcon.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.106"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.87"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 34.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'AthenaCustomizationSlotButton_C:WidgetTree.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.28"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.71"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.133"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'AthenaCustomizationSlotButton_C:WidgetTree.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.48"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCustomizationSlotButton_C:WidgetTree.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.50"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.71"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.71"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCustomizationSlotButton_C:WidgetTree.ImageSlotType'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.51"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.79"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.134"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.63"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.TutorialBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.38"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_NoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.31"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.110"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_Count'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.30"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.111"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.112"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.37"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_Small'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.32"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.113"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.33"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.34"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.78"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.78"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.49"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.78"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.78"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.52"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTypeIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.79"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTypeIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.79"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageSlotType'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.53"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PanelSlot'",
+    "Outer": {
+      "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.63"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.63"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.ItemOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.72"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "BigBang",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "HeightOverride": 45.0,
+      "MinDesiredWidth": 25.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.116"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.139"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 15.0,
+          "Y": -10.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "BigBangCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount.SizeBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.117"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.141"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 15.0,
+          "Y": -10.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "bOverride_MinDesiredWidth": true,
+      "HeightOverride": 45.0,
+      "MinDesiredWidth": 25.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1.SizeBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.118"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.93"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "bOverride_MinDesiredWidth": true,
+      "HeightOverride": 45.0,
+      "MinDesiredWidth": 25.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2.SizeBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.119"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2.OverlaySlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.97"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 24.0,
+      "HeightOverride": 24.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.120"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3.OverlaySlot_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.98"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 24.0,
+      "HeightOverride": 24.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.121"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4.OverlaySlot_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.101"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SmallBang",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang.SizeBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.122"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.142"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 4.0,
+          "Y": -2.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SmallBangCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount.SizeBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.123"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.140"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 4.0,
+          "Y": -2.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.108"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.108"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.109"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.109"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.110"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.110"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.NoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.42"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.111"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.111"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CountText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.41"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.112"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.112"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.40"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.113"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.113"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.39"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.114"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.114"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.115"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.115"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "SubTypeIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateBrush'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateBrush",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateBrush'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:Update SubType Icon Glow'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.14"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.16"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCustomizationSlotButton_C:UpdateTypeIconOffset'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.16"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "TooltipBody",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "TooltipHeader",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationSlotButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.143"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.135"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.82"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.144"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.136"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.ItemOverlay.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.88"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.133"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.133"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.134"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.134"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.78"
+      }
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "TutorialGlow_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "NormalBangWrapper_C'WidgetArchetype:WidgetTree_0.NormalBangWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.65"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.54"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "TutorialBorder",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "61B35527-425FEBBC-E4CB3BB7-6DCFC727",
+          "bIsRootWidget": false
+        }
+      ],
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": "0",
+            "Value": {
+              "ObjectBindingID": "61B35527-425FEBBC-E4CB3BB7-6DCFC727",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": null,
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Break",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 1.0,
+                          "Value": 2.0,
+                          "ArriveTangent": 3.0452328,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSection": {
+                      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.55"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false
+            }
+          },
+          {
+            "Key": "1",
+            "Value": {
+              "ObjectBindingID": "61B35527-425FEBBC-E4CB3BB7-6DCFC727",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": null,
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneColorSectionTemplate",
+                  "Data": {
+                    "Curves": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Curves[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Curves[2]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Curves[3]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 0.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Break",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.9,
+                          "Value": 0.756161,
+                          "ArriveTangent": 3.0218413,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "BrushColor",
+                      "PropertyPath": "BrushColor",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSection": {
+                      "ObjectName": "MovieSceneColorSection'WidgetArchetype:WidgetTree_0.NormalBangWrapper.TutorialGlow_INST.TutorialGlow.MovieSceneColorTrack_1.MovieSceneColorSection_1'",
+                      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.61"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": 0.0
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": 0.0
+              }
+            },
+            {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 0.0
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 1.0
+              }
+            },
+            {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Exclusive",
+                "Value": 1.0
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Open",
+                "Value": 0.0
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentIndex": 0,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                {
+                  "SegmentIndex": 0,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentIndex": 1,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                {
+                  "SegmentIndex": 1,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentIndex": 2,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                {
+                  "SegmentIndex": 2,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 3
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 2
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 1
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 0
+                }
+              ]
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 3
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 2
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 1
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 0
+                }
+              ]
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 3
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 2
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 1
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 0
+                }
+              ]
+            }
+          ]
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackReferenceCounts": null,
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "9124C4D0-40AEE7D7-E7AF38B5-8CFFEF43",
+              "Value": {
+                "Value": 82
+              }
+            },
+            {
+              "Key": "00000000-0000001C-00000000-00000039",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        }
+      },
+      "Signature": "6BC00C82-4C5B5B18-11CBA8AB-7DA23EAF"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "ModeSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.145"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.139"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.141"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.142"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.140"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.89"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.108"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.115"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.109"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.114"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationSlotButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "NormalBangWrapper_C'AthenaCustomizationSlotButton_C:WidgetTree.NormalBangWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.64"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "NormalBangWrapper_C'AthenaCustomizationSlotButton_C:WidgetTree.NormalBangWrapper'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.64"
+        },
+        {
+          "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.ItemOverlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.69"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaCustomizationSlotButton_C:WidgetTree.VerticalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.133"
+        },
+        {
+          "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.Overlay_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.70"
+        },
+        {
+          "ObjectName": "Image'AthenaCustomizationSlotButton_C:WidgetTree.EmptyImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.50"
+        },
+        {
+          "ObjectName": "FortMultiSizeItemCard'AthenaCustomizationSlotButton_C:WidgetTree.ItemWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.48"
+        },
+        {
+          "ObjectName": "CommonActionWidget'AthenaCustomizationSlotButton_C:WidgetTree.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.28"
+        },
+        {
+          "ObjectName": "Overlay'AthenaCustomizationSlotButton_C:WidgetTree.OverlayTypeIcon'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.71"
+        },
+        {
+          "ObjectName": "Image'AthenaCustomizationSlotButton_C:WidgetTree.ImageSlotType'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.51"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaCustomizationSlotButton_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "NormalBangWrapper_C'WidgetArchetype:WidgetTree_0.NormalBangWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.65"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "NormalBangWrapper_C'WidgetArchetype:WidgetTree_0.NormalBangWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.65"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.73"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.TutorialBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.38"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Content'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.63"
+        },
+        {
+          "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.ModeSwitcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.138"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBang'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.108"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.74"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.35"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_NoCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.31"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.110"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.NoCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.42"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.BigBangCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.109"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.75"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.36"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_Count'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.30"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.111"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CountText'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.41"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBang'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.114"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.76"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.37"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Border_Small'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.32"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.112"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.40"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SmallBangCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.115"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.Overlay_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.77"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.33"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonBorder_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.34"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.SizeBox_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.113"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NormalBangWrapper.WidgetTree_1.CommonTextBlock_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationSlotButton.39"
+        }
+      ]
+    }
+  }
+]

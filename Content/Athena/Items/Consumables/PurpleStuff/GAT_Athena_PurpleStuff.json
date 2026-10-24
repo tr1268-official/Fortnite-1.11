@@ -1,0 +1,287 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_Athena_PurpleStuff_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GAT_Athena_PurpleStuff_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_TriggeredAbility_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_TriggeredAbility.1"
+    },
+    "Properties": {
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'GAT_Athena_PurpleStuff_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_TriggeredAbility_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_TriggeredAbility.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GAT_Athena_PurpleStuff_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.0"
+      },
+      {
+        "ObjectName": "Function'GAT_Athena_PurpleStuff_C:K2_ActivateAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.10"
+      },
+      {
+        "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'GAT_Athena_PurpleStuff_C:PlayerPawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GAT_Athena_PurpleStuff": {
+        "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GAT_Athena_PurpleStuff_C:K2_ActivateAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.10"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GAT_Athena_PurpleStuff_C'Default__GAT_Athena_PurpleStuff_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.2"
+    }
+  },
+  {
+    "Type": "GAT_Athena_PurpleStuff_C",
+    "Name": "Default__GAT_Athena_PurpleStuff_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.GAT_Athena_PurpleStuff_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff",
+    "Template": {
+      "ObjectName": "GAT_TriggeredAbility_C'Default__GAT_TriggeredAbility_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Player/Parents/GAT_TriggeredAbility.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "AbilityTriggers": [
+        {
+          "TriggerTag": {
+            "TagName": "Event.Damage.DiedAthena"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        },
+        {
+          "TriggerTag": {
+            "TagName": "Event.Aircraft.Exited"
+          },
+          "TriggerSource": "EGameplayAbilityTriggerSource::GameplayEvent"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerPawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_Athena_PurpleStuff_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GAT_Athena_PurpleStuff",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_Athena_PurpleStuff_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.4"
+      },
+      {
+        "ObjectName": "BoolProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_K2_CommitAbility_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.8"
+      },
+      {
+        "ObjectName": "StructProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_GetActorInfo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.K2Node_DynamicCast_AsFort_Player_Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.11"
+      },
+      {
+        "ObjectName": "BoolProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.9"
+      },
+      {
+        "ObjectName": "StructProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_AbilityTargetDataFromActor_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.12"
+      },
+      {
+        "ObjectName": "ArrayProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.7"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.6"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_K2_CommitAbility_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GAT_Athena_PurpleStuff_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_AbilityTargetDataFromActor_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetActorInfo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GAT_Athena_PurpleStuff_C:ExecuteUbergraph_GAT_Athena_PurpleStuff'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/GAT_Athena_PurpleStuff.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityActorInfo'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  }
+]

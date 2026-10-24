@@ -1,0 +1,141 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "DailyQuestRewardInfo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'DailyQuestRewardInfo_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.5"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/DailyQuests/DailyQuestRewardInfo.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortRewardInfoWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DailyQuestRewardInfo_C'Default__DailyQuestRewardInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.1"
+    }
+  },
+  {
+    "Type": "DailyQuestRewardInfo_C",
+    "Name": "Default__DailyQuestRewardInfo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.DailyQuestRewardInfo_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo",
+    "Properties": {
+      "OrWidgetType": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'RewardOrWidget_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Rewards/RewardOrWidget.0"
+      },
+      "RewardInfoButtonType": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'RewardInfoSimpleWidget_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Rewards/RewardInfoSimpleWidget.1"
+      },
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "DailyQuestRewardInfo_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.DailyQuestRewardInfo_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo",
+    "Template": {
+      "ObjectName": "DailyQuestRewardInfo_C'Default__DailyQuestRewardInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.1"
+    },
+    "Properties": {
+      "RewardListWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardListWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.4"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.6"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "RewardListWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestRewardInfo_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.5"
+    },
+    "Properties": {
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "RewardListWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.6"
+    },
+    "Properties": {
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestRewardInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'DailyQuestRewardInfo_C:WidgetTree.RewardListWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.3"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'DailyQuestRewardInfo_C:WidgetTree.RewardListWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "DailyQuestRewardInfo_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardListWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestRewardInfo.4"
+      }
+    }
+  }
+]

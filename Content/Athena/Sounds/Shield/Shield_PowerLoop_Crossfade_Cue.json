@@ -1,0 +1,153 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Shield_PowerLoop_Crossfade_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeParamCrossFade'Shield_PowerLoop_Crossfade_Cue:SoundNodeParamCrossFade_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.2"
+      },
+      "VolumeMultiplier": 0.15,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_SafeZone_Shield_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_SafeZone_Shield_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_PowerLoop_Crossfade_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_PowerLoop_Crossfade_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeParamCrossFade",
+    "Name": "SoundNodeParamCrossFade_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeParamCrossFade'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+    },
+    "Properties": {
+      "ParamName": "Crossfade",
+      "CrossFadeInput": [
+        {
+          "FadeInDistanceStart": 0.0,
+          "FadeInDistanceEnd": 0.0,
+          "FadeOutDistanceStart": 0.0,
+          "FadeOutDistanceEnd": 1.0,
+          "Volume": 1.0
+        },
+        {
+          "FadeInDistanceStart": 0.0,
+          "FadeInDistanceEnd": 1.0,
+          "FadeOutDistanceStart": 100.0,
+          "FadeOutDistanceEnd": 100.0,
+          "Volume": 1.0
+        }
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Shield_PowerLoop_Crossfade_Cue:SoundNodeMixer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.1"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_PowerLoop_Crossfade_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/Shield_PowerLoop_02.Shield_PowerLoop_02",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Shield_PowerLoop_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/Shield_PowerLoop_03.Shield_PowerLoop_03",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Shield_PowerLoop_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/storm_spawn_tornado_04Loop.storm_spawn_tornado_04Loop",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'storm_spawn_tornado_04Loop'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/storm_spawn_tornado_04Loop.0"
+    }
+  }
+]

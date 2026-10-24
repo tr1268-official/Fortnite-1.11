@@ -1,0 +1,584 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_TerrainTOD2_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'TODM_A_C'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_TerrainTOD2_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.16"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'Athena_TerrainTOD2_C:InheritableComponentHandler'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'TODM_A_C'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    }
+  },
+  {
+    "Type": "Athena_TerrainTOD2_C",
+    "Name": "Default__Athena_TerrainTOD2_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.Athena_TerrainTOD2_C'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2",
+    "Template": {
+      "ObjectName": "TODM_A_C'Default__TODM_A_C'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.2"
+    },
+    "Properties": {
+      "HeightFogZOffset": 1000.0,
+      "AltitudeAdjustments": [
+        {
+          "Altitude": 16000.0,
+          "FogHeightFalloff": 0.0,
+          "HeightFogZOffset": 0.0,
+          "FogDensity": -0.01
+        },
+        {
+          "Altitude": 0.0,
+          "FogHeightFalloff": 0.0,
+          "HeightFogZOffset": 0.0,
+          "FogDensity": 0.04
+        }
+      ],
+      "DirectionalLightComponent": {
+        "ObjectName": "DirectionalLightComponent'Default__Athena_TerrainTOD2_C:DayNightDirectionalLightComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.2"
+      },
+      "ActiveHeightFogComponent": {
+        "ObjectName": "ExponentialHeightFogComponent'Default__Athena_TerrainTOD2_C:ActiveHeightFogComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.3"
+      },
+      "LightAndFogPhaseSettings": {
+        "TimePhaseBegins": 3.0,
+        "PhaseLengthInHours": 4.0,
+        "TransitionInTimeInMinutes": 85.54272,
+        "TransitionOutTimeInMinutes": 120.0,
+        "ExpHeightFogValues": {
+          "FogDensity": 0.02,
+          "FogHeightFalloff": 0.25
+        }
+      },
+      "LightAndFogPhaseSettings[1]": {
+        "TimePhaseBegins": 7.0,
+        "PhaseLengthInHours": 12.0,
+        "TransitionInTimeInMinutes": 83.52,
+        "TransitionOutTimeInMinutes": 144.0,
+        "ExpHeightFogValues": {
+          "FogDensity": 0.03,
+          "FogHeightFalloff": 0.2,
+          "StartDistance": 6500.0,
+          "FogInscatteringColor": {
+            "R": 0.1947,
+            "G": 0.361198,
+            "B": 0.66,
+            "A": 1.0,
+            "Hex": "7AA2D5"
+          },
+          "VolumetricFogDistance": 2000.0
+        },
+        "LowPriPostProcessComponent": {
+          "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:DayLowPriClonedPPC'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.6"
+        }
+      },
+      "LightAndFogPhaseSettings[2]": {
+        "DirectionalLightValues": {
+          "VolumetricScatteringIntensity": 3.0
+        },
+        "ExpHeightFogValues": {
+          "FogDensity": 0.03,
+          "FogHeightFalloff": 0.25,
+          "DirectionalInscatteringColor": {
+            "R": 0.155,
+            "G": 0.044972,
+            "B": 0.015122,
+            "A": 1.0,
+            "Hex": "6E3C21"
+          }
+        },
+        "LowPriPostProcessComponent": {
+          "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:EveningLowPriClonedPPC'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.8"
+        }
+      },
+      "LightAndFogPhaseSettings[3]": {
+        "PhaseLengthInHours": 5.0,
+        "TransitionInTimeInMinutes": 30.0,
+        "TransitionOutTimeInMinutes": 7.5,
+        "ExpHeightFogValues": {
+          "FogDensity": 0.12,
+          "FogHeightFalloff": 0.2,
+          "FogInscatteringColor": {
+            "R": 0.039765,
+            "G": 0.0258,
+            "B": 0.12,
+            "A": 1.0,
+            "Hex": "382C61"
+          }
+        },
+        "LowPriPostProcessComponent": {
+          "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:NightLowPriClonedPPC'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.11"
+        }
+      },
+      "MorningPostProcessComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:MorningPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.10"
+      },
+      "DayPostProcessComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:DayPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.7"
+      },
+      "EveningPostProcessComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:EveningPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.9"
+      },
+      "NightPostProcessComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:NightPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.12"
+      },
+      "DayPhasePostProcessComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:MorningPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.10"
+      },
+      "DayPhasePostProcessComponent[1]": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:DayPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.7"
+      },
+      "DayPhasePostProcessComponent[2]": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:EveningPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.9"
+      },
+      "DayPhasePostProcessComponent[3]": {
+        "ObjectName": "PostProcessComponent'Default__Athena_TerrainTOD2_C:NightPostProcessComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.12"
+      },
+      "SkyLightComp": {
+        "ObjectName": "SkyLightComponent'Default__Athena_TerrainTOD2_C:SkyLightComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.17"
+      },
+      "RainParticleSystemComp": {
+        "ObjectName": "ParticleSystemComponent'Default__Athena_TerrainTOD2_C:RainParticleSystemComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.5"
+      },
+      "SunOrMoonMeshComp": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_TerrainTOD2_C:SunMeshComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.20"
+      },
+      "SkyDomeMeshComp": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_TerrainTOD2_C:SkyDomeMeshComp'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.18"
+      },
+      "StarMapMeshComp": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_TerrainTOD2_C:StarMapMeshComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.19"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "DirectionalLightComponent",
+    "Name": "DayNightDirectionalLightComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DirectionalLightComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "DirectionalLightComponent'Default__TODM_A_C:DayNightDirectionalLightComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.35"
+    },
+    "Properties": {
+      "LightFunctionMaterial": {
+        "ObjectName": "MaterialInstanceConstant'M_Athena_Fortress_Skybox_LF_Spinning_Inst'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/M_Athena_Fortress_Skybox_LF_Spinning_Inst.0"
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "ExponentialHeightFogComponent",
+    "Name": "ActiveHeightFogComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ExponentialHeightFogComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "ExponentialHeightFogComponent'Default__TODM_A_C:ActiveHeightFogComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.36"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 5000.0
+      }
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.0"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "RainParticleSystemComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "ParticleSystemComponent'Default__TODM_A_C:RainParticleSystemComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.172"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "DayLowPriClonedPPC",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:DayLowPriClonedPPC'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.176"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "DayPostProcessComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:DayPostProcessComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.177"
+    },
+    "Properties": {
+      "Settings": {
+        "DepthOfFieldFocalDistance": 15000.0,
+        "DepthOfFieldSkyFocusDistance": 15000.0,
+        "MotionBlurAmount": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "EveningLowPriClonedPPC",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:EveningLowPriClonedPPC'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.178"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "EveningPostProcessComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:EveningPostProcessComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.179"
+    },
+    "Properties": {
+      "Settings": {
+        "bOverride_MotionBlurAmount": true,
+        "DepthOfFieldFocalDistance": 7000.0,
+        "MotionBlurAmount": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "MorningPostProcessComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:MorningPostProcessComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.180"
+    },
+    "Properties": {
+      "Settings": {
+        "bOverride_MotionBlurAmount": true,
+        "DepthOfFieldFocalDistance": 15000.0,
+        "MotionBlurAmount": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "NightLowPriClonedPPC",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:NightLowPriClonedPPC'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.181"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "NightPostProcessComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__TODM_A_C:NightPostProcessComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.182"
+    },
+    "Properties": {
+      "Settings": {
+        "bOverride_MotionBlurAmount": true,
+        "DepthOfFieldFocalDistance": 15000.0,
+        "MotionBlurAmount": 0.0
+      },
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "MySceneComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__TODM_A_C:MySceneComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.184"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_TerrainTOD2_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_TerrainTOD2_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.13"
+      },
+      "VariableGuid": "04F6D203-4ACF9C39-8DBAEC8F-8042CAF5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_TerrainTOD2_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.15"
+      }
+    }
+  },
+  {
+    "Type": "SkyLightComponent",
+    "Name": "SkyLightComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkyLightComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "SkyLightComponent'Default__TODM_A_C:SkyLightComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.189"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SkyDomeMeshComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__TODM_A_C:SkyDomeMeshComp'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.190"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StarMapMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__TODM_A_C:StarMapMeshComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.191"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SunMeshComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_TerrainTOD2_C'Default__Athena_TerrainTOD2_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__TODM_A_C:SunMeshComponent'",
+      "ObjectPath": "FortniteGame/Content/TimeOfDay/TODM/TODM_A.192"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__Athena_TerrainTOD2_C:MySceneComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_TerrainTOD2.14"
+      }
+    }
+  }
+]

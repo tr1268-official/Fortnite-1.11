@@ -1,0 +1,126 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Amb_Water_LakeLoop_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Amb_Water_LakeLoop_Cue:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.1"
+      },
+      "VolumeMultiplier": 0.8,
+      "AttenuationOverrides": {
+        "OmniRadius": 700.0,
+        "StereoSpread": 1000.0,
+        "AttenuationShapeExtents": {
+          "X": 925.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FalloffDistance": 2000.0
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Ambient_Outdoors_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Ambient_Outdoors_Athena.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Amb_Water_Lake_Att'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Fort_Amb_Water_Lake_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_Water_LakeLoop_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.9,
+      "PitchMax": 1.1,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Amb_Water_LakeLoop_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_Water_LakeLoop_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Amb_Water_LakeLoop_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Amb_Water_LakeLoop_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_Water_LakeLoop_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Water/water_lake_01b.water_lake_01b",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'water_lake_01b'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Ambient_Looping/Water/water_lake_01b.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_Water_LakeLoop_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_LakeLoop_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Water/water_lake_01a.water_lake_01a",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'water_lake_01a'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Ambient_Looping/Water/water_lake_01a.0"
+    }
+  }
+]

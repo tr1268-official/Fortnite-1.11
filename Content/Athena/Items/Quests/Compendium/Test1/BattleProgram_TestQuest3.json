@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_TestQuest3",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test1/BattleProgram_TestQuest3",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 2000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_win_match",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "win_athena_match"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "BFB23BF845DC3839526C268B235F5C7F",
+            "SourceString": "Win a Battle Royale Match",
+            "LocalizedString": "Win a Battle Royale Match"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "4BF9431D48BE3E8816958AAB91735EEE",
+            "SourceString": "Win a Battle Royale Match",
+            "LocalizedString": "Win a Battle Royale Match"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2232B9024231CF909B49AD877078780F",
+        "SourceString": "Dominator",
+        "LocalizedString": "Dominator"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "09E850F442763DB9C5CA26A31E78CC78",
+        "SourceString": "Win a Battle Royale Match",
+        "LocalizedString": "Win a Battle Royale Match"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "FF99672443CD130517787AA59A193F97",
+        "SourceString": "Win a Battle Royale Match",
+        "LocalizedString": "Win a Battle Royale Match"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

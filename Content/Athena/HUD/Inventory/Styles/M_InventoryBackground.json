@@ -1,0 +1,643 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_InventoryBackground",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 62,
+        "ExpressionName": "/Script/CoreUObject",
+        "UseConstant": false,
+        "Constant": {
+          "B": 75,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00004B"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "EditorX": -640,
+      "EditorY": -224,
+      "Expressions": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_InventoryBackground:MaterialExpressionTextureSample_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.6"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_InventoryBackground:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_InventoryBackground:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_InventoryBackground:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.5"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_InventoryBackground:MaterialExpressionMaterialFunctionCall_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_InventoryBackground:MaterialExpressionMaterialFunctionCall_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.4"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+          "Function": {
+            "ObjectName": "MaterialFunction'RadialGradientExponential'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+          }
+        },
+        {
+          "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+          "Function": {
+            "ObjectName": "MaterialFunction'ExponentialDensity'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+          }
+        },
+        {
+          "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+          "Function": {
+            "ObjectName": "MaterialFunction'RadialGradientExponential'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+          }
+        },
+        {
+          "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+          "Function": {
+            "ObjectName": "MaterialFunction'ExponentialDensity'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+          }
+        },
+        {
+          "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+          "Function": {
+            "ObjectName": "MaterialFunction'RadialGradientExponential'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+          }
+        },
+        {
+          "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+          "Function": {
+            "ObjectName": "MaterialFunction'ExponentialDensity'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+          }
+        },
+        {
+          "StateId": "235C8133-44D704CA-0297108A-59B9F710",
+          "Function": {
+            "ObjectName": "MaterialFunction'RadialGradientExponential'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+          }
+        },
+        {
+          "StateId": "42FB52C9-4B6E464D-2D6CB2B5-E6A65899",
+          "Function": {
+            "ObjectName": "MaterialFunction'ExponentialDensity'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "EAE41C76-42E678CB-41DC768A-F91533BA"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'RadialGradientExponential'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "D38E6C0F-499293F6-CC65C0AE-55AE0D4E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7558740",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionAdd_2"
+          }
+        },
+        {
+          "ExpressionInputId": "2997555B-436C7354-59B9D695-B58F219E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Default__Material_1953391938",
+            "Mask": 1867543141,
+            "MaskR": 1769236851,
+            "MaskG": 28271,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        },
+        {
+          "ExpressionInputId": "B330351C-4B254660-CCDCA592-3C8F3F26",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "2B61E834-449DAE3B-C4D079B9-53B5DE0E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BLEND_Translucent_1936614723",
+            "Mask": 7959657,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity_59"
+          }
+        },
+        {
+          "ExpressionInputId": "7D5AC525-4448D12A-92351AA3-6BEED90A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Default__Material_1702260296",
+            "Mask": 1142977650,
+            "MaskR": 1769172581,
+            "MaskG": 31092,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8D076353-4D7AAC86-623FB1AE-8CD0CC39",
+          "Output": {
+            "OutputName": "RadialGradientExponential",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "RadialGradientExponential",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'RadialGradientExponential'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "D38E6C0F-499293F6-CC65C0AE-55AE0D4E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7558740",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionAdd_2"
+          }
+        },
+        {
+          "ExpressionInputId": "2997555B-436C7354-59B9D695-B58F219E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Default__Material_1953391938",
+            "Mask": 1867543141,
+            "MaskR": 1769236851,
+            "MaskG": 28271,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        },
+        {
+          "ExpressionInputId": "B330351C-4B254660-CCDCA592-3C8F3F26",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "2B61E834-449DAE3B-C4D079B9-53B5DE0E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BLEND_Translucent_1936614723",
+            "Mask": 7959657,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity_59"
+          }
+        },
+        {
+          "ExpressionInputId": "7D5AC525-4448D12A-92351AA3-6BEED90A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Default__Material_1702260296",
+            "Mask": 1142977650,
+            "MaskR": 1769172581,
+            "MaskG": 31092,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8D076353-4D7AAC86-623FB1AE-8CD0CC39",
+          "Output": {
+            "OutputName": "RadialGradientExponential",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "RadialGradientExponential",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'RadialGradientExponential'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "D38E6C0F-499293F6-CC65C0AE-55AE0D4E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7558740",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionAdd_3"
+          }
+        },
+        {
+          "ExpressionInputId": "2997555B-436C7354-59B9D695-B58F219E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Default__Material_1953391938",
+            "Mask": 1867543141,
+            "MaskR": 1769236851,
+            "MaskG": 28271,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        },
+        {
+          "ExpressionInputId": "B330351C-4B254660-CCDCA592-3C8F3F26",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "2B61E834-449DAE3B-C4D079B9-53B5DE0E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BLEND_Translucent_1936614723",
+            "Mask": 7959657,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity_59"
+          }
+        },
+        {
+          "ExpressionInputId": "7D5AC525-4448D12A-92351AA3-6BEED90A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Default__Material_1702260296",
+            "Mask": 1142977650,
+            "MaskR": 1769172581,
+            "MaskG": 31092,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8D076353-4D7AAC86-623FB1AE-8CD0CC39",
+          "Output": {
+            "OutputName": "RadialGradientExponential",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "RadialGradientExponential",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'RadialGradientExponential'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradientExponential.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "D38E6C0F-499293F6-CC65C0AE-55AE0D4E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "/Script/CoreUObject_7558740",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "MaterialExpressionAdd_3"
+          }
+        },
+        {
+          "ExpressionInputId": "2997555B-436C7354-59B9D695-B58F219E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Default__Material_1953391938",
+            "Mask": 1867543141,
+            "MaskR": 1769236851,
+            "MaskG": 28271,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        },
+        {
+          "ExpressionInputId": "B330351C-4B254660-CCDCA592-3C8F3F26",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "2B61E834-449DAE3B-C4D079B9-53B5DE0E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BLEND_Translucent_1936614723",
+            "Mask": 7959657,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity_59"
+          }
+        },
+        {
+          "ExpressionInputId": "7D5AC525-4448D12A-92351AA3-6BEED90A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Default__Material_1702260296",
+            "Mask": 1142977650,
+            "MaskR": 1769172581,
+            "MaskG": 31092,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8D076353-4D7AAC86-623FB1AE-8CD0CC39",
+          "Output": {
+            "OutputName": "RadialGradientExponential",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "RadialGradientExponential",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "DefaultValue": 2.5,
+      "ParameterName": "Power",
+      "ExpressionGUID": "41AC9C81-4C325C8B-3900068D-0C425D9E",
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_InventoryBackground'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 64,
+        "ExpressionName": "ArrayProperty_97"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'invGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/invGrid.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_InventoryBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/M_InventoryBackground.0"
+      }
+    }
+  }
+]

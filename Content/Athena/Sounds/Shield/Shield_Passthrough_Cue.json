@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Shield_Passthrough_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'Shield_Passthrough_Cue:SoundNodeRandom_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.1"
+      },
+      "VolumeMultiplier": 0.8,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 2.8015833,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_SafeZone_Shield_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_SafeZone_Shield_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_Passthrough_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_Passthrough_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_Passthrough_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Shield_Passthrough_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_Passthrough_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/Shield_Passthrough_01.Shield_Passthrough_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Shield_Passthrough_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_Passthrough_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/Shield_Passthrough_02.Shield_Passthrough_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Shield_Passthrough_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Shield_Passthrough_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/Shield_Passthrough_03.Shield_Passthrough_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Shield_Passthrough_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_Passthrough_03.0"
+    }
+  }
+]

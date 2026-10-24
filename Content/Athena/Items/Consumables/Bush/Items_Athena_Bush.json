@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Items_Athena_Bush'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/Items_Athena_Bush.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "FE3641784BB948BFD57F2D90CC83C6FD",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 10725,
+        "SizeOnDisk": 10725,
+        "OffsetInFile": "0xFD5D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_3",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Items_Athena_Bush'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/Items_Athena_Bush.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1278A"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Items_Athena_Bush",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bush/Items_Athena_Bush",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": null,
+          "MaterialSlotName": "skin01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 0.0,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Items_Athena_Bush'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/MI_Items_Athena_Bush.0"
+          },
+          "MaterialSlotName": "skin01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 73.5521,
+            "LocalUVDensities[1]": 844.3119,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 28791.23
+          }
+        }
+      ],
+      "LightmapUVDensity": 844.3119,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -3.9680824,
+          "Y": -0.12689209,
+          "Z": 37.013424
+        },
+        "BoxExtent": {
+          "X": 37.25284,
+          "Y": 35.519505,
+          "Z": 22.483477
+        },
+        "SphereRadius": 43.18077
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Items_Athena_Bush:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/Items_Athena_Bush.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Items_Athena_Bush:NavCollision_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/Items_Athena_Bush.1"
+    },
+    "LightingGuid": "8C853CDD-46050BF8-7295AAB1-58D37751",
+    "RenderData": null
+  }
+]

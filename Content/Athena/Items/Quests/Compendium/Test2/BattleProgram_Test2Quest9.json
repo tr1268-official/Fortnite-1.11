@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_Test2Quest9",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test2/BattleProgram_Test2Quest9",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_top_12_duo",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_athena_duo_top_12"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "EE8D118644FDCA94A11C61ACED710B67",
+            "SourceString": "Place Top 12 in a Duo Battle Royale Match 10 times",
+            "LocalizedString": "Place Top 12 in a Duo Battle Royale Match 10 times"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "320D060443F291392EDB4A88CC070E60",
+            "SourceString": "Top 12 Duo",
+            "LocalizedString": "Top 12 Duo"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 10,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "CC05385C4C942C49920C0B8C80FA1C33",
+        "SourceString": "Dominator",
+        "LocalizedString": "Dominator"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "32A2A4BD4040AD63365E0094866EF52C",
+        "SourceString": "Place Top 12 in a Duo Battle Royale Match 10 times",
+        "LocalizedString": "Place Top 12 in a Duo Battle Royale Match 10 times"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D6B64E9941AD61CA511403AFD5E982FD",
+        "SourceString": "Place Top 12 in a Duo Battle Royale Match 10 times",
+        "LocalizedString": "Place Top 12 in a Duo Battle Royale Match 10 times"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

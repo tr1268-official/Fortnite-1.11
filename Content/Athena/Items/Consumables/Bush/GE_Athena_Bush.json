@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_Bush_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bush/GE_Athena_Bush",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_Bush_C'Default__GE_Athena_Bush_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/GE_Athena_Bush.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_Bush_C",
+    "Name": "Default__GE_Athena_Bush_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/Bush/GE_Athena_Bush.GE_Athena_Bush_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bush/GE_Athena_Bush",
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::Infinite",
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "AttributeName": "",
+            "Attribute": null,
+            "AttributeOwner": null
+          },
+          "MinLevel": 0.0,
+          "MaxLevel": 0.0,
+          "GameplayCueTags": [
+            "GameplayCue.Athena.Applied.Item.Bush"
+          ]
+        }
+      ],
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Athena.Item.Bush"
+        ],
+        "Added": [
+          "Athena.Item.Bush"
+        ]
+      },
+      "ApplicationTagRequirements": {
+        "IgnoreTags": [
+          "Gameplay.Status.DBNO"
+        ]
+      },
+      "GrantedAbilities": [
+        {
+          "Ability": {
+            "ObjectName": "BlueprintGeneratedClass'GAT_Athena_Bush_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bush/GAT_Athena_Bush.1"
+          },
+          "Level": -1,
+          "LevelScalableFloat": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "InputID": -1,
+          "RemovalPolicy": "EGameplayEffectGrantedAbilityRemovePolicy::CancelAbilityImmediately",
+          "SourceObject": null,
+          "AssignedHandle": {
+            "Handle": -1
+          }
+        }
+      ]
+    }
+  }
+]

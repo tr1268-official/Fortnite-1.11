@@ -1,0 +1,2128 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AmbientSplineActor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.0"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:SetFade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.41"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:SetNewCheckFrequency'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.40"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.9"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:Check Closest Point'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.8"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.7"
+      },
+      {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:AudioMidpoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:AudioNextClosest'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.80"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:AudioClosest'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.79"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:Spline'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.87"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:DefaultSceneRoot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.81"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:NumSamplePoints'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.74"
+      },
+      {
+        "ObjectName": "ArrayProperty'BP_AmbientSplineActor_C:SamplePoints'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.17"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ClosestPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.96"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:NextClosestPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.117"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:CheckFrequencyClose'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.45"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:CheckFrequencyFar'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.46"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:SmallestDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.58"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:TargetLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.119"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:FollowLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.114"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:NextSmallestDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.57"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ClosestIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.61"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:NextClosestIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.73"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:CloseFarDistanceThreshold'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.47"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:bActive'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:SoundClosest'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.84"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:SoundNextClosest'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.86"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:SoundMidpoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.85"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:bDrawDebug'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.22"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:PreviousClosestIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.75"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AmbientSplineActor": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.7"
+      },
+      "Check Closest Point": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:Check Closest Point'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.8"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.9"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+      },
+      "GetViewTargetLoc": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+      },
+      "DistSq": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+      },
+      "SetNewCheckFrequency": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:SetNewCheckFrequency'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.40"
+      },
+      "SetFade": {
+        "ObjectName": "Function'BP_AmbientSplineActor_C:SetFade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.41"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AmbientSplineActor_C'Default__BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.2"
+    }
+  },
+  {
+    "Type": "BP_AmbientSplineActor_C",
+    "Name": "Default__BP_AmbientSplineActor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.BP_AmbientSplineActor_C'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NumSamplePoints": 40,
+      "ClosestPoint": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "NextClosestPoint": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "CheckFrequencyClose": 1.0,
+      "CheckFrequencyFar": 3.0,
+      "SmallestDistance": 1E+09,
+      "TargetLoc": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "FollowLoc": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "NextSmallestDistance": 1E+09,
+      "ClosestIndex": 40,
+      "NextClosestIndex": 40,
+      "CloseFarDistanceThreshold": 5000.0,
+      "bActive": true,
+      "PreviousClosestIndex": 40,
+      "PrimaryActorTick": {
+        "bCanEverTick": true
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AudioMidpoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AmbientSplineActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.4"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.31"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.32"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.Temp_bool_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.33"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.K2Node_Event_DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.55"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.Temp_int_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.71"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_GetViewTargetLoc_Target_Loc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.103"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Subtract_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.67"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.62"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.100"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_DistSq_Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.50"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.27"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.30"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Add_IntInt_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.63"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_GetWorldDeltaSeconds_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.53"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.109"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Subtract_VectorVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.110"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_ProjectVectorOnToVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.108"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.99"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_VInterpTo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.111"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_K2_SetWorldLocation_SweepHitResult'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.105"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.24"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_EqualEqual_IntInt_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.25"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.23"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Square_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.54"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.Temp_bool_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.34"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Less_FloatFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.28"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_GetViewTargetLoc_Target_Loc2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.104"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.113"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_K2_SetWorldLocation_SweepHitResult2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.106"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_K2_SetWorldLocation_SweepHitResult3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.107"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_EqualEqual_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.26"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.64"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Subtract_IntInt_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.68"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Subtract_IntInt_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.69"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Clamp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.65"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Clamp_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.66"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Array_Get_Item2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.101"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Array_Get_Item3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.102"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_DistSq_Distance2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.51"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_DistSq_Distance3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.52"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.CallFunc_Less_FloatFloat_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.29"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.112"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.K2Node_Select3_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.70"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor.K2Node_Select4_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.56"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ReceiveTick'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.7"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:ReceiveTick.DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Check Closest Point",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.10"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:UserConstructionScript.Temp_int_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.78"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.59"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_Multiply_IntFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.60"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.43"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.76"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_GetLocationAtTime_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.120"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:UserConstructionScript.CallFunc_Array_Add_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.77"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Target Loc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetViewTargetLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.Target Loc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.12"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.116"
+      },
+      {
+        "ObjectName": "ArrayProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.15"
+      },
+      {
+        "ObjectName": "IntProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.72"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.82"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_GetViewTarget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.83"
+      },
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.36"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.115"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'BP_AmbientSplineActor_C:GetViewTargetLoc.CallFunc_GetLocalFortPlayerControllers_ReturnValue.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.14"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "SamplePoints",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'BP_AmbientSplineActor_C:SamplePoints'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.17"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "SamplePoints",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "StructProperty'BP_AmbientSplineActor_C:SamplePoints.SamplePoints'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.16"
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "AudioClosest_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "AudioMidpoint_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "AudioNextClosest_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bActive",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bDrawDebug",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Loc A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "DistSq",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:DistSq.Loc A'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.37"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:DistSq.Loc B'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.98"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:DistSq.Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.49"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:DistSq.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.97"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:DistSq.CallFunc_VSizeSquared_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.48"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Time",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:SetNewCheckFrequency'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.40"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetNewCheckFrequency",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BP_AmbientSplineActor_C:SetNewCheckFrequency.Time'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.39"
+      },
+      {
+        "ObjectName": "DelegateProperty'BP_AmbientSplineActor_C:SetNewCheckFrequency.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.44"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientSplineActor_C:SetNewCheckFrequency.CallFunc_K2_SetTimerDelegate_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.118"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BP_AmbientSplineActor_C:SetFade.Fade In / Out'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.42"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Fade In / Out",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:SetFade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.41"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:SetNewCheckFrequency'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.40"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CheckFrequencyClose",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CheckFrequencyFar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CloseFarDistanceThreshold",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_VSizeSquared_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_DistSq_Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_DistSq_Distance2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_DistSq_Distance3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Square_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select4_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "NextSmallestDistance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "SmallestDistance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_IntFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ClosestIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Clamp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Clamp_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Select3_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "NextClosestIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "NumSamplePoints",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "PreviousClosestIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Add_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AudioClosest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AudioNextClosest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetViewTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SoundClosest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SoundMidpoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SoundNextClosest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Spline",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SplineComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AmbientSplineActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.88"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.93"
+        }
+      ],
+      "VariableGuid": "E527CC6B-4727D95E-4D8D8DA6-9E3BD0B1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_AmbientSplineActor_C:AudioClosest_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.18"
+      },
+      "VariableGuid": "6C8EA6DC-43AE79CF-FFDA4392-6E143DC3",
+      "InternalVariableName": "AudioClosest"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SplineComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SplineComponent'BP_AmbientSplineActor_C:Spline_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.95"
+      },
+      "VariableGuid": "73E97F25-40AC1CBD-58872785-0BD2BBBF",
+      "InternalVariableName": "Spline"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_AmbientSplineActor_C:AudioNextClosest_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.20"
+      },
+      "VariableGuid": "57CB8680-4DA5EF34-5A509E9B-40848F99",
+      "InternalVariableName": "AudioNextClosest"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientSplineActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.94"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_AmbientSplineActor_C:AudioMidpoint_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.19"
+      },
+      "VariableGuid": "C61DDECB-4C473750-93697D9C-43C6A224",
+      "InternalVariableName": "AudioMidpoint"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.89"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.89"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.91"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.90"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.92"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.93"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AmbientSplineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.89"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "Spline_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SplineComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ClosestPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Loc B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:DistSq'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.38"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetViewTargetLoc_Target_Loc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetViewTargetLoc_Target_Loc2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_ProjectVectorOnToVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_VInterpTo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:ExecuteUbergraph_BP_AmbientSplineActor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "FollowLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:GetViewTargetLoc'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.13"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "NextClosestPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:SetNewCheckFrequency'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.40"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'TimerHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TargetLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientSplineActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetLocationAtTime_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BP_AmbientSplineActor_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientSplineActor.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeMixer_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.4"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponMelee_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponMelee_PSM.0"
+      },
+      "bDebug": true,
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 3.3088436
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Distant_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Distant_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Medium_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Medium_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeWavePlayer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeModulator_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.7"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeSoundClass_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeSoundClass_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.8"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeSoundClass_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeMixer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeAttenuation_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_Distant'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_Distant.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeAttenuation_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu:SoundNodeAttenuation_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_close.sfx_scopedAR_close",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_scopedAR_close'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_close.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_distant.sfx_scopedAR_distant",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_scopedAR_distant'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_distant.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/Weapon_ASLT_AutoSF_ScopedAR_Athena_Cu.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_medium.sfx_scopedAR_medium",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_scopedAR_medium'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Scoped_AR/sfx_scopedAR_medium.0"
+    }
+  }
+]

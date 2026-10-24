@@ -1,0 +1,1262 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaEquipProgress_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaEquipProgress.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDEquipProgressBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.0"
+      },
+      {
+        "ObjectName": "Function'AthenaEquipProgress_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.32"
+      },
+      {
+        "ObjectName": "Function'AthenaEquipProgress_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.30"
+      },
+      {
+        "ObjectName": "Function'AthenaEquipProgress_C:OnUIGameplayCue_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.14"
+      },
+      {
+        "ObjectName": "Function'AthenaEquipProgress_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.12"
+      },
+      {
+        "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.42"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:TextTimeRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.43"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:Duration'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.19"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:StartTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.29"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:Progress'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.28"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaEquipProgress": {
+        "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+      },
+      "Destruct": {
+        "ObjectName": "Function'AthenaEquipProgress_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.12"
+      },
+      "OnUIGameplayCue_Event_0": {
+        "ObjectName": "Function'AthenaEquipProgress_C:OnUIGameplayCue_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.14"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaEquipProgress_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.30"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaEquipProgress_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.32"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaEquipProgress_C'Default__AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.2"
+    }
+  },
+  {
+    "Type": "AthenaEquipProgress_C",
+    "Name": "Default__AthenaEquipProgress_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaEquipProgress.AthenaEquipProgress_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverPaint": false,
+      "bIsVolatile": true
+    }
+  },
+  {
+    "Type": "AthenaEquipProgress_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaEquipProgress.AthenaEquipProgress_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress",
+    "Template": {
+      "ObjectName": "AthenaEquipProgress_C'Default__AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.2"
+    },
+    "Properties": {
+      "ImageTimer": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.36"
+      },
+      "OverlayTimer": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+      },
+      "Root": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.53"
+      },
+      "TextTimeRemaining": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.TextTimeRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.17"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ImageTimer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaEquipProgress",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.5"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.57"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.27"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.8"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_GetGameTimeInSeconds_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.22"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.25"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.20"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_FClamp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.21"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Subtract_FloatFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.26"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Multiply_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.24"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_CustomEvent_CueName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.38"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_CustomEvent_EventType'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.11"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_CustomEvent_Parameters'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.56"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.9"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_SwitchName_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.40"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.18"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_GetGameTimeInSeconds_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.23"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_Greater_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.39"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchName_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "K2Node_CustomEvent_EventType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EGameplayCueEvent'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Destruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CueName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:OnUIGameplayCue_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnUIGameplayCue_Event_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaEquipProgress_C:OnUIGameplayCue_Event_0.CueName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.13"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaEquipProgress_C:OnUIGameplayCue_Event_0.EventType'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.15"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:OnUIGameplayCue_Event_0.Parameters'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "EventType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:OnUIGameplayCue_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EGameplayCueEvent'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "TextTimeRemaining",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+    },
+    "Properties": {
+      "CurrentNumericValue": 1.1,
+      "FormattingSpecification": {
+        "MinimumFractionalDigits": 1,
+        "MaximumFractionalDigits": 1
+      },
+      "Style": null,
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "TypefaceFontName": "NotoSans-Regular",
+        "Size": 30
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.46"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "TextTimeRemaining",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+    },
+    "Properties": {
+      "CurrentNumericValue": 1.1,
+      "FormattingSpecification": {
+        "MinimumFractionalDigits": 1,
+        "MaximumFractionalDigits": 1
+      },
+      "Style": null,
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "TypefaceFontName": "NotoSans-Regular",
+        "Size": 30
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.49"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnUIGameplayCueEvent__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Duration",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FClamp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetGameTimeInSeconds_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Progress",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "StartTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.32"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaEquipProgress_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.31"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquipProgress_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.33"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.32"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageTimer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 105.0,
+          "Y": 105.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_HealProgress'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_HealProgress.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.48"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageTimerBackground",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 105.0,
+          "Y": 105.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'Results_TimerBacking'",
+          "ObjectPath": "FortniteGame/Content/UI/ZoneCompletion/NewVersion/TeleportPad/Materials/Results_TimerBacking.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.47"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageTimer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 105.0,
+          "Y": 105.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_HealProgress'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_HealProgress.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.51"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageTimerBackground",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 105.0,
+          "Y": 105.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'Results_TimerBacking'",
+          "ObjectPath": "FortniteGame/Content/UI/ZoneCompletion/NewVersion/TeleportPad/Materials/Results_TimerBacking.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.50"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "K2Node_CustomEvent_CueName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "OverlayTimer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Overlay'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Root",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ScaleBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextTimeRemaining",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "OverlayTimer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.47"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.48"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaEquipProgress_C:WidgetTree.OverlayTimer.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'AthenaEquipProgress_C:WidgetTree.Root.ScaleBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.54"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "OverlayTimer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.50"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.51"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.OverlayTimer.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.Root.ScaleBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.55"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'AthenaEquipProgress_C:WidgetTree.TextTimeRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.16"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaEquipProgress_C:WidgetTree.ImageTimerBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaEquipProgress_C:WidgetTree.ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.34"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.TextTimeRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.17"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageTimerBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.37"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.36"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "Root",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquipProgress_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.59"
+    },
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.75,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'AthenaEquipProgress_C:WidgetTree.Root.ScaleBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.54"
+        }
+      ],
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "Root",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.60"
+    },
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 0.75,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.Root.ScaleBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.55"
+        }
+      ],
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScaleBox'AthenaEquipProgress_C:WidgetTree.Root'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.52"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'AthenaEquipProgress_C:WidgetTree.Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.52"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Root'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.53"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.53"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.OverlayTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.45"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Parameters",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayCueParameters'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:ExecuteUbergraph_AthenaEquipProgress'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Parameters",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquipProgress_C:OnUIGameplayCue_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.14"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayCueParameters'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquipProgress_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'AthenaEquipProgress_C:WidgetTree.Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.52"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "ScaleBox'AthenaEquipProgress_C:WidgetTree.Root'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.52"
+        },
+        {
+          "ObjectName": "Overlay'AthenaEquipProgress_C:WidgetTree.OverlayTimer'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.44"
+        },
+        {
+          "ObjectName": "Image'AthenaEquipProgress_C:WidgetTree.ImageTimerBackground'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.35"
+        },
+        {
+          "ObjectName": "Image'AthenaEquipProgress_C:WidgetTree.ImageTimer'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.34"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'AthenaEquipProgress_C:WidgetTree.TextTimeRemaining'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaEquipProgress_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquipProgress.53"
+      }
+    }
+  }
+]

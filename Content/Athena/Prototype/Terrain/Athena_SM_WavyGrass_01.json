@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_SM_WavyGrass_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_SM_WavyGrass_01.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "71742A494AD654D0E375238FE79B5E48"
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_SM_WavyGrass_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_SM_WavyGrass_01.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x4E4B"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Athena_SM_WavyGrass_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_SM_WavyGrass_01",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_Athena_FieldGrassMatching'",
+            "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/M_Athena_FieldGrassMatching.0"
+          },
+          "MaterialSlotName": "01 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 45.440605,
+            "LocalUVDensities[1]": 22.718195,
+            "LocalUVDensities[2]": 2082.9478,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 22.718195,
+      "LightMapResolution": 8,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -1.3083153,
+          "Y": 2.9704895,
+          "Z": 9.292383
+        },
+        "BoxExtent": {
+          "X": 48.62804,
+          "Y": 53.884956,
+          "Z": 9.292497
+        },
+        "SphereRadius": 62.94712
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Athena_SM_WavyGrass_01:BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_SM_WavyGrass_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Athena_SM_WavyGrass_01:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_SM_WavyGrass_01.1"
+    },
+    "LightingGuid": "53B6DA34-4DBBA10D-37C70EBA-9B678939",
+    "RenderData": null
+  }
+]

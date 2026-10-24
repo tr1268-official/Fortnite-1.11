@@ -1,0 +1,751 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Map_Athena_Vitality_Health_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Map_Athena_Vitality_Health",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Map_Athena_Vitality_Health_C'Default__GE_Map_Athena_Vitality_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/MappedEffects/GE_Map_Athena_Vitality_Health.1"
+    }
+  },
+  {
+    "Type": "GE_Map_Athena_Vitality_Health_C",
+    "Name": "Default__GE_Map_Athena_Vitality_Health_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/MappedEffects/GE_Map_Athena_Vitality_Health.GE_Map_Athena_Vitality_Health_C'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Map_Athena_Vitality_Health",
+    "Template": {
+      "ObjectName": "GE_Map_Fortitude_To_Health_C'Default__GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.1"
+    },
+    "Properties": {
+      "Modifiers": [
+        {
+          "Attribute": {
+            "AttributeName": "MaxHealth",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortHealthSet:MaxHealth'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 100.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "Fortitude",
+                  "Attribute": {
+                    "ObjectName": "StructProperty'FortCharacterAttrSet:Fortitude'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  },
+                  "AttributeOwner": {
+                    "ObjectName": "Class'FortCharacterAttrSet'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": {
+                  "ObjectName": "CurveTable'CombatEffects'",
+                  "ObjectPath": "FortniteGame/Content/Balance/DataTables/CombatEffects.0"
+                },
+                "RowName": "Abilities.Generic.1PercentScalar"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": {
+                "ObjectName": "Class'FromFortitudeModMagnitudeCalculation'",
+                "ObjectPath": "/Script/FortniteGame"
+              },
+              "Coefficient": {
+                "Value": 0.01,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "HealthRegenRate",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortRegenHealthSet:HealthRegenRate'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortRegenHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 0.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "Shield",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortHealthSet:Shield'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 100.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "ShieldRegenRate",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortRegenHealthSet:ShieldRegenRate'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortRegenHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 0.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "HealthRegenThreshold",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortRegenHealthSet:HealthRegenThreshold'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortRegenHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 0.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        },
+        {
+          "Attribute": {
+            "AttributeName": "ShieldRegenThreshold",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortRegenHealthSet:ShieldRegenThreshold'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortRegenHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Override",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 0.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        }
+      ]
+    }
+  }
+]

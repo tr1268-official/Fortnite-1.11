@@ -1,0 +1,563 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'PFX_FallingVapor:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.7"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FallingVapor:ParticleModuleSpawn_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.10"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FallingVapor:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.12"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FallingVapor:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.7"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FallingVapor:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.4"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FallingVapor:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.9"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FallingVapor:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.11"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FallingVapor:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.3"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'PFX_FallingVapor:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.5"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'PFX_FallingVapor:ParticleModuleRotation_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.8"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'PFX_FallingVapor:ParticleModuleParameterDynamic_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.6"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FallingVapor:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.10"
+      },
+      "PeakActiveParticles": 52
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 0.116822556,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 4,
+          "EntryStride": 1,
+          "TimeScale": 3.0,
+          "Values": [
+            0.0,
+            0.087318555,
+            0.08574484,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 5.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            1.0,
+            5.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 1500.0,
+        "MaxValue": 1500.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1500.0
+          ]
+        }
+      },
+      "Positive_Z": false,
+      "SurfaceOnly": true,
+      "Velocity": true,
+      "VelocityScale": {
+        "MinValue": -0.01,
+        "MaxValue": -0.01,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            -0.01
+          ]
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleParameterDynamic'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": true,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 2,
+              "EntryCount": 1,
+              "EntryStride": 2,
+              "SubEntryStride": 1,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": true,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 2,
+              "EntryCount": 1,
+              "EntryStride": 2,
+              "SubEntryStride": 1,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 12,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'M_FallingVapor_Inst'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor_Inst.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FallingVapor:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRotation'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "StartSize": {
+        "MinValue": 1500.0,
+        "MaxValue": 800.0,
+        "MinValueVec": {
+          "X": 1500.0,
+          "Y": 25.0,
+          "Z": 25.0
+        },
+        "MaxValueVec": {
+          "X": 800.0,
+          "Y": 25.0,
+          "Z": 25.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            1500.0,
+            1500.0,
+            1500.0,
+            800.0,
+            800.0,
+            800.0
+          ],
+          "LockFlag": 4
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            10.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FallingVapor:ParticleModuleSpawn_0.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.1"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -10.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -10.0,
+            -10.0,
+            50.0,
+            10.0,
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.13"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FallingVapor:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "PFX_FallingVapor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor",
+    "Properties": {
+      "WarmupTime": 1.0,
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'PFX_FallingVapor:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FallingVapor.12"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true
+    }
+  }
+]

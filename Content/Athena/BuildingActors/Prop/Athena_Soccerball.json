@@ -1,0 +1,157 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Soccerball_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Soccerball_C:SimpleConstructionScript_715'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.5"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'Athena_Soccerball_C:InheritableComponentHandler'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Soccerball_C'Default__Athena_Soccerball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.1"
+    }
+  },
+  {
+    "Type": "Athena_Soccerball_C",
+    "Name": "Default__Athena_Soccerball_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.Athena_Soccerball_C'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball",
+    "Template": {
+      "ObjectName": "PhysicsBall_Master_C'Default__PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.2"
+    },
+    "Properties": {
+      "NetCullDistanceSquared": 100000000.0,
+      "NetUpdateFrequency": 100.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Soccerball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'Athena_Soccerball_C:StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20'",
+            "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+              "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+            },
+            "SCSVariableName": "Ball",
+            "AssociatedGuid": "5566D60B-4F7ABEFD-1996D88F-44F83709"
+          },
+          "CookedComponentInstancingData": {
+            "bIsValid": false,
+            "ChangedPropertyList": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_483",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Soccerball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_489",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Soccerball_C:SimpleConstructionScript_715'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Soccerball_C:SceneComponent_483'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.3"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_715",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Soccerball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Soccerball_C:SimpleConstructionScript_715.SCS_Node_489'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Soccerball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Soccerball.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'PhysicsBall_Master_C:StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.76"
+    },
+    "Properties": {
+      "OverrideMaterials": [],
+      "BodyInstance": {
+        "MassInKgOverride": 6.4614286
+      }
+    }
+  }
+]

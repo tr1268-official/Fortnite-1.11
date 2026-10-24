@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "FortTrapItemDefinition",
+    "Name": "TID_Floor_Player_Jump_Pad_Athena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortTrapItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/TID_Floor_Player_Jump_Pad_Athena",
+    "Properties": {
+      "BlueprintClass": {
+        "AssetPathName": "/Game/Items/Traps/Blueprints/Trap_Floor_Player_Jump_Pad.Trap_Floor_Player_Jump_Pad_C",
+        "SubPathString": ""
+      },
+      "AllowedShapes": [
+        {
+          "AssetPathName": "/Game/Building/EditModePatterns/Floor/EMP_Floor_Floor.EMP_Floor_Floor",
+          "SubPathString": ""
+        }
+      ],
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Weapons/FORT_BuildingTools/TrapTool.TrapTool_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'Traps'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/Traps.0"
+        },
+        "RowName": "Trap_Floor_Player_Jump_Pad"
+      },
+      "OverrideAutoEquipTags": [
+        "trap.mobility"
+      ],
+      "bCanAutoEquipByClass": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Weapons/FORT_TRAPS/Floor_Player_Jump_Pad/Mesh/JumpPadUP_PickUp.JumpPadUP_PickUp",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Foley_Loot/Ingredients/Items/Trap_Launcher_Collect_Cue.Trap_Launcher_Collect_Cue",
+        "SubPathString": ""
+      },
+      "DropSound": {
+        "AssetPathName": "/Game/Sounds/Foley_Loot/Ingredients/Items/Trap_Launcher_Drop_Cue.Trap_Launcher_Drop_Cue",
+        "SubPathString": ""
+      },
+      "DisassembleRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'DisassembleRecipes'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/DisassembleRecipes.0"
+        },
+        "RowName": "Disassemble.Trap.Floor.Player.Jump.Pad"
+      },
+      "DisassembleDurabilityDegradeMinLootPercent": 0.5,
+      "DisassembleDurabilityDegradeMaxLootPercent": 0.5,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F1CF58284915A6FF84FB4BA4A1AF888E",
+        "SourceString": "Jump Pad (Up)",
+        "LocalizedString": "Jump Pad (Up)"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "B36B4C124DAD23E03A2E7E883E7A5294",
+        "SourceString": "Launches players into the air.",
+        "LocalizedString": "Launches players into the air."
+      },
+      "GameplayTags": [
+        "trap.Floor",
+        "trap.beneficial"
+      ],
+      "FilterOverride": "EFortInventoryFilter::Consumables",
+      "bNeverPersisted": true,
+      "MaxStackSize": 20,
+      "bInventorySizeLimited": false,
+      "StatList": {
+        "AssetPathName": "/Game/Items/Traps/Blueprints/Defenders/TrapFloorDefenderTooltipStats.TrapFloorDefenderTooltipStats",
+        "SubPathString": ""
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Weapons-JumpPadUP-floor'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-JumpPadUP-floor.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-JumpPadUP-floor-L.T-Icon-Weapons-JumpPadUP-floor-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy",
+      "FrontendPreviewMeshOffset": {
+        "Rotation": {
+          "X": 0.225,
+          "Y": 0.0,
+          "Z": -1.25,
+          "W": 2.5,
+          "IsNormalized": false,
+          "Size": 2.8041265,
+          "SizeSquared": 7.863125
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 8.0,
+          "Z": 0.0
+        },
+        "Scale3D": {
+          "X": 0.84,
+          "Y": 0.84,
+          "Z": 0.84
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "CustomCharacterHeadData",
+    "Name": "CustomCharacterHeadData_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterHeadData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'M_Med_Soldier_Head_Nutcracker_ATH'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_Med_Soldier_Head_Nutcracker_ATH.1"
+    },
+    "Properties": {
+      "SkinColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Skin/Blackout.Blackout",
+        "SubPathString": ""
+      },
+      "HairColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Hair/HairColor_01.HairColor_01",
+        "SubPathString": ""
+      },
+      "HelmetMorphTargets": [
+        "Hair_Helmet"
+      ],
+      "HatMorphTargets": [
+        "Hair_Hat"
+      ],
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Male/Medium/Heads/M_Med_Head_01/Meshes/SK_M_MED_Head_01_Skeleton_AnimBP.SK_M_MED_Head_01_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "M_Med_Soldier_Head_Nutcracker_ATH",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_Med_Soldier_Head_Nutcracker_ATH",
+    "Properties": {
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterHeadData'M_Med_Soldier_Head_Nutcracker_ATH:CustomCharacterHeadData_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_Med_Soldier_Head_Nutcracker_ATH.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Heads/SK_M_MED_Head_01_ATH.SK_M_MED_Head_01_ATH",
+        "SubPathString": ""
+      },
+      "MasterSkeletalMeshes": [
+        {
+          "AssetPathName": "/Game/Characters/Player/Male/Male_Avg_Base/Fortnite_M_Avg_Player.Fortnite_M_Avg_Player",
+          "SubPathString": ""
+        }
+      ],
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Materials/Nutcracker/M_Med_Soldier_Head_Nutcracker.M_Med_Soldier_Head_Nutcracker",
+            "SubPathString": ""
+          }
+        },
+        {
+          "MaterialOverrideIndex": 1,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/M_Athena_InvisibleGrenades.M_Athena_InvisibleGrenades",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 3,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

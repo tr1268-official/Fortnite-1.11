@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Bush",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bush/Athena_Bush",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bush/GA_Athena_Bush.GA_Athena_Bush_C",
+        "SubPathString": ""
+      },
+      "ReloadAbility": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bush/Athena_Bush.Athena_Bush",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bush/Items_Athena_Bush.Items_Athena_Bush",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/shield_pickup_Athena_Cue.shield_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D8A8CF0B41F32EC6C3D7E5A367AF242A",
+        "SourceString": "Bush",
+        "LocalizedString": "Bush"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "15CD3ED046789AF62E5925A4E9FC40EC",
+        "SourceString": "A portable bush disguise.",
+        "LocalizedString": "A portable bush disguise."
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 2,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-T-Icon-BR-SM-Athena-Bush-01'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-SM-Athena-Bush-01.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-SM-Athena-Bush-01-L.T-T-Icon-BR-SM-Athena-Bush-01-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

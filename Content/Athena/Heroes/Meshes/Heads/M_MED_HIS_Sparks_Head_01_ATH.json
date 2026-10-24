@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CustomCharacterHeadData",
+    "Name": "CustomCharacterHeadData_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterHeadData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'M_MED_HIS_Sparks_Head_01_ATH'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_MED_HIS_Sparks_Head_01_ATH.1"
+    },
+    "Properties": {
+      "SkinColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Skin/M_SkinColor_04.M_SkinColor_04",
+        "SubPathString": ""
+      },
+      "HairColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Hair/HairColor_01.HairColor_01",
+        "SubPathString": ""
+      },
+      "HatMorphTargets": [
+        "Hair_Hat"
+      ],
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Male/Medium/Heads/M_MED_HIS_Sparks_Head_01/Mesh/M_MED_HIS_Sparks_Head_01_Skeleton_AnimBP.M_MED_HIS_Sparks_Head_01_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "M_MED_HIS_Sparks_Head_01_ATH",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_MED_HIS_Sparks_Head_01_ATH",
+    "Properties": {
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterHeadData'M_MED_HIS_Sparks_Head_01_ATH:CustomCharacterHeadData_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/M_MED_HIS_Sparks_Head_01_ATH.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Characters/Player/Male/Medium/Heads/M_MED_HIS_Sparks_Head_01/Mesh/M_MED_HIS_Sparks_Head_01.M_MED_HIS_Sparks_Head_01",
+        "SubPathString": ""
+      },
+      "MasterSkeletalMeshes": [
+        {
+          "AssetPathName": "/Game/Characters/Player/Male/Male_Avg_Base/M_Med_Base_Skeleton.M_Med_Base_Skeleton",
+          "SubPathString": ""
+        }
+      ],
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_PurpleStuff",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/GA_Athena_PurpleStuff.GA_Athena_PurpleStuff_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Athena_PurpleStuff.Athena_PurpleStuff",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01.Items_PurpleStuff_01",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/shield_pickup_Athena_Cue.shield_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "93957ECC444557E55379968372AFA97E",
+        "SourceString": "Slurp Juice",
+        "LocalizedString": "Slurp Juice"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "43259DC54A041971126BC3A3FB5021E2",
+        "SourceString": "Contains 1% juice. Applies health & shields over time.",
+        "LocalizedString": "Contains 1% juice. Applies health & shields over time."
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 2,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Items-PurpleStuff-01'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/T-Icon-Items-PurpleStuff-01.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/PurpleStuff/T-Icon-Items-PurpleStuff-01-L.T-Icon-Items-PurpleStuff-01-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

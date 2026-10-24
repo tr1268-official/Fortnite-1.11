@@ -1,0 +1,219 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_DanceGrenade_Bits",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions03/Texturing/SubUV_Function_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 56,
+        "ExpressionName": "/Script/Engine",
+        "UseConstant": false,
+        "Constant": {
+          "B": 64,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000040"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bEnableResponsiveAA": true,
+      "bUsedWithParticleSprites": true,
+      "EditorX": -304,
+      "EditorY": 48,
+      "Expressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_DanceGrenade_Bits:MaterialExpressionMaterialFunctionCall_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureObject'M_DanceGrenade_Bits:MaterialExpressionTextureObject_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "0CE18CEC-480C6E79-CA8373B4-F2511C8D",
+          "Function": {
+            "ObjectName": "MaterialFunction'SubUV_Function'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/SubUV_Function.3"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "01B862BA-4E596A4E-FC04568E-1BFF123B"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_DanceGrenade_Bits'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'SubUV_Function'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/SubUV_Function.3"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "CFDE14F2-4C42ACFA-D71433B4-626F487B",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BLEND_Translucent_1954047315",
+            "Mask": 6648437,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions03/Texturing/SubUV_Function_56"
+          }
+        },
+        {
+          "ExpressionInputId": "109684BA-4E6E5940-1582C09F-4A3B76FE",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "/Script/Engine_7558740",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "None"
+          }
+        },
+        {
+          "ExpressionInputId": "715D71DA-4D3B77C7-3A05EE93-D58AD1AD",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1231189330",
+            "Mask": 1701273965,
+            "MaskR": 115,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions03/Texturing/SubUV_Function_3473407"
+          }
+        },
+        {
+          "ExpressionInputId": "5E7A84FF-461455AB-AEF37D81-4B605DE8",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A7F9EA02-48268C07-6AF014A2-DC43201E",
+          "Output": {
+            "OutputName": "Alpha",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "A11F58FF-42687E8A-F8ED048A-17F95FB9",
+          "Output": {
+            "OutputName": "RGB",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "0A0B5305-463AF0D7-5DCAC383-0CB8782C",
+          "Output": {
+            "OutputName": "UVs",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_DanceGrenade_Bits'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Alpha",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "RGB",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "UVs",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObject",
+    "Name": "MaterialExpressionTextureObject_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureObject'",
+    "Outer": {
+      "ObjectName": "Material'M_DanceGrenade_Bits'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Husk_Bits_SubUV'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/Husk/T_Husk_Bits_SubUV.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_DanceGrenade_Bits'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.0"
+      }
+    }
+  }
+]

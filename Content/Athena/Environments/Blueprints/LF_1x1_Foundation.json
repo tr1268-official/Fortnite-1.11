@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "LF_1x1_Foundation_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'LF_1x1_Foundation_C:SimpleConstructionScript_743'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingFoundation5x5'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LF_1x1_Foundation_C'Default__LF_1x1_Foundation_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.1"
+    }
+  },
+  {
+    "Type": "LF_1x1_Foundation_C",
+    "Name": "Default__LF_1x1_Foundation_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.LF_1x1_Foundation_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation",
+    "Properties": {
+      "BuildingGroups": [
+        {
+          "ObjectName": "BuildingGroup'BG_1x1_Shacks'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/BuildingGroups/BG_1x1_Shacks.0"
+        }
+      ],
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__LF_1x1_Foundation_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.5"
+      },
+      "SnapOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "BaseLocToPivotOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__LF_1x1_Foundation_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_50",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'LF_1x1_Foundation_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_53",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'LF_1x1_Foundation_C:SimpleConstructionScript_743'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'LF_1x1_Foundation_C:SceneComponent_50'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.2"
+      },
+      "VariableGuid": "4D3A059E-00000000-00000000-00000000",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_743",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'LF_1x1_Foundation_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'LF_1x1_Foundation_C:SimpleConstructionScript_743.SCS_Node_53'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "LF_1x1_Foundation_C'Default__LF_1x1_Foundation_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/LF_1x1_Foundation.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'FORT_Foundation_7x7'",
+        "ObjectPath": "FortniteGame/Content/Environments/World/Foundations/Meshes/FORT_Foundation_7x7.2"
+      },
+      "BodyInstance": {
+        "bAutoWeld": false
+      }
+    }
+  }
+]

@@ -1,0 +1,813 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaGamePhaseWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaGamePhaseWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.36"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Phase/AthenaGamePhaseWidget.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaGamePhaseWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaGamePhaseWidgetBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaGamePhaseWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.0"
+      },
+      {
+        "ObjectName": "Function'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.11"
+      },
+      {
+        "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaGamePhaseWidget": {
+        "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+      },
+      "OnGamePhaseStepChanged": {
+        "ObjectName": "Function'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.11"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaGamePhaseWidget_C'Default__AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.2"
+    }
+  },
+  {
+    "Type": "AthenaGamePhaseWidget_C",
+    "Name": "Default__AthenaGamePhaseWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.AthenaGamePhaseWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HUDElementTag": [
+        "HUD.Athena.GamePhase"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "AthenaGamePhaseWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.AthenaGamePhaseWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget",
+    "Template": {
+      "ObjectName": "AthenaGamePhaseWidget_C'Default__AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.2"
+    },
+    "Properties": {
+      "Icon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.22"
+      },
+      "TimeText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TimeText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.35"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.37"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Icon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaGamePhaseWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.5"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.K2Node_Event_GamePhaseStep'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.13"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.14"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.CallFunc_NotEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_object_Variable10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.K2Node_Event_GamePhaseStep'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.13"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.14"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "GamePhaseStep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EAthenaGamePhaseStep'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged.GamePhaseStep.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.12"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnGamePhaseStepChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'AthenaGamePhaseWidgetBase:OnGamePhaseStepChanged'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged.GamePhaseStep'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaGamePhaseWidget_C:OnGamePhaseStepChanged.GamePhaseStep'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.10"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Event_GamePhaseStep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EAthenaGamePhaseStep'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.K2Node_Event_GamePhaseStep.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.8"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EAthenaGamePhaseStep'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.9"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaGamePhaseWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.36"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.18"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.37"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.20"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'AthenaGamePhaseWidget_C:WidgetTree.TimeText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.34"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaGamePhaseWidget_C:WidgetTree.Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.21"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.16"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.16"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TimeText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.35"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.16"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.16"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.22"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaGamePhaseWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.36"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'M_GamePhase_StormHolding'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.18"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.37"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'M_GamePhase_StormHolding'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.20"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable10",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable8",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable9",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaGamePhaseWidget_C:ExecuteUbergraph_AthenaGamePhaseWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInterface'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TimeText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaGamePhaseWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.36"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E2E2874E4B6DDDF35B5793A1270DDAF5",
+        "SourceString": "0:00",
+        "LocalizedString": "0:00"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 18
+      },
+      "MinDesiredWidth": 50.0,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.17"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TimeText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.37"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E2E2874E4B6DDDF35B5793A1270DDAF5",
+        "SourceString": "0:00",
+        "LocalizedString": "0:00"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 18
+      },
+      "MinDesiredWidth": 50.0,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.19"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaGamePhaseWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'AthenaGamePhaseWidget_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.15"
+        },
+        {
+          "ObjectName": "Image'AthenaGamePhaseWidget_C:WidgetTree.Icon'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.21"
+        },
+        {
+          "ObjectName": "TextBlock'AthenaGamePhaseWidget_C:WidgetTree.TimeText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaGamePhaseWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/AthenaGamePhaseWidget.16"
+      }
+    }
+  }
+]

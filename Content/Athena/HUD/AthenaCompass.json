@@ -1,0 +1,1350 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaCompass_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaCompass",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaCompass.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaCompass_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaCompassBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaCompass_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.0"
+      },
+      {
+        "ObjectName": "Function'AthenaCompass_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.9"
+      },
+      {
+        "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:CompassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:Marker0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:Marker1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:Marker2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:Marker3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.26"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaCompass": {
+        "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaCompass_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.9"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaCompass_C'Default__AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.2"
+    }
+  },
+  {
+    "Type": "AthenaCompass_C",
+    "Name": "Default__AthenaCompass_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaCompass.AthenaCompass_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaCompass",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HUDElementTag": [
+        "HUD.Athena.Compass"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false,
+      "bIsVolatile": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CompassImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaCompass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaCompass_C:ExecuteUbergraph_AthenaCompass.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaCompass_C:ExecuteUbergraph_AthenaCompass.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.22"
+      },
+      {
+        "ObjectName": "ArrayProperty'AthenaCompass_C:ExecuteUbergraph_AthenaCompass.K2Node_MakeArray_Array'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaCompass_C:ExecuteUbergraph_AthenaCompass.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'AthenaCompass_C:ExecuteUbergraph_AthenaCompass.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.6"
+    }
+  },
+  {
+    "Type": "AthenaCompass_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaCompass.AthenaCompass_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaCompass",
+    "Template": {
+      "ObjectName": "AthenaCompass_C'Default__AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.2"
+    },
+    "Properties": {
+      "CompassImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.CompassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.16"
+      },
+      "Marker0": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.18"
+      },
+      "Marker1": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.19"
+      },
+      "Marker2": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.20"
+      },
+      "Marker3": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.21"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "CompassImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'M_Compass'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.31"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Compass_CenterMark'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Compass_CenterMark.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_2.OverlaySlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.36"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.008023,
+            "G": 0.205079,
+            "B": 0.814847,
+            "A": 1.0,
+            "Hex": "167DE9"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.32"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "FF0042"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.35"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.401978,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "AA00FF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.33"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.991102,
+            "G": 0.679543,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "FED702"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.34"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CompassImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'M_Compass'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/M_Compass.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.38"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Compass_CenterMark'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Compass_CenterMark.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.43"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.008023,
+            "G": 0.205079,
+            "B": 0.814847,
+            "A": 1.0,
+            "Hex": "167DE9"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.39"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 0.0,
+            "B": 0.05448,
+            "A": 1.0,
+            "Hex": "FF0042"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.42"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.401978,
+            "G": 0.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "AA00FF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.40"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Marker3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 35.0,
+          "Y": 35.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.991102,
+            "G": 0.679543,
+            "B": 0.000607,
+            "A": 1.0,
+            "Hex": "FED702"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Squad_Pin'",
+          "ObjectPath": "FortniteGame/Content/UI/CodeReferenced/UI_Squad_Pin.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.41"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": -25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::Hidden"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaCompass_C:ExecuteUbergraph_AthenaCompass'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Marker0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Marker1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Marker2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Marker3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.31"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.34"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.33"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.35"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaCompass_C:WidgetTree.SizeBox_124.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.47"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_2.OverlaySlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.36"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_2.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.37"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.38"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.41"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.40"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.42"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_124.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.48"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.43"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.CompassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.10"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.12"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.14"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.15"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.13"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 372.0,
+        "Top": 8.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.11"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaCompass_C:WidgetTree.SizeBox_124'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.45"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.CompassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.16"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.18"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.20"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.21"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.19"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.30"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 372.0,
+        "Top": 8.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Marker'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.17"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.30"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.30"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_124'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.46"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_124",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCompass_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.49"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 768.0,
+      "HeightOverride": 96.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaCompass_C:WidgetTree.SizeBox_124.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaCompass_C:WidgetTree.Overlay_2.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.37"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_124",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.50"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 768.0,
+      "HeightOverride": 96.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_124.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.44"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaCompass_C:WidgetTree.SizeBox_124'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.45"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaCompass_C:WidgetTree.SizeBox_124'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.45"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_124'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.46"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_124'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.46"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.29"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCompass_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.28"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.11"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaCompass_C:WidgetTree.SizeBox_124'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.45"
+        },
+        {
+          "ObjectName": "Overlay'AthenaCompass_C:WidgetTree.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.27"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.CompassImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.10"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.15"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.14"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.13"
+        },
+        {
+          "ObjectName": "Image'AthenaCompass_C:WidgetTree.Marker0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaCompass_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.8"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaCompass.30"
+      }
+    }
+  }
+]

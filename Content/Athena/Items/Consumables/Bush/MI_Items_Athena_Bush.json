@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_Items_Athena_Bush",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bush/MI_Items_Athena_Bush",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "MaterialInstanceConstant'MI_Athena_Bush_SWP_Plants_04'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MI_Athena_Bush_SWP_Plants_04.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Fortnite_Default_S'",
+            "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/Textures/T_Fortnite_Default_S.0"
+          },
+          "ExpressionGUID": "F836F261-4A64F30E-A3E10E81-B33B2AF2"
+        },
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Athena_Bush_Plant_04_D'",
+            "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Textures/T_Athena_Bush_Plant_04_D.0"
+          },
+          "ExpressionGUID": "2D0DF75D-42B8EF8E-144D35A7-86D6270A"
+        },
+        {
+          "ParameterName": "MaskTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TRV_SWP_Plant_04_M'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Transylvania/Foliage/Textures/T_TRV_SWP_Plant_04_M.0"
+          },
+          "ExpressionGUID": "5173CEA6-4EE9CCA0-8B3A089F-A0026E0E"
+        },
+        {
+          "ParameterName": "NormalMap",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_TRV_SWP_Plant_04_N'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Transylvania/Foliage/Textures/T_TRV_SWP_Plant_04_N.0"
+          },
+          "ExpressionGUID": "2F95B318-496E5073-CFD8A696-E9E0A3A8"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ShadingModel": true,
+        "bOverride_TwoSided": true,
+        "BlendMode": "BLEND_Masked",
+        "TwoSided": true
+      }
+    },
+    "LoadedMaterialResources": []
+  }
+]

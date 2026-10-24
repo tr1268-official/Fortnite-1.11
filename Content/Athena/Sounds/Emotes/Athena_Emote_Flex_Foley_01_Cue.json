@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Emote_Flex_Foley_01_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Athena_Emote_Flex_Foley_01_Cue:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.1"
+      },
+      "VolumeMultiplier": 2.0,
+      "PitchMultiplier": 1.2,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_DanceMusic'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_DanceMusic.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 1.6346258,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Emotes_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Emotes_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_Flex_Foley_01_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Emote_Flex_Foley_01_Cue:SoundNodeRandom_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_Flex_Foley_01_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_Flex_Foley_01_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_Flex_Foley_01_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_Flex_Foley_01_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_flex_foley_02.athena_emote_flex_foley_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'athena_emote_flex_foley_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_flex_foley_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_Flex_Foley_01_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_Flex_Foley_01_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_flex_foley_01.athena_emote_flex_foley_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'athena_emote_flex_foley_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_flex_foley_01.0"
+    }
+  }
+]

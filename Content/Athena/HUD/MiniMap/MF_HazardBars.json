@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_HazardBars'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars.1"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "0FC5C56B-4335798F-20CB928C-F1C87421",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "6BC893C2-47FCFC56-7178CE94-4E213385",
+          "Output": {
+            "OutputName": "R",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "9720C81E-449DF8E5-514FCB8A-80FD5FA3",
+          "Output": {
+            "OutputName": "G",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_HazardBars'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars.1"
+      },
+      "Outputs": [
+        {
+          "OutputName": "R",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "G",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialFunction",
+    "Name": "MF_HazardBars",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialFunction'",
+    "Package": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars",
+    "Properties": {
+      "StateId": "13344017-493062BD-9E7D479A-409C7769",
+      "Description": "Returns 1 if inside the specified safe zone, and 0 otherwise",
+      "FunctionExpressions": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_HazardBars:MaterialExpressionMaterialFunctionCall_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars.0"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+]

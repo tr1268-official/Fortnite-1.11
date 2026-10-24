@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_TestQuest4",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test1/BattleProgram_TestQuest4",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 2000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_win_match_solo",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "win_athena_solo"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "8729C08342DAF8432FB844AD82B5D457",
+            "SourceString": "Win a Solo Battle Royale Match",
+            "LocalizedString": "Win a Solo Battle Royale Match"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "5E2411844DE8EF2011F845B65A39C8FE",
+            "SourceString": "Win a Solo Battle Royale Match",
+            "LocalizedString": "Win a Solo Battle Royale Match"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "86FC9CEC4AB3C48478CFEF9442B2C2E7",
+        "SourceString": "Dominator",
+        "LocalizedString": "Dominator"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "1AA88A4843C7ED560380CCA2BA2F8249",
+        "SourceString": "Win a Solo Battle Royale Match",
+        "LocalizedString": "Win a Solo Battle Royale Match"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6D28F0D945AB6491FEFB66A105003D55",
+        "SourceString": "Win a Solo Battle Royale Match",
+        "LocalizedString": "Win a Solo Battle Royale Match"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

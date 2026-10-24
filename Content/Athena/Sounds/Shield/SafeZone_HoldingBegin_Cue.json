@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SafeZone_HoldingBegin_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_HoldingBegin_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'SafeZone_HoldingBegin_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_HoldingBegin_Cue.1"
+      },
+      "VolumeMultiplier": 2.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 2.7903175
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_HoldingBegin_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_HoldingBegin_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/SFX_SafeZone_HoldingBegin.SFX_SafeZone_HoldingBegin",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_SafeZone_HoldingBegin'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SFX_SafeZone_HoldingBegin.0"
+    }
+  }
+]

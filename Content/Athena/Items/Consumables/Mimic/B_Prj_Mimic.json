@@ -1,0 +1,1206 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "B_Prj_Mimic_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'B_Prj_Mimic_C:SimpleConstructionScript_210'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.51"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.0"
+      },
+      {
+        "ObjectName": "Function'B_Prj_Mimic_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.32"
+      },
+      {
+        "ObjectName": "Function'B_Prj_Mimic_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.29"
+      },
+      {
+        "ObjectName": "Function'B_Prj_Mimic_C:OnBounce'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.28"
+      },
+      {
+        "ObjectName": "Function'B_Prj_Mimic_C:OnExploded'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.10"
+      },
+      {
+        "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:Mesh'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:P_Trail'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.44"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:Mine_Material'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:BottleRocketFireCue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:P_Explosion'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExplosionCue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.42"
+      },
+      {
+        "ObjectName": "FloatProperty'B_Prj_Mimic_C:Lifetime_Min'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.25"
+      },
+      {
+        "ObjectName": "FloatProperty'B_Prj_Mimic_C:Lifetime_Max'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.24"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_B_Prj_Mimic": {
+        "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+      },
+      "OnExploded": {
+        "ObjectName": "Function'B_Prj_Mimic_C:OnExploded'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.10"
+      },
+      "OnBounce": {
+        "ObjectName": "Function'B_Prj_Mimic_C:OnBounce'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.28"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'B_Prj_Mimic_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.29"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'B_Prj_Mimic_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.32"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "B_Prj_Mimic_C'Default__B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.2"
+    }
+  },
+  {
+    "Type": "B_Prj_Mimic_C",
+    "Name": "Default__B_Prj_Mimic_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.B_Prj_Mimic_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BottleRocketFireCue": {
+        "ObjectName": "SoundCue'RomanCandle_Fire_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Explosives/RomanCandle_Fire_Cue.0"
+      },
+      "P_Explosion": {
+        "ObjectName": "ParticleSystem'P_BottleRocket_Explo'",
+        "ObjectPath": "FortniteGame/Content/Gadgets/Assets/BottleRocket/P_BottleRocket_Explo.217"
+      },
+      "ExplosionCue": {
+        "ObjectName": "SoundCue'BottleRocket_Explosion_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Explosives/BottleRocket_Explosion_Cue.0"
+      },
+      "Lifetime_Min": 0.4,
+      "Lifetime_Max": 1.8,
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__B_Prj_Mimic_C:CollisionCapsule0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.20"
+      },
+      "ProjectileMovementComponent": {
+        "ObjectName": "ProjectileMovementComponent'Default__B_Prj_Mimic_C:ProjectileComp0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.46"
+      },
+      "bStopSimulatingOnHit": false,
+      "CollisionComponent": {
+        "ObjectName": "CapsuleComponent'Default__B_Prj_Mimic_C:CollisionCapsule0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.20"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__B_Prj_Mimic_C:CollisionCapsule0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.20"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Mesh",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_B_Prj_Mimic",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.4"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_Hit'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.26"
+      },
+      {
+        "ObjectName": "BoolProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_bBlockingHit'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.15"
+      },
+      {
+        "ObjectName": "BoolProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_bInitialOverlap'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.16"
+      },
+      {
+        "ObjectName": "FloatProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_Time'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.22"
+      },
+      {
+        "ObjectName": "FloatProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.21"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.55"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_ImpactPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.54"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_Normal'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.56"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_ImpactNormal'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.53"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_PhysMat'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_HitActor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_HitComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.38"
+      },
+      {
+        "ObjectName": "NameProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_HitBoneName'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.35"
+      },
+      {
+        "ObjectName": "IntProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_HitItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.34"
+      },
+      {
+        "ObjectName": "IntProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_FaceIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.33"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_TraceStart'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.58"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_BreakHitResult_TraceEnd'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_DynamicCast_AsFort_Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.41"
+      },
+      {
+        "ObjectName": "BoolProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.17"
+      },
+      {
+        "ObjectName": "ArrayProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitActors'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.7"
+      },
+      {
+        "ObjectName": "ArrayProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitResults'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.9"
+      },
+      {
+        "ObjectName": "ByteProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_GetTeamAffiliation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.19"
+      },
+      {
+        "ObjectName": "BoolProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.18"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.59"
+      },
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_K2_GetActorRotation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_SpawnEmitterAtLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.40"
+      },
+      {
+        "ObjectName": "FloatProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.CallFunc_RandomFloatInRange_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Event_HitActors",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitActors'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_Event_HitActors",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitActors.K2Node_Event_HitActors'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_HitResults",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitResults'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.9"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_Event_HitResults",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "StructProperty'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic.K2Node_Event_HitResults.K2Node_Event_HitResults'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.8"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnExploded",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortGameplayEffectDeliveryActor:OnExploded'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'B_Prj_Mimic_C:OnExploded.HitActors'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.12"
+      },
+      {
+        "ObjectName": "ArrayProperty'B_Prj_Mimic_C:OnExploded.HitResults'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HitActors",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'B_Prj_Mimic_C:OnExploded.HitActors'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "HitActors",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:OnExploded'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.10"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'B_Prj_Mimic_C:OnExploded.HitActors.HitActors'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.11"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "HitResults",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'B_Prj_Mimic_C:OnExploded.HitResults'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.14"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "HitResults",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:OnExploded'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.10"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "StructProperty'B_Prj_Mimic_C:OnExploded.HitResults.HitResults'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.13"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BreakHitResult_bBlockingHit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BreakHitResult_bInitialOverlap",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_GetTeamAffiliation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortTeamAffiliation'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCapsule0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "B_Prj_Mimic_C'Default__B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.2"
+    },
+    "Properties": {
+      "CapsuleHalfHeight": 6.0,
+      "CapsuleRadius": 6.0,
+      "ShapeColor": {
+        "B": 0,
+        "G": 0,
+        "R": 255,
+        "A": 255,
+        "Hex": "FF0000"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_GameTraceChannel9",
+        "CollisionProfileName": "FortProjectileHitPlayersOnly",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Overlap"
+            }
+          ]
+        }
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 90.0
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakHitResult_Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakHitResult_Time",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Lifetime_Max",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Lifetime_Min",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_Hit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Hit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:OnBounce'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.28"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBounce",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortProjectileBase:OnBounce'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'B_Prj_Mimic_C:OnBounce.Hit'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.27"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Mine_Material",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.32"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'B_Prj_Mimic_C:UserConstructionScript.CallFunc_CreateDynamicMaterialInstance_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.31"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakHitResult_FaceIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakHitResult_HitItem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_BreakHitResult_HitBoneName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BottleRocketFireCue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BreakHitResult_HitActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BreakHitResult_HitComponent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PrimitiveComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BreakHitResult_PhysMat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PhysicalMaterial'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnEmitterAtLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Pawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ExplosionCue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Explosion",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystem'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Trail",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ParticleSystemComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ParticleSystemComponent",
+    "Name": "ParticleSystemComponent_8986__135D81BF",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystemComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "Properties": {
+      "Template": {
+        "ObjectName": "ParticleSystem'P_BottleRocket_Trail'",
+        "ObjectPath": "FortniteGame/Content/Gadgets/Assets/BottleRocket/P_BottleRocket_Trail.73"
+      }
+    }
+  },
+  {
+    "Type": "ProjectileMovementComponent",
+    "Name": "ProjectileComp0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProjectileMovementComponent'",
+    "Outer": {
+      "ObjectName": "B_Prj_Mimic_C'Default__B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.2"
+    },
+    "Properties": {
+      "InitialSpeed": 1200.0,
+      "bRotationFollowsVelocity": true,
+      "bShouldBounce": true,
+      "ProjectileGravityScale": 0.2,
+      "Bounciness": 0.7,
+      "Friction": 0.3
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_62",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'B_Prj_Mimic_C:SimpleConstructionScript_210'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'ParticleSystemComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "ParticleSystemComponent'B_Prj_Mimic_C:ParticleSystemComponent_8986__135D81BF'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.45"
+      },
+      "ParentComponentOrVariableName": "CollisionCapsule0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8244CA64-00000000-00000000-00000000",
+      "InternalVariableName": "P_Trail"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'B_Prj_Mimic_C:SimpleConstructionScript_210'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'StaticMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'B_Prj_Mimic_C:StaticMeshComponent_2417__CA6E68C0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.52"
+      },
+      "ParentComponentOrVariableName": "CollisionCapsule0",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "A733AD71-00000000-00000000-00000000",
+      "InternalVariableName": "Mesh"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'B_Prj_Mimic_C:SimpleConstructionScript_210'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.51"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'B_Prj_Mimic_C:SceneComponent_62'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.47"
+      },
+      "VariableGuid": "4D3A059E-00000000-00000000-00000000",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_210",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'B_Prj_Mimic_C:SimpleConstructionScript_210.SCS_Node_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.48"
+        },
+        {
+          "ObjectName": "SCS_Node'B_Prj_Mimic_C:SimpleConstructionScript_210.SCS_Node_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.49"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'B_Prj_Mimic_C:SimpleConstructionScript_210.SCS_Node_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.48"
+        },
+        {
+          "ObjectName": "SCS_Node'B_Prj_Mimic_C:SimpleConstructionScript_210.SCS_Node_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.49"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'B_Prj_Mimic_C:SimpleConstructionScript_210.SCS_Node_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.50"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent_2417__CA6E68C0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'B_Prj_Mimic_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_BottleRocket'",
+        "ObjectPath": "FortniteGame/Content/Gadgets/Assets/BottleRocket/S_BottleRocket.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "bAutoWeld": false
+      },
+      "RelativeLocation": {
+        "X": -48.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_ImpactNormal",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_ImpactPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_Normal",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_TraceEnd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BreakHitResult_TraceStart",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'B_Prj_Mimic_C:ExecuteUbergraph_B_Prj_Mimic'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Mimic/B_Prj_Mimic.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

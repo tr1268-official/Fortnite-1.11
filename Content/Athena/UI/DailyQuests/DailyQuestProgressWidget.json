@@ -1,0 +1,1677 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "DailyQuestProgressWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/DailyQuests/DailyQuestProgressWidget.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'DailyQuestProgressWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'DailyQuestProgressWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.0"
+      },
+      {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+      },
+      {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.6"
+      },
+      {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:Check'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.53"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.54"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:ProgressValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:XpBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.58"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:ShowText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.14"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:ShowBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.13"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_DailyQuestProgressWidget": {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.6"
+      },
+      "Update": {
+        "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DailyQuestProgressWidget_C'Default__DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.2"
+    }
+  },
+  {
+    "Type": "DailyQuestProgressWidget_C",
+    "Name": "Default__DailyQuestProgressWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.DailyQuestProgressWidget_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BorderXPBar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_DailyQuestProgressWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.4"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.11"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.32"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.33"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.12"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.34"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.35"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.31"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.30"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Required",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Update",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:Update.Required'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.7"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:Update.Achieved'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.49"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:Update.Current'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.51"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:Update.Total'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.52"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:Update.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.56"
+      },
+      {
+        "ObjectName": "TextProperty'DailyQuestProgressWidget_C:Update.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.69"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:Update.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.15"
+      },
+      {
+        "ObjectName": "StructProperty'DailyQuestProgressWidget_C:Update.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.67"
+      },
+      {
+        "ObjectName": "TextProperty'DailyQuestProgressWidget_C:Update.CallFunc_Conv_IntToText_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.70"
+      },
+      {
+        "ObjectName": "FloatProperty'DailyQuestProgressWidget_C:Update.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.36"
+      },
+      {
+        "ObjectName": "StructProperty'DailyQuestProgressWidget_C:Update.K2Node_MakeStruct_FormatArgumentData2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.68"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestProgressWidget_C:Update.CallFunc_Max_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.50"
+      },
+      {
+        "ObjectName": "ArrayProperty'DailyQuestProgressWidget_C:Update.K2Node_MakeArray_Array'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.10"
+      },
+      {
+        "ObjectName": "FloatProperty'DailyQuestProgressWidget_C:Update.CallFunc_Conv_IntToFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.37"
+      },
+      {
+        "ObjectName": "TextProperty'DailyQuestProgressWidget_C:Update.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.71"
+      },
+      {
+        "ObjectName": "FloatProperty'DailyQuestProgressWidget_C:Update.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.38"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestProgressWidget_C:Update.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestProgressWidget_C:Update.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.57"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'DailyQuestProgressWidget_C:Update.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.10"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'DailyQuestProgressWidget_C:Update.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.9"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ShowBar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ShowText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.25"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 3.0,
+        "Top": 3.0,
+        "Right": 3.0,
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.25"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.59"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BorderXPBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.26"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 3.0,
+        "Top": 3.0,
+        "Right": 3.0,
+        "Bottom": 3.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.26"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.61"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select2_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.30"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.31"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.32"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.33"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.34"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.35"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "BorderXPBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_StatRow_WhiteMidOpacity_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_StatRow_WhiteMidOpacity.0"
+      },
+      "Padding": {
+        "Left": 3.0,
+        "Top": 3.0,
+        "Right": 3.0,
+        "Bottom": 3.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.42"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "BorderXPBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_StatRow_WhiteMidOpacity_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_StatRow_WhiteMidOpacity.0"
+      },
+      "Padding": {
+        "Left": 3.0,
+        "Top": 3.0,
+        "Right": 3.0,
+        "Bottom": 3.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.BorderXPBar.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_37.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "ProgressValue",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "001059004C63A2B3DA8EE3974886F6DD",
+        "SourceString": "99/99",
+        "LocalizedString": "99/99"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.74"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "ProgressValue",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "001059004C63A2B3DA8EE3974886F6DD",
+        "SourceString": "99/99",
+        "LocalizedString": "99/99"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.CompletionSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.76"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DailyQuestProgressWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.DailyQuestProgressWidget_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget",
+    "Template": {
+      "ObjectName": "DailyQuestProgressWidget_C'Default__DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.2"
+    },
+    "Properties": {
+      "BorderXPBar": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.26"
+      },
+      "Check": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Check'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.47"
+      },
+      "CompletionSwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+      },
+      "ProgressValue": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ProgressValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.28"
+      },
+      "XpBar": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.XpBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.48"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select2_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.19"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.20"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.21"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.22"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable3.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.23"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestProgressWidget_C:ExecuteUbergraph_DailyQuestProgressWidget.Temp_byte_Variable4.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.42"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_37.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.44"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_37.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.43"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.60"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.25"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_37'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.40"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.40"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.62"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_37'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.40"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.40"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BorderXPBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Check",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Check-32'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Checks/T-Icon-Check-32.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.07,
+        "G": 0.7,
+        "B": 0.175,
+        "A": 1.0,
+        "Hex": "4BDA74"
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.75"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "XpBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Level_Bar'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/MI_Level_Bar.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.63"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Check",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Check-32'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Checks/T-Icon-Check-32.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.07,
+        "G": 0.7,
+        "B": 0.175,
+        "A": 1.0,
+        "Hex": "4BDA74"
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.CompletionSwitcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.77"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "XpBar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 6.0,
+          "Y": 6.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Level_Bar'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/MI_Level_Bar.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.65"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Achieved",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Max_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Current",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Total",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Check",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CompletionSwitcher",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetSwitcher'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ProgressValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "XpBar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 64.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.17"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 32.0,
+      "MinDesiredWidth": 72.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.41"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 64.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.65"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.BorderXPBar.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.18"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 32.0,
+      "MinDesiredWidth": 72.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_37.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.43"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.59"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.59"
+      },
+      "Content": {
+        "ObjectName": "Image'DailyQuestProgressWidget_C:WidgetTree.XpBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.46"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.60"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.60"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.61"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.XpBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.48"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.62"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.62"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestProgressWidget_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.8"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "CompletionSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestProgressWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.74"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.64"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "CompletionSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.79"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.CompletionSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.76"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.CompletionSwitcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.77"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.66"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'DailyQuestProgressWidget_C:WidgetTree.ProgressValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.27"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+      },
+      "Content": {
+        "ObjectName": "Image'DailyQuestProgressWidget_C:WidgetTree.Check'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.45"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ProgressValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.28"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.CompletionSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.73"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Check'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.47"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestProgressWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'DailyQuestProgressWidget_C:WidgetTree.HorizontalBox_37'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.39"
+        },
+        {
+          "ObjectName": "CommonBorder'DailyQuestProgressWidget_C:WidgetTree.BorderXPBar'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.25"
+        },
+        {
+          "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.59"
+        },
+        {
+          "ObjectName": "Image'DailyQuestProgressWidget_C:WidgetTree.XpBar'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.46"
+        },
+        {
+          "ObjectName": "SizeBox'DailyQuestProgressWidget_C:WidgetTree.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.60"
+        },
+        {
+          "ObjectName": "WidgetSwitcher'DailyQuestProgressWidget_C:WidgetTree.CompletionSwitcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.72"
+        },
+        {
+          "ObjectName": "CommonTextBlock'DailyQuestProgressWidget_C:WidgetTree.ProgressValue'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.27"
+        },
+        {
+          "ObjectName": "Image'DailyQuestProgressWidget_C:WidgetTree.Check'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.45"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "DailyQuestProgressWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.29"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestProgressWidget.40"
+      }
+    }
+  }
+]

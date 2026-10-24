@@ -1,0 +1,241 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_DBNO_Bleed_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Bleed",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicEnergyDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicEnergyDamage.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GET_PeriodicEnergyDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicEnergyDamage.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_DBNO_Bleed_C'Default__GE_Athena_DBNO_Bleed_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Bleed.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_DBNO_Bleed_C",
+    "Name": "Default__GE_Athena_DBNO_Bleed_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Bleed.GE_Athena_DBNO_Bleed_C'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Bleed",
+    "Template": {
+      "ObjectName": "GET_PeriodicEnergyDamage_C'Default__GET_PeriodicEnergyDamage_C'",
+      "ObjectPath": "FortniteGame/Content/GameplayEffectTemplates/GET_PeriodicEnergyDamage.1"
+    },
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::Infinite",
+      "Period": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.DBNO.BleedTick"
+        }
+      },
+      "Executions": [
+        {
+          "CalculationClass": {
+            "ObjectName": "Class'FortDamageFormulaExecutionCalculation'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "PassedInTags": [],
+          "CalculationModifiers": [
+            {
+              "CapturedAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "OutgoingAbilityDamage",
+                  "Attribute": {
+                    "ObjectName": "StructProperty'FortDamageSet:OutgoingAbilityDamage'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  },
+                  "AttributeOwner": {
+                    "ObjectName": "Class'FortDamageSet'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": true
+              },
+              "ModifierOp": "EGameplayModOp::Override",
+              "ModifierMagnitude": {
+                "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+                "ScalableFloatMagnitude": {
+                  "Value": 1.0,
+                  "Curve": {
+                    "CurveTable": {
+                      "ObjectName": "CurveTable'AthenaGameData'",
+                      "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+                    },
+                    "RowName": "Default.DBNO.BleedDamage"
+                  }
+                },
+                "AttributeBasedMagnitude": {
+                  "Coefficient": {
+                    "Value": 1.0,
+                    "Curve": {
+                      "CurveTable": {
+                        "ObjectName": "CurveTable'AthenaGameData'",
+                        "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+                      },
+                      "RowName": "Default.SafeZone.Damage"
+                    }
+                  },
+                  "PreMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PostMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "BackingAttribute": {
+                    "AttributeToCapture": {
+                      "AttributeName": "MaxHealth",
+                      "Attribute": {
+                        "ObjectName": "StructProperty'FortHealthSet:MaxHealth'",
+                        "ObjectPath": "/Script/FortniteGame"
+                      },
+                      "AttributeOwner": {
+                        "ObjectName": "Class'FortHealthSet'",
+                        "ObjectPath": "/Script/FortniteGame"
+                      }
+                    },
+                    "AttributeSource": "EGameplayEffectAttributeCaptureSource::Target",
+                    "bSnapshot": true
+                  },
+                  "AttributeCurve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+                  "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+                  "SourceTagFilter": [],
+                  "TargetTagFilter": []
+                },
+                "CustomMagnitude": {
+                  "CalculationClassMagnitude": null,
+                  "Coefficient": {
+                    "Value": 1.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PreMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PostMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "FinalLookupCurve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  }
+                },
+                "SetByCallerMagnitude": {
+                  "DataName": "None",
+                  "DataTag": {
+                    "TagName": "None"
+                  }
+                }
+              },
+              "EvaluationChannelSettings": {
+                "Channel": "EGameplayModEvaluationChannel::Channel0"
+              },
+              "SourceTags": {
+                "RequireTags": [],
+                "IgnoreTags": []
+              },
+              "TargetTags": {
+                "RequireTags": [],
+                "IgnoreTags": []
+              }
+            }
+          ],
+          "ConditionalGameplayEffects": []
+        }
+      ],
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "AttributeName": "Damage",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortHealthSet:Damage'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "MinLevel": 0.0,
+          "MaxLevel": 0.0,
+          "GameplayCueTags": [
+            "GameplayCue.Athena.DBNOBleed"
+          ]
+        }
+      ],
+      "InheritableGameplayEffectTags": {
+        "CombinedTags": [
+          "Gameplay.Damage",
+          "Gameplay.Effect.Periodic",
+          "Gameplay.Effect.Negative",
+          "Gameplay.Damage.Physical",
+          "Gameplay.Damage.Physical.Energy",
+          "Gameplay.Damage.DBNOBleedOut"
+        ],
+        "Added": [
+          "Gameplay.Damage.DBNOBleedOut"
+        ],
+        "Removed": [
+          "Gameplay.Status.Afflicted"
+        ]
+      },
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [],
+        "Removed": [
+          "Gameplay.Status.Afflicted"
+        ]
+      },
+      "OngoingTagRequirements": {
+        "IgnoreTags": [
+          "Gameplay.Status.DBNOBeingRevived"
+        ]
+      },
+      "ApplicationTagRequirements": {
+        "IgnoreTags": []
+      },
+      "StackingType": "EGameplayEffectStackingType::None",
+      "StackLimitCount": 0
+    }
+  }
+]

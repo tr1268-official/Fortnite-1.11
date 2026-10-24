@@ -1,0 +1,636 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_S_Cliff_Inner146'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.6"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "D1F9FDC44791E71C0970A881A7329CE1",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 130615,
+        "SizeOnDisk": 130615,
+        "OffsetInFile": "0x13264D"
+      }
+    }
+  },
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_S_Water_Shallow_5x8'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.7"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "847D095E4F0099D4B67D0E9D205B3576",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 121215,
+        "SizeOnDisk": 121215,
+        "OffsetInFile": "0x152841"
+      }
+    }
+  },
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_LOD_S_Cliff_Inner146",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BaseFlattenMaterial'",
+        "ObjectPath": "Engine/Content/EngineMaterials/BaseFlattenMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "MetallicConst",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "16B059D0-44221A3F-374E1891-C270FC15"
+        },
+        {
+          "ParameterName": "RoughnessConst",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "D267A77E-41FA7EC1-5E9D5BAE-BBF80B38"
+        },
+        {
+          "ParameterName": "SpecularConst",
+          "ParameterValue": 0.075,
+          "ExpressionGUID": "28B5BE19-4FC55461-751117AD-2CD30525"
+        },
+        {
+          "ParameterName": "OpacityConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "54F848F8-429DCBC2-7FFE98BC-6B68D0FF"
+        },
+        {
+          "ParameterName": "OpacityMaskConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "E97FC7E1-48654DF8-73D2E8A2-879E06C7"
+        },
+        {
+          "ParameterName": "AmbientOcclusionConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "423DC731-407F9562-94B756BF-6321AC88"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "DiffuseTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_LOD_S_Cliff_Inner146_Diffuse'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.8"
+          },
+          "ExpressionGUID": "FA983522-483B48DB-7302F694-A9E59879"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_DitheredLODTransition": true,
+        "DitheredLODTransition": true
+      }
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_LOD_S_Water_Shallow_5x8",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BaseFlattenMaterial'",
+        "ObjectPath": "Engine/Content/EngineMaterials/BaseFlattenMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "MetallicConst",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "16B059D0-44221A3F-374E1891-C270FC15"
+        },
+        {
+          "ParameterName": "RoughnessConst",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "D267A77E-41FA7EC1-5E9D5BAE-BBF80B38"
+        },
+        {
+          "ParameterName": "SpecularConst",
+          "ParameterValue": 0.075,
+          "ExpressionGUID": "28B5BE19-4FC55461-751117AD-2CD30525"
+        },
+        {
+          "ParameterName": "OpacityConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "54F848F8-429DCBC2-7FFE98BC-6B68D0FF"
+        },
+        {
+          "ParameterName": "OpacityMaskConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "E97FC7E1-48654DF8-73D2E8A2-879E06C7"
+        },
+        {
+          "ParameterName": "AmbientOcclusionConst",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "423DC731-407F9562-94B756BF-6321AC88"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "DiffuseTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_LOD_S_Water_Shallow_5x8_Diffuse'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.9"
+          },
+          "ExpressionGUID": "FA983522-483B48DB-7302F694-A9E59879"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_S_Cliff_Inner146'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.6"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1A0C0F"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_LOD_S_Water_Shallow_5x8'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.7"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1A0C70"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_LOD_S_Cliff_Inner146",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_LOD_S_Cliff_Inner146'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.2"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 38629.86,
+            "LocalUVDensities[1]": 56130.383,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 38629.86,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -7427.995,
+          "Y": -5108.8545,
+          "Z": 1886.7615
+        },
+        "BoxExtent": {
+          "X": 9479.474,
+          "Y": 10766.96,
+          "Z": 2330.8708
+        },
+        "SphereRadius": 14333.204
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_LOD_S_Cliff_Inner146:BodySetup_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_LOD_S_Cliff_Inner146:NavCollision_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.4"
+    },
+    "LightingGuid": "8C125788-49C6C4E9-8EBD7C98-5897925A",
+    "RenderData": null
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_LOD_S_Water_Shallow_5x8",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_LOD_S_Water_Shallow_5x8'",
+            "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.3"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 76618.21,
+            "LocalUVDensities[1]": 99952.95,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 76618.21,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1709.6855,
+          "Y": 1010.19336,
+          "Z": 2013.5323
+        },
+        "BoxExtent": {
+          "X": 18632.969,
+          "Y": 16391.883,
+          "Z": 2846.1545
+        },
+        "SphereRadius": 24829.158
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_LOD_S_Water_Shallow_5x8:BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.1"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_LOD_S_Water_Shallow_5x8:NavCollision_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD.5"
+    },
+    "LightingGuid": "4126BEEF-4B071846-9913639C-FE51D7AE",
+    "RenderData": null
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "T_LOD_S_Cliff_Inner146_Diffuse",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 512
+      },
+      "LightingGuid": "17518539-4D8F6AF5-A46CC68A-5495FF64",
+      "LODGroup": "TEXTUREGROUP_HierarchicalLOD"
+    },
+    "SizeX": 512,
+    "SizeY": 512,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 131072,
+          "SizeOnDisk": 131072,
+          "OffsetInFile": "0x0"
+        },
+        "SizeX": 512,
+        "SizeY": 512,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x20000"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x28000"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x25F5D1"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x25FDF1"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0x260011"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0x2600B1"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x2600F1"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x260119"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x260141"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      }
+    ]
+  },
+  {
+    "Type": "Texture2D",
+    "Name": "T_LOD_S_Water_Shallow_5x8_Diffuse",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Texture2D'",
+    "Package": "FortniteGame/Content/Athena/Maps/POI/HLOD/Athena_POI_Swamp_001_HLOD",
+    "Properties": {
+      "ImportedSize": {
+        "X": 512,
+        "Y": 512
+      },
+      "LightingGuid": "1DDB3039-42D2FC01-944002AB-D4854C31",
+      "LODGroup": "TEXTUREGROUP_HierarchicalLOD"
+    },
+    "SizeX": 512,
+    "SizeY": 512,
+    "PackedData": 1,
+    "PixelFormat": "PF_DXT1",
+    "FirstMipToSerialize": 0,
+    "Mips": [
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 131072,
+          "SizeOnDisk": 131072,
+          "OffsetInFile": "0x2A000"
+        },
+        "SizeX": 512,
+        "SizeY": 512,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 32768,
+          "SizeOnDisk": 32768,
+          "OffsetInFile": "0x4A000"
+        },
+        "SizeX": 256,
+        "SizeY": 256,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_PayloadAtEndOfFile | BULKDATA_PayloadInSeperateFile | BULKDATA_Force_NOT_InlinePayload",
+          "ElementCount": 8192,
+          "SizeOnDisk": 8192,
+          "OffsetInFile": "0x52000"
+        },
+        "SizeX": 128,
+        "SizeY": 128,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 2048,
+          "SizeOnDisk": 2048,
+          "OffsetInFile": "0x2602B4"
+        },
+        "SizeX": 64,
+        "SizeY": 64,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 512,
+          "SizeOnDisk": 512,
+          "OffsetInFile": "0x260AD4"
+        },
+        "SizeX": 32,
+        "SizeY": 32,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 128,
+          "SizeOnDisk": 128,
+          "OffsetInFile": "0x260CF4"
+        },
+        "SizeX": 16,
+        "SizeY": 16,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 32,
+          "SizeOnDisk": 32,
+          "OffsetInFile": "0x260D94"
+        },
+        "SizeX": 8,
+        "SizeY": 8,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x260DD4"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x260DFC"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      },
+      {
+        "BulkData": {
+          "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+          "ElementCount": 8,
+          "SizeOnDisk": 8,
+          "OffsetInFile": "0x260E24"
+        },
+        "SizeX": 4,
+        "SizeY": 4,
+        "SizeZ": 1
+      }
+    ]
+  }
+]

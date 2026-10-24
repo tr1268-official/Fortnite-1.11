@@ -1,0 +1,331 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Vehicle_Athena_Bus_Apparatus_Winter'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus_Winter.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 217.88449,
+                "Y": 601.36566,
+                "Z": 41.509506
+              },
+              {
+                "X": 217.88449,
+                "Y": -327.1344,
+                "Z": 41.509502
+              },
+              {
+                "X": 217.88449,
+                "Y": -412.74045,
+                "Z": 127.11557
+              },
+              {
+                "X": 217.88449,
+                "Y": -412.74048,
+                "Z": 436.75946
+              },
+              {
+                "X": 217.88449,
+                "Y": -334.00952,
+                "Z": 515.4904
+              },
+              {
+                "X": 217.88449,
+                "Y": 280.50964,
+                "Z": 515.4905
+              },
+              {
+                "X": 217.88449,
+                "Y": 601.3656,
+                "Z": 194.63458
+              },
+              {
+                "X": -192.04561,
+                "Y": -442.20422,
+                "Z": 156.57924
+              },
+              {
+                "X": -192.04561,
+                "Y": -297.67065,
+                "Z": 12.04567
+              },
+              {
+                "X": -192.04561,
+                "Y": 630.8294,
+                "Z": 12.045661
+              },
+              {
+                "X": -192.04561,
+                "Y": 630.8295,
+                "Z": 165.1706
+              },
+              {
+                "X": -192.04561,
+                "Y": 239.29565,
+                "Z": 556.7044
+              },
+              {
+                "X": -192.04561,
+                "Y": -292.79538,
+                "Z": 556.7044
+              },
+              {
+                "X": -192.04561,
+                "Y": -442.20422,
+                "Z": 407.29553
+              },
+              {
+                "X": -169.2374,
+                "Y": 653.6377,
+                "Z": 2.7626843
+              },
+              {
+                "X": 165.61243,
+                "Y": 653.6377,
+                "Z": 2.7627478
+              },
+              {
+                "X": 165.61246,
+                "Y": 653.6377,
+                "Z": 142.36243
+              },
+              {
+                "X": -169.23737,
+                "Y": 653.6377,
+                "Z": 142.36243
+              },
+              {
+                "X": 166.35547,
+                "Y": -464.26947,
+                "Z": 178.6446
+              },
+              {
+                "X": -169.98035,
+                "Y": -464.26947,
+                "Z": 178.6445
+              },
+              {
+                "X": -169.9804,
+                "Y": -464.26947,
+                "Z": 385.23035
+              },
+              {
+                "X": 166.35548,
+                "Y": -464.26947,
+                "Z": 385.2305
+              },
+              {
+                "X": -171.7015,
+                "Y": 218.9516,
+                "Z": 577.0485
+              },
+              {
+                "X": 156.32645,
+                "Y": 218.9516,
+                "Z": 577.0485
+              },
+              {
+                "X": 156.32642,
+                "Y": -272.4514,
+                "Z": 577.0485
+              },
+              {
+                "X": -171.7015,
+                "Y": -272.45132,
+                "Z": 577.0485
+              },
+              {
+                "X": -175.75864,
+                "Y": -281.38367,
+                "Z": -4.2413187
+              },
+              {
+                "X": 172.13364,
+                "Y": -281.3836,
+                "Z": -4.2413187
+              },
+              {
+                "X": 172.13364,
+                "Y": 646.6337,
+                "Z": -4.2413187
+              },
+              {
+                "X": -175.75864,
+                "Y": 646.63367,
+                "Z": -4.2413187
+              },
+              {
+                "X": -176.00003,
+                "Y": 646.87506,
+                "Z": -3.999905
+              },
+              {
+                "X": 172.37508,
+                "Y": 646.8751,
+                "Z": -3.9999034
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -192.04561,
+                "Y": -464.26947,
+                "Z": -4.2413187
+              },
+              "Max": {
+                "X": 217.88449,
+                "Y": 653.6377,
+                "Z": 577.0485
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "6F8B54464C7D7A4C1940E8AAC02C74C1",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 368146,
+        "SizeOnDisk": 368146,
+        "OffsetInFile": "0x1826CE"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Vehicle_Athena_Bus_Apparatus_Winter'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus_Winter.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1801,
+        "SizeOnDisk": 1801,
+        "OffsetInFile": "0x1DC528"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Vehicle_Athena_Bus_Apparatus_Winter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus_Winter",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_LauchTheBalloon_Apparatus'",
+            "ObjectPath": "FortniteGame/Content/Missions/Primary/LaunchTheBalloon/Materials/M_LauchTheBalloon_Apparatus.0"
+          },
+          "MaterialSlotName": "balloon",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1176.526,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1176.526,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 12.919479,
+          "Y": 94.68417,
+          "Z": 286.4036
+        },
+        "BoxExtent": {
+          "X": 204.86502,
+          "Y": 558.85364,
+          "Z": 290.54492
+        },
+        "SphereRadius": 649.98956
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Vehicle_Athena_Bus_Apparatus_Winter:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus_Winter.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Vehicle_Athena_Bus_Apparatus_Winter:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus_Winter.1"
+    },
+    "LightingGuid": "B81950C0-46D3DDAB-222E2693-4C2A0FA8",
+    "RenderData": null
+  }
+]

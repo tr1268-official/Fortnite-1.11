@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "SID_Sniper_Standard_Scope_Athena_SR_Ore_T03",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Schematics/Weapons/SID_Sniper_Standard_Scope_Athena_SR_Ore_T03",
+    "Properties": {
+      "CraftingRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'CraftingRecipes_New'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/CraftingRecipes_New.0"
+        },
+        "RowName": "Ammo.Shells"
+      },
+      "CraftingPoints": 1235,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "CraftingTimeRowName": "Craft_Tier_4",
+      "DefaultAlterationSlots": [
+        {
+          "Type": "EFortAlteration::GameplaySlot",
+          "NumSlots": 1
+        },
+        {
+          "Type": "EFortAlteration::AttributeSlot",
+          "NumSlots": 5
+        }
+      ],
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "SuperRare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "SuperRare"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Ranged.SR.T03"
+      },
+      "ConversionRecipes": [
+        {
+          "DataTable": null,
+          "RowName": "None"
+        },
+        {
+          "DataTable": null,
+          "RowName": "None"
+        }
+      ],
+      "MinLevel": 20,
+      "MaxLevel": 30,
+      "GameplayTags": [
+        "weapon.ranged.sniper"
+      ],
+      "bNeverPersisted": true,
+      "MaxTier": "EFortItemTier::V",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_SR_T03"
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

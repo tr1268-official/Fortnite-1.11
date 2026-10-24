@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Fort_SupplyDrop_Appear_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Appear_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeDelay'Fort_SupplyDrop_Appear_Athena_Cue:SoundNodeDelay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Appear_Athena_Cue.1"
+      },
+      "VolumeMultiplier": 1.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Mission_Ingame_Important_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Mission_Ingame_Important_PSM.0"
+      },
+      "Duration": 6.1923127,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_SupplyDrop_Alert_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Alert_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Appear_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Appear_Athena_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 1.0,
+      "DelayMax": 1.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Fort_SupplyDrop_Appear_Athena_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Appear_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Appear_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Appear_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/SupplyDrops/sfx_supplydrop_appear.sfx_supplydrop_appear",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_supplydrop_appear'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/sfx_supplydrop_appear.0"
+    }
+  }
+]

@@ -1,0 +1,1392 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaTeamMemberIndicator_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaTeamMemberIndicator_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.65"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Team/AthenaTeamMemberIndicator.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaTeamMemberIndicator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaTeamMemberIndicatorBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaTeamMemberIndicator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.0"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Player Names Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.37"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Reviving Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.15"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team DBNO Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.12"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.11"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.10"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.8"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Update Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.7"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:CapturePlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.6"
+      },
+      {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:PlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:Player State'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.49"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaTeamMemberIndicator_C:Team Member Index'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.44"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaTeamMemberIndicator": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+      },
+      "CapturePlayerName": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:CapturePlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.6"
+      },
+      "Update Pawn": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Update Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.7"
+      },
+      "Destruct": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.8"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.10"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.11"
+      },
+      "On Team DBNO Changed": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team DBNO Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.12"
+      },
+      "On Team Reviving Changed": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Reviving Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.15"
+      },
+      "On Team Talking Changed": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+      },
+      "On Team Player Names Changed": {
+        "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Player Names Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.37"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaTeamMemberIndicator_C'Default__AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.2"
+    }
+  },
+  {
+    "Type": "AthenaTeamMemberIndicator_C",
+    "Name": "Default__AthenaTeamMemberIndicator_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.AthenaTeamMemberIndicator_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator",
+    "Properties": {
+      "UberGraphFrame": {},
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 120.0
+      },
+      "MaxDistance": 100000000.0,
+      "bClampOnScreen": true,
+      "bShowClampToScreenArrow": true,
+      "bCanEverPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DBNOIndicator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberDBNOState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberDBNOState.1"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaTeamMemberIndicator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.45"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.29"
+      },
+      {
+        "ObjectName": "StrProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.CallFunc_GetPlayerName_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.54"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.58"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.30"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.55"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.34"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_CreateDelegate_OutputDelegate3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.CallFunc_GetCurrentPawn_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.46"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_CreateDelegate_OutputDelegate4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_DynamicCast_AsFort_Player_Pawn_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.47"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.25"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.CallFunc_IsDBNO_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.24"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator.K2Node_CreateDelegate_OutputDelegate5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.33"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "CapturePlayerName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Pawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Destruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.10"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaTeamMemberIndicator_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.9"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaTeamMemberIndicator_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.36"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "On Team DBNO Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team DBNO Changed.DBNOStates'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.14"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team DBNO Changed.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DBNOStates",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team DBNO Changed.DBNOStates'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "DBNOStates",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team DBNO Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team DBNO Changed.DBNOStates.DBNOStates'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.13"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "On Team Reviving Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team Reviving Changed.Team Reviving'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.17"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team Reviving Changed.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.27"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Team Reviving",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team Reviving Changed.Team Reviving'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Team Reviving",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Reviving Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team Reviving Changed.Team Reviving.Team Reviving'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.16"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "On Team Talking Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.Team Talking'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.CallFunc_GetDynamicFontMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.48"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.28"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.CallFunc_SelectFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.35"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Team Talking",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.Team Talking'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.20"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Team Talking",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "BoolProperty'AthenaTeamMemberIndicator_C:On Team Talking Changed.Team Talking.Team Talking'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.19"
+    }
+  },
+  {
+    "Type": "AthenaTeamMemberDBNOState_C",
+    "Name": "DBNOIndicator",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberDBNOState.AthenaTeamMemberDBNOState_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTeamMemberIndicator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.65"
+    },
+    "Template": {
+      "ObjectName": "AthenaTeamMemberDBNOState_C'Default__AthenaTeamMemberDBNOState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberDBNOState.2"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.40"
+      }
+    }
+  },
+  {
+    "Type": "AthenaTeamMemberDBNOState_C",
+    "Name": "DBNOIndicator",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberDBNOState.AthenaTeamMemberDBNOState_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.66"
+    },
+    "Template": {
+      "ObjectName": "AthenaTeamMemberDBNOState_C'Default__AthenaTeamMemberDBNOState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberDBNOState.2"
+    },
+    "Properties": {
+      "DBNOIndicator": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.42"
+      },
+      "ImageTimer": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.43"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.67"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.41"
+      }
+    }
+  },
+  {
+    "Type": "AthenaTeamMemberIndicator_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.AthenaTeamMemberIndicator_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator",
+    "Template": {
+      "ObjectName": "AthenaTeamMemberIndicator_C'Default__AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.2"
+    },
+    "Properties": {
+      "DBNOIndicator": {
+        "ObjectName": "AthenaTeamMemberDBNOState_C'WidgetArchetype:WidgetTree_0.DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.22"
+      },
+      "PlayerName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.PlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.57"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.66"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsDBNO_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team DBNO Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Reviving Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnAthenaHUDSquadMemberDBNOChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnAthenaHUDSquadMemberRevivingChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnCurrentPawnChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnAthenaHUDSquadMemberTalkingChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnAthenaHUDSquadPlayerNamesChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SelectFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.10"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "On Team Player Names Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTeamMemberIndicator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.65"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.40"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.62"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.38"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.38"
+      },
+      "Content": {
+        "ObjectName": "AthenaTeamMemberDBNOState_C'AthenaTeamMemberIndicator_C:WidgetTree.DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.21"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.39"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.39"
+      },
+      "Content": {
+        "ObjectName": "AthenaTeamMemberDBNOState_C'WidgetArchetype:WidgetTree_0.DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.22"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DBNOIndicator",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.67"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'M_Dying_Indicator'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.52"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageTimer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.67"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Progress_Revive'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/MI_Progress_Revive.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.53"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Team Member Index",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetCurrentPawn_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawnAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicFontMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:On Team Talking Changed'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Player State",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | ExposeOnSpawn",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerStateAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.67"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.52"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.DBNOIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.42"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.ImageTimer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.43"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetPlayerName_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StrProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "PlayerName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTeamMemberIndicator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.65"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85267FBD424E0CDB721F1EBC2CF61308",
+        "SourceString": "{PlayerName}",
+        "LocalizedString": "{PlayerName}"
+      },
+      "Font": {
+        "FontMaterial": {
+          "ObjectName": "Material'M_Font_PlayerIndicator'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "Size": 12
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.61"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "PlayerName",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.66"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85267FBD424E0CDB721F1EBC2CF61308",
+        "SourceString": "{PlayerName}",
+        "LocalizedString": "{PlayerName}"
+      },
+      "Font": {
+        "FontMaterial": {
+          "ObjectName": "Material'M_Font_PlayerIndicator'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "Size": 12
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.63"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTeamMemberIndicator_C:ExecuteUbergraph_AthenaTeamMemberIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.5"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTeamMemberIndicator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.65"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.62"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.61"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.66"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.64"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_2.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.63"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'AthenaTeamMemberIndicator_C:WidgetTree.PlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.56"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.60"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.60"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.PlayerName'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.57"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.60"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.60"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.39"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTeamMemberIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "VerticalBox'AthenaTeamMemberIndicator_C:WidgetTree.VerticalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.59"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTeamMemberIndicator_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.38"
+        },
+        {
+          "ObjectName": "AthenaTeamMemberDBNOState_C'AthenaTeamMemberIndicator_C:WidgetTree.DBNOIndicator'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.21"
+        },
+        {
+          "ObjectName": "TextBlock'AthenaTeamMemberIndicator_C:WidgetTree.PlayerName'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaTeamMemberIndicator_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.23"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.60"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaTeamMemberDBNOState_C'WidgetArchetype:WidgetTree_0.DBNOIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.22"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.51"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.DBNOIndicator'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.42"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DBNOIndicator.WidgetTree_1.ImageTimer'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTeamMemberIndicator.43"
+        }
+      ]
+    }
+  }
+]

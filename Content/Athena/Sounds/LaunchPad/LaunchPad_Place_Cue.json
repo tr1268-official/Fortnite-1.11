@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "LaunchPad_Place_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Place_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'LaunchPad_Place_Cue:SoundNodeWavePlayer_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Place_Cue.1"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Traps'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Traps.0"
+      },
+      "Duration": 2.769229,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Traps_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Traps_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Place_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Place_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/sfx_LaunchPad_Place.sfx_LaunchPad_Place",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_LaunchPad_Place'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/sfx_LaunchPad_Place.0"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+class UAthena_POI_FarmStead_002_C : public UFortLevelScriptActor;

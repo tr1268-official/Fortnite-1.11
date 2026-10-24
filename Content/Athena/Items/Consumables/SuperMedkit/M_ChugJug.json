@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_ChugJug",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/M_ChugJug",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "EmissiveTexture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ChugJug_Emissive'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/T_ChugJug_Emissive.0"
+          },
+          "ExpressionGUID": "FD276D72-4F3D43ED-70EE378F-84FE57BB"
+        },
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ChugJug_Spec'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/T_ChugJug_Spec.0"
+          },
+          "ExpressionGUID": "103ACF17-4BFB1563-57057D9A-113F7380"
+        },
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ChugJug_Diffuse'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/T_ChugJug_Diffuse.0"
+          },
+          "ExpressionGUID": "4A6A9316-4C1DC571-E0C1F186-9E51A1F2"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_ChugJug_Normal'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/T_ChugJug_Normal.0"
+          },
+          "ExpressionGUID": "7650772D-491D02AB-11CA18BF-6826813F"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "EmissiveMultiplier",
+          "ParameterValue": {
+            "R": 0.5,
+            "G": 0.5,
+            "B": 0.5,
+            "A": 1.0,
+            "Hex": "BCBCBC"
+          },
+          "ExpressionGUID": "98AB8AD4-4C961810-0EE83F83-B166125B"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_TwoSided": true,
+        "TwoSided": true
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ChugJug_Diffuse"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ChugJug_Emissive"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ChugJug_Normal"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_ChugJug_Spec"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

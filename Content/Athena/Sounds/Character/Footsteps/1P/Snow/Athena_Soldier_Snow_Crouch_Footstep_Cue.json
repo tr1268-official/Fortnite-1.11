@@ -1,0 +1,369 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Soldier_Snow_Crouch_Footstep_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeModulator_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.1"
+      },
+      "VolumeMultiplier": 0.3,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_1P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_1P_Athena.0"
+      },
+      "SoundConcurrencySettings": {
+        "ObjectName": "SoundConcurrency'Athena_Footstep_Conc'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Concurrency_Rules/Athena_Footstep_Conc.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.0657083,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_Footsteps_Crouched_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_Footsteps_Crouched_Athena_Att.0"
+      },
+      "Priority": 0.5
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.12"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.13"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.14"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Snow_Crouch_Footstep_Cue:SoundNodeWavePlayer_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_01.Soldier_Step_Walk_Snow_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_02.Soldier_Step_Walk_Snow_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_03.Soldier_Step_Walk_Snow_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_04.Soldier_Step_Walk_Snow_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_05.Soldier_Step_Walk_Snow_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_05.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_06.Soldier_Step_Walk_Snow_06",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_06'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_06.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_07.Soldier_Step_Walk_Snow_07",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_07'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_07.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_08.Soldier_Step_Walk_Snow_08",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_08'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_08.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_09.Soldier_Step_Walk_Snow_09",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_09'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_09.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_10.Soldier_Step_Walk_Snow_10",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_10'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_10.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_11.Soldier_Step_Walk_Snow_11",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_11'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_11.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Snow_Crouch_Footstep_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Snow/Athena_Soldier_Snow_Crouch_Footstep_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_12.Soldier_Step_Walk_Snow_12",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Snow_12'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Snow_12.0"
+    }
+  }
+]

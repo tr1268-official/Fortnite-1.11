@@ -1,0 +1,114 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "AthenaDailyQuest_PlayerEliminationSMGs",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/DailyQuests/AthenaDailyQuest_PlayerEliminationSMGs",
+    "Properties": {
+      "QuestType": "EFortQuestType::AthenaDailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        },
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalBP.AthenaSeasonalBP",
+            "SubPathString": ""
+          },
+          "Quantity": 5
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "athena_daily_kill_players_smg_v2",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "killingblow_athena_player_smg"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "14E09C8C4D4CBEF91AB87B801B91FD19",
+            "SourceString": "SMG Eliminations",
+            "LocalizedString": "SMG Eliminations"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "DF1FF81B4FBC12D810BAE7B3D99D10B3",
+            "SourceString": "SMG Eliminations",
+            "LocalizedString": "SMG Eliminations"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Weight": 0.75,
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "BRDailyChallenges"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "ED9D96B843CAB3872A200DB264EBC659",
+        "SourceString": "Daily Challenge Completed!",
+        "LocalizedString": "Daily Challenge Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "C7F164F5452224514EAE108E58FEEE5E",
+        "SourceString": "SMG Eliminations",
+        "LocalizedString": "SMG Eliminations"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E87CEE7E45833D4E978EBD8686A0D371",
+        "SourceString": "SMG Eliminations",
+        "LocalizedString": "SMG Eliminations"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Exterminate-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.T-Icon-Exterminate-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

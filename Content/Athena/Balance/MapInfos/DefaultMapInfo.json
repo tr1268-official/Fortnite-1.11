@@ -1,0 +1,1087 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "DefaultMapInfo_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'DefaultMapInfo_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaMapInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DefaultMapInfo_C'Default__DefaultMapInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.1"
+    }
+  },
+  {
+    "Type": "DefaultMapInfo_C",
+    "Name": "Default__DefaultMapInfo_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.DefaultMapInfo_C'",
+    "Package": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo",
+    "Properties": {
+      "TreasureChestClass": {
+        "ObjectName": "BlueprintGeneratedClass'Tiered_Chest_6_Parent_C'",
+        "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Containers/Tiered_Chest_6_Parent.1"
+      },
+      "TreasureChestMinSpawnPercent": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.TreasureChest.MinSpawnPercent"
+        }
+      },
+      "TreasureChestMaxSpawnPercent": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.TreasureChest.MaxSpawnPercent"
+        }
+      },
+      "SupplyDropClass": {
+        "ObjectName": "BlueprintGeneratedClass'AthenaSupplyDrop_02_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/AthenaSupplyDrop_02.1"
+      },
+      "SupplyDropMinPlacementHeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SupplyDrop.MinPlacementHeight"
+        }
+      },
+      "SupplyDropMaxPlacementHeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SupplyDrop.MaxPlacementHeight"
+        }
+      },
+      "SupplyDropTimeInterval": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SupplyDrop.TimeInterval"
+        }
+      },
+      "SupplyDropTimeDeviation": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SupplyDrop.TimeDeviation"
+        }
+      },
+      "AircraftClass": {
+        "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+      },
+      "AircraftSpawnZone": {
+        "Min": {
+          "X": -150000.0,
+          "Y": -150000.0
+        },
+        "Max": {
+          "X": 150000.0,
+          "Y": 150000.0
+        },
+        "bIsValid": 1
+      },
+      "AircraftDropZone": {
+        "Min": {
+          "X": -80000.0,
+          "Y": -80000.0
+        },
+        "Max": {
+          "X": 80000.0,
+          "Y": 80000.0
+        },
+        "bIsValid": 1
+      },
+      "SkydivingScanForImpactWorldZ": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.Skydiving.ScanForImpactWorldZ"
+        }
+      },
+      "SkydivingForceDeployParachuteWorldZ": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.Skydiving.ForceDeployParachuteWorldZ"
+        }
+      },
+      "AircraftDeviationAngle": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.Aircraft.DeviationAngle"
+        }
+      },
+      "AircraftHeight": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.Aircraft.Height"
+        }
+      },
+      "AircraftSpeed": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.Aircraft.Speed"
+        }
+      },
+      "SafeZoneStartDelay": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SafeZone.StartDelay"
+        }
+      },
+      "SafeZoneStartingRadius": {
+        "Value": 1.0,
+        "Curve": {
+          "CurveTable": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+          },
+          "RowName": "Default.SafeZone.StartingRadius"
+        }
+      },
+      "SafeZoneDefinitions": [
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.00.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.00.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.00.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.01.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.01.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.01.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.02.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.02.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.02.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.03.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.03.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.03.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.04.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.04.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.04.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.05.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.05.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.05.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.06.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.06.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.06.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.07.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.07.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.07.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.08.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.08.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.08.SupplyDropMaxCount"
+            }
+          }
+        },
+        {
+          "Radius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.Radius"
+            }
+          },
+          "RejectRadius": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.RejectRadius"
+            }
+          },
+          "WaitTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.WaitTime"
+            }
+          },
+          "ShrinkTime": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.ShrinkTime"
+            }
+          },
+          "FiftyFiftyWaitTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.09.FiftyFiftyWaitTimeScale"
+            }
+          },
+          "FiftyFiftyShrinkTimePlayerRatioScale": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaFiftyFiftySafeZoneTimeScaling'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaFiftyFiftySafeZoneTimeScaling.0"
+              },
+              "RowName": "Default.SafeZone.09.FiftyFiftyShrinkTimeScale"
+            }
+          },
+          "SupplyDropMinCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.SupplyDropMinCount"
+            }
+          },
+          "SupplyDropMaxCount": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": {
+                "ObjectName": "CurveTable'AthenaGameData'",
+                "ObjectPath": "FortniteGame/Content/Athena/Balance/DataTables/AthenaGameData.0"
+              },
+              "RowName": "Default.SafeZone.09.SupplyDropMaxCount"
+            }
+          }
+        }
+      ],
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__DefaultMapInfo_C:RootComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.2"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "DefaultMapInfo_C'Default__DefaultMapInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DefaultMapInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'DefaultMapInfo_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'DefaultMapInfo_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.3"
+      },
+      "VariableGuid": "A2A0D951-4ABC9CBE-02E2CEA0-6555638A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'DefaultMapInfo_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'DefaultMapInfo_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Balance/MapInfos/DefaultMapInfo.4"
+      }
+    }
+  }
+]

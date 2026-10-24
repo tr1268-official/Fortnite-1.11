@@ -1,0 +1,308 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Weapon_Tactical_SMG_AutoSF_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeMixer_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.4"
+      },
+      "VolumeMultiplier": 1.2,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponMelee_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponMelee_PSM.0"
+      },
+      "bDebug": true,
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 2.769229
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_118",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeModulator_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_119",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Medium_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Medium_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_120",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Distant_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Distant_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeModulator_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        2.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeSoundClass_77'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeSoundClass_76'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.1
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeAttenuation_119'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeAttenuation_120'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeWavePlayer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.1,
+      "PitchMax": 1.2,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.1,
+      "PitchMax": 1.2,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_76",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_Distant'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_Distant.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeMixer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_Tactical_SMG_AutoSF_Athena_Cue:SoundNodeAttenuation_118'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_medium.sfx_tacsmg_singlefire_medium",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_tacsmg_singlefire_medium'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_medium.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_close.sfx_tacsmg_singlefire_close",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_tacsmg_singlefire_close'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_close.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_Tactical_SMG_AutoSF_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/Weapon_Tactical_SMG_AutoSF_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_distant.sfx_tacsmg_singlefire_distant",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_tacsmg_singlefire_distant'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Tactical_SMG/sfx_tacsmg_singlefire_distant.0"
+    }
+  }
+]

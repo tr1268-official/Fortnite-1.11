@@ -1,0 +1,140 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Prop_Fish_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Prop_Fish_C:SimpleConstructionScript_333'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingProp'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Prop_Fish_C'Default__Athena_Prop_Fish_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.1"
+    }
+  },
+  {
+    "Type": "Athena_Prop_Fish_C",
+    "Name": "Default__Athena_Prop_Fish_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.Athena_Prop_Fish_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_SM_Prop_Ranger_Fish'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.2"
+      },
+      "bPropagatesBounceEffects": true,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Fish_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.5"
+      },
+      "BuildingResourceAmountOverride": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResourceRates'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/ResourceRates.0"
+        },
+        "RowName": "ResourceNone"
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_General_Deco_Destruction_Medium'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Base_Effects/P_General_Deco_Destruction_Medium.38"
+      },
+      "BuildingAttachmentType": "ATTACH_Wall",
+      "AttributeInitKey": {
+        "AttributeInitCategory": "BuildingDeco",
+        "AttributeInitSubCategory": "1"
+      },
+      "NavigationObstacleOverride": "ENavigationObstacleOverride::ForceEnabled",
+      "bCanExportNavigationCollisions": true,
+      "bDoNotBlockBuildings": true,
+      "bDestroyOnPlayerBuildingPlacement": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Fish_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_1433",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Fish_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1437",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Prop_Fish_C:SimpleConstructionScript_333'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Prop_Fish_C:SceneComponent_1433'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.2"
+      },
+      "VariableGuid": "4D3A059E-00000000-00000000-00000000",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_333",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Fish_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Prop_Fish_C:SimpleConstructionScript_333.SCS_Node_1437'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Prop_Fish_C'Default__Athena_Prop_Fish_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Fish.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_SM_Prop_Ranger_Fish'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.2"
+      },
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "bAutoWeld": false
+      }
+    }
+  }
+]

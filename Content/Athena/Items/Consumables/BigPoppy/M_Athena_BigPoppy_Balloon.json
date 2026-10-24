@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Athena_BigPoppy_Balloon",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon",
+    "Properties": {
+      "BaseColor": null,
+      "bUsedWithSkeletalMesh": true,
+      "EditorX": 304,
+      "EditorY": 16,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Athena_BigPoppy_Balloon:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon.1"
+        },
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "0ACB3433-43F0B6C0-2DF0EDA0-FEFE9D95"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Athena_BigPoppy_Balloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 31,
+        "ExpressionName": "/Game/Athena/Items/Consumables/BigPoppy/T_Athena_BigPoppy_Balloon_48"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Athena_BigPoppy_Balloon'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/T_Athena_BigPoppy_Balloon.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Athena_BigPoppy_Balloon'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon.0"
+      }
+    }
+  }
+]

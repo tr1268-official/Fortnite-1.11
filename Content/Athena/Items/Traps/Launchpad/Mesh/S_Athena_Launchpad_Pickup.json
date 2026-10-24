@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_Launchpad_Pickup'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad_Pickup.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "284C1A0E4EFF6C0BAFF1BA9A187ECC5A",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 243285,
+        "SizeOnDisk": 243285,
+        "OffsetInFile": "0xDF2AD"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_Launchpad_Pickup'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad_Pickup.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x11A94A"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Athena_Launchpad_Pickup",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad_Pickup",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_VTech_Trampoline'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Materials/M_VTech_Trampoline.0"
+          },
+          "MaterialSlotName": "01 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 60.71256,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_VTechLogo_Glow'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Vindertech/Materials/M_VTechLogo_Glow.0"
+          },
+          "MaterialSlotName": "blue",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 13.288691,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 60.056885,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 0.16851807,
+          "Z": 6.743111
+        },
+        "BoxExtent": {
+          "X": 27.312424,
+          "Y": 27.31242,
+          "Z": 6.485641
+        },
+        "SphereRadius": 28.203163
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Athena_Launchpad_Pickup:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad_Pickup.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Athena_Launchpad_Pickup:NavCollision_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Launchpad/Mesh/S_Athena_Launchpad_Pickup.1"
+    },
+    "LightingGuid": "9A2FF128-49107EB3-A1747482-07852439",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,605 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Character_Walk_Footstep_Water_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeMixer_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.1"
+      },
+      "VolumeMultiplier": 0.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_1P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_1P_Athena.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.743625,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_Footsteps_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_Footsteps_Athena_Att.0"
+      },
+      "Priority": 0.5
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        0.1,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeModulator_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeModulator_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.7,
+      "PitchMax": 1.0,
+      "VolumeMin": 0.3,
+      "VolumeMax": 1.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeRandom_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.11"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.12"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.13"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_31'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.14"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_32'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.15"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_33'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.16"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_34'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.17"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_35'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.18"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_36'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.19"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_37'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.21"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.22"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.23"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.24"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_Walk_Footstep_Water_Cue:SoundNodeWavePlayer_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_005.Commando_Foley_Stereo_005",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_005'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_005.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_009.Commando_Foley_Stereo_009",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_009'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_009.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Water_05.Soldier_Step_Run_Water_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Water_05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Water_05.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_10.Soldier_Step_Walk_Water_10",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_10'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_10.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_11.Soldier_Step_Walk_Water_11",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_11'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_11.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_12.Soldier_Step_Walk_Water_12",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_12'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_12.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_01.Soldier_Step_Walk_Water_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_02.Soldier_Step_Walk_Water_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_03.Soldier_Step_Walk_Water_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_04.Soldier_Step_Walk_Water_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_05.Soldier_Step_Walk_Water_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_05.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_06.Soldier_Step_Walk_Water_06",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_06'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_06.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_07.Soldier_Step_Walk_Water_07",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_07'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_07.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_36",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_08.Soldier_Step_Walk_Water_08",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_08'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_08.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_09.Soldier_Step_Walk_Water_09",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Walk_Water_09'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Walk_Water_09.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_006.Commando_Foley_Stereo_006",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_006'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_006.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_008.Commando_Foley_Stereo_008",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_008'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_008.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_001.Commando_Foley_Stereo_001",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_001'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_001.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_Walk_Footstep_Water_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Water/Athena_Character_Walk_Footstep_Water_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_003.Commando_Foley_Stereo_003",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Foley_Stereo_003'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Foley_Stereo_003.0"
+    }
+  }
+]

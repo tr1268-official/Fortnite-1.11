@@ -1,0 +1,272 @@
+[
+  {
+    "Type": "MaterialExpressionLandscapeLayerCoords",
+    "Name": "MaterialExpressionLandscapeLayerCoords_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionLandscapeLayerCoords'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "MappingScale": 1525.0,
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_30",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CheapContrast'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.1"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "95C9DA0E-48D34168-E34AD3A6-07BAA34E",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "3C3E177E-485D8FFF-C35D1482-F0A20020",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Class_1953394498",
+            "Mask": 1953718642,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_12799"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "5067ED8C-4A2EFE82-DB33F99E-BE37E80E",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "DefaultValue": -2.0,
+      "ParameterName": "GrassColorMaskContrast",
+      "ExpressionGUID": "DBDBA2C2-4404D95D-A24F35A4-70E8D99B",
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObject",
+    "Name": "MaterialExpressionTextureObject_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureObject'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Athena_Terrain_Mask'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Textures/T_Athena_Terrain_Mask.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 47,
+        "ExpressionName": "CheapContrast_72"
+      },
+      "TextureObject": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 47,
+        "ExpressionName": "/Script/Engine_70"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Athena_Terrain_Mask'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Textures/T_Athena_Terrain_Mask.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 3.0,
+        "G": 2.337033,
+        "B": 1.38,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "HighLight",
+      "ExpressionGUID": "D1E0E288-43177825-A646CCBA-275FFEC9",
+      "Group": "Terrain_Color",
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.9,
+        "G": 0.9,
+        "B": 0.9,
+        "A": 0.0,
+        "Hex": "F4F4F4"
+      },
+      "ParameterName": "EdgeDark",
+      "ExpressionGUID": "D6A3E66D-497AE0E6-3EA5008D-AA69D59F",
+      "Group": "Terrain_Color",
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_TerrainColorVariation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.7"
+      }
+    }
+  },
+  {
+    "Type": "MaterialFunction",
+    "Name": "MF_TerrainColorVariation",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialFunction'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation",
+    "Properties": {
+      "StateId": "BC9E63B0-47C638F2-782D1CAA-AEDF93A3",
+      "FunctionExpressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionLandscapeLayerCoords'MF_TerrainColorVariation:MaterialExpressionLandscapeLayerCoords_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.0"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'MF_TerrainColorVariation:MaterialExpressionTextureSample_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.4"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MF_TerrainColorVariation:MaterialExpressionVectorParameter_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MF_TerrainColorVariation:MaterialExpressionVectorParameter_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.6"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureObject'MF_TerrainColorVariation:MaterialExpressionTextureObject_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.3"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_TerrainColorVariation:MaterialExpressionMaterialFunctionCall_30'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MF_TerrainColorVariation:MaterialExpressionScalarParameter_66'",
+          "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MF_TerrainColorVariation.2"
+        }
+      ]
+    }
+  }
+]

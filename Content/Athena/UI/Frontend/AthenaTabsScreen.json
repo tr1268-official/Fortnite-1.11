@@ -1,0 +1,2614 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaTabsScreen_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaTabsScreen_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.76"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Frontend/AthenaTabsScreen.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'AthenaTabsScreen_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.28"
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaTabsScreen_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaTabsScreenBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaTabsScreen_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.0"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.34"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:OnActivated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.19"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.18"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.17"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.15"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:OnDeactivated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.13"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabContentCreated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.12"
+      },
+      {
+        "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:TopTabContentWidgetSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.3"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:LastActiveTabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.31"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaTabsScreen_C:UnclaimedResearchBangThreshold'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.30"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaTabsScreen_C:UnclaimedResearchPointsHandle'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.66"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaTabsScreen": {
+        "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+      },
+      "HandleTabContentCreated": {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabContentCreated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.12"
+      },
+      "OnDeactivated": {
+        "ObjectName": "Function'AthenaTabsScreen_C:OnDeactivated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.13"
+      },
+      "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature": {
+        "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.15"
+      },
+      "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature": {
+        "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.17"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaTabsScreen_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.18"
+      },
+      "OnActivated": {
+        "ObjectName": "Function'AthenaTabsScreen_C:OnActivated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.19"
+      },
+      "HandleTabCreated": {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+      },
+      "HandleTabSelected": {
+        "ObjectName": "Function'AthenaTabsScreen_C:HandleTabSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.34"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaTabsScreen_C'Default__AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.2"
+    }
+  },
+  {
+    "Type": "AthenaTabsScreen_C",
+    "Name": "Default__AthenaTabsScreen_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.AthenaTabsScreen_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen",
+    "Properties": {
+      "UberGraphFrame": {},
+      "UnclaimedResearchBangThreshold": 0.75,
+      "UnclaimedResearchPointsHandle": {
+        "Handle": 0
+      },
+      "FeaturesTabsMap": [
+        {
+          "Key": "EFortUIFeature::ShowPlay",
+          "Value": "Lobby"
+        },
+        {
+          "Key": "EFortUIFeature::ShowMainStore",
+          "Value": "AthenaStore"
+        }
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TopTabContentWidgetSwitcher",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonWidgetSwitcher'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaTabsScreen",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.4"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.29"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_ComponentBoundEvent_TabId2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.48"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_ComponentBoundEvent_TabButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.51"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_ComponentBoundEvent_TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.47"
+      },
+      {
+        "ObjectName": "ArrayProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_MakeArray_Array'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.7"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_CustomEvent_TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_CustomEvent_TabWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.52"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_DynamicCast_AsStore_Main_Root'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.53"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.10"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.CallFunc_EqualEqual_NameName_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StrProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.7"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StrProperty'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.6"
+    }
+  },
+  {
+    "Type": "AthenaTabsScreen_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.AthenaTabsScreen_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen",
+    "Template": {
+      "ObjectName": "AthenaTabsScreen_C'Default__AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.2"
+    },
+    "Properties": {
+      "TopTabContentWidgetSwitcher": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.TopTabContentWidgetSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.27"
+      },
+      "TopTabList": {
+        "ObjectName": "HorizontalTabList_C'WidgetArchetype:WidgetTree_0.TopTabList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.44"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.77"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabContentCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTabContentCreated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:HandleTabContentCreated.TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:HandleTabContentCreated.TabWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.54"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDeactivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonActivatablePanel:OnDeactivated'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature.TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.17"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature.TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature.TabButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.50"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnActivated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonActivatablePanel:OnActivated'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTabCreated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:HandleTabCreated.TabId'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:HandleTabCreated.TabButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTabsScreen_C:HandleTabCreated.K2Node_DynamicCast_AsIcon_Tab_Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.55"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTabsScreen_C:HandleTabCreated.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.23"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTabsScreen_C:HandleTabCreated.CallFunc_EqualEqual_NameName_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.22"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTabsScreen_C:HandleTabCreated.CallFunc_TextToUpper_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.67"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_NameName_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "NextTabAction",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.63"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "PreviousTabAction",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.64"
+      }
+    }
+  },
+  {
+    "Type": "CommonWidgetSwitcher",
+    "Name": "TopTabContentWidgetSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTabsScreen_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.76"
+    },
+    "Properties": {
+      "TransitionDuration": 0.0,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTabsScreen_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.71"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'AthenaTabsScreen_C:WidgetTree.TopTabContentWidgetSwitcher.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.74"
+      }
+    }
+  },
+  {
+    "Type": "CommonWidgetSwitcher",
+    "Name": "TopTabContentWidgetSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.77"
+    },
+    "Properties": {
+      "TransitionDuration": 0.0,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.73"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WidgetArchetype:WidgetTree_0.TopTabContentWidgetSwitcher.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.75"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "TopTabList",
+          "DelegatePropertyName": "OnTabSelected",
+          "FunctionNameToBind": "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabSelected__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "TopTabList",
+          "DelegatePropertyName": "OnTabButtonCreated",
+          "FunctionNameToBind": "BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'FortTabListWidgetBase:OnTabContentCreated__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "UnclaimedResearchBangThreshold",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "LastActiveTabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_GetActiveTab_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabSelected'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.34"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "TabName",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabSelected'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.34"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleTabSelected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:HandleTabSelected.TabName'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.33"
+      },
+      {
+        "ObjectName": "NameProperty'AthenaTabsScreen_C:HandleTabSelected.CallFunc_GetActiveTab_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.32"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.38"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.39"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.40"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.58"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.42"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.41"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TabButtonBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.39"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.61"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 6.0,
+        "Right": 6.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.TabButtonBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.37"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.60"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 16.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageGamepadKeyPrompt'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.45"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalTabList_C",
+    "Name": "TopTabList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/TabbedView/HorizontalTabList.HorizontalTabList_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTabsScreen_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.76"
+    },
+    "Template": {
+      "ObjectName": "HorizontalTabList_C'Default__HorizontalTabList_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/TabbedView/HorizontalTabList.2"
+    },
+    "Properties": {
+      "TabButtonPadding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "ButtonStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Tab-Main_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/Tab/ButtonStyle-Tab-Main.0"
+      },
+      "UseButtonStyle": true,
+      "PreregisteredTabInfoArray": [
+        {
+          "TabNameId": "Lobby",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "F797DA54470C13229CE26A91CDB270BE",
+              "SourceString": "Lobby",
+              "LocalizedString": "Lobby"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobby_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobby.1"
+          }
+        },
+        {
+          "TabNameId": "BattlePass",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "1C943A7A49BED7C3974BA2A81C93AC62",
+              "SourceString": "Battle Pass",
+              "LocalizedString": "Battle Pass"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaCustomize",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "E0D586204CCEABDA1FA0CC8573B19C77",
+              "SourceString": "Locker",
+              "LocalizedString": "Locker"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaDirectAcquisition",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "0057C9B2426EE0CCC4E5EEB2F799C038",
+              "SourceString": "Item Shop",
+              "LocalizedString": "Item Shop"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaDirectAcquisitionScreen_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaDirectAcquisitionScreen.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaStats",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "C94B0DC4495A3F19C096A082558D17D5",
+              "SourceString": "Profile",
+              "LocalizedString": "Profile"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaStatsTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaStatsTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaLeaderboards",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "2ADB56D64A472881295557A05876D93F",
+              "SourceString": "Leaderboards",
+              "LocalizedString": "Leaderboards"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLeaderboardTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/AthenaLeaderboardTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaStore",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "E86BA9CF4A7046EE8AD454BEC93D98EF",
+              "SourceString": "Store",
+              "LocalizedString": "Store"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'StoreMain_Root_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Frontend/StoreMain/StoreMain_Root.1"
+          }
+        }
+      ],
+      "NextTabInputActionData": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "MainTabRight"
+      },
+      "PreviousTabInputActionData": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "MainTabLeft"
+      },
+      "bAutoListenForInput": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTabsScreen_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.70"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalTabList_C",
+    "Name": "TopTabList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/TabbedView/HorizontalTabList.HorizontalTabList_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.77"
+    },
+    "Template": {
+      "ObjectName": "HorizontalTabList_C'Default__HorizontalTabList_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/TabbedView/HorizontalTabList.2"
+    },
+    "Properties": {
+      "ImageGamepadKeyPrompt": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageGamepadKeyPrompt'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.45"
+      },
+      "ImageHorizRule": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageHorizRule'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.46"
+      },
+      "NextTabAction": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabAction'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.24"
+      },
+      "NextTabActionWrapper": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.60"
+      },
+      "PreviousTabAction": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabAction'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.25"
+      },
+      "PreviousTabActionWrapper": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.61"
+      },
+      "TabButtonBox": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.TabButtonBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.37"
+      },
+      "TabButtonPadding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "ButtonStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Tab-Main_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/Tab/ButtonStyle-Tab-Main.0"
+      },
+      "UseButtonStyle": true,
+      "PreregisteredTabInfoArray": [
+        {
+          "TabNameId": "Lobby",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "F797DA54470C13229CE26A91CDB270BE",
+              "SourceString": "Lobby",
+              "LocalizedString": "Lobby"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobby_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobby.1"
+          }
+        },
+        {
+          "TabNameId": "BattlePass",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "1C943A7A49BED7C3974BA2A81C93AC62",
+              "SourceString": "Battle Pass",
+              "LocalizedString": "Battle Pass"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaCustomize",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "E0D586204CCEABDA1FA0CC8573B19C77",
+              "SourceString": "Locker",
+              "LocalizedString": "Locker"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaDirectAcquisition",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "0057C9B2426EE0CCC4E5EEB2F799C038",
+              "SourceString": "Item Shop",
+              "LocalizedString": "Item Shop"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaDirectAcquisitionScreen_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaDirectAcquisitionScreen.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaStats",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "C94B0DC4495A3F19C096A082558D17D5",
+              "SourceString": "Profile",
+              "LocalizedString": "Profile"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaStatsTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaStatsTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaLeaderboards",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "2ADB56D64A472881295557A05876D93F",
+              "SourceString": "Leaderboards",
+              "LocalizedString": "Leaderboards"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLeaderboardTab_C'",
+            "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/AthenaLeaderboardTab.1"
+          }
+        },
+        {
+          "TabNameId": "AthenaStore",
+          "bHidden": false,
+          "bAllowedInZone": true,
+          "TabLabelInfo": {
+            "DisplayName": {
+              "Namespace": "",
+              "Key": "E86BA9CF4A7046EE8AD454BEC93D98EF",
+              "SourceString": "Store",
+              "LocalizedString": "Store"
+            },
+            "IconBrush": {
+              "ImageSize": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": null,
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::NoDrawType",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            }
+          },
+          "TabButtonType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+          },
+          "TabContentType": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'StoreMain_Root_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Frontend/StoreMain/StoreMain_Root.1"
+          }
+        }
+      ],
+      "NextTabInputActionData": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "MainTabRight"
+      },
+      "PreviousTabInputActionData": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "MainTabLeft"
+      },
+      "bAutoListenForInput": true,
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.72"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageGamepadKeyPrompt",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_PS4_RStick_40'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/PS4Buttons/T_PS4_RStick_40.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.42"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageHorizRule",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 88.0
+        },
+        "Margin": {
+          "Left": 0.49,
+          "Top": 0.49,
+          "Right": 0.49,
+          "Bottom": 0.49
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.4,
+            "Hex": "66FFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Tab-Secondary-Base-32x64'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Buttons/T-Tab-Secondary-Base-32x64.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.59"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "K2Node_ComponentBoundEvent_TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "K2Node_ComponentBoundEvent_TabId2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "K2Node_CustomEvent_TabId",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TabButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:BndEvt__TopTabList_K2Node_ComponentBoundEvent_0_OnTabButtonCreated__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.17"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_ComponentBoundEvent_TabButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_TabWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsStore_Main_Root",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:ExecuteUbergraph_AthenaTabsScreen'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'StoreMain_Root_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Frontend/StoreMain/StoreMain_Root.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TabWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabContentCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsIcon_Tab_Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'IconTabButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTabButton.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TabButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.58"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.59"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.41"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 6.0,
+        "Right": 6.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageHorizRule'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.46"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "NextTabActionWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.40"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "PreviousTabActionWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.38"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_231",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.78"
+    },
+    "Properties": {
+      "HeightOverride": 88.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.65"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.60"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.60"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabAction'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.24"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.61"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.61"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabAction'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.25"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.62"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.62"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "UnclaimedResearchPointsHandle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TimerHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_TextToUpper_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTabsScreen_C:HandleTabCreated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.21"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTabsScreen_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.76"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTabsScreen_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.70"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTabsScreen_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.71"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.77"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.72"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.73"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+      },
+      "Content": {
+        "ObjectName": "HorizontalTabList_C'AthenaTabsScreen_C:WidgetTree.TopTabList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.43"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+      },
+      "Content": {
+        "ObjectName": "CommonWidgetSwitcher'AthenaTabsScreen_C:WidgetTree.TopTabContentWidgetSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.26"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.69"
+      },
+      "Content": {
+        "ObjectName": "HorizontalTabList_C'WidgetArchetype:WidgetTree_0.TopTabList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.44"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.69"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.69"
+      },
+      "Content": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.TopTabContentWidgetSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.27"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'AthenaTabsScreen_C:WidgetTree.TopTabContentWidgetSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.26"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.TopTabContentWidgetSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.27"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTabsScreen_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "VerticalBox'AthenaTabsScreen_C:WidgetTree.VerticalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.68"
+        },
+        {
+          "ObjectName": "HorizontalTabList_C'AthenaTabsScreen_C:WidgetTree.TopTabList'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.43"
+        },
+        {
+          "ObjectName": "CommonWidgetSwitcher'AthenaTabsScreen_C:WidgetTree.TopTabContentWidgetSwitcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaTabsScreen_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.8"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.69"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "HorizontalTabList_C'WidgetArchetype:WidgetTree_0.TopTabList'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.44"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.62"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.SizeBox_231'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.62"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.36"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageGamepadKeyPrompt'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.45"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.Overlay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.57"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.35"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabActionWrapper'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.61"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.PreviousTabAction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.25"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.TabButtonBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.37"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabActionWrapper'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.60"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.NextTabAction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.24"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TopTabList.WidgetTree_1.ImageHorizRule'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaTabsScreen.46"
+        }
+      ]
+    }
+  }
+]

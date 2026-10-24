@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Bush_01_Holiday'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Bush_01_Holiday.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "0838E6BD43287E630376AF85D97F37B2",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 12477,
+        "SizeOnDisk": 12477,
+        "OffsetInFile": "0x234B3"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Bush_01_Holiday'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Bush_01_Holiday.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x265B8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Athena_Bush_01_Holiday",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Bush_01_Holiday",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Athena_Bush_Fade_01_Xmas'",
+            "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MI_Athena_Bush_Fade_01_Xmas.0"
+          },
+          "MaterialSlotName": "MI_TRV_SWP_Plants_04",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 351.25345,
+            "LocalUVDensities[1]": 1087.7219,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 221813.11
+          }
+        }
+      ],
+      "LightmapUVDensity": 1087.7219,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -93.09537,
+          "Y": 8.460907,
+          "Z": 89.10489
+        },
+        "BoxExtent": {
+          "X": 201.656,
+          "Y": 181.55344,
+          "Z": 112.23975
+        },
+        "SphereRadius": 222.86562
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Athena_Bush_01_Holiday:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Bush_01_Holiday.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Athena_Bush_01_Holiday:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Bush_01_Holiday.1"
+    },
+    "LightingGuid": "FE7F33FF-4C1F709C-5B9588AD-2CA799B1",
+    "RenderData": null
+  }
+]

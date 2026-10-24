@@ -1,0 +1,168 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_DBNO_Start_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Start",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_DBNO_Start_C'Default__GE_Athena_DBNO_Start_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Start.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_DBNO_Start_C",
+    "Name": "Default__GE_Athena_DBNO_Start_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Start.GE_Athena_DBNO_Start_C'",
+    "Package": "FortniteGame/Content/Athena/MappedEffects/GE_Athena_DBNO_Start",
+    "Template": {
+      "ObjectName": "GE_Map_Fortitude_To_Health_C'Default__GE_Map_Fortitude_To_Health_C'",
+      "ObjectPath": "FortniteGame/Content/Balance/CombinedStats/GE_Map_Fortitude_To_Health.1"
+    },
+    "Properties": {
+      "DurationPolicy": "EGameplayEffectDurationType::Instant",
+      "Modifiers": [],
+      "Executions": [
+        {
+          "CalculationClass": {
+            "ObjectName": "Class'FortHealing'",
+            "ObjectPath": "/Script/FortniteGame"
+          },
+          "PassedInTags": [],
+          "CalculationModifiers": [
+            {
+              "CapturedAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "HealingSource",
+                  "Attribute": {
+                    "ObjectName": "StructProperty'FortHealthSet:HealingSource'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  },
+                  "AttributeOwner": {
+                    "ObjectName": "Class'FortHealthSet'",
+                    "ObjectPath": "/Script/FortniteGame"
+                  }
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": true
+              },
+              "ModifierOp": "EGameplayModOp::Override",
+              "ModifierMagnitude": {
+                "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::SetByCaller",
+                "ScalableFloatMagnitude": {
+                  "Value": 0.0,
+                  "Curve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  }
+                },
+                "AttributeBasedMagnitude": {
+                  "Coefficient": {
+                    "Value": 1.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PreMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PostMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "BackingAttribute": {
+                    "AttributeToCapture": {
+                      "AttributeName": "",
+                      "Attribute": null,
+                      "AttributeOwner": null
+                    },
+                    "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                    "bSnapshot": false
+                  },
+                  "AttributeCurve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  },
+                  "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+                  "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+                  "SourceTagFilter": [],
+                  "TargetTagFilter": []
+                },
+                "CustomMagnitude": {
+                  "CalculationClassMagnitude": null,
+                  "Coefficient": {
+                    "Value": 1.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PreMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "PostMultiplyAdditiveValue": {
+                    "Value": 0.0,
+                    "Curve": {
+                      "CurveTable": null,
+                      "RowName": "None"
+                    }
+                  },
+                  "FinalLookupCurve": {
+                    "CurveTable": null,
+                    "RowName": "None"
+                  }
+                },
+                "SetByCallerMagnitude": {
+                  "DataName": "InitialHeal",
+                  "DataTag": {
+                    "TagName": "None"
+                  }
+                }
+              },
+              "EvaluationChannelSettings": {
+                "Channel": "EGameplayModEvaluationChannel::Channel0"
+              },
+              "SourceTags": {
+                "RequireTags": [],
+                "IgnoreTags": []
+              },
+              "TargetTags": {
+                "RequireTags": [],
+                "IgnoreTags": []
+              }
+            }
+          ],
+          "ConditionalGameplayEffects": []
+        }
+      ]
+    }
+  }
+]

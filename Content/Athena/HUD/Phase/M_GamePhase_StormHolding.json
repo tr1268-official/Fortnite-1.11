@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_GamePhase_StormHolding",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Phase/M_GamePhase_StormHolding",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 33,
+        "ExpressionName": "/Game/Athena/HUD/Phase/T_GamePhaseBackground",
+        "UseConstant": false,
+        "Constant": {
+          "B": 38,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000026"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_StormHolding:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_StormHolding:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.2"
+        },
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "15AE6D1F-4202B972-3B81FD89-286A7A74"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_StormHolding'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_GamePhaseBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_GamePhaseBackground.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_StormHolding'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_StormHolding'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_StormHolding'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_StormHolding.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_StormHolding'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormHolding.0"
+      }
+    }
+  }
+]

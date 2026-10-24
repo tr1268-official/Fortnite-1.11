@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "SoundAttenuation",
+    "Name": "Fort_SupplyDrop_Balloon_Distant_Athena_Att",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundAttenuation'",
+    "Package": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Balloon_Distant_Athena_Att",
+    "Properties": {
+      "Attenuation": {
+        "StereoSpread": 500.0,
+        "NonFocusVolumeAttenuation": 0.3,
+        "FocusReleaseInterpSpeed": 0.2,
+        "DistanceAlgorithm": "EAttenuationDistanceModel::Custom",
+        "CustomAttenuationCurve": {
+          "EditorCurveData": {
+            "Keys": [
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.5,
+                "Value": 0.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 0.66,
+                "Value": 1.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              },
+              {
+                "InterpMode": "RCIM_Cubic",
+                "TangentMode": "RCTM_Auto",
+                "TangentWeightMode": "RCTWM_WeightedNone",
+                "Time": 1.0,
+                "Value": 0.0,
+                "ArriveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangent": 0.0,
+                "LeaveTangentWeight": 0.0
+              }
+            ]
+          }
+        },
+        "AttenuationShapeExtents": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FalloffDistance": 30000.0
+      }
+    }
+  }
+]

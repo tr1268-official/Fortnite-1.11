@@ -1,0 +1,1497 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TracerGeneric_Athena_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'TracerGeneric_Athena_C:SimpleConstructionScript_18'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.55"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortTracerBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.0"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.9"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:OnInit'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.7"
+      },
+      {
+        "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:BulletWhipTrackerComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.3"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PreviousPlaneDotProd'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.38"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:bHasPlayedPassBySound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.18"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:CachedDirectionVector'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.57"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:Start'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.72"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:End'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.58"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PassByRadiusMin'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.28"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PassByRadiusMax'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:PassByFarSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:PassByCloseSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.48"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PassByClosenessIntensity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:PassByPawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.50"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:CachedPassDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.25"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_TracerGeneric_Athena": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+      },
+      "OnInit": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:OnInit'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.7"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.9"
+      },
+      "TrackPassBy": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+      },
+      "PlayPassBySound": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+      },
+      "GetLocalPawnForPassBy": {
+        "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TracerGeneric_Athena_C'Default__TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.2"
+    }
+  },
+  {
+    "Type": "TracerGeneric_Athena_C",
+    "Name": "Default__TracerGeneric_Athena_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.TracerGeneric_Athena_C'",
+    "Package": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CachedDirectionVector": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Start": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "End": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PassByRadiusMin": 100.0,
+      "PassByRadiusMax": 400.0,
+      "PassByFarSound": {
+        "ObjectName": "SoundCue'bullet_whip_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_Cue.0"
+      },
+      "PassByCloseSound": {
+        "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+      },
+      "TracerMovementComponent": {
+        "ObjectName": "MovementComp_Tracer'Default__TracerGeneric_Athena_C:TracerComp0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.44"
+      },
+      "TracerMesh": {
+        "ObjectName": "StaticMeshComponent'Default__TracerGeneric_Athena_C:TracerMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.56"
+      },
+      "Speed": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'Projectiles'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/Projectiles.0"
+        },
+        "RowName": "TracerGeneric_Speed"
+      },
+      "SpeedScaleMinMultiplier": 2.0,
+      "SpeedScaleMaxMultiplier": 2.0,
+      "MeshScaleMult": {
+        "X": 8.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "MeshScaleTime": 0.05,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__TracerGeneric_Athena_C:TracerMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.56"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BulletWhipTrackerComponent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_TracerGeneric_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.4"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena.K2Node_Event_Start'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.61"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena.K2Node_Event_End'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.60"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.59"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Start",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:OnInit'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.7"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInit",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortTracerBase:OnInit'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:OnInit.Start'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.6"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:OnInit.End'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.62"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.9"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:UserConstructionScript.CallFunc_K2_SetRelativeRotation_SweepHitResult'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "TrackPassBy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:TrackPassBy.Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.10"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:TrackPassBy.Pass Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.42"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:TrackPassBy.ChangedResult'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.23"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.74"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_K2_GetActorLocation_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.75"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.79"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.21"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_ProjectVectorOnToVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.78"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.73"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_Subtract_VectorVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.80"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_K2_GetActorLocation_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.76"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_VSize_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_GetLocalPawnForPassBy_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.51"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_K2_GetActorLocation_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.77"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_Subtract_VectorVector_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.81"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_Dot_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.39"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_SignOfFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.40"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:TrackPassBy.CallFunc_NotEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.22"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayPassBySound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.12"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_GetActorRightVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.64"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_Normal_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.70"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.66"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_X'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.29"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_Y'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.31"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_Z'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.33"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_MakeVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.67"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_GetActorRightVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.65"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_X2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.30"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_Y2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.32"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_BreakVector_Z2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.34"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_MakeVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.68"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_Dot_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.35"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_RadiansToDegrees_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.36"
+      },
+      {
+        "ObjectName": "FloatProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.37"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_RotateAngleAxis_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.71"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_Multiply_VectorFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.69"
+      },
+      {
+        "ObjectName": "StructProperty'TracerGeneric_Athena_C:PlayPassBySound.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.63"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetLocalPawnForPassBy",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_GetInstigator_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.46"
+      },
+      {
+        "ObjectName": "ArrayProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.17"
+      },
+      {
+        "ObjectName": "IntProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.43"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.45"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_GetPlayerPawn_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.47"
+      },
+      {
+        "ObjectName": "BoolProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_NotEqual_ObjectObject_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.20"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.17"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'TracerGeneric_Athena_C:GetLocalPawnForPassBy.CallFunc_GetLocalFortPlayerControllers_ReturnValue.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.16"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bHasPlayedPassBySound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ChangedResult",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BulletWhipTrackerComponent_C",
+    "Name": "BulletWhipTrackerComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.BulletWhipTrackerComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Template": {
+      "ObjectName": "BulletWhipTrackerComponent_C'Default__BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.2"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CachedPassDistance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByClosenessIntensity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByRadiusMax",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByRadiusMin",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Dot_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_RadiansToDegrees_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PreviousPlaneDotProd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Dot_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SignOfFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_VSize_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Pass Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    }
+  },
+  {
+    "Type": "MovementComp_Tracer",
+    "Name": "TracerComp0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovementComp_Tracer'",
+    "Outer": {
+      "ObjectName": "TracerGeneric_Athena_C'Default__TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetInstigator_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Pawn'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:GetLocalPawnForPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByCloseSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByFarSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByPawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalPawnForPassBy_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_16",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'TracerGeneric_Athena_C:SimpleConstructionScript_18'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BulletWhipTrackerComponent_C'TracerGeneric_Athena_C:BulletWhipTrackerComponent_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.24"
+      },
+      "VariableGuid": "BF8CE253-48D18BFA-9B3033B4-8913591A",
+      "InternalVariableName": "BulletWhipTrackerComponent"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'TracerGeneric_Athena_C:SimpleConstructionScript_18'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.55"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'TracerGeneric_Athena_C:SceneComponent_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.52"
+      },
+      "VariableGuid": "4D3A059E-00000000-00000000-00000000",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'TracerGeneric_Athena_C:SimpleConstructionScript_18.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.53"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'TracerGeneric_Athena_C:SimpleConstructionScript_18.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.53"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'TracerGeneric_Athena_C:SimpleConstructionScript_18.SCS_Node_18'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.54"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TracerMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "TracerGeneric_Athena_C'Default__TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_tracer_01'",
+        "ObjectPath": "FortniteGame/Content/Weapons/Tracers/Effects/Meshes/SM_tracer_01.2"
+      },
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "bAutoWeld": false,
+        "MassInKgOverride": 0.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CachedDirectionVector",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "End",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_End",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_Start",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:ExecuteUbergraph_TracerGeneric_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "End",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:OnInit'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.7"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetActorRightVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetActorRightVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Normal_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_RotateAngleAxis_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:PlayPassBySound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Start",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TracerGeneric_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_ProjectVectorOnToVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'TracerGeneric_Athena_C:TrackPassBy'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/TracerGeneric_Athena.11"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

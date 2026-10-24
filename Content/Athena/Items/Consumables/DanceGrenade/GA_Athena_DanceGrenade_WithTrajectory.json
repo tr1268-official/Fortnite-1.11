@@ -1,0 +1,97 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Athena_DanceGrenade_WithTrajectory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/GA_Athena_DanceGrenade_WithTrajectory",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Athena_DanceGrenade_WithTrajectory_C'Default__GA_Athena_DanceGrenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/GA_Athena_DanceGrenade_WithTrajectory.1"
+    }
+  },
+  {
+    "Type": "GA_Athena_DanceGrenade_WithTrajectory_C",
+    "Name": "Default__GA_Athena_DanceGrenade_WithTrajectory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/GA_Athena_DanceGrenade_WithTrajectory.GA_Athena_DanceGrenade_WithTrajectory_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/GA_Athena_DanceGrenade_WithTrajectory",
+    "Template": {
+      "ObjectName": "GA_Athena_Grenade_WithTrajectory_C'Default__GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.2"
+    },
+    "Properties": {
+      "Prj_Grenade": {
+        "ObjectName": "BlueprintGeneratedClass'B_Prj_Athena_DanceGrenade_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/B_Prj_Athena_DanceGrenade.1"
+      },
+      "EffectContainers": {
+        "TargetSelection": {
+          "List": [
+            {
+              "Shape": "EFortTargetSelectionShape::Sphere",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Overlap",
+              "PrimarySource": "EFortAbilityTargetingSource::PawnForward",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 500.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 1.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Pawns",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": false,
+                "bExcludeRequester": false,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": false,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": true,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 8
+            }
+          ]
+        },
+        "TargetGameplayEffectClasses": []
+      },
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'B_Prj_Athena_DanceGrenade_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/B_Prj_Athena_DanceGrenade.1"
+      }
+    }
+  }
+]

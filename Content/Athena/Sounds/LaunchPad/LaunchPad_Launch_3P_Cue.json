@@ -1,0 +1,264 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "LaunchPad_Launch_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'LaunchPad_Launch_3P_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.2"
+      },
+      "VolumeMultiplier": 0.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Traps'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Traps.0"
+      },
+      "Duration": 3.9241724,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Traps_Launch_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Traps_Launch_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.5,
+      "DelayMax": 0.5,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'LaunchPad_Launch_3P_Cue:SoundNodeRandom_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.2,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'LaunchPad_Launch_3P_Cue:SoundNodeModulator_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeDelay'LaunchPad_Launch_3P_Cue:SoundNodeDelay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'LaunchPad_Launch_3P_Cue:SoundNodeModulator_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'LaunchPad_Launch_3P_Cue:SoundNodeRandom_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'LaunchPad_Launch_3P_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'LaunchPad_Launch_3P_Cue:SoundNodeWavePlayer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'LaunchPad_Launch_3P_Cue:SoundNodeWavePlayer_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'LaunchPad_Launch_3P_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'LaunchPad_Launch_3P_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_01.sfx_LaunchPad_JumpLayer_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_LaunchPad_JumpLayer_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_02.sfx_LaunchPad_JumpLayer_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_LaunchPad_JumpLayer_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_03.sfx_LaunchPad_JumpLayer_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_LaunchPad_JumpLayer_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/sfx_LaunchPad_JumpLayer_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/SFX_LaunchPad_Jump_01.SFX_LaunchPad_Jump_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_LaunchPad_Jump_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/SFX_LaunchPad_Jump_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LaunchPad_Launch_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/LaunchPad_Launch_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/LaunchPad/SFX_LaunchPad_Jump_02.SFX_LaunchPad_Jump_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_LaunchPad_Jump_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/LaunchPad/SFX_LaunchPad_Jump_02.0"
+    }
+  }
+]

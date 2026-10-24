@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Healing_Indicator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Art/M_Healing_Indicator",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 33,
+        "ExpressionName": "/Script/CoreUObject",
+        "UseConstant": false,
+        "Constant": {
+          "B": 39,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000027"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Healing_Indicator:MaterialExpressionTextureSample_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Healing_Indicator:MaterialExpressionTextureSample_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.2"
+        },
+        null,
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "2ACEF474-4E40F2C2-C3660E92-6DF1E8C1"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Healing_Indicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'squad_DBNOIcon_Blur'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/squad_DBNOIcon_Blur.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Healing_Indicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Healing_Indicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'squad_DBNOIcon_Cross'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/squad_DBNOIcon_Cross.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Healing_Indicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Healing_Indicator.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Grenade",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Grenade/Athena_Grenade",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/B_Prj_Athena_Grenade.B_Prj_Athena_Grenade_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Athena_Grenade"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.GA_Athena_Grenade_WithTrajectory_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Grenade/Athena_Grenade.Athena_Grenade",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/CharClasses/Soldier/Gadgets/FragGrenade/S_Grenade_Single.S_Grenade_Single",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/grenade_pickup_Athena_Cue.grenade_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "67163ECB4AAA6B36E4147082C01CC6B5",
+        "SourceString": "Grenade",
+        "LocalizedString": "Grenade"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "60BD53424E207B58367D77AE402959CC",
+        "SourceString": "Hurls a grenade. bang bang!",
+        "LocalizedString": "Hurls a grenade. bang bang!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "5736B3F34B523879010816A9DA8259DA",
+        "SourceString": "Gadget UtilityItem M80",
+        "LocalizedString": "Gadget UtilityItem M80"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability",
+        "weapon.ranged.heavy.grenade"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 10,
+      "StatList": {
+        "AssetPathName": "/Game/UI/Tooltips/m80TooltipStats.m80TooltipStats",
+        "SubPathString": ""
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-T-Icon-BR-Grenade'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-Grenade.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Athena/T-T-Icon-BR-Grenade-L.T-T-Icon-BR-Grenade-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "bullet_whip_heavy_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue",
+    "Properties": {
+      "bOverrideAttenuation": true,
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'bullet_whip_heavy_Cue:SoundNodeRandom_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.1"
+      },
+      "VolumeMultiplier": 0.5,
+      "AttenuationOverrides": {
+        "bAttenuate": false,
+        "StereoSpread": 5000.0
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponProjectile'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponProjectile.0"
+      },
+      "Duration": 1.4652916
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'bullet_whip_heavy_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'bullet_whip_heavy_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'bullet_whip_heavy_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'bullet_whip_heavy_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_01.bullet_whip_heavy_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bullet_whip_heavy_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_02.bullet_whip_heavy_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bullet_whip_heavy_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_03.bullet_whip_heavy_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bullet_whip_heavy_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_04.bullet_whip_heavy_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'bullet_whip_heavy_04'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_04.0"
+    }
+  }
+]

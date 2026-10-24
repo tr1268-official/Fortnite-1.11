@@ -1,0 +1,2764 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaTalkingList_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Team/AthenaTalkingList.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaTalkingList_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaTalkingList_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.0"
+      },
+      {
+        "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+      },
+      {
+        "ObjectName": "Function'AthenaTalkingList_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.11"
+      },
+      {
+        "ObjectName": "Function'AthenaTalkingList_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.9"
+      },
+      {
+        "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.73"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:Image_101'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.74"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:Image_102'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.75"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:Image_103'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:Image_104'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.77"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:PlayerName0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.78"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:PlayerName1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.79"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:PlayerName2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.80"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:PlayerName3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.81"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:PlayerName4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.82"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.83"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.84"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.85"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.86"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.87"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaTalkingList": {
+        "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'AthenaTalkingList_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaTalkingList_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.11"
+      },
+      "TalkingPlayersChanged": {
+        "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaTalkingList_C'Default__AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.2"
+    }
+  },
+  {
+    "Type": "AthenaTalkingList_C",
+    "Name": "Default__AthenaTalkingList_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.AthenaTalkingList_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HUDElementTag": [
+        "HUD.TopLeft.TeamPlayers"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaTalkingList_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.AthenaTalkingList_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList",
+    "Template": {
+      "ObjectName": "AthenaTalkingList_C'Default__AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.2"
+    },
+    "Properties": {
+      "[Vertical Box] Team Members": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Image_0": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.66"
+      },
+      "Image_101": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_101'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.67"
+      },
+      "Image_102": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_102'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.68"
+      },
+      "Image_103": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_103'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.69"
+      },
+      "Image_104": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_104'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.70"
+      },
+      "PlayerName0": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.25"
+      },
+      "PlayerName1": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.26"
+      },
+      "PlayerName2": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.27"
+      },
+      "PlayerName3": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.28"
+      },
+      "PlayerName4": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.29"
+      },
+      "TalkingPlayer0": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+      },
+      "TalkingPlayer1": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+      },
+      "TalkingPlayer2": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+      },
+      "TalkingPlayer3": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+      },
+      "TalkingPlayer4": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Vertical Box] Team Members",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaTalkingList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.5"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.71"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.30"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.K2Node_DynamicCast_AsFort_Player_Controller_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.72"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "TalkingPlayersChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaTalkingList_C:TalkingPlayersChanged.K2Node_DynamicCast_AsFort_Player_Controller_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.88"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.19"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.93"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Conv_StringToText_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.94"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Conv_StringToText_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.95"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Conv_StringToText_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.96"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Array_IsValidIndex_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.14"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Array_IsValidIndex_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.15"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Array_IsValidIndex_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.16"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Conv_StringToText_ReturnValue5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.97"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Array_IsValidIndex_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.17"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaTalkingList_C:TalkingPlayersChanged.CallFunc_Array_IsValidIndex_ReturnValue5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "C29A36864305046F81B973ACB8D69EBC",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.42"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "662E3D8C4D5F0405D5DE66B3B3B7054C",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer1.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "BB9FE05A430BB0B6B5BF86B663C35D18",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer2.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.46"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "A837DE4D4058F131B5E613B60E98EF14",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer3.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.48"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "A65015474B66F00829B481A45BA5C405",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer4.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.50"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "C29A36864305046F81B973ACB8D69EBC",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.52"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "662E3D8C4D5F0405D5DE66B3B3B7054C",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer1.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.54"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "BB9FE05A430BB0B6B5BF86B663C35D18",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer2.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.56"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "A837DE4D4058F131B5E613B60E98EF14",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer3.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.58"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PlayerName4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "A65015474B66F00829B481A45BA5C405",
+        "SourceString": "WWWWWMMMMWWWW",
+        "LocalizedString": "WWWWWMMMMWWWW"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.75,
+            "Hex": "BF000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Margin": {
+        "Top": -2.0,
+        "Right": 2.0,
+        "Bottom": -1.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer4.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.60"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnTalkingPlayersChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.41"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.100"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.43"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer1.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.44"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.101"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.45"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer2.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.102"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer3.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.47"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer3.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.103"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer4.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.49"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer4.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.104"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.51"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.105"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer1.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.53"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer1.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.54"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.106"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.55"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer2.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.56"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.107"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer3.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.57"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer3.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.58"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.108"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TalkingPlayer4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer4.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.59"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer4.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.109"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.61"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.20"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_101'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.62"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.21"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_102'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.63"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.22"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_103'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.23"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_104'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.24"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.66"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.25"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_101'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.67"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.26"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_102'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.68"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.27"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_103'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.69"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.28"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_104'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.70"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.PlayerName4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.29"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.41"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_101",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.43"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_102",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.45"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_103",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer3.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.47"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_104",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaTalkingList_C:WidgetTree.TalkingPlayer4.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.49"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.51"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_101",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer1.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.53"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_102",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.55"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_103",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer3.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.57"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_104",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'mic-active'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.TalkingPlayer4.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.59"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Controller_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:ExecuteUbergraph_AthenaTalkingList'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerControllerAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_101",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_102",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_103",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_104",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerName4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TalkingPlayer0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TalkingPlayer1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TalkingPlayer2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TalkingPlayer3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TalkingPlayer4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Controller_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerControllerAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "bOverride_MinDesiredHeight": true,
+      "MinDesiredHeight": 150.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaTalkingList_C:WidgetTree.SizeBox_92.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.91"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_92",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "bOverride_MinDesiredHeight": true,
+      "MinDesiredHeight": 150.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_92.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.92"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaTalkingList_C:WidgetTree.SizeBox_92'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.89"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 50.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaTalkingList_C:WidgetTree.SizeBox_92'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.89"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_92'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.90"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 50.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_92'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.90"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaTalkingList_C:TalkingPlayersChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.13"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "[Vertical Box] Team Members",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaTalkingList_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.110"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.100"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.101"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.102"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.103"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.104"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaTalkingList_C:WidgetTree.SizeBox_92.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.91"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "[Vertical Box] Team Members",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.111"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.105"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.106"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.107"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.108"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.109"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_92.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.92"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.36"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.37"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.39"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.[Vertical Box] Team Members'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.99"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.TalkingPlayer4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.40"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaTalkingList_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'AthenaTalkingList_C:WidgetTree.SizeBox_92'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.89"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "SizeBox'AthenaTalkingList_C:WidgetTree.SizeBox_92'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.89"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaTalkingList_C:WidgetTree.[Vertical Box] Team Members'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.98"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.31"
+        },
+        {
+          "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.61"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.20"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.32"
+        },
+        {
+          "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_101'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.62"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.21"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.33"
+        },
+        {
+          "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_102'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.63"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.22"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.34"
+        },
+        {
+          "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_103'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.64"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.23"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaTalkingList_C:WidgetTree.TalkingPlayer4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.35"
+        },
+        {
+          "ObjectName": "Image'AthenaTalkingList_C:WidgetTree.Image_104'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.65"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaTalkingList_C:WidgetTree.PlayerName4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaTalkingList_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_92'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/AthenaTalkingList.90"
+      }
+    }
+  }
+]

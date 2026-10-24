@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Emote_RideThePony_Music_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'Athena_Emote_RideThePony_Music_3P_Cue:SoundNodeRandom_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.2"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_DanceMusic_3P'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_DanceMusic_3P.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "VolumeScale": 0.5
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Emotes_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Emotes_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_RideThePony_Music_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        0.9
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_RideThePony_Music_3P_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_RideThePony_Music_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Athena_Emote_RideThePony_Music_3P_Cue:SoundNodeMixer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.1"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_RideThePony_Music_3P_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_RideThePony_Music_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_ridethepony_music_02.athena_emote_ridethepony_music_02",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'athena_emote_ridethepony_music_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_ridethepony_music_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_RideThePony_Music_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_RideThePony_Music_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_ridethepony_music_01.athena_emote_ridethepony_music_01",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'athena_emote_ridethepony_music_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/athena_emote_ridethepony_music_01.0"
+    }
+  }
+]

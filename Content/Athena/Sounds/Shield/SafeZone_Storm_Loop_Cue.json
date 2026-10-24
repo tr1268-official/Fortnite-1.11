@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SafeZone_Storm_Loop_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_Loop_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_Loop_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_Loop_Cue.1"
+      },
+      "VolumeMultiplier": 0.15,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 10000.0
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_Loop_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_Loop_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Fort_StormEye_Loop_03.Fort_StormEye_Loop_03",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Fort_StormEye_Loop_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Fort_StormEye_Loop_03.0"
+    }
+  }
+]

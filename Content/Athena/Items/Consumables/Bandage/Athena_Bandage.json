@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Bandage",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bandage/Athena_Bandage",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/GA_Athena_Bandage.GA_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/Athena_Bandage.Athena_Bandage",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Items/Art_noLOD/Meshes/MedBandage.MedBandage",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/bandage_pickup_Athena_Cue.bandage_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DD9B2AEF436F3D063E9A499368856CA3",
+        "SourceString": "Bandage",
+        "LocalizedString": "Bandage"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F26D774F48FADD88EF541D9D2822703D",
+        "SourceString": "Has healing properties. Get some health back.",
+        "LocalizedString": "Has healing properties. Get some health back."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "5736B3F34B523879010816A9DA8259DA",
+        "SourceString": "Gadget UtilityItem M80",
+        "LocalizedString": "Gadget UtilityItem M80"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 15,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-MedBandage'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-MedBandage.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-MedBandage-L.T-Icon-MedBandage-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

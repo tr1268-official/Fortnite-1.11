@@ -1,0 +1,170 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "TrapTool_ContextTrap_Athena_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'TrapTool_ContextTrap_Athena_C:SimpleConstructionScript_2__FD6C5CFD'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortDecoTool_ContextTrap'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TrapTool_ContextTrap_Athena_C'Default__TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.1"
+    }
+  },
+  {
+    "Type": "TrapTool_ContextTrap_Athena_C",
+    "Name": "Default__TrapTool_ContextTrap_Athena_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.TrapTool_ContextTrap_Athena_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena",
+    "Properties": {
+      "CameraBase1PClass": {
+        "ObjectName": "BlueprintGeneratedClass'PlayerCameraMode1P_C'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Camera/FirstPerson/PlayerCameraMode1P.0"
+      },
+      "CameraTargeting1PClass": {
+        "ObjectName": "BlueprintGeneratedClass'PlayerCameraMode1P_C'",
+        "ObjectPath": "FortniteGame/Content/Blueprints/Camera/FirstPerson/PlayerCameraMode1P.0"
+      },
+      "PrimaryForceFeedbackEffect": {
+        "ObjectName": "ForceFeedbackEffect'FF_Generic_Build'",
+        "ObjectPath": "FortniteGame/Content/Weapons/ForceFeedback/FF_Generic_Build.0"
+      },
+      "FireAudioChannels": {
+        "ObjectName": "AudioComponent'Default__TrapTool_ContextTrap_Athena_C:Normal'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.4"
+      },
+      "FireAudioChannels[1]": {
+        "ObjectName": "AudioComponent'Default__TrapTool_ContextTrap_Athena_C:LowAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.3"
+      },
+      "FireAudioChannels[2]": {
+        "ObjectName": "AudioComponent'Default__TrapTool_ContextTrap_Athena_C:Degraded'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.2"
+      },
+      "WeaponMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__TrapTool_ContextTrap_Athena_C:WeaponMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.8"
+      },
+      "WeaponCoreAnimation": "EFortWeaponCoreAnimation::TrapPlacement",
+      "RootComponent": {
+        "ObjectName": "SkeletalMeshComponent'Default__TrapTool_ContextTrap_Athena_C:WeaponMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.8"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Degraded",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "TrapTool_ContextTrap_Athena_C'Default__TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.1"
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "LowAmmo",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "TrapTool_ContextTrap_Athena_C'Default__TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.1"
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Normal",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "TrapTool_ContextTrap_Athena_C'Default__TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_20",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'TrapTool_ContextTrap_Athena_C:SimpleConstructionScript_2__FD6C5CFD'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'TrapTool_ContextTrap_Athena_C:SceneComponent_20'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.5"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_2__FD6C5CFD",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'TrapTool_ContextTrap_Athena_C:SimpleConstructionScript_2__FD6C5CFD.SCS_Node_23'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.6"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "WeaponMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "TrapTool_ContextTrap_Athena_C'Default__TrapTool_ContextTrap_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/TrapTool_ContextTrap_Athena.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'Blueprint_Paper_VIM_C'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_BuildingTools/Meshes/Blueprint_Paper_VIM.1"
+      },
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "MassInKgOverride": 0.0
+      }
+    }
+  }
+]

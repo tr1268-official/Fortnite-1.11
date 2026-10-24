@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Prop_Rocks_StoneLarge01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Prop_Rocks_StoneLarge01_C:SimpleConstructionScript_581'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingProp'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Prop_Rocks_StoneLarge01_C'Default__Athena_Prop_Rocks_StoneLarge01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.1"
+    }
+  },
+  {
+    "Type": "Athena_Prop_Rocks_StoneLarge01_C",
+    "Name": "Default__Athena_Prop_Rocks_StoneLarge01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.Athena_Prop_Rocks_StoneLarge01_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_StoneLarge_01'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_StoneLarge_01.2"
+      },
+      "ResourceType": "EFortResourceType::Stone",
+      "bRandomYawOnPlacement": true,
+      "bRandomScaleOnPlacement": true,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Rocks_StoneLarge01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.5"
+      },
+      "DestructionLootTierGroup": "Destruction_StoneMedium",
+      "BuildingResourceAmountOverride": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResourceRates'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/ResourceRates.0"
+        },
+        "RowName": "ResourceStoneHigh"
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_StoneLarge_Destruction_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Rocks/P_StoneLarge_Destruction_01.109"
+      },
+      "BuildingAttachmentType": "ATTACH_Floor",
+      "CurrentBuildingLevel": 2,
+      "AttributeInitKey": {
+        "AttributeInitCategory": "ResourceStone",
+        "AttributeInitSubCategory": "3"
+      },
+      "NavigationObstacleOverride": "ENavigationObstacleOverride::ForceEnabled",
+      "bCanExportNavigationCollisions": true,
+      "bForceAutomationPass_NavmeshOnTop": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Rocks_StoneLarge01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_995",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Rocks_StoneLarge01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1005",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Prop_Rocks_StoneLarge01_C:SimpleConstructionScript_581'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Prop_Rocks_StoneLarge01_C:SceneComponent_995'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_581",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Rocks_StoneLarge01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Prop_Rocks_StoneLarge01_C:SimpleConstructionScript_581.SCS_Node_1005'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Prop_Rocks_StoneLarge01_C'Default__Athena_Prop_Rocks_StoneLarge01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Prop_Rocks_StoneLarge01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_StoneLarge_01'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_StoneLarge_01.2"
+      },
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "bAutoWeld": false
+      }
+    }
+  }
+]

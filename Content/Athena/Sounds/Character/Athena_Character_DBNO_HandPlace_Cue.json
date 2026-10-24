@@ -1,0 +1,191 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Character_DBNO_HandPlace_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Athena_Character_DBNO_HandPlace_Cue:SoundNodeModulator_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.1"
+      },
+      "VolumeMultiplier": 0.8,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_3P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_3P_Athena.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 0.423375,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_DBNO_Shuffle_3P_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_DBNO_Shuffle_3P_Athena_Att.0"
+      },
+      "Priority": 0.5
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Character_DBNO_HandPlace_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_DBNO_HandPlace_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_DBNO_HandPlace_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_DBNO_HandPlace_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_DBNO_HandPlace_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_DBNO_HandPlace_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_01.player_step_walk_dirt_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_step_walk_dirt_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_02.player_step_walk_dirt_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_step_walk_dirt_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_03.player_step_walk_dirt_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_step_walk_dirt_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_04.player_step_walk_dirt_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_step_walk_dirt_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_DBNO_HandPlace_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Athena_Character_DBNO_HandPlace_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_05.player_step_walk_dirt_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_step_walk_dirt_05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/player_step_walk_dirt_05.0"
+    }
+  }
+]

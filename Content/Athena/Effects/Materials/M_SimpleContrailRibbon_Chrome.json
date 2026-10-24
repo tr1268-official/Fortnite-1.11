@@ -1,0 +1,340 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_SimpleContrailRibbon_Chrome",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome",
+    "Properties": {
+      "BaseColor": null,
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 67,
+        "ExpressionName": "BoolProperty",
+        "UseConstant": false,
+        "Constant": {
+          "B": 79,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00004F"
+        }
+      },
+      "Opacity": null,
+      "OpacityMask": null,
+      "BlendMode": "BLEND_Masked",
+      "ShadingModel": "MSM_Unlit",
+      "TwoSided": true,
+      "bUsedWithParticleSprites": true,
+      "bUsedWithBeamTrails": true,
+      "Expressions": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_SimpleContrailRibbon_Chrome:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_SimpleContrailRibbon_Chrome:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.1"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_SimpleContrailRibbon_Chrome:MaterialExpressionTextureSample_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObject'M_SimpleContrailRibbon_Chrome:MaterialExpressionTextureObject_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_SimpleContrailRibbon_Chrome:MaterialExpressionMaterialFunctionCall_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "DD44CC9D-4987047F-E7B9B381-E4FC7145",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDepthFade'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+          }
+        },
+        {
+          "StateId": "24D3C66D-46EE1EEA-D5A86A9F-94856040",
+          "Function": {
+            "ObjectName": "MaterialFunction'Motion_4WayChaos_Normal'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos_Normal.1"
+          }
+        }
+      ],
+      "StateId": "E609E89A-430FC65A-B082BEB3-34BCB886"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CameraDepthFade'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "79FFEA6C-4F3A46F5-1F8E50A3-49E4BB4B",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1701077317",
+            "Mask": 1852132384,
+            "MaskR": 6845543,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "D5EC0E2F-4DB88867-9BFC2A8B-921262ED",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BoolProperty_1701077317",
+            "Mask": 1717980960,
+            "MaskR": 7628147,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "7B4195E6-455691CA-37823986-87468578",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "ColorMaterialInput_544370501",
+            "Mask": 1953654102,
+            "MaskR": 1394636901,
+            "MaskG": 1701077352,
+            "MaskB": 114,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "160C0042-4E845E29-3F44DCBE-13738CEE",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'Motion_4WayChaos_Normal'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos_Normal.1"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "694A8C7B-4818A79C-BAB5FCAF-787F64AB",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1919905602",
+            "Mask": 1634625892,
+            "MaskR": 7562612,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "63E2A1CE-4696FA31-9E81D28F-5E41E451",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "55386161-419E95B5-77AA499D-5EA27E57",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "ArrayProperty_1769367875",
+            "Mask": 7499635,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade_76"
+          }
+        },
+        {
+          "ExpressionInputId": "34D7522A-455D90B0-4EE02E80-0E1C866D",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "ArrayProperty_1954047315",
+            "Mask": 6648437,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade_69"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "86A8532A-4D53E96F-911B8DA8-40667EB7",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObject",
+    "Name": "MaterialExpressionTextureObject_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureObject'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Noise_Normal_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/T_Noise_Normal_01.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Particle_EdgedBand'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Textures/T_Particle_EdgedBand.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 69,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos_Normal_101"
+      },
+      "Texture": {
+        "ObjectName": "TextureCube'T_TRV_CAS_HDR'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortress_Transylvania/Test_Assets/Textures/T_TRV_CAS_HDR.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      }
+    }
+  }
+]

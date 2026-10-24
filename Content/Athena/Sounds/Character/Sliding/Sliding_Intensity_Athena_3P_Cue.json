@@ -1,0 +1,207 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Sliding_Intensity_Athena_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Sliding_Intensity_Athena_3P_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_3P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_3P_Athena.0"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_Footsteps_Sprint_3P_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_Footsteps_Sprint_3P_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulatorContinuous'Sliding_Intensity_Athena_3P_Cue:SoundNodeModulatorContinuous_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeModulatorContinuous'Sliding_Intensity_Athena_3P_Cue:SoundNodeModulatorContinuous_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulatorContinuous",
+    "Name": "SoundNodeModulatorContinuous_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulatorContinuous'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "PitchModulationParams": {
+        "ParameterName": "SlidingIntensity",
+        "MinOutput": 0.8,
+        "MaxOutput": 1.5
+      },
+      "VolumeModulationParams": {
+        "ParameterName": "SlidingIntensity",
+        "MinOutput": 0.25
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sliding_Intensity_Athena_3P_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulatorContinuous",
+    "Name": "SoundNodeModulatorContinuous_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulatorContinuous'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "PitchModulationParams": {
+        "MinOutput": 1.2,
+        "MaxOutput": 0.5
+      },
+      "VolumeModulationParams": {
+        "ParameterName": "SlidingIntensity",
+        "MinOutput": 0.5,
+        "MaxOutput": 1.25
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeParamCrossFade'Sliding_Intensity_Athena_3P_Cue:SoundNodeParamCrossFade_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeParamCrossFade",
+    "Name": "SoundNodeParamCrossFade_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeParamCrossFade'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "ParamName": "SlidingIntensity",
+      "CrossFadeInput": [
+        {
+          "FadeInDistanceStart": 0.0,
+          "FadeInDistanceEnd": 0.0,
+          "FadeOutDistanceStart": 0.0,
+          "FadeOutDistanceEnd": 1.0,
+          "Volume": 0.5
+        },
+        {
+          "FadeInDistanceStart": 0.0,
+          "FadeInDistanceEnd": 1.0,
+          "FadeOutDistanceStart": 100.0,
+          "FadeOutDistanceEnd": 100.0,
+          "Volume": 1.0
+        }
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sliding_Intensity_Athena_3P_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sliding_Intensity_Athena_3P_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_debris_01.sfx_character_slidingloop_debris_01",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_character_slidingloop_debris_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_debris_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_debris_02.sfx_character_slidingloop_debris_02",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_character_slidingloop_debris_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_debris_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sliding_Intensity_Athena_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/Sliding_Intensity_Athena_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_wind.sfx_character_slidingloop_wind",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_character_slidingloop_wind'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Sliding/sfx_character_slidingloop_wind.0"
+    }
+  }
+]

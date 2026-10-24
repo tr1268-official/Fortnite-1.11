@@ -1,0 +1,1 @@
+class UAthena_POI_CommunityPark_001_C : public UFortLevelScriptActor;

@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Wind_UmbrellaClosed_Loop_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeDoppler'Wind_UmbrellaClosed_Loop_3P_Cue:SoundNodeDoppler_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.1"
+      },
+      "VolumeMultiplier": 1.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_Skydive_NoParachute_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_Skydive_NoParachute_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDoppler",
+    "Name": "SoundNodeDoppler_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDoppler'",
+    "Outer": {
+      "ObjectName": "SoundCue'Wind_UmbrellaClosed_Loop_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Wind_UmbrellaClosed_Loop_3P_Cue:SoundNodeMixer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Wind_UmbrellaClosed_Loop_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        0.8,
+        1.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Wind_UmbrellaClosed_Loop_3P_Cue:SoundNodeModulator_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Wind_UmbrellaClosed_Loop_3P_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Wind_UmbrellaClosed_Loop_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.1,
+      "PitchMax": 1.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Wind_UmbrellaClosed_Loop_3P_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Wind_UmbrellaClosed_Loop_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_01.Wind_UmbrellaClosed_Loop_01",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Wind_UmbrellaClosed_Loop_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Wind_UmbrellaClosed_Loop_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/Wind_UmbrellaClosed_Loop_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Wind_Falling/sfx_parachute_skydive_loop_3p.sfx_parachute_skydive_loop_3p",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_parachute_skydive_loop_3p'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Wind_Falling/sfx_parachute_skydive_loop_3p.0"
+    }
+  }
+]

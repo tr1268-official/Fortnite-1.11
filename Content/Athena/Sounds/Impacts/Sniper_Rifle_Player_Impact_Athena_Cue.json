@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Sniper_Rifle_Player_Impact_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.1"
+      },
+      "VolumeMultiplier": 3.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_ImpactSounds'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_ImpactSounds.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 3,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.12,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Bullet_Impact_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Bullet_Impact_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "VolumeMax": 1.5,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeRandom_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Sniper_Rifle_Player_Impact_Athena_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Impacts/sniper_body_impact_01.sniper_body_impact_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sniper_body_impact_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/sniper_body_impact_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Impacts/sniper_body_impact_02.sniper_body_impact_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sniper_body_impact_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/sniper_body_impact_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Impacts/sniper_body_impact_03.sniper_body_impact_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sniper_body_impact_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/sniper_body_impact_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Sniper_Rifle_Player_Impact_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Sniper_Rifle_Player_Impact_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Impacts/sniper_body_impact_04.sniper_body_impact_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sniper_body_impact_04'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/sniper_body_impact_04.0"
+    }
+  }
+]

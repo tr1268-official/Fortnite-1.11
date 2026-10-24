@@ -1,0 +1,2218 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaAerialFeedback_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaAerialFeedback_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.96"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaAerialFeedback.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaAerialFeedback_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaAerialFeedback_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.0"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.12"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.10"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:CustomEvent_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.9"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:CustomEvent_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.8"
+      },
+      {
+        "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:FeedbackText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.58"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:KeybindWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.59"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaAerialFeedback": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+      },
+      "CustomEvent_2": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:CustomEvent_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.8"
+      },
+      "CustomEvent_1": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:CustomEvent_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.10"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.12"
+      },
+      "Update": {
+        "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaAerialFeedback_C'Default__AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.2"
+    }
+  },
+  {
+    "Type": "AthenaAerialFeedback_C",
+    "Name": "Default__AthenaAerialFeedback_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.AthenaAerialFeedback_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Feedback",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaAerialFeedback",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.4"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_CustomEvent_GamePhaseStep'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.38"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.20"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.36"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.37"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.82"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.40"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.CallFunc_GetGameState_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_DynamicCast_AsFort_Game_State_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.57"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaAerialFeedback_C:CustomEvent_2.GamePhaseStep'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.7"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "GamePhaseStep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:CustomEvent_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EAthenaGamePhaseStep'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaAerialFeedback_C:CustomEvent_2.GamePhaseStep.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.6"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CustomEvent_2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaAerialFeedback_C:CustomEvent_2.GamePhaseStep'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CustomEvent_1",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaAerialFeedback_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.11"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaAerialFeedback_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.41"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaAerialFeedback_C:Update.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.14"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EAthenaAerialPhase'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaAerialFeedback_C:Update.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.13"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Update",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaAerialFeedback_C:Update.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.14"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.Temp_text_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.88"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.Temp_text_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.89"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.CallFunc_GetGameState_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_AsFort_Game_State_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.65"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.21"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:Update.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.62"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.CallFunc_MakeLiteralText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.85"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_AsAthena_Player_Controller'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.64"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_bSuccess2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.22"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.CallFunc_MakeLiteralText_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.86"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaAerialFeedback_C:Update.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.83"
+      },
+      {
+        "ObjectName": "ArrayProperty'AthenaAerialFeedback_C:Update.K2Node_MakeArray_Array'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.17"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.84"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.CallFunc_GetGameState_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_AsAthena_Game_State'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.63"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:Update.K2Node_DynamicCast_bSuccess3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.23"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaAerialFeedback_C:Update.CallFunc_GetAerialPhase_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.39"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaAerialFeedback_C:Update.K2Node_SwitchEnum2_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.24"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaAerialFeedback_C:Update.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.87"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaAerialFeedback_C:Update.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.17"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'AthenaAerialFeedback_C:Update.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.16"
+    }
+  },
+  {
+    "Type": "AthenaAerialFeedback_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.AthenaAerialFeedback_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback",
+    "Template": {
+      "ObjectName": "AthenaAerialFeedback_C'Default__AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.2"
+    },
+    "Properties": {
+      "Feedback": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+      },
+      "FeedbackText": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.FeedbackText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.32"
+      },
+      "KeybindWidget_0": {
+        "ObjectName": "KeybindWidget_C'WidgetArchetype:WidgetTree_0.KeybindWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.54"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.97"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum2_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.29"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.29"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.78"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_CustomEvent_GamePhaseStep'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.38"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaAerialFeedback_C:Update.CallFunc_GetAerialPhase_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.39"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "BorderFrame",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "Margin": {
+          "Left": 0.25,
+          "Top": 0.25,
+          "Right": 0.25,
+          "Bottom": 0.25
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Keybind-Frame-L'",
+          "ObjectPath": "FortniteGame/Content/UI/InGame/KeybindWidget/Textures/Keybind-Frame-L.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "BrushColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.6,
+        "Hex": "99FFFFFF"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.71"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "FeedbackText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaAerialFeedback_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.96"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "5CA66D384DC3B057F7880E857B2B89B1",
+        "SourceString": "{Action}",
+        "LocalizedString": "{Action}"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Press",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaAerialFeedback_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.96"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "DC3163344C79CDF76EBA74BD94D005E2",
+        "SourceString": "Press",
+        "LocalizedString": "Press"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.45"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "FeedbackText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.97"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "5CA66D384DC3B057F7880E857B2B89B1",
+        "SourceString": "{Action}",
+        "LocalizedString": "{Action}"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.47"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextCountdown",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "960827544257F7AA3EE684A0BE3C7128",
+        "SourceString": "{T}",
+        "LocalizedString": "{T}"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 16
+      },
+      "Justification": "ETextJustify::Center",
+      "Margin": {
+        "Left": 1.0
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0.SizeBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.79"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextKeybind",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "3CCAD3CE41CAADF4D775DA90BF181C06",
+        "SourceString": "{K}",
+        "LocalizedString": "{K}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Margin": {
+        "Left": 1.0
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.81"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "Press",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.97"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "DC3163344C79CDF76EBA74BD94D005E2",
+        "SourceString": "Press",
+        "LocalizedString": "Press"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.48"
+      }
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnLocalPlayerBeginSkydiving__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnGamePhaseStepChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_GamePhaseStep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EAthenaGamePhaseStep'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback.K2Node_CustomEvent_GamePhaseStep.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.27"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetAerialPhase_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EAthenaAerialPhase'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaAerialFeedback_C:Update.CallFunc_GetAerialPhase_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.28"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Feedback",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaAerialFeedback_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.96"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.45"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.46"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.44"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Feedback",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.97"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.48"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.49"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.47"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaAerialFeedback_C:WidgetTree.FeedbackText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.30"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaAerialFeedback_C:WidgetTree.Press'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.31"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+      },
+      "Content": {
+        "ObjectName": "KeybindWidget_C'AthenaAerialFeedback_C:WidgetTree.KeybindWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.53"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.FeedbackText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.Press'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.35"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Right": 5.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+      },
+      "Content": {
+        "ObjectName": "KeybindWidget_C'WidgetArchetype:WidgetTree_0.KeybindWidget_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.54"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Keybind",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Assault-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Assault-S.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.73"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Shadow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Weapon-Assault-S'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Weapon/Icon-Weapon-Assault-S.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1.OverlaySlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.72"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "HoldKeybindImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.70"
+      }
+    }
+  },
+  {
+    "Type": "KeybindWidget_C",
+    "Name": "KeybindWidget_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/InGame/KeybindWidget/KeybindWidget.KeybindWidget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaAerialFeedback_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.96"
+    },
+    "Template": {
+      "ObjectName": "KeybindWidget_C'Default__KeybindWidget_C'",
+      "ObjectPath": "FortniteGame/Content/UI/InGame/KeybindWidget/KeybindWidget.2"
+    },
+    "Properties": {
+      "Brush Size": "EFortBrushSize::Medium",
+      "Frame MultiBrush": {
+        "Brush_XL": {
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          }
+        }
+      },
+      "BoundAction": "Jump",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaAerialFeedback_C:WidgetTree.Feedback.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.46"
+      }
+    }
+  },
+  {
+    "Type": "KeybindWidget_C",
+    "Name": "KeybindWidget_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/InGame/KeybindWidget/KeybindWidget.KeybindWidget_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.97"
+    },
+    "Template": {
+      "ObjectName": "KeybindWidget_C'Default__KeybindWidget_C'",
+      "ObjectPath": "FortniteGame/Content/UI/InGame/KeybindWidget/KeybindWidget.2"
+    },
+    "Properties": {
+      "[Image] Keybind": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Keybind'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.50"
+      },
+      "[Image] Shadow": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Shadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.51"
+      },
+      "BorderFrame": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.29"
+      },
+      "HoldOverlay": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.66"
+      },
+      "KeyTextOverlay": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.67"
+      },
+      "SizeBox_0": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.76"
+      },
+      "SizeBoxBackplate": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.77"
+      },
+      "Switcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+      },
+      "TextKeybind": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextKeybind'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.34"
+      },
+      "TextSizeMinBox": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.78"
+      },
+      "Brush Size": "EFortBrushSize::Medium",
+      "Frame MultiBrush": {
+        "Brush_XL": {
+          "Margin": {
+            "Left": 0.25,
+            "Top": 0.25,
+            "Right": 0.25,
+            "Bottom": 0.25
+          }
+        }
+      },
+      "BoundAction": "Jump",
+      "HoldKeybindImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldKeybindImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.52"
+      },
+      "TextCountdown": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextCountdown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.33"
+      },
+      "KeyCountdownSwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Feedback.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.49"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetGameState_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'GameStateBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Game_State_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGameStateAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FeedbackText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "KeybindWidget_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'KeybindWidget_C'",
+      "ObjectPath": "FortniteGame/Content/UI/InGame/KeybindWidget/KeybindWidget.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetGameState_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'GameStateBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetGameState_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'GameStateBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Game_State",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameState.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Player_Controller",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Game_State_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGameStateAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "HoldOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.80"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "KeyTextOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.94"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1.OverlaySlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.72"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.73"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.95"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_612",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.74"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.75"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.66"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.66"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldKeybindImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.52"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.67"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.67"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 1.0,
+        "Top": 1.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Shadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.51"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Keybind'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.50"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.77"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0.SizeBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.79"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.93"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBoxBackplate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 80.0,
+      "HeightOverride": 80.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.80"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.74"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "TextSizeMinBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.26"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.76"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.76"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextCountdown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.33"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.77"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.66"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.78"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.78"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextKeybind'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.34"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:ExecuteUbergraph_AthenaAerialFeedback'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAerialFeedback_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.15"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "KeyCountdownSwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.92"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.75"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "Switcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.98"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.94"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.95"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.92"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.76"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.67"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaAerialFeedback_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'AthenaAerialFeedback_C:WidgetTree.Feedback'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.42"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaAerialFeedback_C:WidgetTree.Press'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.31"
+        },
+        {
+          "ObjectName": "KeybindWidget_C'AthenaAerialFeedback_C:WidgetTree.KeybindWidget_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.53"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaAerialFeedback_C:WidgetTree.FeedbackText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaAerialFeedback_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.18"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Feedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.43"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "KeybindWidget_C'WidgetArchetype:WidgetTree_0.KeybindWidget_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.54"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_612'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.69"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBoxBackplate'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.77"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldOverlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.66"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.HoldKeybindImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.52"
+        },
+        {
+          "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyCountdownSwitcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.90"
+        },
+        {
+          "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Switcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.91"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.KeyTextOverlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.67"
+        },
+        {
+          "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.BorderFrame'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.29"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextSizeMinBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.78"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextKeybind'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.34"
+        },
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.Overlay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.68"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Shadow'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.51"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.[Image] Keybind'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.50"
+        },
+        {
+          "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.SizeBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.76"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.KeybindWidget_0.WidgetTree_1.TextCountdown'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaAerialFeedback.33"
+        }
+      ]
+    }
+  }
+]

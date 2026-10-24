@@ -1,0 +1,816 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_MiniMapBackgroundStorms",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 77,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components",
+        "UseConstant": false,
+        "Constant": {
+          "B": 91,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00005B"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 144,
+      "EditorY": 240,
+      "Expressions": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_MiniMapBackgroundStorms:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_MiniMapBackgroundStorms:MaterialExpressionVectorParameter_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.7"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_MiniMapBackgroundStorms:MaterialExpressionVectorParameter_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_MiniMapBackgroundStorms:MaterialExpressionVectorParameter_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.9"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_MiniMapBackgroundStorms:MaterialExpressionVectorParameter_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.10"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_MiniMapBackgroundStorms:MaterialExpressionMaterialFunctionCall_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_MiniMapBackgroundStorms:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.3"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_MiniMapBackgroundStorms:MaterialExpressionMaterialFunctionCall_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.4"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_MiniMapBackgroundStorms:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.1"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_MiniMapBackgroundStorms:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.5"
+        },
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "13344017-493062BD-9E7D479A-409C7769",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_HazardBars'",
+            "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars.1"
+          }
+        },
+        {
+          "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+          }
+        },
+        {
+          "StateId": "22D64C63-4770AAF2-8D3B8999-618FC7B8",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+            "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "22D64C63-4770AAF2-8D3B8999-618FC7B8",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+            "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "F2C7880F-4E18B8D7-ED2EF493-C0A16B4D",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_StormVortex'",
+            "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_StormVortex.7"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "162D6D2B-48CD8C45-6AA56F8E-93FB317B",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.0"
+          }
+        },
+        {
+          "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.0"
+          }
+        },
+        {
+          "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat3'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+          }
+        },
+        {
+          "StateId": "22D64C63-4770AAF2-8D3B8999-618FC7B8",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+            "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "8E75E59A-498379E6-04D43A9C-59AFDDB2"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_StormVortex'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_StormVortex.7"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "FAF95165-4F8E6F0B-5A2422A0-77B79B6E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BreakOutFloat3Components_1632792136",
+            "Mask": 1937074532,
+            "MaskR": 1768186945,
+            "MaskG": 1702259060,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "9FAE98AF-4CE7855E-0C4EDD9D-757359DA",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BreakOutFloat2Components_1919514450",
+            "Mask": 1850286188,
+            "MaskR": 1936614772,
+            "MaskG": 7959657,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "088D6EDF-41E969FB-56D3C2A8-C70CEB19",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "ArrayProperty_1919906898",
+            "Mask": 1767121005,
+            "MaskR": 29806,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components_1493172223"
+          }
+        },
+        {
+          "ExpressionInputId": "AEB4730E-448AA038-A4BBF492-A80D8276",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BlendMode_1919906898",
+            "Mask": 1700012141,
+            "MaskR": 1920300152,
+            "MaskG": 101,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "018206DE-4185B519-7055139A-FDE60CDA",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BreakOutFloat2Components_1751607627",
+            "Mask": 1766072436,
+            "MaskR": 1952671090,
+            "MaskG": 7237481,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "0606BE7C-4AC8ADE4-B30C58B3-EDC82728",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "bCanMaskedBeAssumedOpaque_1919906898",
+            "Mask": 1767121005,
+            "MaskR": 3241070,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "0A8735F0-4EF3E42A-D0D6829B-539CEA32",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1632857672",
+            "Mask": 1868195174,
+            "MaskR": 1631872366,
+            "MaskG": 24948,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A237CAD3-4A4A2F2A-3CC14CA6-C05B1FE4",
+          "Output": {
+            "OutputName": "Color",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Color",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_HazardBars'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_HazardBars.1"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "7929BF0F-4A4F1510-DFB663A6-A8EA561E",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "/Script/Engine_1701996627",
+            "Mask": 1819240563,
+            "MaskR": 100,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components_5832703"
+          }
+        },
+        {
+          "ExpressionInputId": "6D4B0F7E-4963F536-E929489B-525609DD",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1299341633",
+            "Mask": 1769237621,
+            "MaskR": 1701407856,
+            "MaskG": 114,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A237CAD3-4A4A2F2A-3CC14CA6-C05B1FE4",
+          "Output": {
+            "OutputName": "Threshold",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Threshold",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "BDB4EB36-43C87728-92A1758A-419CF07F",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BreakOutFloat3Components_1632792136",
+            "Mask": 1937074532,
+            "MaskR": 1768186945,
+            "MaskG": 1702259060,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "C5464D8C-44DA7F3D-94CBB699-62349CEE",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1632857672",
+            "Mask": 1868195174,
+            "MaskR": 1631872366,
+            "MaskG": 24948,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "9F49BB94-4FDE4163-F99AB189-FAEE1299",
+          "Output": {
+            "OutputName": "SignedDistanceToEdge",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "A237CAD3-4A4A2F2A-3CC14CA6-C05B1FE4",
+          "Output": {
+            "OutputName": "Threshold",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "SignedDistanceToEdge",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Threshold",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "BDB4EB36-43C87728-92A1758A-419CF07F",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BreakOutFloat3Components_1632792136",
+            "Mask": 1937074532,
+            "MaskR": 1768186945,
+            "MaskG": 1702259060,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "C5464D8C-44DA7F3D-94CBB699-62349CEE",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "9F49BB94-4FDE4163-F99AB189-FAEE1299",
+          "Output": {
+            "OutputName": "SignedDistanceToEdge",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "A237CAD3-4A4A2F2A-3CC14CA6-C05B1FE4",
+          "Output": {
+            "OutputName": "Threshold",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "SignedDistanceToEdge",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Threshold",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "BDB4EB36-43C87728-92A1758A-419CF07F",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BreakOutFloat3Components_1632792136",
+            "Mask": 1937074532,
+            "MaskR": 1768186945,
+            "MaskG": 1702259060,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        },
+        {
+          "ExpressionInputId": "C5464D8C-44DA7F3D-94CBB699-62349CEE",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BoolProperty_1632857672",
+            "Mask": 1868195174,
+            "MaskR": 1631872366,
+            "MaskG": 24948,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "9F49BB94-4FDE4163-F99AB189-FAEE1299",
+          "Output": {
+            "OutputName": "SignedDistanceToEdge",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "A237CAD3-4A4A2F2A-3CC14CA6-C05B1FE4",
+          "Output": {
+            "OutputName": "Threshold",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "SignedDistanceToEdge",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Threshold",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "ParameterName": "MapTexture",
+      "ExpressionGUID": "EE6FFDFD-445D2DBF-D19A39A0-40BEC238",
+      "Group": "Inputs",
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.307339,
+        "G": 0.7,
+        "B": 0.144954,
+        "A": 1.0,
+        "Hex": "97DA6A"
+      },
+      "ParameterName": "CurrentCircle",
+      "ExpressionGUID": "1A195E1A-4A149507-B9CA98AB-F4847610",
+      "Group": "Inputs",
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "ParameterName": "NextCircle",
+      "ExpressionGUID": "2FDCD0DC-4D2CCC92-20BAC1AF-F3502C42",
+      "Group": "Inputs",
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.580289,
+        "G": 0.061054,
+        "B": 1.0,
+        "A": 0.6,
+        "Hex": "99C946FF"
+      },
+      "ParameterName": "TintOutsideSafeZone",
+      "ExpressionGUID": "5A3F0D65-46E129F5-3C8C1DA7-23231210",
+      "Group": "EffectParams",
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.298849,
+        "G": 0.031443,
+        "B": 0.515,
+        "A": 1.0,
+        "Hex": "9531BE"
+      },
+      "ParameterName": "DangerLineColor",
+      "ExpressionGUID": "85024D18-497F538B-C8920498-1A6C28A5",
+      "Group": "EffectParams",
+      "Material": {
+        "ObjectName": "Material'M_MiniMapBackgroundStorms'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/M_MiniMapBackgroundStorms.0"
+      }
+    }
+  }
+]

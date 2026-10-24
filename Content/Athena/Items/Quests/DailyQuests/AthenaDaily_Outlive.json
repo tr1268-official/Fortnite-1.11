@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "AthenaDaily_Outlive",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/DailyQuests/AthenaDaily_Outlive",
+    "Properties": {
+      "QuestType": "EFortQuestType::AthenaDailyQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        },
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalBP.AthenaSeasonalBP",
+            "SubPathString": ""
+          },
+          "Quantity": 5
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "daily_athena_outlive_players_v3",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "outlive_athena"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "5D5B9CE5423E88B1D8D435BF9532346E",
+            "SourceString": "Outlive Opponents",
+            "LocalizedString": "Outlive Opponents"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "9235A3E648BE80E90997CD994AD2A445",
+            "SourceString": "Outlive Opponents",
+            "LocalizedString": "Outlive Opponents"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 300,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "BRDailyChallenges"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "03E6736B45AE7D670CD2FEB6B648CE55",
+        "SourceString": "Daily Challenge Completed!",
+        "LocalizedString": "Daily Challenge Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "37D53AD0456B5F0FF0563AB4C6F23133",
+        "SourceString": "Outlive Opponents",
+        "LocalizedString": "Outlive Opponents"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6C39310A4F6D5653A896B9A39ABADBF7",
+        "SourceString": "Outlive Opponents",
+        "LocalizedString": "Outlive Opponents"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Rescue-Survivors-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Rescue-Survivors-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Rescue-Survivors-128.T-Icon-Rescue-Survivors-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

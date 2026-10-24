@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "WID_Pistol_SixShooter_Athena_R_Ore_T03",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Weapons/WID_Pistol_SixShooter_Athena_R_Ore_T03",
+    "Properties": {
+      "bShouldUsePerfectAimWhenTargetingMinSpread": false,
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Weapons/FORT_Pistols/Blueprints/B_Pistol_SixShooter_Athena.B_Pistol_SixShooter_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponMeshOverride": {
+        "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SK_SixShooter.SK_SixShooter",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'AthenaRangedWeapons'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Weapons/AthenaRangedWeapons.0"
+        },
+        "RowName": "Pistol_SixShooter_Athena_R_Ore_T03"
+      },
+      "BaseAlteration": {
+        "AssetPathName": "/Game/Items/Alterations/DamageTypeAlterations/BaseAlteration_BallisticDamage.BaseAlteration_BallisticDamage",
+        "SubPathString": ""
+      },
+      "BaseCosmeticAlteration": {
+        "AssetPathName": "/Game/Items/Alterations/CosmeticAlterations/Pistol_CosmeticAlteration_01.Pistol_CosmeticAlteration_01",
+        "SubPathString": ""
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Abilities/Weapons/Ranged/GA_Ranged_GenericDamage.GA_Ranged_GenericDamage_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsLight.AthenaAmmoDataBulletsLight",
+        "SubPathString": ""
+      },
+      "ReticleCenterImage": {
+        "AssetPathName": "/Game/Athena/HUD/reticles/reticle_dot.reticle_dot",
+        "SubPathString": ""
+      },
+      "bReticleCornerOutsideSpreadRadius": true,
+      "AnalyticTags": [
+        "weapon.ranged"
+      ],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Pistol-32'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/ItemTypes/T-Icon-Pistol-32.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Tiered_T03_"
+      },
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Weapons/FORT_Pistols/Mesh/SixShooter.SixShooter",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Pickup_Cue.Revolver_Pickup_Cue",
+        "SubPathString": ""
+      },
+      "DropSound": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Revolver_Drop_Cue.Revolver_Drop_Cue",
+        "SubPathString": ""
+      },
+      "DisassembleDurabilityDegradeMinLootPercent": 0.1,
+      "DisassembleDurabilityDegradeMaxLootPercent": 0.4,
+      "MinLevel": -1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "D40DF5A14BF5717BACAC349249095D14",
+        "SourceString": "Revolver",
+        "LocalizedString": "Revolver"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CD6DCDBF421F0BB06C45529FE2D55BE0",
+        "SourceString": "Pistol: Revolver. Fast, precise sidearm, with a good punch but small capacity.",
+        "LocalizedString": "Pistol: Revolver. Fast, precise sidearm, with a good punch but small capacity."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "23E3183E45362A193852FFBC279C2BFB",
+        "SourceString": "Guns Ranged Pistols MediumBullets SemiAuto",
+        "LocalizedString": "Guns Ranged Pistols MediumBullets SemiAuto"
+      },
+      "GameplayTags": [
+        "Weapon.Ranged.pistol",
+        "Skill.sniper.headshotbuff",
+        "Gameplay.DamageSource.Weapon"
+      ],
+      "bNeverPersisted": true,
+      "Tier": "EFortItemTier::III",
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Weapons-SK-SixShooter'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-SixShooter.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-SK-SixShooter-L.T-Icon-Weapons-SK-SixShooter-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy",
+      "FrontendPreviewMeshOffset": {
+        "Rotation": {
+          "X": 0.18,
+          "Y": 0.013356,
+          "Z": 0.15,
+          "W": 0.937633,
+          "IsNormalized": false,
+          "Size": 0.9665578,
+          "SizeSquared": 0.93423396
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": -22.0,
+          "Z": -1.0
+        },
+        "Scale3D": {
+          "X": 1.1,
+          "Y": 1.1,
+          "Z": 1.1
+        }
+      }
+    }
+  }
+]

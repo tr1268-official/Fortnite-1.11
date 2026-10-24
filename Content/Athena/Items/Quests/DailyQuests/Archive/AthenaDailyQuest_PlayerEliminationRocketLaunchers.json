@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "AthenaDailyQuest_PlayerEliminationRocketLaunchers",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/DailyQuests/Archive/AthenaDailyQuest_PlayerEliminationRocketLaunchers",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/BattleBucks.BattleBucks",
+            "SubPathString": ""
+          },
+          "Quantity": 20
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "athena_daily_kill_players_rocket_launcher",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "killingblow_athena_player_rocket_launcher"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "6902EA86472A4F2D07C45B9150FC6B4F",
+            "SourceString": "Eliminate 2 players with rocket launchers across multiple matches",
+            "LocalizedString": "Eliminate 2 players with rocket launchers across multiple matches"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "18D5AC8542706CBF00DB1CACCC101DD4",
+            "SourceString": "Rocket Launcher Eliminations",
+            "LocalizedString": "Rocket Launcher Eliminations"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 2,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Weight": 0.0,
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "AthenaDailyQuests"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "5A52E592410EFB36D0DD3094D2185B76",
+        "SourceString": "Eliminate players with rocket launchers completed!",
+        "LocalizedString": "Eliminate players with rocket launchers completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "13E3A8BB426DBF820702C7BDD35417FD",
+        "SourceString": "Eliminate Players with Rocket Launchers",
+        "LocalizedString": "Eliminate Players with Rocket Launchers"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "F1CF440C4C002326C29BCDA70A875E26",
+        "SourceString": "Get 2 player eliminations with rocket launchers across multiple matches",
+        "LocalizedString": "Get 2 player eliminations with rocket launchers across multiple matches"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Exterminate-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.T-Icon-Exterminate-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

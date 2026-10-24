@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Amb_RoomTone_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_RoomTone_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'Amb_RoomTone_Athena_Cue:SoundNodeWavePlayer_18'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_RoomTone_Athena_Cue.1"
+      },
+      "VolumeMultiplier": 0.3,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Ambient_Indoors_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Ambient_Indoors_Athena.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Ambient_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Ambient_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_RoomTone_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_RoomTone_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Trans_AmbientLoops/RoomTones/Rumble_SmallSpace001_Stereo.Rumble_SmallSpace001_Stereo",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Rumble_SmallSpace001_Stereo'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Trans_AmbientLoops/RoomTones/Rumble_SmallSpace001_Stereo.0"
+    }
+  }
+]

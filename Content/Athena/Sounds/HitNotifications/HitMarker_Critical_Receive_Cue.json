@@ -1,0 +1,592 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "HitMarker_Critical_Receive_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'HitMarker_Critical_Receive_Cue:SoundNodeMixer_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.3"
+      },
+      "VolumeMultiplier": 0.6,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Enemy_Bullet_Impact_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Enemy_Bullet_Impact_PSM.0"
+      },
+      "SoundConcurrencySettings": {
+        "ObjectName": "SoundConcurrency'HitNotifications_TwoMaximum_StopOldest_VolumeScale'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Concurrency_Rules/HitNotifications_TwoMaximum_StopOldest_VolumeScale.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 2.0110416,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_HitMarker_Att'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/Fort_HitMarker_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.15,
+      "DelayMax": 0.15,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'HitMarker_Critical_Receive_Cue:SoundNodeMixer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeEnveloper",
+    "Name": "SoundNodeEnveloper_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeEnveloper'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "VolumeCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.3,
+              "Value": 0.0,
+              "ArriveTangent": 32.592373,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 32.592373,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_User",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.4,
+              "Value": 1.0,
+              "ArriveTangent": 2.8166237,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 2.8166244,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "PitchCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'HitMarker_Critical_Receive_Cue:SoundNodeRandom_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeEnveloper'HitMarker_Critical_Receive_Cue:SoundNodeEnveloper_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'HitMarker_Critical_Receive_Cue:SoundNodeModulator_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.7
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'HitMarker_Critical_Receive_Cue:SoundNodeRandom_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'HitMarker_Critical_Receive_Cue:SoundNodeModulator_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeDelay'HitMarker_Critical_Receive_Cue:SoundNodeDelay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 2.0,
+      "PitchMax": 2.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'HitMarker_Critical_Receive_Cue:SoundNodeRandom_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.11"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.12"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.14"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_21'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.15"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_22'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.16"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_24'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.18"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_25'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.19"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_26'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.20"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_27'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.21"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'HitMarker_Critical_Receive_Cue:SoundNodeWavePlayer_28'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_01.player_bulletimpact_rifle_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_bulletimpact_rifle_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_02.player_bulletimpact_rifle_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_bulletimpact_rifle_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_03.player_bulletimpact_rifle_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_bulletimpact_rifle_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_04.player_bulletimpact_rifle_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_bulletimpact_rifle_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Weapons/Impacts/player_bulletimpact_rifle_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_01.player_impact_enemy_stereo_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_impact_enemy_stereo_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_02.player_impact_enemy_stereo_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_impact_enemy_stereo_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_03.player_impact_enemy_stereo_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_impact_enemy_stereo_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_04.player_impact_enemy_stereo_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'player_impact_enemy_stereo_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Flesh/player_impact_enemy_stereo_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact01.Metal_Cannon_Impact01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Metal_Cannon_Impact01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact02.Metal_Cannon_Impact02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Metal_Cannon_Impact02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact03.Metal_Cannon_Impact03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Metal_Cannon_Impact03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact04.Metal_Cannon_Impact04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Metal_Cannon_Impact04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'HitMarker_Critical_Receive_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/HitNotifications/HitMarker_Critical_Receive_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact05.Metal_Cannon_Impact05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Metal_Cannon_Impact05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Metal_Cannon_Impact05.0"
+    }
+  }
+]

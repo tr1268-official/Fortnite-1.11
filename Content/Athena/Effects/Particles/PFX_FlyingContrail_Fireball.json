@@ -1,0 +1,1184 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "DistributionVelocityScale",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleLocationPrimitiveSphere'PFX_FlyingContrail_Fireball:ParticleModuleLocationPrimitiveSphere_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.14"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Fireball:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.16"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Fireball:ParticleModuleRequired_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.17"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.21"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.22"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Fireball:ParticleModuleColorOverLife_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.10"
+    },
+    "Properties": {
+      "ParameterName": "TrailColor",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Direct",
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.26"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Fireball:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.16"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Fireball:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.12"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Fireball:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.20"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Fireball:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.18"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Fireball:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.24"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Fireball:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.10"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Fireball:ParticleModuleAcceleration_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.8"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Fireball:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.9"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'PFX_FlyingContrail_Fireball:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.23"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.21"
+      },
+      "PeakActiveParticles": 571
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.27"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Fireball:ParticleModuleRequired_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.17"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Fireball:ParticleModuleLifetime_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.13"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Fireball:ParticleModuleSize_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.19"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Fireball:ParticleModuleVelocity_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.25"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Fireball:ParticleModuleColorOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.11"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'PFX_FlyingContrail_Fireball:ParticleModuleParameterDynamic_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.15"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'PFX_FlyingContrail_Fireball:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.14"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.22"
+      },
+      "PeakActiveParticles": 23
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            100.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MinValue": -3.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": -3.0,
+          "Y": -3.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 3.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -3.0,
+            -3.0,
+            0.0,
+            3.0,
+            3.0,
+            0.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Fireball:ParticleModuleColorOverLife_0.DistributionVectorParticleParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.5"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1,
+          "TimeScale": 31.482225,
+          "TimeBias": 0.015317289,
+          "Values": [
+            0.0,
+            0.13330069,
+            0.4360497,
+            0.76512825,
+            0.9774178,
+            0.99830997,
+            0.989219,
+            0.9727014,
+            0.949392,
+            0.9199254,
+            0.8849364,
+            0.8450433,
+            0.80089474,
+            0.75313514,
+            0.70239896,
+            0.6493211,
+            0.594536,
+            0.5386785,
+            0.48238334,
+            0.42628533,
+            0.37101874,
+            0.3172229,
+            0.26554087,
+            0.21660167,
+            0.1710403,
+            0.12949122,
+            0.0925893,
+            0.0609692,
+            0.035265382,
+            0.01611276,
+            0.0041460954,
+            3.812602E-09
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 64,
+          "EntryStride": 1,
+          "TimeScale": 62.999996,
+          "TimeBias": -1.1641532E-09,
+          "Values": [
+            0.0,
+            0.08118769,
+            0.2813599,
+            0.53644246,
+            0.7823611,
+            0.9550415,
+            0.99998236,
+            0.9997035,
+            0.9990645,
+            0.99806154,
+            0.99669063,
+            0.99494827,
+            0.9928305,
+            0.99033374,
+            0.98745406,
+            0.9841878,
+            0.98053104,
+            0.97648025,
+            0.9720315,
+            0.967181,
+            0.9619251,
+            0.95626,
+            0.9501818,
+            0.94368696,
+            0.93677145,
+            0.92943174,
+            0.92166394,
+            0.9134643,
+            0.904829,
+            0.8957544,
+            0.88623667,
+            0.87627196,
+            0.8658567,
+            0.8549869,
+            0.8436589,
+            0.831869,
+            0.8196132,
+            0.80688804,
+            0.79368955,
+            0.78001404,
+            0.7658577,
+            0.75121677,
+            0.73608756,
+            0.7204662,
+            0.7043488,
+            0.68660253,
+            0.6620586,
+            0.6304219,
+            0.59272176,
+            0.54998887,
+            0.50325274,
+            0.45354337,
+            0.40189034,
+            0.34932414,
+            0.29687423,
+            0.24557076,
+            0.1964435,
+            0.1505225,
+            0.10883736,
+            0.07241836,
+            0.042294983,
+            0.01949776,
+            0.0050561028,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.5
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            2.0
+          ]
+        }
+      },
+      "VelocityScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Fireball:ParticleModuleLocationPrimitiveSphere_0.DistributionVelocityScale'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.0"
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleParameterDynamic'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": true,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 2,
+              "EntryCount": 1,
+              "EntryStride": 2,
+              "SubEntryStride": 1,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -1.0,
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": true,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 2,
+              "EntryCount": 1,
+              "EntryStride": 2,
+              "SubEntryStride": 1,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                -1.0,
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "None",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 12,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'M_SimpleContrailFireSmoke_Inst'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke_Inst.0"
+      },
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Fireball:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'M_FireSpot_Inst'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot_Inst.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Fireball:ParticleModuleRequired_1.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 1.5,
+        "MinValueVec": {
+          "X": 1.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 1.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.5,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "StartSize": {
+        "MinValue": 25.0,
+        "MaxValue": 25.0,
+        "MinValueVec": {
+          "X": 25.0,
+          "Y": 25.0,
+          "Z": 25.0
+        },
+        "MaxValueVec": {
+          "X": 15.0,
+          "Y": 25.0,
+          "Z": 25.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            25.0,
+            25.0,
+            25.0,
+            15.0,
+            25.0,
+            25.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 2.0474455,
+        "MaxValue": 4.551361,
+        "MinValueVec": {
+          "X": 2.0474455,
+          "Y": 2.0474455,
+          "Z": 2.0474455
+        },
+        "MaxValueVec": {
+          "X": 4.551361,
+          "Y": 4.551361,
+          "Z": 4.551361
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3,
+          "TimeScale": 64.669815,
+          "TimeBias": 0.0010940904,
+          "Values": [
+            4.551361,
+            4.551361,
+            4.551361,
+            4.5193586,
+            4.5193586,
+            4.5193586,
+            4.429668,
+            4.429668,
+            4.429668,
+            4.290887,
+            4.290887,
+            4.290887,
+            4.1121306,
+            4.1121306,
+            4.1121306,
+            3.9021635,
+            3.9021635,
+            3.9021635,
+            3.669968,
+            3.669968,
+            3.669968,
+            3.424408,
+            3.424408,
+            3.424408,
+            3.174399,
+            3.174399,
+            3.174399,
+            2.928839,
+            2.928839,
+            2.928839,
+            2.6966434,
+            2.6966434,
+            2.6966434,
+            2.4866765,
+            2.4866765,
+            2.4866765,
+            2.3079197,
+            2.3079197,
+            2.3079197,
+            2.1691387,
+            2.1691387,
+            2.1691387,
+            2.079448,
+            2.079448,
+            2.079448,
+            2.0474455,
+            2.0474455,
+            2.0474455
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 100.0,
+        "MaxValue": 100.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            100.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_0.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.3"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            20.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Fireball:ParticleModuleSpawn_1.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.4"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "bTangentRecalculationEveryFrame": true,
+      "bSpawnInitialParticle": true,
+      "TilingDistance": 256.0,
+      "DistanceTessellationStepSize": 10.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -10.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -10.0,
+            -10.0,
+            50.0,
+            10.0,
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "bInWorldSpace": true,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -10.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -10.0,
+            -10.0,
+            50.0,
+            10.0,
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Fireball'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.28"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_1.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "PFX_FlyingContrail_Fireball",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.26"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Fireball:ParticleSpriteEmitter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Fireball.27"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

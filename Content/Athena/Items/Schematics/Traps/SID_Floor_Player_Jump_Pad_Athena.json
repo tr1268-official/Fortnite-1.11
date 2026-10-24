@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "SID_Floor_Player_Jump_Pad_Athena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Schematics/Traps/SID_Floor_Player_Jump_Pad_Athena",
+    "Properties": {
+      "CraftingRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'CraftingRecipes_New'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/CraftingRecipes_New.0"
+        },
+        "RowName": "Ammo.Shells"
+      },
+      "CraftingPoints": 5,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "NoScaling"
+      },
+      "CraftingTimeRowName": "Craft_Tier_0",
+      "GameplayTags": [
+        "trap.floor",
+        "trap.mobility"
+      ],
+      "bNeverPersisted": true,
+      "StatList": {
+        "AssetPathName": "/Game/Items/Traps/Blueprints/Defenders/TrapFloorDefenderTooltipStats.TrapFloorDefenderTooltipStats",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

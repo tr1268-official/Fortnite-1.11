@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SafeZoneCylinder'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "D4EC5A3A43F3B44D516939BB2C4675FA",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 88769,
+        "SizeOnDisk": 88769,
+        "OffsetInFile": "0x3534A"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_17",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SafeZoneCylinder'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x4AE53"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SafeZoneCylinder",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'WorldGridMaterial'",
+            "ObjectPath": "Engine/Content/EngineMaterials/WorldGridMaterial.0"
+          },
+          "MaterialSlotName": "WorldGridMaterial",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 580.02026,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 580.02026,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 6.866455E-05,
+          "Y": 7.6293945E-05,
+          "Z": 0.0
+        },
+        "BoxExtent": {
+          "X": 49.99993,
+          "Y": 49.99986,
+          "Z": 50.0
+        },
+        "SphereRadius": 70.71063
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SafeZoneCylinder:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SafeZoneCylinder:NavCollision_17'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder.1"
+    },
+    "LightingGuid": "B60B4789-4A8389B9-882D86A7-FB1F15F1",
+    "RenderData": null
+  }
+]

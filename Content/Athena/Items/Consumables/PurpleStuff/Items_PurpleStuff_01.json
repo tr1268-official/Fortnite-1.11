@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Items_PurpleStuff_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "1A18E991438CDB771FA8CF85339651C6",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 34061,
+        "SizeOnDisk": 34061,
+        "OffsetInFile": "0x16B64"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Items_PurpleStuff_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1F0B9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Items_PurpleStuff_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_PurpleStuff'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/M_PurpleStuff.0"
+          },
+          "MaterialSlotName": "M_MineralPoweder_3",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 82.51027,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_MineralPowder_Glass_7'",
+            "ObjectPath": "FortniteGame/Content/Items/Art_noLOD/Materials/M_MineralPowder_Glass_7.0"
+          },
+          "MaterialSlotName": "M_MineralPowder_Glass_3",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 111.418785,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 106.27202,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.4815979,
+          "Y": 0.15695763,
+          "Z": 22.71221
+        },
+        "BoxExtent": {
+          "X": 18.340172,
+          "Y": 14.480789,
+          "Z": 27.065226
+        },
+        "SphereRadius": 27.99335
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Items_PurpleStuff_01:BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Items_PurpleStuff_01:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/PurpleStuff/Items_PurpleStuff_01.1"
+    },
+    "LightingGuid": "34F36B50-45268DF0-1D820281-80D82120",
+    "RenderData": null
+  }
+]

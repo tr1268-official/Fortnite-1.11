@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_Test2Quest5",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test2/BattleProgram_Test2Quest5",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 2000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_win_match_duo",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "win_athena_duo"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "3CF4A6D7427C5C1BEE26D99884741555",
+            "SourceString": "Win a Duo Battle Royale Match",
+            "LocalizedString": "Win a Duo Battle Royale Match"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "6A9FEDF34FC47F58A6C594873EBCDA99",
+            "SourceString": "Win a Duo Battle Royale Match",
+            "LocalizedString": "Win a Duo Battle Royale Match"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DEDA5A4F40E17D912BD2F9A60ABCD1CE",
+        "SourceString": "Dominator Duo",
+        "LocalizedString": "Dominator Duo"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "D50AFAE94E049A906A404C813999DD1C",
+        "SourceString": "Win a Duo Battle Royale Match",
+        "LocalizedString": "Win a Duo Battle Royale Match"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "88C2B8B94BB2664EB01A689A2E135CFE",
+        "SourceString": "Win a Duo Battle Royale Match",
+        "LocalizedString": "Win a Duo Battle Royale Match"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

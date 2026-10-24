@@ -1,0 +1,499 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_CampfireGlow",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 68,
+        "ExpressionName": "/Script/CoreUObject",
+        "UseConstant": false,
+        "Constant": {
+          "B": 84,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000054"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bUsedWithParticleSprites": true,
+      "Expressions": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_CampfireGlow:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_CampfireGlow:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_CampfireGlow:MaterialExpressionMaterialFunctionCall_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_CampfireGlow:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.3"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_CampfireGlow:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_CampfireGlow:MaterialExpressionVectorParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_CampfireGlow:MaterialExpressionVectorParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.7"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_CampfireGlow:MaterialExpressionVectorParameter_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.8"
+        }
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "DD44CC9D-4987047F-E7B9B381-E4FC7145",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDepthFade'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+          }
+        },
+        {
+          "StateId": "8CB79C54-4BCF8609-151DE49E-CCDBD2A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'Color_Time_of_Day'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/Color_Time_of_Day.2"
+          }
+        },
+        {
+          "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+          }
+        }
+      ],
+      "MaterialParameterCollectionInfos": [
+        {
+          "StateId": "A94D5006-4B63826C-8C4986A4-C8BDA176",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'FortniteMaterialParameters'",
+            "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/GlobalMaterialParameters/FortniteMaterialParameters.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "D07C8380-428E255C-76AA0581-D3276046"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CameraDepthFade'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "79FFEA6C-4F3A46F5-1F8E50A3-49E4BB4B",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1701077317",
+            "Mask": 1852132384,
+            "MaskR": 6845543,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "D5EC0E2F-4DB88867-9BFC2A8B-921262ED",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1701077317",
+            "Mask": 1717980960,
+            "MaskR": 7628147,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "7B4195E6-455691CA-37823986-87468578",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Class_544370501",
+            "Mask": 1953654102,
+            "MaskR": 1394636901,
+            "MaskG": 1701077352,
+            "MaskB": 114,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "160C0042-4E845E29-3F44DCBE-13738CEE",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'Color_Time_of_Day'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/Color_Time_of_Day.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "6D2116FF-477655F4-8CD548B4-BA427EA3",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "AEE37BCE-490413A9-FF10DA9E-292BB061",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "bCanMaskedBeAssumedOpaque_1869377346",
+            "Mask": 1631870834,
+            "MaskR": 65657,
+            "MaskG": 65536,
+            "MaskB": 65536,
+            "MaskA": 65536,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade_4653055"
+          }
+        },
+        {
+          "ExpressionInputId": "DE8F52DF-4C556D18-5316B6AE-69BC2BBE",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "973084DA-4CDDEB2F-2194F3B6-1FD7E201",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1869377346",
+            "Mask": 1766743922,
+            "MaskR": 7628903,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 1,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A59743C7-4AE61721-A18F9D9B-8B47B935",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 69,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components_106"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_NoisePack_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_NoisePack_01.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 4.0,
+        "G": 4.0,
+        "B": 4.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "Morning Tint",
+      "ExpressionGUID": "88E25EE9-4DB0FCA1-CEA5BFBA-17CA1FE3",
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 5.0,
+        "G": 5.0,
+        "B": 5.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "Day Tint",
+      "ExpressionGUID": "3D11CB09-427417F2-499BCFBD-B7810617",
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "EveningTint",
+      "ExpressionGUID": "F5C905EB-443807C7-C0049D8C-E79D6415",
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_CampfireGlow'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "NightTint",
+      "ExpressionGUID": "92886626-4ED437C3-64B758B8-5AF2D20C",
+      "Material": {
+        "ObjectName": "Material'M_CampfireGlow'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_CampfireGlow.0"
+      }
+    }
+  }
+]

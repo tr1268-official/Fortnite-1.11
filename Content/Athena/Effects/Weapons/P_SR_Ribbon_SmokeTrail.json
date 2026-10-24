@@ -1,0 +1,3132 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "ResilienceDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleCollisionGPU'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.26"
+    },
+    "Properties": {
+      "Constant": 0.1
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "ResilienceScaleOverLifeDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleCollisionGPU'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.26"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.39"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.41"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.42"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.49"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnPerUnit",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.54"
+    },
+    "Properties": {
+      "Constant": 1.0,
+      "bCanBeBaked": false
+    }
+  },
+  {
+    "Type": "DistributionFloatConstantCurve",
+    "Name": "DistributionFloatConstantCurve_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorScaleOverLife'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.30"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": 0.0,
+            "OutVal": 3.0,
+            "ArriveTangent": 0.0,
+            "LeaveTangent": 0.0,
+            "InterpMode": "CIM_Linear"
+          },
+          {
+            "InVal": 0.2,
+            "OutVal": 1.0,
+            "ArriveTangent": 0.0,
+            "LeaveTangent": 0.0,
+            "InterpMode": "CIM_Linear"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DistributionFloatParticleParameter",
+    "Name": "DistributionFloatParticleParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.31"
+    },
+    "Properties": {
+      "ParameterName": "TrailLifetime",
+      "ParamMode": "DPM_Direct",
+      "Constant": 1.5
+    }
+  },
+  {
+    "Type": "DistributionVectorConstantCurve",
+    "Name": "DistributionVectorConstantCurve_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorScaleOverLife'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.30"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": 0.5,
+            "OutVal": {
+              "X": 12.0,
+              "Y": 6.0,
+              "Z": 2.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_CurveAutoClamped"
+          },
+          {
+            "InVal": 1.0,
+            "OutVal": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_CurveAutoClamped"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DistributionVectorConstantCurve",
+    "Name": "DistributionVectorConstantCurve_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.46"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": 0.8,
+            "OutVal": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          },
+          {
+            "InVal": 1.0,
+            "OutVal": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.59"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.39"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.54"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.31"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.43"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'P_SR_Ribbon_SmokeTrail:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.58"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'P_SR_Ribbon_SmokeTrail:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.47"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.27"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'P_SR_Ribbon_SmokeTrail:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.38"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataRibbon_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.57"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.49"
+      },
+      "PeakActiveParticles": 607
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.59"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.39"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.54"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.31"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.43"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'P_SR_Ribbon_SmokeTrail:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.58"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'P_SR_Ribbon_SmokeTrail:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.47"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.27"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'P_SR_Ribbon_SmokeTrail:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.38"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataRibbon_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.57"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.49"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.59"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.39"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.54"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.31"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.43"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'P_SR_Ribbon_SmokeTrail:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.58"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'P_SR_Ribbon_SmokeTrail:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.47"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.27"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'P_SR_Ribbon_SmokeTrail:ParticleModuleParameterDynamic_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.38"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataRibbon_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.57"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.49"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.60"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.55"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.32"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.44"
+        },
+        {
+          "ObjectName": "ParticleModuleCollisionGPU'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.26"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleAccelerationConstant_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeScaleBySpeed'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeScaleBySpeed_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.48"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.28"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.46"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.30"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_SR_Ribbon_SmokeTrail:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.37"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataGpu_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.56"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.50"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.60"
+    },
+    "Properties": {
+      "Level": 2,
+      "bEnabled": false,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.53"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.32"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.44"
+        },
+        {
+          "ObjectName": "ParticleModuleCollisionGPU'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.26"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleAccelerationConstant_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeScaleBySpeed'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeScaleBySpeed_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.48"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.28"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.46"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.30"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_SR_Ribbon_SmokeTrail:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.37"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataGpu_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.56"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.50"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.60"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.53"
+        },
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.32"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.44"
+        },
+        {
+          "ObjectName": "ParticleModuleCollisionGPU'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.26"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleAccelerationConstant_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeScaleBySpeed'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeScaleBySpeed_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.48"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.28"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.46"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.30"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_SR_Ribbon_SmokeTrail:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.37"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_SR_Ribbon_SmokeTrail:ParticleModuleTypeDataGpu_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.56"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.50"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.61"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.41"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.33"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.51"
+      },
+      "PeakActiveParticles": 5
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.61"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.41"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.33"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.51"
+      },
+      "PeakActiveParticles": 4
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.61"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.41"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.33"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.51"
+      },
+      "PeakActiveParticles": 4
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.62"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.42"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.34"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.52"
+      },
+      "PeakActiveParticles": 5
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.62"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.42"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.34"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.52"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.62"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.42"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.34"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.45"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_SR_Ribbon_SmokeTrail:ParticleModuleColor_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.29"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_SR_Ribbon_SmokeTrail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.35"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_SR_Ribbon_SmokeTrail:ParticleModuleLocation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.36"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.52"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MaxValue": 30.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 30.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 30.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            30.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationConstant",
+    "Name": "ParticleModuleAccelerationConstant_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAccelerationConstant'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Acceleration": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -2000.0
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleCollisionGPU",
+    "Name": "ParticleModuleCollisionGPU_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleCollisionGPU'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Resilience": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0.ResilienceDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.0"
+        }
+      },
+      "ResilienceScaleOverLife": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleCollisionGPU_0.ResilienceScaleOverLifeDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.1"
+        }
+      },
+      "Friction": 0.5,
+      "RadiusScale": 1.5,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "MinValueVec": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        },
+        "MaxValueVec": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 2.125832,
+        "MaxValue": 3.985932,
+        "MinValueVec": {
+          "X": 3.985932,
+          "Y": 3.579524,
+          "Z": 2.125832
+        },
+        "MaxValueVec": {
+          "X": 3.985932,
+          "Y": 3.579524,
+          "Z": 2.125832
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            3.985932,
+            3.579524,
+            2.125832
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.060372,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 0.32189,
+          "Z": 0.060372
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.32189,
+          "Z": 0.060372
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            0.32189,
+            0.060372
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstantCurve'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2.DistributionVectorConstantCurve_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.10"
+        }
+      },
+      "AlphaScaleOverLife": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstantCurve'P_SR_Ribbon_SmokeTrail:ParticleModuleColorScaleOverLife_2.DistributionFloatConstantCurve_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.8"
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": {
+          "ObjectName": "DistributionFloatParticleParameter'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_0.DistributionFloatParticleParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.9"
+        },
+        "Table": {
+          "Values": [
+            2.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.1,
+        "MaxValue": 0.6,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.1,
+            0.6
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            2.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            2.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLight",
+    "Name": "ParticleModuleLight_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLight'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "BrightnessOverLife": {
+        "MaxValue": 12.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1,
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.14407209,
+            0.54884136,
+            1.1757021,
+            1.9860488,
+            2.9412754,
+            4.0027766,
+            5.131947,
+            6.29018,
+            7.4388714,
+            8.539413,
+            9.552721,
+            10.440064,
+            11.163011,
+            11.682947,
+            11.961275,
+            11.961274,
+            11.682949,
+            11.163011,
+            10.440064,
+            9.552723,
+            8.539416,
+            7.4388714,
+            6.29018,
+            5.1319485,
+            4.002779,
+            2.9412758,
+            1.9860486,
+            1.175704,
+            0.5488416,
+            0.14407289,
+            0.0
+          ]
+        }
+      },
+      "RadiusScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LightExponent": {
+        "MinValue": 6.0,
+        "MaxValue": 6.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            6.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocation'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartLocation": {
+        "MaxValue": 25.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 25.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 25.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            25.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 6.0,
+        "MaxValue": 4.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            6.0,
+            4.0
+          ]
+        }
+      },
+      "Positive_X": false,
+      "Positive_Y": false,
+      "Positive_Z": false,
+      "Negative_X": false,
+      "Negative_Y": false,
+      "Velocity": true,
+      "VelocityScale": {
+        "MinValue": 64.0,
+        "MaxValue": 12.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            64.0,
+            12.0
+          ]
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleParameterDynamic'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "Contrast0",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": -2.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 8,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 6.9999995,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                -0.02853774,
+                -0.19926623,
+                -0.63986975,
+                -1.361284,
+                -1.8008364,
+                -1.9713855,
+                -2.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Contrast1",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 4.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 16,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 14.999999,
+              "TimeBias": 0.0,
+              "Values": [
+                4.0,
+                3.9873252,
+                3.9409082,
+                3.847623,
+                3.6947987,
+                3.4692872,
+                3.1583912,
+                2.749037,
+                2.256426,
+                1.8443874,
+                1.5317856,
+                1.3053384,
+                1.152146,
+                1.0588517,
+                1.0125804,
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 0.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'M_SmokeTrail_Tile_Inst'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/Trails/M_SmokeTrail_Tile_Inst.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_SparkRound_SpeedLerp'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/M_SparkRound_SpeedLerp.0"
+      },
+      "ScreenAlignment": "PSA_Velocity",
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.3"
+        }
+      },
+      "EmitterDelay": 0.25,
+      "bDelayFirstLoopOnly": true,
+      "RandomImageTime": 1.0,
+      "bEnabled": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'DefaultParticle'",
+        "ObjectPath": "Engine/Content/EngineMaterials/DefaultParticle.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_4.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.4"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'DefaultParticle'",
+        "ObjectPath": "Engine/Content/EngineMaterials/DefaultParticle.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_5.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.5"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 0.5,
+        "MinValueVec": {
+          "X": 0.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.5,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.5,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.5,
+        "MaxValue": 2.0,
+        "MinValueVec": {
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 4.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 2.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 3,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            0.5,
+            0.5,
+            4.0,
+            1.0,
+            1.0,
+            2.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 75.0,
+        "MinValueVec": {
+          "X": 75.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 75.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            75.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstantCurve'P_SR_Ribbon_SmokeTrail:ParticleModuleSizeMultiplyLife_1.DistributionVectorConstantCurve_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.11"
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 1.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": 1.25,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 1.25,
+          "Z": 1.25
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 8,
+          "EntryStride": 3,
+          "TimeScale": 13.999999,
+          "Values": [
+            1.25,
+            1.25,
+            1.25,
+            1.3469672,
+            1.2361476,
+            1.2361476,
+            1.5969671,
+            1.2004333,
+            1.2004333,
+            1.938787,
+            1.1516019,
+            1.1516019,
+            2.3112133,
+            1.0983981,
+            1.0983981,
+            2.653033,
+            1.0495667,
+            1.0495667,
+            2.903033,
+            1.0138525,
+            1.0138525,
+            3.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeScaleBySpeed",
+    "Name": "ParticleModuleSizeScaleBySpeed_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeScaleBySpeed'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "SpeedScale": {
+        "X": 0.01,
+        "Y": 0.01
+      },
+      "MaxScale": {
+        "X": 1.0,
+        "Y": 3.0
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_0.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.6"
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 0,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawnPerUnit",
+    "Name": "ParticleModuleSpawnPerUnit_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawnPerUnit'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "SpawnPerUnit": {
+        "MinValue": 2.0,
+        "MaxValue": 8.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            2.0,
+            8.0
+          ]
+        }
+      },
+      "MovementTolerance": 0.0,
+      "MaxFrameDistance": 50.0,
+      "LODValidity": 6
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawnPerUnit",
+    "Name": "ParticleModuleSpawnPerUnit_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawnPerUnit'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "UnitScalar": 100.0,
+      "SpawnPerUnit": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_1.RequiredDistributionSpawnPerUnit'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.7"
+        },
+        "Table": {
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "MovementTolerance": 30.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawnPerUnit",
+    "Name": "ParticleModuleSpawnPerUnit_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawnPerUnit'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "SpawnPerUnit": {
+        "MinValue": 2.0,
+        "MaxValue": 8.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            2.0,
+            8.0
+          ]
+        }
+      },
+      "MovementTolerance": 0.0,
+      "MaxFrameDistance": 50.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataGpu",
+    "Name": "ParticleModuleTypeDataGpu_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataGpu'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "EmitterInfo": {
+        "RequiredModule": {
+          "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+        },
+        "SpawnModule": {
+          "ObjectName": "ParticleModuleSpawn'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawn_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.50"
+        },
+        "SpawnPerUnitModule": {
+          "ObjectName": "ParticleModuleSpawnPerUnit'P_SR_Ribbon_SmokeTrail:ParticleModuleSpawnPerUnit_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.55"
+        },
+        "SpawnModules": [
+          {
+            "ObjectName": "ParticleModuleRequired'P_SR_Ribbon_SmokeTrail:ParticleModuleRequired_3'",
+            "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.40"
+          },
+          {
+            "ObjectName": "ParticleModuleLifetime'P_SR_Ribbon_SmokeTrail:ParticleModuleLifetime_3'",
+            "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.32"
+          },
+          {
+            "ObjectName": "ParticleModuleSize'P_SR_Ribbon_SmokeTrail:ParticleModuleSize_3'",
+            "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.44"
+          },
+          {
+            "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_SR_Ribbon_SmokeTrail:ParticleModuleLocationPrimitiveSphere_0'",
+            "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.37"
+          }
+        ],
+        "ConstantAcceleration": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -2000.0
+        },
+        "InvMaxSize": {
+          "X": 0.5,
+          "Y": 0.5
+        },
+        "InvRotationRateScale": 1.6666666,
+        "MaxLifetime": 0.6,
+        "MaxParticleCount": 2,
+        "ScreenAlignment": "PSA_Velocity",
+        "bEnableCollision": true
+      },
+      "ResourceData": {
+        "QuantizedColorSamples": [
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 255,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 234,
+            "Hex": "EAFFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 214,
+            "Hex": "D6FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 194,
+            "Hex": "C2FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 174,
+            "Hex": "AEFFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 153,
+            "Hex": "99FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 133,
+            "Hex": "85FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 113,
+            "Hex": "71FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 93,
+            "Hex": "5DFFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 72,
+            "Hex": "48FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 52,
+            "Hex": "34FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 32,
+            "Hex": "20FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 12,
+            "Hex": "0CFFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFFFE"
+          },
+          {
+            "B": 254,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFEFE"
+          },
+          {
+            "B": 253,
+            "G": 253,
+            "R": 253,
+            "A": 0,
+            "Hex": "FDFDFD"
+          },
+          {
+            "B": 250,
+            "G": 250,
+            "R": 250,
+            "A": 0,
+            "Hex": "FAFAFA"
+          },
+          {
+            "B": 246,
+            "G": 246,
+            "R": 246,
+            "A": 0,
+            "Hex": "F6F6F6"
+          },
+          {
+            "B": 240,
+            "G": 240,
+            "R": 240,
+            "A": 0,
+            "Hex": "F0F0F0"
+          },
+          {
+            "B": 234,
+            "G": 234,
+            "R": 234,
+            "A": 0,
+            "Hex": "EAEAEA"
+          },
+          {
+            "B": 226,
+            "G": 226,
+            "R": 226,
+            "A": 0,
+            "Hex": "E2E2E2"
+          },
+          {
+            "B": 218,
+            "G": 218,
+            "R": 218,
+            "A": 0,
+            "Hex": "DADADA"
+          },
+          {
+            "B": 209,
+            "G": 209,
+            "R": 209,
+            "A": 0,
+            "Hex": "D1D1D1"
+          },
+          {
+            "B": 199,
+            "G": 199,
+            "R": 199,
+            "A": 0,
+            "Hex": "C7C7C7"
+          },
+          {
+            "B": 188,
+            "G": 188,
+            "R": 188,
+            "A": 0,
+            "Hex": "BCBCBC"
+          },
+          {
+            "B": 177,
+            "G": 177,
+            "R": 177,
+            "A": 0,
+            "Hex": "B1B1B1"
+          },
+          {
+            "B": 166,
+            "G": 166,
+            "R": 166,
+            "A": 0,
+            "Hex": "A6A6A6"
+          },
+          {
+            "B": 154,
+            "G": 154,
+            "R": 154,
+            "A": 0,
+            "Hex": "9A9A9A"
+          },
+          {
+            "B": 142,
+            "G": 142,
+            "R": 142,
+            "A": 0,
+            "Hex": "8E8E8E"
+          },
+          {
+            "B": 130,
+            "G": 130,
+            "R": 130,
+            "A": 0,
+            "Hex": "828282"
+          },
+          {
+            "B": 118,
+            "G": 118,
+            "R": 118,
+            "A": 0,
+            "Hex": "767676"
+          },
+          {
+            "B": 106,
+            "G": 106,
+            "R": 106,
+            "A": 0,
+            "Hex": "6A6A6A"
+          },
+          {
+            "B": 94,
+            "G": 94,
+            "R": 94,
+            "A": 0,
+            "Hex": "5E5E5E"
+          },
+          {
+            "B": 82,
+            "G": 82,
+            "R": 82,
+            "A": 0,
+            "Hex": "525252"
+          },
+          {
+            "B": 71,
+            "G": 71,
+            "R": 71,
+            "A": 0,
+            "Hex": "474747"
+          },
+          {
+            "B": 60,
+            "G": 60,
+            "R": 60,
+            "A": 0,
+            "Hex": "3C3C3C"
+          },
+          {
+            "B": 50,
+            "G": 50,
+            "R": 50,
+            "A": 0,
+            "Hex": "323232"
+          },
+          {
+            "B": 40,
+            "G": 40,
+            "R": 40,
+            "A": 0,
+            "Hex": "282828"
+          },
+          {
+            "B": 32,
+            "G": 32,
+            "R": 32,
+            "A": 0,
+            "Hex": "202020"
+          },
+          {
+            "B": 24,
+            "G": 24,
+            "R": 24,
+            "A": 0,
+            "Hex": "181818"
+          },
+          {
+            "B": 17,
+            "G": 17,
+            "R": 17,
+            "A": 0,
+            "Hex": "111111"
+          },
+          {
+            "B": 11,
+            "G": 11,
+            "R": 11,
+            "A": 0,
+            "Hex": "0B0B0B"
+          },
+          {
+            "B": 6,
+            "G": 6,
+            "R": 6,
+            "A": 0,
+            "Hex": "060606"
+          },
+          {
+            "B": 2,
+            "G": 2,
+            "R": 2,
+            "A": 0,
+            "Hex": "020202"
+          },
+          {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0,
+            "Hex": "000000"
+          },
+          {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0,
+            "Hex": "000000"
+          }
+        ],
+        "QuantizedMiscSamples": [
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 252,
+            "R": 252,
+            "A": 0,
+            "Hex": "FCFC00"
+          },
+          {
+            "B": 0,
+            "G": 169,
+            "R": 169,
+            "A": 0,
+            "Hex": "A9A900"
+          },
+          {
+            "B": 0,
+            "G": 84,
+            "R": 84,
+            "A": 0,
+            "Hex": "545400"
+          },
+          {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0,
+            "Hex": "000000"
+          }
+        ],
+        "ColorScale": {
+          "X": 43.845253,
+          "Y": 17.897621,
+          "Z": 2.125832,
+          "W": 2.0
+        },
+        "ColorBias": {
+          "X": 3.985932,
+          "Y": 3.579524,
+          "Z": 2.125832,
+          "W": 1.0
+        },
+        "MiscScale": {
+          "X": 2.0,
+          "Y": 2.0,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "SimulationAttrCurveBias": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "SubImageSize": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "SizeBySpeed": {
+          "X": 0.01,
+          "Y": 0.01,
+          "Z": 1.0,
+          "W": 3.0
+        },
+        "ConstantAcceleration": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -2000.0
+        },
+        "PerParticleVectorFieldBias": 1.0,
+        "ResilienceBias": 0.1,
+        "CollisionRadiusScale": 0.75,
+        "OneMinusFriction": 0.5,
+        "RotationRateScale": 0.6,
+        "ScreenAlignment": "PSA_Velocity"
+      },
+      "bClearExistingParticlesOnInit": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "TilingDistance": 1000.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            5.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "EmitterName": "Ribbon_Down",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.12"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0.ParticleLODLevel_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.14"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0.ParticleLODLevel_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "EmitterName": "SparksLazy",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3.ParticleLODLevel_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.15"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3.ParticleLODLevel_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.17"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3.ParticleLODLevel_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "EmitterRenderMode": "ERM_LightsOnly",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4.ParticleLODLevel_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.18"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4.ParticleLODLevel_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.20"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4.ParticleLODLevel_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_SR_Ribbon_SmokeTrail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.63"
+    },
+    "Properties": {
+      "EmitterRenderMode": "ERM_LightsOnly",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5.ParticleLODLevel_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.21"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5.ParticleLODLevel_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.23"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5.ParticleLODLevel_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "P_SR_Ribbon_SmokeTrail",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.59"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.60"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.61"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_SR_Ribbon_SmokeTrail:ParticleSpriteEmitter_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_SR_Ribbon_SmokeTrail.62"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0,
+        900.0,
+        2500.0
+      ],
+      "LODSettings": [
+        {},
+        {},
+        {}
+      ],
+      "FixedRelativeBoundingBox": {
+        "Min": {
+          "X": -5000.0,
+          "Y": -5000.0,
+          "Z": -5000.0
+        },
+        "Max": {
+          "X": 5000.0,
+          "Y": 5000.0,
+          "Z": 5000.0
+        },
+        "IsValid": 1
+      },
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,383 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaCustomizationPicker_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaCustomizationPicker_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.13"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Customization/AthenaCustomizationPicker.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaCustomizationPicker'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaCustomizationPicker_C'Default__AthenaCustomizationPicker_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.1"
+    }
+  },
+  {
+    "Type": "AthenaCustomizationPicker_C",
+    "Name": "Default__AthenaCustomizationPicker_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.AthenaCustomizationPicker_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaCustomizationPicker_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.AthenaCustomizationPicker_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker",
+    "Template": {
+      "ObjectName": "AthenaCustomizationPicker_C'Default__AthenaCustomizationPicker_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.1"
+    },
+    "Properties": {
+      "PickerTileView": {
+        "ObjectName": "FortItemTileView'WidgetArchetype:WidgetTree_0.PickerTileView'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.10"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.14"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.5"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 24.0,
+        "Top": 72.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.5"
+      },
+      "Content": {
+        "ObjectName": "FortItemTileView'AthenaCustomizationPicker_C:WidgetTree.PickerTileView'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.9"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 24.0,
+        "Top": 72.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.6"
+      },
+      "Content": {
+        "ObjectName": "FortItemTileView'WidgetArchetype:WidgetTree_0.PickerTileView'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.10"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationPicker_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.13"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_DarkBlue_VGrad_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_DarkBlue_VGrad.0"
+      },
+      "Padding": {
+        "Left": 24.0,
+        "Top": 72.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.14"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_DarkBlue_VGrad_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_DarkBlue_VGrad.0"
+      },
+      "Padding": {
+        "Left": 24.0,
+        "Top": 72.0,
+        "Right": 24.0,
+        "Bottom": 24.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorder_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CommonListViewNullItem",
+    "Name": "NullItem",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListViewNullItem'",
+    "Outer": {
+      "ObjectName": "FortItemTileView'AthenaCustomizationPicker_C:WidgetTree.PickerTileView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.9"
+    }
+  },
+  {
+    "Type": "CommonListViewNullItem",
+    "Name": "NullItem",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListViewNullItem'",
+    "Outer": {
+      "ObjectName": "FortItemTileView'WidgetArchetype:WidgetTree_0.PickerTileView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.10"
+    }
+  },
+  {
+    "Type": "FortItemTileView",
+    "Name": "PickerTileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortItemTileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaCustomizationPicker_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.13"
+    },
+    "Properties": {
+      "bAutomaticallyLoadItemDetails": true,
+      "DisplayType": "EItemTileViewDisplayType::Account",
+      "OnItemWidgetCreated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FortItemTileView'AthenaCustomizationPicker_C:WidgetTree.PickerTileView'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.9"
+            },
+            "FunctionName": "HandleItemWidgetCreated"
+          }
+        ]
+      },
+      "ListItemClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationPickerTileButton_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPickerTileButton.1"
+      },
+      "NumPreAllocatedEntries": 20,
+      "NullItem": {
+        "ObjectName": "CommonListViewNullItem'AthenaCustomizationPicker_C:WidgetTree.PickerTileView.NullItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.7"
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.3"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'AthenaCustomizationPicker_C:WidgetTree.PickerTileView.WidgetNavigation_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.11"
+      }
+    }
+  },
+  {
+    "Type": "FortItemTileView",
+    "Name": "PickerTileView",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortItemTileView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.14"
+    },
+    "Properties": {
+      "bAutomaticallyLoadItemDetails": true,
+      "DisplayType": "EItemTileViewDisplayType::Account",
+      "OnItemWidgetCreated": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "FortItemTileView'WidgetArchetype:WidgetTree_0.PickerTileView'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.10"
+            },
+            "FunctionName": "HandleItemWidgetCreated"
+          }
+        ]
+      },
+      "ListItemClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationPickerTileButton_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPickerTileButton.1"
+      },
+      "NumPreAllocatedEntries": 20,
+      "NullItem": {
+        "ObjectName": "CommonListViewNullItem'WidgetArchetype:WidgetTree_0.PickerTileView.NullItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.8"
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorder_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.4"
+      },
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WidgetArchetype:WidgetTree_0.PickerTileView.WidgetNavigation_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.12"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "FortItemTileView'AthenaCustomizationPicker_C:WidgetTree.PickerTileView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.9"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "FortItemTileView'WidgetArchetype:WidgetTree_0.PickerTileView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.10"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaCustomizationPicker_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.5"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "CommonBorder'AthenaCustomizationPicker_C:WidgetTree.CommonBorder_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.5"
+        },
+        {
+          "ObjectName": "FortItemTileView'AthenaCustomizationPicker_C:WidgetTree.PickerTileView'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaCustomizationPicker_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Customization/AthenaCustomizationPicker.6"
+      }
+    }
+  }
+]

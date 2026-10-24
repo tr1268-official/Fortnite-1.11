@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Telenade",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Telenade/Athena_Telenade",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Telenade/B_Prj_Athena_Telenade.B_Prj_Athena_Telenade_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_NonDamaging"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Telenade/GA_Athena_Telenade.GA_Athena_Telenade_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Telenade/Athena_Telenade.Athena_Telenade",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/CharClasses/Soldier/Gadgets/FragGrenade/S_Grenade_Single.S_Grenade_Single",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/grenade_pickup_Athena_Cue.grenade_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B5A6E60343B7E2024DFC45AD01ABC317",
+        "SourceString": "Telenade",
+        "LocalizedString": "Telenade"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "575CE62F4CB5BF0BB8BEDAB0C00D719D",
+        "SourceString": "Teleporter grenade!",
+        "LocalizedString": "Teleporter grenade!"
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "27E74E144C6E6F12E0D382956CEB0991",
+        "SourceString": "Gadget UtilityItem Telenade",
+        "LocalizedString": "Gadget UtilityItem Telenade"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability",
+        "weapon.ranged.heavy.grenade"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 3,
+      "StatList": {
+        "AssetPathName": "/Game/UI/Tooltips/m80TooltipStats.m80TooltipStats",
+        "SubPathString": ""
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Banners-Icons-Boom-L'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Banner/Bucket/T-Banners-Icons-Boom-L.0"
+      },
+      "Rarity": "EFortRarity::Handmade"
+    }
+  }
+]

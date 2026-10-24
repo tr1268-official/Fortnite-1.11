@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SmokeGrenade_Athena_Explode_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'SmokeGrenade_Athena_Explode_Cue:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponProjectile'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponProjectile.0"
+      },
+      "Duration": 3.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Grenade_Smoke_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Grenade_Smoke_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'SmokeGrenade_Athena_Explode_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'SmokeGrenade_Athena_Explode_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'SmokeGrenade_Athena_Explode_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'SmokeGrenade_Athena_Explode_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SmokeGrenade_Athena_Explode_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SmokeGrenade_Athena_Explode_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Smoke_Grenade/sfx_SmokeGrenade_Explode_02.sfx_SmokeGrenade_Explode_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_SmokeGrenade_Explode_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/sfx_SmokeGrenade_Explode_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SmokeGrenade_Athena_Explode_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/SmokeGrenade_Athena_Explode_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Smoke_Grenade/sfx_SmokeGrenade_Explode_01.sfx_SmokeGrenade_Explode_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_SmokeGrenade_Explode_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Smoke_Grenade/sfx_SmokeGrenade_Explode_01.0"
+    }
+  }
+]

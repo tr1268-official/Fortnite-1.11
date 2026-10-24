@@ -1,0 +1,116 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Athena_Pebbles_Master",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master",
+    "Properties": {
+      "BaseColor": null,
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 39,
+        "ExpressionName": "/Game/Athena/Environments/Textures/Pebbles/T_Athena_Pebbles_N",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.3E-44
+        }
+      },
+      "bUsedWithInstancedStaticMeshes": true,
+      "EditorX": 144,
+      "EditorY": -32,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Athena_Pebbles_Master:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Athena_Pebbles_Master:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.2"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_Athena_Pebbles_Master:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.3"
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "6E29EA7A-40BE6F6C-6E31C28C-18B52241"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Athena_Pebbles_Master'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Athena_Pebbles_D'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Textures/Pebbles/T_Athena_Pebbles_D.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Athena_Pebbles_Master'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Athena_Pebbles_Master'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Athena_Pebbles_N'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Textures/Pebbles/T_Athena_Pebbles_N.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'M_Athena_Pebbles_Master'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Athena_Pebbles_Master'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 0.818321,
+        "B": 0.705925,
+        "A": 0.0,
+        "Hex": "FFEADB"
+      },
+      "ParameterName": "Diffuse_Tint",
+      "ExpressionGUID": "A56A7AF0-48239A0B-EF3E048D-F007AC9C",
+      "Material": {
+        "ObjectName": "Material'M_Athena_Pebbles_Master'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Pebbles/M_Athena_Pebbles_master.0"
+      }
+    }
+  }
+]

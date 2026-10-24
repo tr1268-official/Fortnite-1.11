@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "AthenaAircraft_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'AthenaAircraft_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.10"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaAircraft_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaAircraft_C:ExecuteUbergraph_AthenaAircraft'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAthenaAircraft'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaAircraft_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.0"
+      },
+      {
+        "ObjectName": "Function'AthenaAircraft_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.6"
+      },
+      {
+        "ObjectName": "Function'AthenaAircraft_C:PlayEffectsForPlayerJumped'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.5"
+      },
+      {
+        "ObjectName": "Function'AthenaAircraft_C:ExecuteUbergraph_AthenaAircraft'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaAircraft": {
+        "ObjectName": "Function'AthenaAircraft_C:ExecuteUbergraph_AthenaAircraft'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.4"
+      },
+      "PlayEffectsForPlayerJumped": {
+        "ObjectName": "Function'AthenaAircraft_C:PlayEffectsForPlayerJumped'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.5"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'AthenaAircraft_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.6"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaAircraft_C'Default__AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.2"
+    }
+  },
+  {
+    "Type": "AthenaAircraft_C",
+    "Name": "Default__AthenaAircraft_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Aircraft/AthenaAircraft.AthenaAircraft_C'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CameraModeClass": {
+        "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_CameraMode_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft_CameraMode.0"
+      },
+      "ExitLocation": {
+        "X": -580.0,
+        "Y": 0.0,
+        "Z": 200.0
+      },
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AthenaBus_Top'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/T_AthenaBus_Top.0"
+        }
+      },
+      "DefaultBusSkin": {
+        "ObjectName": "AthenaBattleBusItemDefinition'BBID_DefaultBus'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Cosmetics/BattleBuses/BBID_DefaultBus.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__AthenaAircraft_C:RootComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.8"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaAircraft_C:ExecuteUbergraph_AthenaAircraft'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.4"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaAircraft",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaAircraft_C:ExecuteUbergraph_AthenaAircraft.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.3"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayEffectsForPlayerJumped",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortAthenaAircraft:PlayEffectsForPlayerJumped'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "AthenaAircraft_C'Default__AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'AthenaAircraft_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'AthenaAircraft_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.7"
+      },
+      "VariableGuid": "DF49A55E-448B1A6F-BD053EBE-AFDCA266",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaAircraft_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'AthenaAircraft_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/AthenaAircraft.9"
+      }
+    }
+  }
+]

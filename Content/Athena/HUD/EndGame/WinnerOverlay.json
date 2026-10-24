@@ -1,0 +1,765 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "CommonTextBlock_PrimaryDeathText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WinnerOverlay_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WinnerOverlay_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/EndGame/WinnerOverlay.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WinnerOverlay_C:CommonTextBlock_PrimaryDeathText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'WinnerOverlay_C:Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.7"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WinnerOverlay_C'Default__WinnerOverlay_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.2"
+    }
+  },
+  {
+    "Type": "WinnerOverlay_C",
+    "Name": "Default__WinnerOverlay_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.WinnerOverlay_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_PrimaryDeathText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "5B4A82DA462F21284F3633890F7DF0AB",
+        "SourceString": "Victory Royale!",
+        "LocalizedString": "Victory Royale!"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Burbank'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/Burbank.0"
+        },
+        "TypefaceFontName": "Burbank-Black",
+        "Size": 56
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.15"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_PrimaryDeathText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Style": null,
+      "Text": {
+        "Namespace": "",
+        "Key": "5B4A82DA462F21284F3633890F7DF0AB",
+        "SourceString": "Victory Royale!",
+        "LocalizedString": "Victory Royale!"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Burbank'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/Burbank.0"
+        },
+        "TypefaceFontName": "Burbank-Black",
+        "Size": 56
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.20"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 867.0,
+          "Y": 121.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'winbanner'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/winbanner.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.17"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 867.0,
+          "Y": 121.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'winbanner'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/winbanner.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_1.OverlaySlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.22"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WinnerOverlay_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.14"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.15"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.16"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.18"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.14"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.19"
+        },
+        {
+          "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.20"
+        },
+        {
+          "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.23"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_1.OverlaySlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.19"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.9"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_PrimaryDeathText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.3"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.24"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.9"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.9"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.5"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.10"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 100.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.10"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.8"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.12"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WinnerOverlay_C:WidgetTree.CommonTextBlock_PrimaryDeathText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.4"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WinnerOverlay_C:WidgetTree.TextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.25"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.12"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.12"
+      },
+      "Content": {
+        "ObjectName": "Image'WinnerOverlay_C:WidgetTree.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.6"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.13"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 100.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.13"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "62194E0B4F5E892FFC0DD1A88A8EBD40",
+        "SourceString": "#1",
+        "LocalizedString": "#1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.908743,
+          "G": 1.0,
+          "B": 0.183437,
+          "A": 1.0,
+          "Hex": "F5FF77"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Burbank'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/Burbank.0"
+        },
+        "TypefaceFontName": "Burbank-Black",
+        "Size": 140
+      },
+      "ShadowOffset": {
+        "X": 1.67239,
+        "Y": 3.153353
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.594037,
+        "Hex": "98000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.16"
+      },
+      "RenderTransform": {
+        "Angle": -10.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WinnerOverlay_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.27"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "62194E0B4F5E892FFC0DD1A88A8EBD40",
+        "SourceString": "#1",
+        "LocalizedString": "#1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.908743,
+          "G": 1.0,
+          "B": 0.183437,
+          "A": 1.0,
+          "Hex": "F5FF77"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'Burbank'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/Burbank.0"
+        },
+        "TypefaceFontName": "Burbank-Black",
+        "Size": 140
+      },
+      "ShadowOffset": {
+        "X": 1.67239,
+        "Y": 3.153353
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.594037,
+        "Hex": "98000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WinnerOverlay_C:WidgetTree.Overlay_0.OverlaySlot_9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.21"
+      },
+      "RenderTransform": {
+        "Angle": -10.0
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WinnerOverlay_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.28"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.10"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WinnerOverlay_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.13"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.13"
+        },
+        {
+          "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.11"
+        },
+        {
+          "ObjectName": "Overlay'WinnerOverlay_C:WidgetTree.Overlay_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.12"
+        },
+        {
+          "ObjectName": "Image'WinnerOverlay_C:WidgetTree.Image_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.6"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WinnerOverlay_C:WidgetTree.CommonTextBlock_PrimaryDeathText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.4"
+        },
+        {
+          "ObjectName": "TextBlock'WinnerOverlay_C:WidgetTree.TextBlock_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WinnerOverlay_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.WinnerOverlay_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay",
+    "Template": {
+      "ObjectName": "WinnerOverlay_C'Default__WinnerOverlay_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.2"
+    },
+    "Properties": {
+      "CommonTextBlock_PrimaryDeathText": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_PrimaryDeathText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.3"
+      },
+      "Image_0": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.5"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/WinnerOverlay.26"
+      },
+      "bCookedWidgetTree": true
+    }
+  }
+]

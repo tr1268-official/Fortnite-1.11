@@ -1,0 +1,201 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Balloon_SupplyDrop_Athena_Gift'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "SphylElems": [
+          {
+            "Center": {
+              "X": -0.066345215,
+              "Y": -0.019241333,
+              "Z": 617.59094
+            },
+            "Rotation": {
+              "Pitch": 0.0,
+              "Yaw": 0.0,
+              "Roll": 0.0
+            },
+            "Radius": 256.0,
+            "Length": 128.0
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "19D20E9044AC657CFDE6328E841C46E3",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 77887,
+        "SizeOnDisk": 77887,
+        "OffsetInFile": "0xCE0D8"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Balloon_SupplyDrop_Athena_Gift'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5521,
+        "SizeOnDisk": 5521,
+        "OffsetInFile": "0xE115F"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Balloon_SupplyDrop_Athena_Gift",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Dead_Drop_Objective_Athena'",
+            "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/M_Dead_Drop_Objective_Athena.0"
+          },
+          "MaterialSlotName": "M_Dead_Drop_Balloon",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 891.6893,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Dead_Drop_Balloon_Athena_Red'",
+            "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/MI_Dead_Drop_Balloon_Athena_Red.0"
+          },
+          "MaterialSlotName": "M_Dead_Drop_Objective",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 996.8816,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Dead_Drop_Objective_Athena'",
+            "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/M_Dead_Drop_Objective_Athena.0"
+          },
+          "MaterialSlotName": "Material #0",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 2246.6685,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 985.04956,
+      "LightMapResolution": 64,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket'S_Balloon_SupplyDrop_Athena_Gift:StaticMeshSocket_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.3"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.066345215,
+          "Y": -0.019241333,
+          "Z": 526.1448
+        },
+        "BoxExtent": {
+          "X": 249.68599,
+          "Y": 249.68596,
+          "Z": 403.10437
+        },
+        "SphereRadius": 412.00684
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Balloon_SupplyDrop_Athena_Gift:BodySetup_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Balloon_SupplyDrop_Athena_Gift:NavCollision_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.1"
+    },
+    "LightingGuid": "52773E4F-4AED8558-0FE8F2AE-EFE85778",
+    "RenderData": null
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Balloon_SupplyDrop_Athena_Gift'",
+      "ObjectPath": "FortniteGame/Content/Athena/SupplyDrops/S_Balloon_SupplyDrop_Athena_Gift.2"
+    },
+    "Properties": {
+      "SocketName": "boom",
+      "RelativeLocation": {
+        "X": -0.00048828125,
+        "Y": 0.0,
+        "Z": 669.5607
+      }
+    }
+  }
+]

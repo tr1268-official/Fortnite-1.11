@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CustomCharacterHeadData",
+    "Name": "CustomCharacterHeadData_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterHeadData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'F_Med_Ramirez_Head_Reindeer_ATH'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_Med_Ramirez_Head_Reindeer_ATH.1"
+    },
+    "Properties": {
+      "SkinColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Skin/F_Med_HIS.F_Med_HIS",
+        "SubPathString": ""
+      },
+      "HairColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Hair/HairColor_01.HairColor_01",
+        "SubPathString": ""
+      },
+      "CapMorphTargets": [
+        "Hair_cap"
+      ],
+      "HelmetMorphTargets": [
+        "Hair_Helmet"
+      ],
+      "HatMorphTargets": [
+        "Hair_Hat"
+      ],
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_Med_Head_01/Meshes/F_Med_Head_01_Skeleton_AnimBlueprint.F_Med_Head_01_Skeleton_AnimBlueprint_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "F_Med_Ramirez_Head_Reindeer_ATH",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_Med_Ramirez_Head_Reindeer_ATH",
+    "Properties": {
+      "GenderPermitted": "EFortCustomGender::Female",
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterHeadData'F_Med_Ramirez_Head_Reindeer_ATH:CustomCharacterHeadData_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_Med_Ramirez_Head_Reindeer_ATH.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Heads/F_Med_Head_01_ATH.F_Med_Head_01_ATH",
+        "SubPathString": ""
+      },
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 2,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_Med_Head_01/Materials/Reindeer/F_MED_Commando_Head_reindeer.F_MED_Commando_Head_reindeer",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 4,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

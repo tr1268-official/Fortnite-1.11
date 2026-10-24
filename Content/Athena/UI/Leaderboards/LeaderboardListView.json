@@ -1,0 +1,335 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "List",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'LeaderboardListView_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.3"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonListView'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetItemAt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'LeaderboardListView_C:FocusListView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "FocusListView",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'LeaderboardListView_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'LeaderboardListView_C:FocusListView.CallFunc_GetItemAt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.1"
+      },
+      {
+        "ObjectName": "BoolProperty'LeaderboardListView_C:FocusListView.CallFunc_SetSelectedIndex_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'LeaderboardListView_C:FocusListView.CallFunc_GetUINavigationManager_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "LeaderboardListView_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'LeaderboardListView_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.14"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Leaderboards/LeaderboardListView.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'LeaderboardListView_C:FocusListView'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'LeaderboardListView_C:List'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.0"
+      }
+    ],
+    "FuncMap": {
+      "FocusListView": {
+        "ObjectName": "Function'LeaderboardListView_C:FocusListView'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "LeaderboardListView_C'Default__LeaderboardListView_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.4"
+    }
+  },
+  {
+    "Type": "LeaderboardListView_C",
+    "Name": "Default__LeaderboardListView_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.LeaderboardListView_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_SetSelectedIndex_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'LeaderboardListView_C:FocusListView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.2"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CommonListView",
+    "Name": "List",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'LeaderboardListView_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.14"
+    },
+    "Properties": {
+      "ListItemClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'LeaderboardRowWidget_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardRowWidget.1"
+      },
+      "NumPreAllocatedEntries": 50,
+      "NullItem": {
+        "ObjectName": "CommonListViewNullItem'LeaderboardListView_C:WidgetTree.List.NullItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.8"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'LeaderboardListView_C:WidgetTree.List.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.12"
+      }
+    }
+  },
+  {
+    "Type": "CommonListView",
+    "Name": "List",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListView'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.15"
+    },
+    "Properties": {
+      "ListItemClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'LeaderboardRowWidget_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardRowWidget.1"
+      },
+      "NumPreAllocatedEntries": 50,
+      "NullItem": {
+        "ObjectName": "CommonListViewNullItem'WidgetArchetype:WidgetTree_0.List.NullItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.9"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible",
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WidgetArchetype:WidgetTree_0.List.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.13"
+      }
+    }
+  },
+  {
+    "Type": "CommonListViewNullItem",
+    "Name": "NullItem",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListViewNullItem'",
+    "Outer": {
+      "ObjectName": "CommonListView'LeaderboardListView_C:WidgetTree.List'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.6"
+    }
+  },
+  {
+    "Type": "CommonListViewNullItem",
+    "Name": "NullItem",
+    "Flags": "RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonListViewNullItem'",
+    "Outer": {
+      "ObjectName": "CommonListView'WidgetArchetype:WidgetTree_0.List'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.7"
+    }
+  },
+  {
+    "Type": "LeaderboardListView_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.LeaderboardListView_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView",
+    "Template": {
+      "ObjectName": "LeaderboardListView_C'Default__LeaderboardListView_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.4"
+    },
+    "Properties": {
+      "List": {
+        "ObjectName": "CommonListView'WidgetArchetype:WidgetTree_0.List'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.7"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.15"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetUINavigationManager_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'LeaderboardListView_C:FocusListView'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortUINavigationManager'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonListView'LeaderboardListView_C:WidgetTree.List'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.6"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonListView'WidgetArchetype:WidgetTree_0.List'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.7"
+    },
+    "Properties": {
+      "Up": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Down": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Next": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Previous": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'LeaderboardListView_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonListView'LeaderboardListView_C:WidgetTree.List'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.6"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "CommonListView'LeaderboardListView_C:WidgetTree.List'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "LeaderboardListView_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.10"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonListView'WidgetArchetype:WidgetTree_0.List'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardListView.7"
+      }
+    }
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_ShieldSmall",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/ShieldSmall/Athena_ShieldSmall",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/ShieldSmall/GA_Athena_ShieldSmall.GA_Athena_ShieldSmall_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/ShieldSmall/Athena_ShieldSmall.Athena_ShieldSmall",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "PickupMeshTransform": {
+        "Scale3D": {
+          "X": 0.75,
+          "Y": 0.75,
+          "Z": 0.75
+        }
+      },
+      "bOverridePickupMeshTransform": true,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/ShieldSmall/Items_SmallShieldPotion_01.Items_SmallShieldPotion_01",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/shield_pickup_Athena_Cue.shield_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "454F6A2B4B4D579769F6F899F82505FB",
+        "SourceString": "Small Shield Potion",
+        "LocalizedString": "Small Shield Potion"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "6E090D7B4AFA729B66B022AD837CE7C2",
+        "SourceString": "A potion that has the consistency of jelly. Applies a small amount of shields.",
+        "LocalizedString": "A potion that has the consistency of jelly. Applies a small amount of shields."
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 10,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Items-AthenaSmallShield'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/ShieldSmall/T-Icon-Items-AthenaSmallShield.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/ShieldSmall/T-Icon-Items-AthenaSmallShield-L.T-Icon-Items-AthenaSmallShield-L",
+        "SubPathString": ""
+      }
+    }
+  }
+]

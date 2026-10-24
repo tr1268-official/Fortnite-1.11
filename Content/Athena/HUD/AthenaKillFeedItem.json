@@ -1,0 +1,335 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "KIllText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.3"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortRichTextBlock'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Text",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaKillFeedItem_C:SetText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "TextProperty'AthenaKillFeedItem_C:SetText.Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.1"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaKillFeedItem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaKillFeedItem_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.13"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaKillFeedItem.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'AthenaKillFeedItem_C:SetText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaKillFeedItem_C:KIllText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaKillFeedItem_C:GameState'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.12"
+      }
+    ],
+    "FuncMap": {
+      "SetText": {
+        "ObjectName": "Function'AthenaKillFeedItem_C:SetText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaKillFeedItem_C'Default__AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.4"
+    }
+  },
+  {
+    "Type": "AthenaKillFeedItem_C",
+    "Name": "Default__AthenaKillFeedItem_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.AthenaKillFeedItem_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem",
+    "Properties": {
+      "HUDElementTag": [
+        "HUD.Athena.KillFeed"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "AthenaKillFeedItem_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.AthenaKillFeedItem_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem",
+    "Template": {
+      "ObjectName": "AthenaKillFeedItem_C'Default__AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.4"
+    },
+    "Properties": {
+      "KIllText": {
+        "ObjectName": "FortRichTextBlock'WidgetArchetype:WidgetTree_0.KIllText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.11"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.14"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaKillFeedItem_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.13"
+    },
+    "Properties": {
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.33,
+        "Hex": "54000000"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaKillFeedItem_C:WidgetTree.Border_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.14"
+    },
+    "Properties": {
+      "BrushColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.33,
+        "Hex": "54000000"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Border_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'AthenaKillFeedItem_C:WidgetTree.Border_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.6"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Border'AthenaKillFeedItem_C:WidgetTree.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.6"
+      },
+      "Content": {
+        "ObjectName": "FortRichTextBlock'AthenaKillFeedItem_C:WidgetTree.KIllText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.10"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.7"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.7"
+      },
+      "Content": {
+        "ObjectName": "FortRichTextBlock'WidgetArchetype:WidgetTree_0.KIllText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.11"
+      }
+    }
+  },
+  {
+    "Type": "FortRichTextBlock",
+    "Name": "KIllText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaKillFeedItem_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.13"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C193379B4BB1F75CBDAD4594325F5917",
+        "SourceString": "(<Killer>Killer</>|<TeamKiller>Team Killer</>|<LocalKiller>Local Killer</>) killed (<Victim>Victim</>|<TeamVictim>Team Victim</>) with a pistol",
+        "LocalizedString": "(<Killer>Killer</>|<TeamKiller>Team Killer</>|<LocalKiller>Local Killer</>) killed (<Victim>Victim</>|<TeamVictim>Team Victim</>) with a pistol"
+      },
+      "StyleSet": {
+        "ObjectName": "DataTable'AthenaKillFeedStyleSet'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedStyleSet.0"
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaKillFeedItem_C:WidgetTree.Border_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.8"
+      }
+    }
+  },
+  {
+    "Type": "FortRichTextBlock",
+    "Name": "KIllText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.14"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C193379B4BB1F75CBDAD4594325F5917",
+        "SourceString": "(<Killer>Killer</>|<TeamKiller>Team Killer</>|<LocalKiller>Local Killer</>) killed (<Victim>Victim</>|<TeamVictim>Team Victim</>) with a pistol",
+        "LocalizedString": "(<Killer>Killer</>|<TeamKiller>Team Killer</>|<LocalKiller>Local Killer</>) killed (<Victim>Victim</>|<TeamVictim>Team Victim</>) with a pistol"
+      },
+      "StyleSet": {
+        "ObjectName": "DataTable'AthenaKillFeedStyleSet'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedStyleSet.0"
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Border_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.9"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GameState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.3"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortGameStateAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaKillFeedItem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'AthenaKillFeedItem_C:WidgetTree.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.6"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'AthenaKillFeedItem_C:WidgetTree.Border_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.6"
+        },
+        {
+          "ObjectName": "FortRichTextBlock'AthenaKillFeedItem_C:WidgetTree.KIllText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaKillFeedItem_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.5"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillFeedItem.7"
+      }
+    }
+  }
+]

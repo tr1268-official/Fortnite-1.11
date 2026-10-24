@@ -1,0 +1,223 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Bus_Engine_Idle_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Athena_Bus_Engine_Idle_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.3"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Bus_Flying_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Bus_Flying_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 5.0,
+      "DelayMax": 20.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Bus_Engine_Idle_Cue:SoundNodeRandom_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeLooping",
+    "Name": "SoundNodeLooping_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeLooping'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Athena_Bus_Engine_Idle_Cue:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        2.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeLooping'Athena_Bus_Engine_Idle_Cue:SoundNodeLooping_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Bus_Engine_Idle_Cue:SoundNodeWavePlayer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.0,
+      "VolumeMin": 0.8,
+      "VolumeMax": 1.2,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeDelay'Athena_Bus_Engine_Idle_Cue:SoundNodeDelay_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Bus_Engine_Idle_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Bus_Engine_Idle_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Bus_Engine_Idle_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_01.SFX_FlyingBus_BeepBeep_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_FlyingBus_BeepBeep_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_02.SFX_FlyingBus_BeepBeep_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_FlyingBus_BeepBeep_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/SFX_Bus_Flying_Wind_Loop.SFX_Bus_Flying_Wind_Loop",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_Bus_Flying_Wind_Loop'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/SFX_Bus_Flying_Wind_Loop.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Bus_Engine_Idle_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_03.SFX_FlyingBus_BeepBeep_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_FlyingBus_BeepBeep_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Vehicles/SFX_FlyingBus_BeepBeep_03.0"
+    }
+  }
+]

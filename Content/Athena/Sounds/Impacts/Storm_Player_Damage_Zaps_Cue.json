@@ -1,0 +1,236 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Storm_Player_Damage_Zaps_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Storm_Player_Damage_Zaps_Cue:SoundNodeModulator_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.1"
+      },
+      "VolumeMultiplier": 0.15,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley.0"
+      },
+      "Duration": 2.4992187,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.4,
+      "PitchMax": 1.7,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Storm_Player_Damage_Zaps_Cue:SoundNodeRandom_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Storm_Player_Damage_Zaps_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_13_mono.magic_new_zap_13_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_13_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_13_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_11_mono.magic_new_zap_11_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_11_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_11_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_07_mono.magic_new_zap_07_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_07_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_07_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_02_mono.magic_new_zap_02_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_02_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_02_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_10_mono.magic_new_zap_10_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_10_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_10_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_12_mono.magic_new_zap_12_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_12_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_12_mono.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Storm_Player_Damage_Zaps_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Impacts/Storm_Player_Damage_Zaps_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_03_mono.magic_new_zap_03_mono",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'magic_new_zap_03_mono'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Magical_Zaps/magic_new_zap_03_mono.0"
+    }
+  }
+]

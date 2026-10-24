@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Dying_Indicator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Art/M_Dying_Indicator",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 33,
+        "ExpressionName": "/Game/Athena/HUD/Art/squad_DBNOIcon_Cross",
+        "UseConstant": false,
+        "Constant": {
+          "B": 39,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000027"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Dying_Indicator:MaterialExpressionTextureSample_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Dying_Indicator:MaterialExpressionTextureSample_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.2"
+        },
+        null,
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "D7038C92-424C4D37-108B0893-D827805C"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Dying_Indicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'squad_DBNOIcon_Blur'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/squad_DBNOIcon_Blur.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Dying_Indicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Dying_Indicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'squad_DBNOIcon_Cross'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/squad_DBNOIcon_Cross.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Dying_Indicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Dying_Indicator.0"
+      }
+    }
+  }
+]

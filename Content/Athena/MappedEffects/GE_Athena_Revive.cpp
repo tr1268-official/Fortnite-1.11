@@ -1,0 +1,121 @@
+class UGE_Athena_Revive_C : public UGameplayEffect
+{
+public:
+    TArray<struct FGameplayModifierInfo> Modifiers = {
+        {
+            "Attribute": {
+                "AttributeName": "Healing",
+                "Attribute": "StructProperty'/Script/FortniteGame.FortHealthSet:Healing'",
+                "AttributeOwner": "Class'/Script/FortniteGame.FortHealthSet'"
+            },
+            "ModifierOp": EGameplayModOp::Override,
+            "Magnitude": {
+                "Value": 0,
+                "Curve": {
+                    "CurveTable": nullptr,
+                    "RowName": FName("None")
+                }
+            },
+            "ModifierMagnitude": {
+                "MagnitudeCalculationType": EGameplayEffectMagnitudeCalculation::SetByCaller,
+                "ScalableFloatMagnitude": {
+                    "Value": 25,
+                    "Curve": {
+                        "CurveTable": nullptr,
+                        "RowName": FName("None")
+                    }
+                },
+                "AttributeBasedMagnitude": {
+                    "Coefficient": {
+                        "Value": 1,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "PreMultiplyAdditiveValue": {
+                        "Value": 0,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "PostMultiplyAdditiveValue": {
+                        "Value": 0,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "BackingAttribute": {
+                        "AttributeToCapture": {
+                            "AttributeName": "",
+                            "Attribute": nullptr,
+                            "AttributeOwner": nullptr
+                        },
+                        "AttributeSource": EGameplayEffectAttributeCaptureSource::Source,
+                        "bSnapshot": false
+                    },
+                    "AttributeCurve": {
+                        "CurveTable": nullptr,
+                        "RowName": FName("None")
+                    },
+                    "AttributeCalculationType": EAttributeBasedFloatCalculationType::AttributeMagnitude,
+                    "FinalChannel": EGameplayModEvaluationChannel::Channel0,
+                    "SourceTagFilter": FGameplayTagContainer({}),
+                    "TargetTagFilter": FGameplayTagContainer({})
+                },
+                "CustomMagnitude": {
+                    "CalculationClassMagnitude": nullptr,
+                    "Coefficient": {
+                        "Value": 1,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "PreMultiplyAdditiveValue": {
+                        "Value": 0,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "PostMultiplyAdditiveValue": {
+                        "Value": 0,
+                        "Curve": {
+                            "CurveTable": nullptr,
+                            "RowName": FName("None")
+                        }
+                    },
+                    "FinalLookupCurve": {
+                        "CurveTable": nullptr,
+                        "RowName": FName("None")
+                    }
+                },
+                "SetByCallerMagnitude": {
+                    "DataName": FName("ReviveHeal"),
+                    "DataTag": {
+                        "TagName": FName("None")
+                    }
+                }
+            },
+            "EvaluationChannelSettings": {
+                "Channel": EGameplayModEvaluationChannel::Channel0
+            },
+            "SourceTags": {
+                "RequireTags": FGameplayTagContainer({}),
+                "IgnoreTags": FGameplayTagContainer({})
+            },
+            "TargetTags": {
+                "RequireTags": FGameplayTagContainer({}),
+                "IgnoreTags": FGameplayTagContainer({})
+            }
+        }
+    };
+    struct FGameplayTagRequirements ApplicationTagRequirements = {
+        "RequireTags": FGameplayTagContainer({
+            FGameplayTag::RequestGameplayTag(FName("Gameplay.Status.DBNO"))
+        })
+    };
+};

@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Shields",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Shields/Athena_Shields",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Shields/GA_Athena_Shields.GA_Athena_Shields_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Shields/Athena_Shields.Athena_Shields",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Items/Art_noLOD/Meshes/Items_MineralPowder_06.Items_MineralPowder_06",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/shield_pickup_Athena_Cue.shield_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F26A4AB6478D1B8D77BF2B8F1ECF62DC",
+        "SourceString": "Shield Potion",
+        "LocalizedString": "Shield Potion"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "D9C37BEE450D66F6880EA29D487F0E3B",
+        "SourceString": "A potion with insulating properties. Applies some shields.",
+        "LocalizedString": "A potion with insulating properties. Applies some shields."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "5736B3F34B523879010816A9DA8259DA",
+        "SourceString": "Gadget UtilityItem M80",
+        "LocalizedString": "Gadget UtilityItem M80"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 2,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Items-MineralPowder-06'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-Items-MineralPowder-06.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-Items-MineralPowder-06-L.T-Icon-Items-MineralPowder-06-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

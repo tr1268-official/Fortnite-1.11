@@ -1,0 +1,236 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LeaderboardAndStatUIData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/LeaderboardAndStatUIData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'AthenaLeaderboardData'",
+        "ObjectPath": "/Script/FortniteUI"
+      }
+    },
+    "Rows": {
+      "SoloLeaderboards": {
+        "Playlist": "EFortAthenaPlaylist::AthenaSolo",
+        "Stats": [
+          {
+            "StatId": "Wins",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "1C5087E748A83619AEF96DB17195A8D2",
+              "SourceString": "# of Wins",
+              "LocalizedString": "# of Wins"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "6D95839D4761759B140E3DA9F51A1051",
+              "SourceString": "Global Wins",
+              "LocalizedString": "Global Wins"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop1",
+            "bIsGlobal": true
+          },
+          {
+            "StatId": "SecondTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "1C98B77F4D1B5C497D996FA61E70E4B7",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "310CFAEF42FC24AEB0BC97B679208358",
+              "SourceString": "Placed Top 10",
+              "LocalizedString": "Placed Top 10"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop10",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "ThirdTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "39110D5E4E29A72B0E1381AB62776402",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "C76586DA4CBAB9A84998BFBC0C74B0B9",
+              "SourceString": "Placed Top 25",
+              "LocalizedString": "Placed Top 25"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop25",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "Score",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "8593BD2A4DB75D26A0DB4CBF7F13CF5B",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "A630A3EE4360BE3612775282E95C48AF",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.Score",
+            "bIsGlobal": false
+          }
+        ]
+      },
+      "DuoLeaderboards": {
+        "Playlist": "EFortAthenaPlaylist::AthenaDuo",
+        "Stats": [
+          {
+            "StatId": "Wins",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "4FC97D1A4D3FAD568397FCADF73C3688",
+              "SourceString": "# of Wins",
+              "LocalizedString": "# of Wins"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "64BAA31D448DC63FAFC2D59D226E1124",
+              "SourceString": "Global Wins",
+              "LocalizedString": "Global Wins"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop1",
+            "bIsGlobal": true
+          },
+          {
+            "StatId": "SecondTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "3916F21F4AEC65E574AC3A827C573DAA",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "DAF875E048A7236BD60663A80881E97C",
+              "SourceString": "Placed Top 5",
+              "LocalizedString": "Placed Top 5"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop5",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "ThirdTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "5D6E564D472992931CD847A87E02E892",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "5F95919E416338386AB48EB6AAF1A2DC",
+              "SourceString": "Placed Top 12",
+              "LocalizedString": "Placed Top 12"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop12",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "Score",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "8593BD2A4DB75D26A0DB4CBF7F13CF5B",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "A630A3EE4360BE3612775282E95C48AF",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.Score",
+            "bIsGlobal": false
+          }
+        ]
+      },
+      "SquadLeaderboards": {
+        "Playlist": "EFortAthenaPlaylist::AthenaSquad",
+        "Stats": [
+          {
+            "StatId": "Wins",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "5A5181A244B25F3DDFAC8694AA5CB951",
+              "SourceString": "# of Wins",
+              "LocalizedString": "# of Wins"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "7F2AB87F4F9EF16EC8C01293DE5EE962",
+              "SourceString": "Global Wins",
+              "LocalizedString": "Global Wins"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop1",
+            "bIsGlobal": true
+          },
+          {
+            "StatId": "SecondTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "84C37A6245BB9519103724A5B95943BB",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "89F5379C463B8ABF30115891AE234BD9",
+              "SourceString": "Placed Top 3",
+              "LocalizedString": "Placed Top 3"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop3",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "ThirdTierFinishes",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "7B38E84D43D8BF579012C2BCEF345AEA",
+              "SourceString": "# of Times Placed",
+              "LocalizedString": "# of Times Placed"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "B8A83A134DE97A24825812911712A10F",
+              "SourceString": "Placed Top 6",
+              "LocalizedString": "Placed Top 6"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.PlaceTop6",
+            "bIsGlobal": false
+          },
+          {
+            "StatId": "Score",
+            "StatDisplayName": {
+              "Namespace": "",
+              "Key": "8593BD2A4DB75D26A0DB4CBF7F13CF5B",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "TabDisplayName": {
+              "Namespace": "",
+              "Key": "A630A3EE4360BE3612775282E95C48AF",
+              "SourceString": "Score",
+              "LocalizedString": "Score"
+            },
+            "BaseGameplayTag": "GameplayStat.BR.Score",
+            "bIsGlobal": false
+          }
+        ]
+      }
+    }
+  }
+]

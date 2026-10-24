@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Mimic",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Mimic/Athena_Mimic",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Mimic/B_Prj_Mimic.B_Prj_Mimic_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_BottleRocket"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Mimic/GA_Weapon_Mimic.GA_Weapon_Mimic_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Mimic/Athena_Mimic.Athena_Mimic",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupMeshTransform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.99999994,
+          "W": 3.5762787E-07,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -30.0
+        },
+        "Scale3D": {
+          "X": 0.65,
+          "Y": 0.65,
+          "Z": 0.65
+        }
+      },
+      "bOverridePickupMeshTransform": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Environments/Props/Boxes/Meshes/TreasureChestLootTier1.TreasureChestLootTier1",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6128193C478F9A9650A761B38D7F3C8F",
+        "SourceString": "Mimic",
+        "LocalizedString": "Mimic"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "64E848FA42DA46CBD3B6F3A9E7B98972",
+        "SourceString": "Shoots a celebratory bottle rocket into the sky. Consumes on use.",
+        "LocalizedString": "Shoots a celebratory bottle rocket into the sky. Consumes on use."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "D62CC59D42D64EA04230FAB42E35F7C6",
+        "SourceString": "Gadget UtilityItem BottleRocket",
+        "LocalizedString": "Gadget UtilityItem BottleRocket"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bAllowMultipleStacks": false,
+      "Tier": "EFortItemTier::III",
+      "StatList": {
+        "AssetPathName": "/Game/UI/Tooltips/m80TooltipStats.m80TooltipStats",
+        "SubPathString": ""
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Chest-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Cards/SquadTypes/T-Icon-Chest-128.0"
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

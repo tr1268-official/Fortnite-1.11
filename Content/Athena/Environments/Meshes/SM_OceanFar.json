@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_OceanFar'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_OceanFar.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "7108A8784EF0369B506CD4AD179527A9"
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_OceanFar'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_OceanFar.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x17120"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_OceanFar",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/SM_OceanFar",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_Athena_Water_Ocean'",
+            "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/M_Athena_Water_Ocean.0"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 53165.664,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 53165.664,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.75,
+          "Y": -0.5,
+          "Z": 2.7755576E-17
+        },
+        "BoxExtent": {
+          "X": 3261473.0,
+          "Y": 3261473.0,
+          "Z": 1.9970761E-10
+        },
+        "SphereRadius": 3261473.5
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_OceanFar:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_OceanFar.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_OceanFar:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_OceanFar.1"
+    },
+    "LightingGuid": "7CCC6B1E-4210987A-14AD3483-68BF50E3",
+    "RenderData": null
+  }
+]

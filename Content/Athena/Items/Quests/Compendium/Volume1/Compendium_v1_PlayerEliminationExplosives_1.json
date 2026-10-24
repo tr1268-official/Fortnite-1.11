@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Compendium_v1_PlayerEliminationExplosives_1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Volume1/Compendium_v1_PlayerEliminationExplosives_1",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/BattleBucks.BattleBucks",
+            "SubPathString": ""
+          },
+          "Quantity": 200
+        },
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/CompendiumXP.CompendiumXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "kill_player_with_explosives",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "killingblow_athena_player_rocket_launcher"
+          },
+          "AlternativeStatHandles": [
+            {
+              "DataTable": {
+                "ObjectName": "DataTable'ObjectiveStatTable'",
+                "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+              },
+              "RowName": "killingblow_athena_player_grenade_launcher"
+            }
+          ],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "297392404CB3B8837739738E3B5D1C2C",
+            "SourceString": "Eliminate a player with explosive weapons",
+            "LocalizedString": "Eliminate a player with explosive weapons"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "555E5B624BCBF99697AAAB85CB3F1F9E",
+            "SourceString": "Explosive player elimination",
+            "LocalizedString": "Explosive player elimination"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Compendium"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "2CAA71F44775ED86990D90A697B0CCF4",
+        "SourceString": "Player elimination with explosives completed!",
+        "LocalizedString": "Player elimination with explosives completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "15BD43194AFA1B7B922494BDF0C04B45",
+        "SourceString": "Player Elimination with Explosives",
+        "LocalizedString": "Player Elimination with Explosives"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "CC6F7DF64172D949D25F4AAFBD0F262D",
+        "SourceString": "Get a player elimination using explosive weapons.",
+        "LocalizedString": "Get a player elimination using explosive weapons."
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Exterminate-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-Exterminate-128.T-Icon-Exterminate-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

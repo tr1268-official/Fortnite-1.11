@@ -1,0 +1,271 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Athena_Campfire_Item'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_Item.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -88.36331,
+                "Y": 331.38992,
+                "Z": 8.0
+              },
+              {
+                "X": -112.75108,
+                "Y": 252.55258,
+                "Z": 8.0
+              },
+              {
+                "X": -58.62215,
+                "Y": 252.71231,
+                "Z": 47.414032
+              },
+              {
+                "X": -45.7273,
+                "Y": 294.39697,
+                "Z": 47.414032
+              },
+              {
+                "X": -90.907425,
+                "Y": 183.5085,
+                "Z": 8.0
+              },
+              {
+                "X": -47.072483,
+                "Y": 216.20578,
+                "Z": 47.414032
+              },
+              {
+                "X": 94.15512,
+                "Y": 321.59662,
+                "Z": 8.0
+              },
+              {
+                "X": 36.967644,
+                "Y": 364.26825,
+                "Z": 8.0
+              },
+              {
+                "X": 20.540497,
+                "Y": 311.78113,
+                "Z": 47.414032
+              },
+              {
+                "X": 50.777943,
+                "Y": 289.21884,
+                "Z": 47.414032
+              },
+              {
+                "X": 62.32761,
+                "Y": 252.71231,
+                "Z": 47.414032
+              },
+              {
+                "X": 115.998764,
+                "Y": 252.55257,
+                "Z": 8.0
+              },
+              {
+                "X": -16.835045,
+                "Y": 311.78113,
+                "Z": 47.414032
+              },
+              {
+                "X": -33.719967,
+                "Y": 364.26825,
+                "Z": 8.0
+              },
+              {
+                "X": -18.634228,
+                "Y": 198.76706,
+                "Z": 47.414032
+              },
+              {
+                "X": -37.12273,
+                "Y": 150.52701,
+                "Z": 8.0
+              },
+              {
+                "X": 29.654243,
+                "Y": 150.05829,
+                "Z": 8.0
+              },
+              {
+                "X": 16.673592,
+                "Y": 198.51923,
+                "Z": 47.414032
+              },
+              {
+                "X": 41.950817,
+                "Y": 216.47676,
+                "Z": 47.414032
+              },
+              {
+                "X": 77.460556,
+                "Y": 184.021,
+                "Z": 8.0
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -112.75108,
+                "Y": 150.05829,
+                "Z": 8.0
+              },
+              "Max": {
+                "X": 115.998764,
+                "Y": 364.26825,
+                "Z": 47.414032
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "AEBA67684CD26537A930FA9BE3E549D4",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 51569,
+        "SizeOnDisk": 51569,
+        "OffsetInFile": "0x326A5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_1",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Athena_Campfire_Item'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_Item.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1177,
+        "SizeOnDisk": 1177,
+        "OffsetInFile": "0x3F05E"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FORT_Athena_Campfire_Item",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_Item",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Cooler'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Boxes/Materials/MI_Cooler.0"
+          },
+          "MaterialSlotName": "01 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 430.78323,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 430.78323,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.8992233,
+          "Y": 256.98468,
+          "Z": 55.804745
+        },
+        "BoxExtent": {
+          "X": 112.31922,
+          "Y": 109.01679,
+          "Z": 48.077675
+        },
+        "SphereRadius": 126.872025
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FORT_Athena_Campfire_Item:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_Item.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FORT_Athena_Campfire_Item:NavCollision_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_Item.1"
+    },
+    "LightingGuid": "33BCB917-44479732-D33DB9A5-5267EDC0",
+    "RenderData": null
+  }
+]

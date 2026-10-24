@@ -1,0 +1,409 @@
+[
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MatLayerBlend_Tint'",
+        "ObjectPath": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Tint.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "75516075-40174E88-47FDFEA7-E6975C7D",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Class_1702125900",
+            "Mask": 1818323314,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Tint_11263"
+          }
+        },
+        {
+          "ExpressionInputId": "6FFD329D-4F29DB65-D71345AB-1BDE70CB",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "6ECF380F-4DADE7DA-7FF17CA1-6532CF18",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Class_1953392979",
+            "Mask": 1802723661,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Tint_13567"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "F7C585F5-4643D8CA-F0D51BBD-9BDE2ADC",
+          "Output": {
+            "OutputName": "Blended Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Blended Material",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": -0.742363,
+      "ParameterName": "ShiftSedimentEdge",
+      "ExpressionGUID": "DBA1DA10-41537B00-E1BD0495-862C163A",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Desat",
+      "ExpressionGUID": "5698E145-4E3357C4-324B69B1-E8925424",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": 3.244164,
+      "ParameterName": "SedimentEdge_High",
+      "ExpressionGUID": "FF42E02D-4E2B68DA-5869C18E-2F1691BE",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": 0.59633,
+      "ParameterName": "SedimentEdge_LOW",
+      "ExpressionGUID": "472B8338-477B42CA-5FE24AAA-23970B4A",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_67",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": -5138.903,
+      "ParameterName": "BlendBottom",
+      "ExpressionGUID": "32997C5C-40EF57A9-916D55A9-65E8D09C",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_68",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": -19084.715,
+      "ParameterName": "BlendTop",
+      "ExpressionGUID": "059B0399-42B098A9-3B5D08AF-EF9C1996",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_71",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": 5000.0,
+      "ParameterName": "WaveLength",
+      "ExpressionGUID": "D10A07B0-4C6425F9-14A15BA0-44941CE3",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_72",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": 500.0,
+      "ParameterName": "WaveAmplitude",
+      "ExpressionGUID": "AB666C11-49C6420A-7E594FB7-300205D2",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Tint",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 43,
+        "ExpressionName": "/Game/Environments/Sets/Arid/Textures/GradientSediments__M_59"
+      },
+      "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+      "Texture": {
+        "ObjectName": "Texture2D'GradientSediments__M'",
+        "ObjectPath": "FortniteGame/Content/Environments/Sets/Arid/Textures/GradientSediments__M.0"
+      },
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "FlatTopBlendCOlor",
+      "ExpressionGUID": "353671A2-441736BA-BC0CB7A2-629E0482",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "WallColorTint",
+      "ExpressionGUID": "B16885BB-4ED21ABF-DFDDAFBC-9B77EEC2",
+      "Group": "SedimentColoration",
+      "Function": {
+        "ObjectName": "MaterialFunction'SedimentGradient_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.12"
+      }
+    }
+  },
+  {
+    "Type": "MaterialFunction",
+    "Name": "SedimentGradient_Athena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialFunction'",
+    "Package": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena",
+    "Properties": {
+      "StateId": "0312E67C-489B9CBD-04598B9F-DB2BC09C",
+      "FunctionExpressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'SedimentGradient_Athena:MaterialExpressionMaterialFunctionCall_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.0"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'SedimentGradient_Athena:MaterialExpressionTextureSample_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.9"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_67'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.5"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_22'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_68'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.6"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_71'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.7"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_72'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.8"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'SedimentGradient_Athena:MaterialExpressionVectorParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.10"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'SedimentGradient_Athena:MaterialExpressionVectorParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.11"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.1"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'SedimentGradient_Athena:MaterialExpressionScalarParameter_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/SedimentGradient_Athena.4"
+        }
+      ]
+    }
+  }
+]

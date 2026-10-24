@@ -1,0 +1,65 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Mic_Indicator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Art/M_Mic_Indicator",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Art/M_Mic_Indicator_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 31,
+        "ExpressionName": "/Game/Athena/HUD/Art/mic-notalk",
+        "UseConstant": false,
+        "Constant": {
+          "B": 38,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000026"
+        }
+      },
+      "Opacity": null,
+      "OpacityMask": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'M_Mic_Indicator:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Mic_Indicator.1"
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "DDBF1134-4A3BF704-EC528487-FBD0D937"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Outer": {
+      "ObjectName": "Material'M_Mic_Indicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Mic_Indicator.0"
+    },
+    "Properties": {
+      "ParameterName": "MicIcon",
+      "ExpressionGUID": "7D63CD5A-4D825A9D-BE7812B0-0CDAE117",
+      "Texture": {
+        "ObjectName": "Texture2D'mic-notalk'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/mic-notalk.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Mic_Indicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/M_Mic_Indicator.0"
+      }
+    }
+  }
+]

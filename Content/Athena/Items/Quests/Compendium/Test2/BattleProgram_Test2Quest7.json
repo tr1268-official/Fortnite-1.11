@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_Test2Quest7",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test2/BattleProgram_Test2Quest7",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_top_25_solo",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_athena_solo_top_25"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "8E2ACF8043B4264DCF47D999B33AA826",
+            "SourceString": "Place Top 25 in a Solo Battle Royale Match 10 times",
+            "LocalizedString": "Place Top 25 in a Solo Battle Royale Match 10 times"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "32712329438039292FD6EDB3C7B7F985",
+            "SourceString": "Top 25 Solo",
+            "LocalizedString": "Top 25 Solo"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 10,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "6835F71B4011E9015999948E1EE2416B",
+        "SourceString": "Dominator",
+        "LocalizedString": "Dominator"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "9D09FEBD44E791BD20ED4A80E0EE8E1C",
+        "SourceString": "Place Top 25 in a Solo Battle Royale Match 10 times",
+        "LocalizedString": "Place Top 25 in a Solo Battle Royale Match 10 times"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E34B25D34259B28BD47ACDA952AFEFE5",
+        "SourceString": "Place Top 25 in a Solo Battle Royale Match 10 times",
+        "LocalizedString": "Place Top 25 in a Solo Battle Royale Match 10 times"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

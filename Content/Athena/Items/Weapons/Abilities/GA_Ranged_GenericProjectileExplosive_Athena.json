@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Ranged_GenericProjectileExplosive_Athena_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_Athena",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Ranged_GenericProjectileExplosive_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Ranged/Projectile/GA_Ranged_GenericProjectileExplosive.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Ranged_GenericProjectileExplosive_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Ranged/Projectile/GA_Ranged_GenericProjectileExplosive.0"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Ranged_GenericProjectileExplosive_Athena_C'Default__GA_Ranged_GenericProjectileExplosive_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_Athena.1"
+    }
+  },
+  {
+    "Type": "GA_Ranged_GenericProjectileExplosive_Athena_C",
+    "Name": "Default__GA_Ranged_GenericProjectileExplosive_Athena_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_Athena.GA_Ranged_GenericProjectileExplosive_Athena_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GA_Ranged_GenericProjectileExplosive_Athena",
+    "Template": {
+      "ObjectName": "GA_Ranged_GenericProjectileExplosive_C'Default__GA_Ranged_GenericProjectileExplosive_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Ranged/Projectile/GA_Ranged_GenericProjectileExplosive.1"
+    },
+    "Properties": {
+      "EffectContainers[1]": {
+        "TargetSelection": {
+          "List": [
+            {
+              "Shape": "EFortTargetSelectionShape::Sphere",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Overlap",
+              "PrimarySource": "EFortAbilityTargetingSource::PawnForward",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 512.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 1.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Damageable",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": false,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": false,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": true,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 12
+            }
+          ]
+        }
+      }
+    }
+  }
+]

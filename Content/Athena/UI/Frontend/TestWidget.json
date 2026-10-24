@@ -1,0 +1,117 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "TestWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/TestWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'TestWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.5"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Frontend/TestWidget.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "TestWidget_C'Default__TestWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.1"
+    }
+  },
+  {
+    "Type": "TestWidget_C",
+    "Name": "Default__TestWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/TestWidget.TestWidget_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/TestWidget",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'TestWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.5"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.6"
+    }
+  },
+  {
+    "Type": "TestWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/TestWidget.TestWidget_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/TestWidget",
+    "Template": {
+      "ObjectName": "TestWidget_C'Default__TestWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.1"
+    },
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.6"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'TestWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'TestWidget_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.2"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "TestWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.4"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/TestWidget.3"
+      }
+    }
+  }
+]

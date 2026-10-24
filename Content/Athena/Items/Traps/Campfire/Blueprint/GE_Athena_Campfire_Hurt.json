@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_Campfire_Hurt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Blueprint/GE_Athena_Campfire_Hurt",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_Campfire_Hurt_C'Default__GE_Athena_Campfire_Hurt_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Blueprint/GE_Athena_Campfire_Hurt.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_Campfire_Hurt_C",
+    "Name": "Default__GE_Athena_Campfire_Hurt_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Traps/Campfire/Blueprint/GE_Athena_Campfire_Hurt.GE_Athena_Campfire_Hurt_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Blueprint/GE_Athena_Campfire_Hurt",
+    "Properties": {
+      "DurationMagnitude": {
+        "ScalableFloatMagnitude": {
+          "Value": 1.0
+        }
+      },
+      "Period": {
+        "Value": 1.0
+      },
+      "Modifiers": [
+        {
+          "Attribute": {
+            "AttributeName": "Damage",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortHealthSet:Damage'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Additive",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        }
+      ],
+      "GameplayCues": [
+        {
+          "MagnitudeAttribute": {
+            "AttributeName": "",
+            "Attribute": null,
+            "AttributeOwner": null
+          },
+          "MinLevel": 1.0,
+          "MaxLevel": 1.0,
+          "GameplayCueTags": [
+            "GameplayCue.Damage.Elemental.Fire",
+            "GameplayCue.Elemental.Fire.FireFX",
+            "GameplayCue.Impact.Elemental.Fire"
+          ]
+        }
+      ],
+      "InheritableOwnedTagsContainer": {
+        "CombinedTags": [
+          "Athena.Item.Campfire"
+        ],
+        "Added": [
+          "Athena.Item.Campfire"
+        ]
+      }
+    }
+  }
+]

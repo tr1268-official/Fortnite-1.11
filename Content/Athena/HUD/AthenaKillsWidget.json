@@ -1,0 +1,388 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaKillsWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaKillsWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.13"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaKillsWidget.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaPlayerKillsBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaKillsWidget_C'Default__AthenaKillsWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.1"
+    }
+  },
+  {
+    "Type": "AthenaKillsWidget_C",
+    "Name": "Default__AthenaKillsWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaKillsWidget.AthenaKillsWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget",
+    "Properties": {
+      "HUDElementTag": [
+        "HUD.Athena.Kills"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaKillsWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaKillsWidget.AthenaKillsWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget",
+    "Template": {
+      "ObjectName": "AthenaKillsWidget_C'Default__AthenaKillsWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.1"
+    },
+    "Properties": {
+      "KillsText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.KillsText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.12"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.14"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaKillsWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.13"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.5"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.14"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.7"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaKillsWidget_C:WidgetTree.KillsImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.9"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'AthenaKillsWidget_C:WidgetTree.KillsText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.11"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.4"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.KillsImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.10"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.4"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.4"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.KillsText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.12"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "KillsImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaKillsWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.13"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 34.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'KillsIco'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/KillsIco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.5"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "KillsImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.14"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 34.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'KillsIco'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/KillsIco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.7"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "KillsText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaKillsWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.13"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E3855204471F214115F2629079CE4281",
+        "SourceString": "99",
+        "LocalizedString": "99"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 18
+      },
+      "MinDesiredWidth": 28.0,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.6"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "KillsText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.14"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E3855204471F214115F2629079CE4281",
+        "SourceString": "99",
+        "LocalizedString": "99"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 18
+      },
+      "MinDesiredWidth": 28.0,
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.8"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaKillsWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'AthenaKillsWidget_C:WidgetTree.HorizontalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.3"
+        },
+        {
+          "ObjectName": "Image'AthenaKillsWidget_C:WidgetTree.KillsImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.9"
+        },
+        {
+          "ObjectName": "TextBlock'AthenaKillsWidget_C:WidgetTree.KillsText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaKillsWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaKillsWidget.4"
+      }
+    }
+  }
+]

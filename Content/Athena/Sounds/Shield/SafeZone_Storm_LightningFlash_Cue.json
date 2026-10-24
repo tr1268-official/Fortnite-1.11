@@ -1,0 +1,266 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SafeZone_Storm_LightningFlash_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'SafeZone_Storm_LightningFlash_Cue:SoundNodeRandom_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.1"
+      },
+      "VolumeMultiplier": 0.1,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 8.613542,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_SafeZone_Lightning_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_SafeZone_Lightning_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'SafeZone_Storm_LightningFlash_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_001.Dist_Thunder_001",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_001'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_001.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_002.Dist_Thunder_002",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_002'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_002.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_003.Dist_Thunder_003",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_003'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_003.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_004.Dist_Thunder_004",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_004'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_004.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_005.Dist_Thunder_005",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_005'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_005.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_006.Dist_Thunder_006",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_006'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_006.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_007.Dist_Thunder_007",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_007'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_007.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_008.Dist_Thunder_008",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_008'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_008.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_Storm_LightningFlash_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_Storm_LightningFlash_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_009.Dist_Thunder_009",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Dist_Thunder_009'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_GamePlay_Sounds/Storms/Dist_Thunder_009.0"
+    }
+  }
+]

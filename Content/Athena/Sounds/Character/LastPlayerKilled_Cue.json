@@ -1,0 +1,230 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "LastPlayerKilled_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'LastPlayerKilled_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.3"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Music'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Music.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 10001.8
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 1.8,
+      "DelayMax": 1.8,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'LastPlayerKilled_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeEnveloper",
+    "Name": "SoundNodeEnveloper_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeEnveloper'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "VolumeCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 1.8,
+              "Value": 0.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 2.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "PitchCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Linear",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeDelay'LastPlayerKilled_Cue:SoundNodeDelay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'LastPlayerKilled_Cue:SoundNodeSoundClass_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'LastPlayerKilled_Cue:SoundNodeSoundClass_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Mission_Ingame_Important_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Mission_Ingame_Important_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'LastPlayerKilled_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Music'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Music.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeEnveloper'LastPlayerKilled_Cue:SoundNodeEnveloper_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Character/SFX_LastPlayerKilled.SFX_LastPlayerKilled",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_LastPlayerKilled'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/SFX_LastPlayerKilled.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'LastPlayerKilled_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/LastPlayerKilled_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Music/Menu/fort_lobby_music_athena.fort_lobby_music_athena",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'fort_lobby_music_athena'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Music/Menu/fort_lobby_music_athena.0"
+    }
+  }
+]

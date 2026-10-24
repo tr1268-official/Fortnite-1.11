@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Amb_Water_RiverLoopB_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_RiverLoopB_Cue",
+    "Properties": {
+      "bOverrideAttenuation": true,
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'Amb_Water_RiverLoopB_Cue:SoundNodeWavePlayer_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_RiverLoopB_Cue.1"
+      },
+      "VolumeMultiplier": 0.6,
+      "AttenuationOverrides": {
+        "OmniRadius": 700.0,
+        "StereoSpread": 1000.0,
+        "AttenuationShapeExtents": {
+          "X": 925.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FalloffDistance": 2000.0
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Ambient_Outdoors_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Ambient_Outdoors_Athena.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Amb_Water_River_Att'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Fort_Amb_Water_River_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Amb_Water_RiverLoopB_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Amb_Water_RiverLoopB_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Water/stream_medium_B_02.stream_medium_B_02",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'stream_medium_B_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Ambient_Looping/Water/stream_medium_B_02.0"
+    }
+  }
+]

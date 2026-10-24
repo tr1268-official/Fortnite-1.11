@@ -1,0 +1,317 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "PickAxe_Ready_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeQualityLevel'PickAxe_Ready_Athena_Cue:SoundNodeQualityLevel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.3"
+      },
+      "VolumeMultiplier": 0.15,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponMelee'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponMelee.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 0.36958334,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'PickAxe_Ready_Athena_Cue:SoundNodeRandom_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'PickAxe_Ready_Athena_Cue:SoundNodeRandom_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeQualityLevel",
+    "Name": "SoundNodeQualityLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeQualityLevel'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'PickAxe_Ready_Athena_Cue:SoundNodeModulator_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.1"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'PickAxe_Ready_Athena_Cue:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.11"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.12"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.13"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.14"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'PickAxe_Ready_Athena_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_05.Fire_Axe_Swing_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_06.Fire_Axe_Swing_06",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_03.Fire_Axe_Swing_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_04.Fire_Axe_Swing_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_06.Fire_Axe_Swing_06",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_01.Fire_Axe_Swing_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_02.Fire_Axe_Swing_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_03.Fire_Axe_Swing_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'PickAxe_Ready_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/PickAxe_Ready_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Axes/Fire_Axe_Swing_04.Fire_Axe_Swing_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  }
+]

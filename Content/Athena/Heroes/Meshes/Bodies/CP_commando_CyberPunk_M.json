@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "CustomCharacterBodyPartData",
+    "Name": "CustomCharacterBodyPartData_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterBodyPartData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'CP_commando_CyberPunk_M'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_commando_CyberPunk_M.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Meshes/SK_M_Med_Soldier_04_Skeleton_AnimBP.SK_M_Med_Soldier_04_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "CP_commando_CyberPunk_M",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_commando_CyberPunk_M",
+    "Properties": {
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "CharacterPartType": "EFortCustomPartType::Body",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterBodyPartData'CP_commando_CyberPunk_M:CustomCharacterBodyPartData_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_commando_CyberPunk_M.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/SK_M_Med_Soldier_04_ATH.SK_M_Med_Soldier_04_ATH",
+        "SubPathString": ""
+      },
+      "MasterSkeletalMeshes": [
+        {
+          "AssetPathName": "/Game/Characters/Player/Male/Medium/Base/SK_M_MALE_Base_Skeleton.SK_M_MALE_Base_Skeleton",
+          "SubPathString": ""
+        }
+      ],
+      "bSupportsColorSwatches": false,
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Materials/TV31/M_Med_Soldier_TV31.M_Med_Soldier_TV31",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 1,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

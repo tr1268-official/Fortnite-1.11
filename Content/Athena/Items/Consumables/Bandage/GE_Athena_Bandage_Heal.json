@@ -1,0 +1,151 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GE_Athena_Bandage_Heal_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bandage/GE_Athena_Bandage_Heal",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayEffect'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GE_Athena_Bandage_Heal_C'Default__GE_Athena_Bandage_Heal_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Bandage/GE_Athena_Bandage_Heal.1"
+    }
+  },
+  {
+    "Type": "GE_Athena_Bandage_Heal_C",
+    "Name": "Default__GE_Athena_Bandage_Heal_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/Bandage/GE_Athena_Bandage_Heal.GE_Athena_Bandage_Heal_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Bandage/GE_Athena_Bandage_Heal",
+    "Properties": {
+      "Modifiers": [
+        {
+          "Attribute": {
+            "AttributeName": "Healing",
+            "Attribute": {
+              "ObjectName": "StructProperty'FortHealthSet:Healing'",
+              "ObjectPath": "/Script/FortniteGame"
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'FortHealthSet'",
+              "ObjectPath": "/Script/FortniteGame"
+            }
+          },
+          "ModifierOp": "EGameplayModOp::Additive",
+          "Magnitude": {
+            "Value": 0.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ModifierMagnitude": {
+            "MagnitudeCalculationType": "EGameplayEffectMagnitudeCalculation::ScalableFloat",
+            "ScalableFloatMagnitude": {
+              "Value": 1.0,
+              "Curve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "AttributeBasedMagnitude": {
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "BackingAttribute": {
+                "AttributeToCapture": {
+                  "AttributeName": "",
+                  "Attribute": null,
+                  "AttributeOwner": null
+                },
+                "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+                "bSnapshot": false
+              },
+              "AttributeCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              },
+              "AttributeCalculationType": "EAttributeBasedFloatCalculationType::AttributeMagnitude",
+              "FinalChannel": "EGameplayModEvaluationChannel::Channel0",
+              "SourceTagFilter": [],
+              "TargetTagFilter": []
+            },
+            "CustomMagnitude": {
+              "CalculationClassMagnitude": null,
+              "Coefficient": {
+                "Value": 1.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PreMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "PostMultiplyAdditiveValue": {
+                "Value": 0.0,
+                "Curve": {
+                  "CurveTable": null,
+                  "RowName": "None"
+                }
+              },
+              "FinalLookupCurve": {
+                "CurveTable": null,
+                "RowName": "None"
+              }
+            },
+            "SetByCallerMagnitude": {
+              "DataName": "None",
+              "DataTag": {
+                "TagName": "None"
+              }
+            }
+          },
+          "EvaluationChannelSettings": {
+            "Channel": "EGameplayModEvaluationChannel::Channel0"
+          },
+          "SourceTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          },
+          "TargetTags": {
+            "RequireTags": [],
+            "IgnoreTags": []
+          }
+        }
+      ]
+    }
+  }
+]

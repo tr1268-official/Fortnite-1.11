@@ -1,0 +1,202 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Basketball_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Basketball_C:SimpleConstructionScript_714'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.5"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'Athena_Basketball_C:InheritableComponentHandler'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Basketball_C'Default__Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.1"
+    }
+  },
+  {
+    "Type": "Athena_Basketball_C",
+    "Name": "Default__Athena_Basketball_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.Athena_Basketball_C'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball",
+    "Template": {
+      "ObjectName": "PhysicsBall_Master_C'Default__PhysicsBall_Master_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.2"
+    },
+    "Properties": {
+      "NetCullDistanceSquared": 100000000.0,
+      "NetUpdateFrequency": 100.0
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'Athena_Basketball_C:StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20'",
+            "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+              "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+            },
+            "SCSVariableName": "Ball",
+            "AssociatedGuid": "5566D60B-4F7ABEFD-1996D88F-44F83709"
+          },
+          "CookedComponentInstancingData": {
+            "bIsValid": false,
+            "ChangedPropertyList": []
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SphereComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SphereComponent'Athena_Basketball_C:Sphere19BDAB494DD4ADFCDE4372982CD4430C'",
+            "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'PhysicsBall_Master_C'",
+              "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.1"
+            },
+            "SCSVariableName": "Sphere",
+            "AssociatedGuid": "6A0D0939-431C266D-31121DAB-756A8602"
+          },
+          "CookedComponentInstancingData": {
+            "bIsValid": false,
+            "ChangedPropertyList": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_482",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_488",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Basketball_C:SimpleConstructionScript_714'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Basketball_C:SceneComponent_482'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.3"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_714",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Basketball_C:SimpleConstructionScript_714.SCS_Node_488'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.4"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "Sphere19BDAB494DD4ADFCDE4372982CD4430C",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.0"
+    },
+    "Template": {
+      "ObjectName": "SphereComponent'PhysicsBall_Master_C:Sphere19BDAB494DD4ADFCDE4372982CD4430C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.75"
+    },
+    "Properties": {
+      "SphereRadius": 20.0,
+      "BodyInstance": {
+        "MassInKgOverride": 13.927586
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Basketball_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Basketball.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'PhysicsBall_Master_C:StaticMesh892E2D7F4D5BDF47A8E2048AC5843E20'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/PhysicsBall_Master.76"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_SportingGoods_Basketball'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortress_ExteriorDecos02/Mesh/SM_SportingGoods_Basketball.2"
+      },
+      "BodyInstance": {
+        "MassInKgOverride": 13.92759
+      }
+    }
+  }
+]

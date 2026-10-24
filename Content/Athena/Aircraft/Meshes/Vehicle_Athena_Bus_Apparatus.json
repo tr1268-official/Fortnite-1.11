@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Vehicle_Athena_Bus_Apparatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus.2"
+    },
+    "Properties": {
+      "CollisionTraceFlag": "CTF_UseComplexAsSimple",
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "B77C6A90450E472B93BE3AB85DF3A4F5",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 126717,
+        "SizeOnDisk": 126717,
+        "OffsetInFile": "0x19C931"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Vehicle_Athena_Bus_Apparatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 169173,
+        "SizeOnDisk": 169173,
+        "OffsetInFile": "0x1BB876"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Vehicle_Athena_Bus_Apparatus",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_LauchTheBalloon_Apparatus'",
+            "ObjectPath": "FortniteGame/Content/Missions/Primary/LaunchTheBalloon/Materials/M_LauchTheBalloon_Apparatus.0"
+          },
+          "MaterialSlotName": "mat_app_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1167.4341,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1167.4341,
+      "LightMapResolution": 64,
+      "LODForCollision": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 12.919479,
+          "Y": 143.59811,
+          "Z": 286.4036
+        },
+        "BoxExtent": {
+          "X": 204.86502,
+          "Y": 607.7676,
+          "Z": 290.54492
+        },
+        "SphereRadius": 638.74677
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Vehicle_Athena_Bus_Apparatus:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Vehicle_Athena_Bus_Apparatus:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Meshes/Vehicle_Athena_Bus_Apparatus.1"
+    },
+    "LightingGuid": "2B2BD1DE-4A5367FC-7309C2A3-39C090AB",
+    "RenderData": null
+  }
+]

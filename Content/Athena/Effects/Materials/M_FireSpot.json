@@ -1,0 +1,188 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_FireSpot",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FireSpot",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 45,
+        "ExpressionName": "BLEND_Translucent",
+        "UseConstant": false,
+        "Constant": {
+          "B": 55,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000037"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bUsedWithParticleSprites": true,
+      "EditorY": 16,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_FireSpot:MaterialExpressionTextureSample_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.4"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionDynamicParameter'M_FireSpot:MaterialExpressionDynamicParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FireSpot:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FireSpot:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_FireSpot:MaterialExpressionTextureSample_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "B60F6899-43475658-E4FBB38B-3C63CE80"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionDynamicParameter",
+    "Name": "MaterialExpressionDynamicParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionDynamicParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FireSpot'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_FireSpot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FireSpot'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.4,
+      "ParameterName": "Min",
+      "ExpressionGUID": "2A94B2A8-47FEC316-D54E309A-14762E82",
+      "Material": {
+        "ObjectName": "Material'M_FireSpot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FireSpot'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.6,
+      "ParameterName": "Max",
+      "ExpressionGUID": "321B938D-4707A3B0-05B46A9B-26B055F7",
+      "Material": {
+        "ObjectName": "Material'M_FireSpot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_FireSpot'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FireSpot",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 42,
+        "ExpressionName": "/Script/CoreUObject_73"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_PlasmaNoise_A_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/Plasma/T_PlasmaNoise_A_01.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_FireSpot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_FireSpot'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FireSpot",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 47,
+        "ExpressionName": "ArrayProperty_73"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_ColorGrad_FireRed'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/Grad/T_ColorGrad_FireRed.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_FireSpot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FireSpot.0"
+      }
+    }
+  }
+]

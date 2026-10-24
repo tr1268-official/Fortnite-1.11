@@ -1,0 +1,2905 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaInventoryEquipSlot_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Inventory/AthenaInventoryEquipSlot.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaInventoryEquipButtonBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.0"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:RefreshItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.24"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.22"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.21"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.19"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.16"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnAddedToFocusPath'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.15"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.13"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDeselected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.12"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDoubleClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.11"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnInventoryItemSelected_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.10"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragLeave'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.8"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.4"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsDragHovered'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.52"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaInventoryEquipSlot": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+      },
+      "OnDragLeave": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragLeave'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.8"
+      },
+      "OnInventoryItemSelected_Event_0": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnInventoryItemSelected_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.10"
+      },
+      "OnDoubleClicked": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDoubleClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.11"
+      },
+      "OnDeselected": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDeselected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.12"
+      },
+      "OnSelected": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.13"
+      },
+      "OnAddedToFocusPath": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnAddedToFocusPath'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.15"
+      },
+      "OnClicked": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.16"
+      },
+      "OnQuickbarContentsChanged_Event_0": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.19"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.21"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.22"
+      },
+      "RefreshItem": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:RefreshItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.24"
+      },
+      "OnDrop": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+      },
+      "OnDragDetected": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+      },
+      "TryAndShowDropTarget": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+      },
+      "IsDraggingEquipableItem": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+      },
+      "OnPreviewMouseButtonDown": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+      },
+      "OnDragOver": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+      },
+      "CanEquipFortItem": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+      },
+      "IsFocusOfDrop": {
+        "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaInventoryEquipSlot_C'Default__AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.2"
+    }
+  },
+  {
+    "Type": "AthenaInventoryEquipSlot_C",
+    "Name": "Default__AthenaInventoryEquipSlot_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.AthenaInventoryEquipSlot_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'WorldItemTileButtonStyle_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/WorldItemTileButtonStyle.0"
+      },
+      "bSelectable": true,
+      "bInteractableWhenSelected": true,
+      "ClickMethod": "EButtonClickMethod::PreciseClick",
+      "bCanEverPaint": false,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "AthenaInventoryEquipSlot_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.AthenaInventoryEquipSlot_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot",
+    "Template": {
+      "ObjectName": "AthenaInventoryEquipSlot_C'Default__AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.2"
+    },
+    "Properties": {
+      "DropTarget": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.85"
+      },
+      "ItemWidget": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.82"
+      },
+      "EmptyImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.86"
+      },
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.74"
+      },
+      "NormalStyle": {
+        "Disabled": {}
+      },
+      "SelectedStyle": {
+        "Disabled": {}
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DropTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaInventoryEquipSlot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.88"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.75"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.90"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.135"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.79"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CustomEvent_QuickbarIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.78"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.91"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.92"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_IsUsingGamepad_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.47"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_Event_InFocusEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.134"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.93"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.94"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.95"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetSelectedInventoryItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.100"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.96"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.97"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetQuickBarSlottedItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.98"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CustomEvent_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.101"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.48"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetQuickBarSlottedItem_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.99"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_GetContext_ReturnValue10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.89"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.CallFunc_EqualEqual_ObjectObject_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.46"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_Event_PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.136"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_Event_Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.103"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_DynamicCast_AsAthena_Inventory_Drag_Drop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.102"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.49"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragLeave'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDragLeave",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDragLeave'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDragLeave.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragLeave.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.111"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnInventoryItemSelected_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.10"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInventoryItemSelected_Event_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnInventoryItemSelected_Event_0.Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDoubleClicked",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnDoubleClicked'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDeselected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnDeselected'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnSelected'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InFocusEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnAddedToFocusPath'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FocusEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAddedToFocusPath",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnAddedToFocusPath'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnAddedToFocusPath.InFocusEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnClicked",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnClicked'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0.QuickbarIndex'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.18"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "QuickbarIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.19"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EFortQuickBars'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0.QuickbarIndex.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.17"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuickbarContentsChanged_Event_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:OnQuickbarContentsChanged_Event_0.QuickbarIndex'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.20"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaInventoryEquipSlot_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.80"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:RefreshItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "RefreshItem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:RefreshItem.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:RefreshItem.CallFunc_GetQuickBarSlottedItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.118"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:RefreshItem.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.67"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDrop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDrop'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDrop.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.25"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDrop.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.139"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDrop.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.116"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDrop.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.65"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDrop.K2Node_DynamicCast_AsFort_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.115"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDrop.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.64"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDrop.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.114"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDrop.CallFunc_DropItemOnQuickBar_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.63"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDragDetected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDragDetected'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDragDetected.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.27"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDragDetected.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.137"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragDetected.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.110"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragDetected.CallFunc_CreateDragDropOperation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.108"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragDetected.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.109"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragDetected.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.107"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDragDetected.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.59"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsFocusOfDrop_IsDragHovered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "TryAndShowDropTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:TryAndShowDropTarget.CallFunc_IsFocusOfDrop_IsDragHovered'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:TryAndShowDropTarget.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.119"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:TryAndShowDropTarget.CallFunc_IsDraggingEquipableItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.69"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:TryAndShowDropTarget.CallFunc_IsSwapping_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.70"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:TryAndShowDropTarget.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.68"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "IsDraggingEquipableItem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem.CallFunc_GetDragDroppingContent_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem.CallFunc_GetDragDroppingContent_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.105"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.51"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem.CallFunc_CanEquipFortItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.50"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPreviewMouseButtonDown",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnPreviewMouseButtonDown'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.33"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.MouseEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.141"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.142"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.117"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.CallFunc_DetectDragIfPressed_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.140"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown.CallFunc_IsUsingGamepad_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.66"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDragOver",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDragOver'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDragOver.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.35"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryEquipSlot_C:OnDragOver.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.138"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragOver.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.113"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDragOver.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.62"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:OnDragOver.K2Node_DynamicCast_AsAthena_Inventory_Drag_Drop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.112"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDragOver.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.61"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:OnDragOver.CallFunc_CanEquipFortItem_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.60"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Object",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CanEquipFortItem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.Object'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.37"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.K2Node_DynamicCast_AsFort_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.87"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.44"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_GetType_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.77"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.41"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_EqualEqual_ByteByte_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.42"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_EqualEqual_ByteByte_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.43"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.39"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_BooleanOR_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.40"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ObjectObject_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_CanEquipFortItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDragHovered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDragHovered",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "IsFocusOfDrop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.IsDragHovered'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.53"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.CallFunc_GetSelected_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.106"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.CallFunc_IsUsingGamepad_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.58"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.55"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryEquipSlot_C:IsFocusOfDrop.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.56"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetSelected_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_CanEquipFortItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_DropItemOnQuickBar_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:RefreshItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsDraggingEquipableItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsSwapping_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_GetType_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.77"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CustomEvent_QuickbarIndex'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.78"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "InputActionDataRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "Equip"
+      },
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.122"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "InputActionDataRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "Equip"
+      },
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.126"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 25.0
+        }
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnAthenaInventoryItemSelected__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnQuickbarContentsChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetType_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortItemType'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryEquipSlot_C:CanEquipFortItem.CallFunc_GetType_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.71"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_QuickbarIndex",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortQuickBars'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot.K2Node_CustomEvent_QuickbarIndex.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.72"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "EmptyItemType": "EFortItemType::WeaponRanged",
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19513'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.123"
+      }
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "EmptyItemType": "EFortItemType::WeaponRanged",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19513'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.127"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropTarget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.995,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-SwapSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/T-Icon-SwapSlot.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19975'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.125"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EmptyImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.49,
+          "Top": 0.49,
+          "Right": 0.49,
+          "Bottom": 0.49
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Slot_Empty_NoIcon'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/Slot/M_Slot_Empty_NoIcon.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19518'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.124"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropTarget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.995,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-SwapSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/T-Icon-SwapSlot.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19975'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.129"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "EmptyImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.49,
+          "Top": 0.49,
+          "Right": 0.49,
+          "Bottom": 0.49
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_Slot_Empty_NoIcon'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/Slot/M_Slot_Empty_NoIcon.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19518'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.128"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:CanEquipFortItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.38"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue10",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonUIContext'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue8",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue9",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuickBarSlottedItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuickBarSlottedItem_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetSelectedInventoryItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Inventory_Drag_Drop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Event_Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDragDroppingContent_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDragDroppingContent_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsDraggingEquipableItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.32"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:IsFocusOfDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.54"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreateDragDropOperation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragLeave'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Inventory_Drag_Drop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuickBarSlottedItem_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:RefreshItem'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:TryAndShowDropTarget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.30"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19518'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.124"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19513'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.123"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_19975'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.125"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryEquipSlot_C:WidgetTree.Overlay.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.122"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.132"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19518'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.128"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19513'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.127"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_19975'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.129"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.126"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_8.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.133"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'AthenaInventoryEquipSlot_C:WidgetTree.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.73"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19513",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'AthenaInventoryEquipSlot_C:WidgetTree.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.81"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19518",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaInventoryEquipSlot_C:WidgetTree.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.84"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19975",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaInventoryEquipSlot_C:WidgetTree.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.83"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.74"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19513",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.82"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19518",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.EmptyImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.86"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_19975",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.85"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryEquipSlot_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.143"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 122.0,
+      "HeightOverride": 122.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.132"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.144"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 122.0,
+      "HeightOverride": 122.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_8.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.133"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.130"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.130"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_8'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.131"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.131"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.121"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_InFocusEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FocusEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:ExecuteUbergraph_AthenaInventoryEquipSlot'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.28"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDragOver'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.36"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_DetectDragIfPressed_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MouseEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryEquipSlot_C:OnPreviewMouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.34"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryEquipSlot_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.130"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "SizeBox'AthenaInventoryEquipSlot_C:WidgetTree.SizeBox_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.130"
+        },
+        {
+          "ObjectName": "Overlay'AthenaInventoryEquipSlot_C:WidgetTree.Overlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.120"
+        },
+        {
+          "ObjectName": "Image'AthenaInventoryEquipSlot_C:WidgetTree.EmptyImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.84"
+        },
+        {
+          "ObjectName": "FortMultiSizeItemCard'AthenaInventoryEquipSlot_C:WidgetTree.ItemWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.81"
+        },
+        {
+          "ObjectName": "Image'AthenaInventoryEquipSlot_C:WidgetTree.DropTarget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.83"
+        },
+        {
+          "ObjectName": "CommonActionWidget'AthenaInventoryEquipSlot_C:WidgetTree.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.73"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaInventoryEquipSlot_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryEquipSlot.131"
+      }
+    }
+  }
+]

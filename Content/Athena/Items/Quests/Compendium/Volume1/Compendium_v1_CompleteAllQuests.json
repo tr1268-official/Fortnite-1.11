@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Compendium_v1_CompleteAllQuests",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Volume1/Compendium_v1_CompleteAllQuests",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/CompendiumXP.CompendiumXP",
+            "SubPathString": ""
+          },
+          "Quantity": 5000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_v1_complete_player_elimination_explosives_quest",
+          "ObjectiveStatHandle": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::QuestComplete",
+          "ItemReference": {
+            "AssetPathName": "/Game/Athena/Items/Quests/Compendium/Volume1/Compendium_v1_PlayerEliminationExplosives_1.Compendium_v1_PlayerEliminationExplosives_1",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "A5E348D04E2269455564E5B06612A072",
+            "SourceString": "Complete player elimination with explosives",
+            "LocalizedString": "Complete player elimination with explosives"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "668E2C52472CF733D7BB6D85C30334CC",
+            "SourceString": "Complete player elimination with explosives",
+            "LocalizedString": "Complete player elimination with explosives"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "BackendName": "compendium_v1_complete_player_elimination_quest",
+          "ObjectiveStatHandle": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::QuestComplete",
+          "ItemReference": {
+            "AssetPathName": "/Game/Athena/Items/Quests/Compendium/Volume1/Compendium_v1_PlayerElimination.Compendium_v1_PlayerElimination",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "F4AB96FB4F2E0944E7B234B42F1398CA",
+            "SourceString": "Complete player elimination",
+            "LocalizedString": "Complete player elimination"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "3F5C5236406ADC519D6A10852F681C13",
+            "SourceString": "Complete player elimination",
+            "LocalizedString": "Complete player elimination"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        },
+        {
+          "BackendName": "compendium_v1_complete_build_walls",
+          "ObjectiveStatHandle": {
+            "DataTable": null,
+            "RowName": "None"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::QuestComplete",
+          "ItemReference": {
+            "AssetPathName": "/Game/Athena/Items/Quests/Compendium/Volume1/Compendium_v1_Build_1.Compendium_v1_Build_1",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "629EA63B4C947FDCA897578D98DEEC97",
+            "SourceString": "Complete build walls",
+            "LocalizedString": "Complete build walls"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "CE4E2BE24D3D4BEC6BBF81AC7BD7C456",
+            "SourceString": "Complete build walls",
+            "LocalizedString": "Complete build walls"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "Compendium"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "15CF0D654ED976A9EAB815B0F6AFE972",
+        "SourceString": "All Quests Completed!",
+        "LocalizedString": "All Quests Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "52D18E294A4057F7FF1A4CAFCEEB12DF",
+        "SourceString": "All compendium quests completed!",
+        "LocalizedString": "All compendium quests completed!"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "5382A7A443CF77275D6FD59568DAEFE2",
+        "SourceString": "Complete all compendium quests",
+        "LocalizedString": "Complete all compendium quests"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Story-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Mission/T-Icon-Story-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Mission/T-Icon-Story-128.T-Icon-Story-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

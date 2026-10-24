@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "MI_FloorLoot_Warmup",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Environments/Materials/MI_FloorLoot_Warmup",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'Fortress_BaseMaterial'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/Base_Material/Fortress_BaseMaterial.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "BaseColorFresnelAmount",
+          "ParameterValue": 0.12,
+          "ExpressionGUID": "B7F604FA-42F7EB44-C2D7B59B-6E02558B"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_FORT_LootTierMeshes'",
+            "ObjectPath": "FortniteGame/Content/Packages/DS_Fortnight/SM/Textures/T_FORT_LootTierMeshes.0"
+          },
+          "ExpressionGUID": "24752C6A-4EB615EA-97FA1AA9-45925FD0"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "Base Color Multiplier",
+          "ParameterValue": {
+            "R": 0.0,
+            "G": 1.0,
+            "B": 0.47442,
+            "A": 1.0,
+            "Hex": "00FFB7"
+          },
+          "ExpressionGUID": "0606AA18-4EA188BB-32D19F8D-BD316AD2"
+        }
+      ],
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "CheckerboardTexture"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_FORT_LootTierMeshes"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Fortnite_Default_S"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

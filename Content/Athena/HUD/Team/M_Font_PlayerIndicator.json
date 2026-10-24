@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Font_PlayerIndicator",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/BellCurve",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 58,
+        "ExpressionName": "/Game/Athena/HUD/Team/M_Font_PlayerIndicator",
+        "UseConstant": false,
+        "Constant": {
+          "B": 69,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000045"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 112,
+      "EditorY": -144,
+      "Expressions": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_Font_PlayerIndicator:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.2"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Font_PlayerIndicator:MaterialExpressionMaterialFunctionCall_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.1"
+        },
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "FA9538D1-4EF87F6C-99D76C98-B88678B2",
+          "Function": {
+            "ObjectName": "MaterialFunction'BellCurve'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.2"
+          }
+        },
+        {
+          "StateId": "FDF0E218-49F6EE8B-E9059C85-221B2F68",
+          "Function": {
+            "ObjectName": "MaterialFunction'Pi'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Pi.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "7CD1C344-483BFC97-DC99F780-1D5B9FF6"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_Font_PlayerIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'BellCurve'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "653916A0-4C81FC90-3A5FF5AD-91624DEC",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "655C92DD-4A259B2C-324020AD-F9B630F6",
+          "Output": {
+            "OutputName": "0-1",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "C42309D2-48203FF4-5E5BACB5-29521A71",
+          "Output": {
+            "OutputName": "Standard",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_Font_PlayerIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "0-1",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Standard",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Font_PlayerIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+    },
+    "Properties": {
+      "SliderMax": 1.0,
+      "ParameterName": "IsTalking",
+      "ExpressionGUID": "A3DB99F8-4FC6A8CC-E1D250B7-FD2BD8BE",
+      "Material": {
+        "ObjectName": "Material'M_Font_PlayerIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_Font_PlayerIndicator.0"
+      }
+    }
+  }
+]

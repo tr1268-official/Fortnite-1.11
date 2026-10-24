@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Prop_Toilet_Factory_Toilet_Future_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Prop_Toilet_Factory_Toilet_Future_C:SimpleConstructionScript_42'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingProp'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Prop_Toilet_Factory_Toilet_Future_C'Default__Athena_Prop_Toilet_Factory_Toilet_Future_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.1"
+    }
+  },
+  {
+    "Type": "Athena_Prop_Toilet_Factory_Toilet_Future_C",
+    "Name": "Default__Athena_Prop_Toilet_Factory_Toilet_Future_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.Athena_Prop_Toilet_Factory_Toilet_Future_C'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ToiletFactory_Toilet_Future'",
+        "ObjectPath": "FortniteGame/Content/Environments/Props/ToiletFactory/Meshes/ToiletFactory_Toilet_Future.2"
+      },
+      "ResourceType": "EFortResourceType::Stone",
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Toilet_Factory_Toilet_Future_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.5"
+      },
+      "DestructionLootTierGroup": "Destruction_MechanicalLow",
+      "BuildingResourceAmountOverride": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResourceRates'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/ResourceRates.0"
+        },
+        "RowName": "PropStoneMedium"
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_General_Deco_Destruction_Small'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Base_Effects/P_General_Deco_Destruction_Small.38"
+      },
+      "BuildingAttachmentType": "ATTACH_Floor",
+      "AttributeInitKey": {
+        "AttributeInitCategory": "PropStone",
+        "AttributeInitSubCategory": "2"
+      },
+      "DefaultTags": [
+        "Building.Type.Container.Furniture.Toilet"
+      ],
+      "NavigationObstacleOverride": "ENavigationObstacleOverride::ForceEnabled",
+      "bCanExportNavigationCollisions": true,
+      "bDestroyOnPlayerBuildingPlacement": true,
+      "CentroidOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 50.0
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_Toilet_Factory_Toilet_Future_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_181",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Toilet_Factory_Toilet_Future_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_189",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Prop_Toilet_Factory_Toilet_Future_C:SimpleConstructionScript_42'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Prop_Toilet_Factory_Toilet_Future_C:SceneComponent_181'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_42",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_Toilet_Factory_Toilet_Future_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Prop_Toilet_Factory_Toilet_Future_C:SimpleConstructionScript_42.SCS_Node_189'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Prop_Toilet_Factory_Toilet_Future_C'Default__Athena_Prop_Toilet_Factory_Toilet_Future_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_Toilet_Factory_Toilet_Future.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'ToiletFactory_Toilet_Future'",
+        "ObjectPath": "FortniteGame/Content/Environments/Props/ToiletFactory/Meshes/ToiletFactory_Toilet_Future.2"
+      },
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "bAutoWeld": false
+      }
+    }
+  }
+]

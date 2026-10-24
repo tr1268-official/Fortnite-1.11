@@ -1,0 +1,92 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_ShieldSmall",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/ShieldSmall/M_ShieldSmall",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'BackPackShrinkingEffect'",
+        "ObjectPath": "FortniteGame/Content/Packages/Fortnite_UniqueMaterials_1/BackPackShrinkingEffect.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "SpecularMasks",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Items_MineralPowder_01_S'",
+            "ObjectPath": "FortniteGame/Content/Items/Art_noLOD/Textures/T_Items_MineralPowder_01_S.0"
+          },
+          "ExpressionGUID": "103ACF17-4BFB1563-57057D9A-113F7380"
+        },
+        {
+          "ParameterName": "Diffuse",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Items_ShieldSmall_D'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/ShieldSmall/T_Items_ShieldSmall_D.0"
+          },
+          "ExpressionGUID": "4A6A9316-4C1DC571-E0C1F186-9E51A1F2"
+        },
+        {
+          "ParameterName": "Normals",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Items_MineralPowder_01_N'",
+            "ObjectPath": "FortniteGame/Content/Items/Art_noLOD/Textures/T_Items_MineralPowder_01_N.0"
+          },
+          "ExpressionGUID": "7650772D-491D02AB-11CA18BF-6826813F"
+        },
+        {
+          "ParameterName": "ReflectionTextureMask",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Items_MineralPowder_06_RM'",
+            "ObjectPath": "FortniteGame/Content/Items/Art_noLOD/Textures/T_Items_MineralPowder_06_RM.0"
+          },
+          "ExpressionGUID": "1A61DA5C-47895074-5E5F7181-7EA4E043"
+        },
+        {
+          "ParameterName": "SphereReflectionMap",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_Items_MineralPowder_06_R'",
+            "ObjectPath": "FortniteGame/Content/Items/Art_noLOD/Textures/T_Items_MineralPowder_06_R.0"
+          },
+          "ExpressionGUID": "42A316F0-4B4089E3-59DFE08E-0D04A390"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_TwoSided": true,
+        "TwoSided": true
+      },
+      "TextureStreamingData": [
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Black"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Items_MineralPowder_01_N"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Items_MineralPowder_01_S"
+        },
+        {
+          "SamplingScale": 1.0,
+          "UVChannelIndex": 0,
+          "TextureName": "T_Items_ShieldSmall_D"
+        }
+      ]
+    },
+    "LoadedMaterialResources": []
+  }
+]

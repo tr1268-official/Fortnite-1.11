@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_TestQuest6",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test1/BattleProgram_TestQuest6",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 2000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "compendium_test1_win_match_squad",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "win_athena_squad"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "AB3735DC4C35C0143149DEAF1ED79D67",
+            "SourceString": "Win a Squad Battle Royale Match",
+            "LocalizedString": "Win a Squad Battle Royale Match"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "29C6F5A6470F3F194EC163B9B6637AB4",
+            "SourceString": "Win a Squad Battle Royale Match",
+            "LocalizedString": "Win a Squad Battle Royale Match"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "B76C870E47B8C2582B0A749743379EA7",
+        "SourceString": "Dominator Squad",
+        "LocalizedString": "Dominator Squad"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "A8154193491A75242EEE7DAE5E988337",
+        "SourceString": "Win a Squad Battle Royale Match",
+        "LocalizedString": "Win a Squad Battle Royale Match"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C2D3E7D94A34741F7AE1418FC102C40D",
+        "SourceString": "Win a Squad Battle Royale Match",
+        "LocalizedString": "Win a Squad Battle Royale Match"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

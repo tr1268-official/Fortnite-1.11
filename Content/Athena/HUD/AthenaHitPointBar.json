@@ -1,0 +1,5003 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaHitPointBar_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaHitPointBar.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.0"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.32"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update Delta Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.31"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValueWithoutReason'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.27"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateMaxValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.18"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.15"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.14"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.12"
+      },
+      {
+        "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Image] Baseplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.130"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Image] Bevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.131"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Image] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.132"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.133"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[ProgressBar] Delta'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.134"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[ProgressBar] Fill'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.135"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.136"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ImageStatIconShadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.146"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.154"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:TextCurrentStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.155"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:TextMaxStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.156"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Type'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.56"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Current Value'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.74"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Max Value'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.87"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Fill Texture'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.144"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Gloss Texture'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.145"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Critical Color A'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.200"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Critical Color B'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.201"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Critical Color C'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.202"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Last Value'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.86"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:FadeUpdateRate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.82"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:MultiFont'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.225"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Baseplate Texture'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.137"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:Volatile'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.47"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:DBNOStateCache'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaHitPointBar": {
+        "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.12"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.14"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'AthenaHitPointBar_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.15"
+      },
+      "UpdateMaxValue": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateMaxValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.18"
+      },
+      "UpdateCurrentValue": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+      },
+      "Update Fill Bar": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+      },
+      "UpdateCurrentValueWithoutReason": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValueWithoutReason'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.27"
+      },
+      "Initialize Bar": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+      },
+      "Update Delta Bar": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update Delta Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.31"
+      },
+      "Update": {
+        "ObjectName": "Function'AthenaHitPointBar_C:Update'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.32"
+      },
+      "UpdateVolatileForUpdate": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+      },
+      "UpdateHealthType": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+      },
+      "UpdateDBNOState": {
+        "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaHitPointBar_C'Default__AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.2"
+    }
+  },
+  {
+    "Type": "AthenaHitPointBar_C",
+    "Name": "Default__AthenaHitPointBar_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaHitPointBar.AthenaHitPointBar_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Type": "ProgressBarType::NewEnumerator1",
+      "Max Value": 1.0,
+      "Critical Color A": {
+        "R": 0.982251,
+        "G": 0.130136,
+        "B": 0.090842,
+        "A": 1.0,
+        "Hex": "FD6555"
+      },
+      "Critical Color B": {
+        "R": 0.651406,
+        "G": 0.030713,
+        "B": 0.027321,
+        "A": 1.0,
+        "Hex": "D3312E"
+      },
+      "Critical Color C": {
+        "R": 0.930111,
+        "G": 0.174647,
+        "B": 0.141263,
+        "A": 1.0,
+        "Hex": "F77469"
+      },
+      "Last Value": 1000.0,
+      "FadeUpdateRate": 0.05,
+      "MultiFont": {
+        "Font_XXS": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Small Black",
+          "Size": 9
+        },
+        "Font_XS": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Small Black",
+          "Size": 9
+        },
+        "Font_S": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Small Black",
+          "Size": 9
+        },
+        "Font_M": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Small Black",
+          "Size": 12
+        },
+        "Font_L": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Small Black",
+          "Size": 18
+        },
+        "Font_XL": {
+          "FontObject": {
+            "ObjectName": "Font'Burbank-DEPRECATED'",
+            "ObjectPath": "FortniteGame/Content/UI/Fonts/Burbank-DEPRECATED.0"
+          },
+          "FontMaterial": null,
+          "OutlineSettings": {
+            "OutlineSize": 0,
+            "OutlineMaterial": null,
+            "OutlineColor": {
+              "R": 0.0,
+              "G": 0.0,
+              "B": 0.0,
+              "A": 1.0,
+              "Hex": "000000"
+            },
+            "bSeparateFillAlpha": false
+          },
+          "TypefaceFontName": "Big Regular Black",
+          "Size": 30
+        }
+      },
+      "bCanEverPaint": false,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "AthenaHitPointBar_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaHitPointBar.AthenaHitPointBar_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar",
+    "Template": {
+      "ObjectName": "AthenaHitPointBar_C'Default__AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.2"
+    },
+    "Properties": {
+      "[Horizontal Box] Stat Text": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+      },
+      "[Image] Baseplate": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Baseplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.123"
+      },
+      "[Image] Bevel": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Bevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.124"
+      },
+      "[Image] Stat Icon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.125"
+      },
+      "[Overlay] Bar Artwork": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      },
+      "[ProgressBar] Delta": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.[ProgressBar] Delta'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.184"
+      },
+      "[ProgressBar] Fill": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.[ProgressBar] Fill'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.185"
+      },
+      "[Size Box] Bar": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.190"
+      },
+      "ImageStatIconShadow": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageStatIconShadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.126"
+      },
+      "SizeBoxHighlight": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.193"
+      },
+      "TextCurrentStat": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextCurrentStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.67"
+      },
+      "TextMaxStat": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextMaxStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.68"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DBNOStateCache",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Horizontal Box] Stat Text",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaHitPointBar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.6"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.69"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.70"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetPlayerController_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.141"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetViewTarget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.142"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_DynamicCast_AsFort_Player_Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.143"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.8"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetMaxStamina_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.78"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_CreateDelegate_OutputDelegate3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.71"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetStamina_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.80"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetMaxHealth_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.76"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetHealth_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.75"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetShield_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.79"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetMaxShield_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.77"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.138"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.203"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.81"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_SwitchEnum2_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetContext_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.139"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.K2Node_CreateDelegate_OutputDelegate4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.72"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar.CallFunc_GetContext_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.140"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum2_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.13"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.88"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Max",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateMaxValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.18"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateMaxValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:UpdateMaxValue.Max'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.17"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaHitPointBar_C:UpdateMaxValue.CallFunc_Conv_FloatToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.228"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Current",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCurrentValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:UpdateCurrentValue.Current'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.19"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaHitPointBar_C:UpdateCurrentValue.Reason'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.73"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateCurrentValue.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.34"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:UpdateCurrentValue.CallFunc_FMax_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.103"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaHitPointBar_C:UpdateCurrentValue.CallFunc_Conv_FloatToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.227"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Fill Bar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.Temp_float_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.21"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Blueprint_GetSizeX_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.129"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.93"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:Update Fill Bar.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.25"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Multiply_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.98"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Update Fill Bar.K2Node_DynamicCast_AsSize_Box_Slot'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.157"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:Update Fill Bar.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.24"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.91"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.92"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Multiply_FloatFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.99"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_FMax_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.96"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_FMax_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.97"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.94"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Multiply_FloatFloat_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.100"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Add_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.90"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_Divide_FloatFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.95"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:Update Fill Bar.CallFunc_LessEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.23"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Fill Bar.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.101"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Update Fill Bar.K2Node_MakeStruct_LinearColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.226"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Current",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValueWithoutReason'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.27"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCurrentValueWithoutReason",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:UpdateCurrentValueWithoutReason.Current'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Initialize Bar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.Temp_object_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.151"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.Temp_object_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.152"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.Temp_object_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.153"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.50"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.210"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.217"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.218"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.51"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.219"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.220"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.221"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.52"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.222"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.223"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.224"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_MakeStruct_Margin'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.204"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.211"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_SlotAsOverlaySlot_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.149"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable11'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.212"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable12'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.213"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.53"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable13'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.214"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable14'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.215"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.Temp_struct_Variable15'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.216"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.54"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaHitPointBar_C:Initialize Bar.Temp_class_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.60"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaHitPointBar_C:Initialize Bar.Temp_class_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.61"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaHitPointBar_C:Initialize Bar.Temp_class_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.62"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.147"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:Initialize Bar.Temp_byte_Variable7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.55"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_Blueprint_GetSizeX_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.127"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.83"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_GetDynamicMaterial_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.148"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_Multiply_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.85"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_Blueprint_GetSizeY_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.128"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Initialize Bar.CallFunc_Conv_IntToFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.84"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.59"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.205"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select3_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.150"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select4_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.206"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select5_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.207"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select6_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.208"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaHitPointBar_C:Initialize Bar.K2Node_Select7_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.209"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMax_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Delta Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.31"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Delta Bar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Delta Bar.CallFunc_FMax_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.30"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update Delta Bar.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.89"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Update",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:Update.CallFunc_NearlyEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.33"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:Update.CallFunc_Lerp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.102"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NearlyEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.32"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "NewVolatile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateVolatileForUpdate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateVolatileForUpdate.NewVolatile'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.35"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaHitPointBar_C:UpdateVolatileForUpdate.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.58"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaHitPointBar_C:UpdateVolatileForUpdate.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.104"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateVolatileForUpdate.CallFunc_NotEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.46"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateVolatileForUpdate.CallFunc_NotEqual_BoolBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.45"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayerPawn_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Pawn'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateHealthType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:UpdateHealthType.CallFunc_GetOwningPlayerPawn_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:UpdateHealthType.K2Node_DynamicCast_AsFort_Player_Pawn_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.159"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateHealthType.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.44"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateHealthType.CallFunc_IsDBNO_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.43"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateDBNOState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateDBNOState.bIsDBNO'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.40"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateDBNOState.CallFunc_EqualEqual_BoolBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaHitPointBar_C:UpdateDBNOState.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.158"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaHitPointBar_C:UpdateDBNOState.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.42"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bIsDBNO",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_BoolBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsDBNO_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_BoolBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Volatile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'AthenaHitPointBar_C:WidgetTree.CommonBorder_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.63"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'AthenaHitPointBar_C:WidgetTree.CommonBorder_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.63"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.187"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_6'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.64"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.64"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.191"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Type",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaHitPointBar_C:UpdateCurrentValue.Reason'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.73"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ProgressBarType'",
+      "ObjectPath": "FortniteGame/Content/UI/HUD/ProgressBarType.0"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonTextStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonTextStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonTextStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonTextStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_HUD_Line_Vert_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_HUD_Line_Vert.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaHitPointBar_C:WidgetTree.CommonBorder_6.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.111"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorder_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_HUD_Line_Vert_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_HUD_Line_Vert.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorder_6.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.116"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextCurrentStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "D3299B5448E5F44717EC3F82A964AE14",
+        "SourceString": "999?",
+        "LocalizedString": "999?"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_32'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.109"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextMaxStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "877199C449AC197C5601AC884E64D1BF",
+        "SourceString": "999?",
+        "LocalizedString": "999?"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_34'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.110"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextCurrentStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "D3299B5448E5F44717EC3F82A964AE14",
+        "SourceString": "999?",
+        "LocalizedString": "999?"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_32'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.114"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextMaxStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "877199C449AC197C5601AC884E64D1BF",
+        "SourceString": "999?",
+        "LocalizedString": "999?"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_34'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.115"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnHitPointsModified__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnHitPointStatChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnHitPointStatChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnLocalPlayerDBNOStateChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Reason",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EFortHitPointModificationReason'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaHitPointBar_C:UpdateCurrentValue.Reason.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.57"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Current Value",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetHealth_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetMaxHealth_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetMaxShield_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetMaxStamina_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetShield_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetStamina_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "FadeUpdateRate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Last Value",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Max Value",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Delta Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.31"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMax_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMax_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Lerp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.32"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMax_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateVolatileForUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.36"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "[Horizontal Box] Stat Text",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_32'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.109"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.111"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text.HorizontalBoxSlot_34'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.110"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay].OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.173"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66.HorizontalBoxSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.112"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66.HorizontalBoxSlot_693'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.113"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "[Horizontal Box] Stat Text",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_32'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.114"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.116"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text.HorizontalBoxSlot_34'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.115"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay].OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.181"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_66",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_66.HorizontalBoxSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.117"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_66.HorizontalBoxSlot_693'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.118"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.5
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaHitPointBar_C:WidgetTree.TextCurrentStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.5
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaHitPointBar_C:WidgetTree.TextMaxStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.66"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 2.0,
+        "Right": 4.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'AthenaHitPointBar_C:WidgetTree.CommonBorder_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.63"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_12774'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.188"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_693",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.186"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.5
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextCurrentStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.67"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_34",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": -2.5
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextMaxStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.68"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 2.0,
+        "Right": 4.0,
+        "Bottom": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorder_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_66'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.108"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.108"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_12774'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.192"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_693",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_66'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.108"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.108"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.190"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Baseplate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 360.0,
+          "Y": 60.0
+        },
+        "Margin": {
+          "Left": 0.4,
+          "Right": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'HUD-ShieldMeter-Baseplate'",
+          "ObjectPath": "FortniteGame/Content/UI/HUD/Textures/HUD-ShieldMeter-Baseplate.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.001214,
+        "B": 0.01033,
+        "A": 0.6,
+        "Hex": "9900041A"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_213'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.166"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Bevel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "Margin": {
+          "Right": 0.9
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Border-HUD-HitPointBar-LeadEdge'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Border/T-Border-HUD-HitPointBar-LeadEdge.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.196"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Stat Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Shieldbar-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Shieldbar-M.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.170"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageStatIconShadow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Shieldbar-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Shieldbar-M.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon.OverlaySlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.171"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Baseplate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 360.0,
+          "Y": 60.0
+        },
+        "Margin": {
+          "Left": 0.4,
+          "Right": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'HUD-ShieldMeter-Baseplate'",
+          "ObjectPath": "FortniteGame/Content/UI/HUD/Textures/HUD-ShieldMeter-Baseplate.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.001214,
+        "B": 0.01033,
+        "A": 0.6,
+        "Hex": "9900041A"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_213'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.174"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Bevel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "Margin": {
+          "Right": 0.9
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Border-HUD-HitPointBar-LeadEdge'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Border/T-Border-HUD-HitPointBar-LeadEdge.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "0000FF"
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBoxHighlight.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.199"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] Stat Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Shieldbar-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Shieldbar-M.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon.OverlaySlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.178"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ImageStatIconShadow",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-Shieldbar-M'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Shieldbar-M.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon.OverlaySlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.179"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Blueprint_GetSizeX_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Blueprint_GetSizeY_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Blueprint_GetSizeX_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Image] Baseplate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Image] Bevel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Image] Stat Icon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Overlay] Bar Artwork",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Overlay'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[ProgressBar] Delta",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ProgressBar'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[ProgressBar] Fill",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ProgressBar'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Size Box] Bar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SizeBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Baseplate Texture",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AthenaHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerController_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetViewTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Fill Texture",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Gloss Texture",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ImageStatIconShadow",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SlotAsOverlaySlot_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'OverlaySlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select3_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SizeBoxHighlight",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SizeBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextCurrentStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextMaxStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsSize_Box_Slot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'SizeBoxSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateDBNOState'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.39"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateHealthType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.38"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawnAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay]",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay].OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.172"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay].OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.173"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar.SizeBoxSlot_676'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.194"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay] Bar Artwork",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_213'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.166"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_2496'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.168"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_6927'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.169"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_214'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.167"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay].OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.172"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay] Stat Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon.OverlaySlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.171"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.170"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.SizeBox_12774.SizeBoxSlot_12712'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.195"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay]",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay].OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.180"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay].OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.181"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.[Size Box] Bar.SizeBoxSlot_676'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.197"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay] Bar Artwork",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_213'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.174"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_2496'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.176"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_6927'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.177"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_214'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.175"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay].OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.180"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "[Overlay] Stat Icon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon.OverlaySlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.179"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon.OverlaySlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.178"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_12774.SizeBoxSlot_12712'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.198"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_213",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Baseplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.119"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_214",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.189"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2496",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'AthenaHitPointBar_C:WidgetTree.[ProgressBar] Delta'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.182"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6927",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'AthenaHitPointBar_C:WidgetTree.[ProgressBar] Fill'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.183"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.121"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.ImageStatIconShadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.122"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_213",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Baseplate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.123"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_214",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.193"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2496",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.[ProgressBar] Delta'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.184"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6927",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.[ProgressBar] Fill'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.185"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.165"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.165"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.125"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.165"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.165"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ImageStatIconShadow'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.126"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay]'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.163"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.163"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.164"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay]'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.163"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.163"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.[Horizontal Box] Stat Text'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.107"
+      }
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "[ProgressBar] Delta",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "FillImage": {
+          "ImageSize": {
+            "X": 204.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.0,
+            "Right": 0.4,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Material'HUD-Bar_Material'",
+            "ObjectPath": "FortniteGame/Content/UI/HUD/Materials/HUD-Bar_Material.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "MarqueeImage": {
+          "ImageSize": {
+            "X": 4.0,
+            "Y": 4.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::Both"
+        }
+      },
+      "Percent": 1.0,
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_2496'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.168"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "[ProgressBar] Fill",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "FillImage": {
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.0,
+            "Right": 0.4,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Material'HUD-Bar_Material'",
+            "ObjectPath": "FortniteGame/Content/UI/HUD/Materials/HUD-Bar_Material.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "MarqueeImage": {
+          "ImageSize": {
+            "X": 4.0,
+            "Y": 4.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::Both"
+        }
+      },
+      "Percent": 1.0,
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_6927'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.169"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "[ProgressBar] Delta",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "FillImage": {
+          "ImageSize": {
+            "X": 204.0,
+            "Y": 40.0
+          },
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.0,
+            "Right": 0.4,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Material'HUD-Bar_Material'",
+            "ObjectPath": "FortniteGame/Content/UI/HUD/Materials/HUD-Bar_Material.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "MarqueeImage": {
+          "ImageSize": {
+            "X": 4.0,
+            "Y": 4.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::Both"
+        }
+      },
+      "Percent": 1.0,
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_2496'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.176"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "[ProgressBar] Fill",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ProgressBar'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "WidgetStyle": {
+        "BackgroundImage": {
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "FillImage": {
+          "Margin": {
+            "Left": 0.4,
+            "Top": 0.0,
+            "Right": 0.4,
+            "Bottom": 0.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Material'HUD-Bar_Material'",
+            "ObjectPath": "FortniteGame/Content/UI/HUD/Materials/HUD-Bar_Material.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "MarqueeImage": {
+          "ImageSize": {
+            "X": 4.0,
+            "Y": 4.0
+          },
+          "DrawAs": "ESlateBrushDrawType::NoDrawType",
+          "Tiling": "ESlateBrushTileType::Both"
+        }
+      },
+      "Percent": 1.0,
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_6927'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.177"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "[Size Box] Bar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 513.63544,
+      "HeightOverride": 25.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar.SizeBoxSlot_676'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.194"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66.HorizontalBoxSlot_693'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.113"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "WidthOverride": 4.0,
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaHitPointBar_C:WidgetTree.CommonBorder_6.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.48"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_12774",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 24.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.SizeBox_12774.SizeBoxSlot_12712'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.195"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66.HorizontalBoxSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.112"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBoxHighlight",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaHitPointBar_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.229"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "WidthOverride": 400.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.196"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork.OverlaySlot_214'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.167"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "[Size Box] Bar",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 513.63544,
+      "HeightOverride": 25.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.[Size Box] Bar.SizeBoxSlot_676'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.197"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_66.HorizontalBoxSlot_693'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.118"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "WidthOverride": 4.0,
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorder_6.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.49"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_12774",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "bOverride_MinDesiredWidth": true,
+      "MinDesiredWidth": 24.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_12774.SizeBoxSlot_12712'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.198"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_66.HorizontalBoxSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.117"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBoxHighlight",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.230"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "WidthOverride": 400.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBoxHighlight.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.199"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.[Overlay] Bar Artwork.OverlaySlot_214'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.175"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_676",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.186"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.186"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_12712",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_12774'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.188"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_12774'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.188"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.189"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.189"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Bevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.120"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_676",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.[Size Box] Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.190"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.[Size Box] Bar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.190"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay]'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.163"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_12712",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_12774'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.192"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_12774'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.192"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.[Overlay] Stat Icon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.165"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBoxHighlight'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.193"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBoxHighlight'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.193"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] Bevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.124"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Critical Color A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Critical Color B",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Critical Color C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:ExecuteUbergraph_AthenaHitPointBar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.7"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_Margin",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Margin'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select4_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select5_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select6_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select7_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable10",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable11",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable12",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable13",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable14",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable15",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable8",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable9",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Initialize Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.29"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MultiFont",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortMultiSizeFont'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:Update Fill Bar'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.22"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_FloatToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateCurrentValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.20"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_FloatToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaHitPointBar_C:UpdateMaxValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.18"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaHitPointBar_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.HorizontalBox_66'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.106"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_12774'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.188"
+        },
+        {
+          "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Stat Icon'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.162"
+        },
+        {
+          "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.ImageStatIconShadow'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.122"
+        },
+        {
+          "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Stat Icon'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.121"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.[Size Box] Bar'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.186"
+        },
+        {
+          "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay]'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.160"
+        },
+        {
+          "ObjectName": "Overlay'AthenaHitPointBar_C:WidgetTree.[Overlay] Bar Artwork'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.161"
+        },
+        {
+          "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Baseplate'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.119"
+        },
+        {
+          "ObjectName": "ProgressBar'AthenaHitPointBar_C:WidgetTree.[ProgressBar] Delta'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.182"
+        },
+        {
+          "ObjectName": "ProgressBar'AthenaHitPointBar_C:WidgetTree.[ProgressBar] Fill'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.183"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBoxHighlight'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.189"
+        },
+        {
+          "ObjectName": "Image'AthenaHitPointBar_C:WidgetTree.[Image] Bevel'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.120"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaHitPointBar_C:WidgetTree.[Horizontal Box] Stat Text'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.105"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaHitPointBar_C:WidgetTree.TextCurrentStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.65"
+        },
+        {
+          "ObjectName": "CommonBorder'AthenaHitPointBar_C:WidgetTree.CommonBorder_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.63"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaHitPointBar_C:WidgetTree.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.187"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaHitPointBar_C:WidgetTree.TextMaxStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.66"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaHitPointBar_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_66'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaHitPointBar.108"
+      }
+    }
+  }
+]

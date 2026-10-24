@@ -1,0 +1,775 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_BalloonBurner_Winter_Flame",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 65,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3",
+        "UseConstant": false,
+        "Constant": {
+          "B": 83,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000053"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 65,
+        "ExpressionName": "bCanMaskedBeAssumedOpaque",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.4E-44
+        }
+      },
+      "EditorX": 1024,
+      "Expressions": [
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_BalloonBurner_Winter_Flame:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_BalloonBurner_Winter_Flame:MaterialExpressionTextureSample_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_BalloonBurner_Winter_Flame:MaterialExpressionMaterialFunctionCall_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.3"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_BalloonBurner_Winter_Flame:MaterialExpressionTextureSample_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.7"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_BalloonBurner_Winter_Flame:MaterialExpressionMaterialFunctionCall_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.4"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_BalloonBurner_Winter_Flame:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_BalloonBurner_Winter_Flame:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "BC5A4A1D-4A9F12A1-FEC3F198-076EA224",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Fresnel_FX'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/MF_Fresnel_FX.0"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+          }
+        },
+        {
+          "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat3'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+          }
+        },
+        {
+          "StateId": "BC5A4A1D-4A9F12A1-FEC3F198-076EA224",
+          "Function": {
+            "ObjectName": "MaterialFunction'MF_Fresnel_FX'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/MF_Fresnel_FX.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "F53B150A-40BC885F-BF72BCAF-41BCD8DC"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_Fresnel_FX'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/MF_Fresnel_FX.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "4C3D3465-41A53303-6DD45C8B-314565A2",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BlendMode_1734963777",
+            "Mask": 1701737576,
+            "MaskR": 29555,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2_1358954495"
+          }
+        },
+        {
+          "ExpressionInputId": "545E5C44-4BE61D69-31087B97-83421388",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "bCanMaskedBeAssumedOpaque_1869641796",
+            "Mask": 1953391982,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2_17919"
+          }
+        },
+        {
+          "ExpressionInputId": "4FA709EF-41DCF1F5-F7E2C997-09C4D17A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Class_1701667138",
+            "Mask": 1444962674,
+            "MaskR": 1869898597,
+            "MaskG": 114,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2"
+          }
+        },
+        {
+          "ExpressionInputId": "1A85377F-44F85CD8-4DAA79A6-BB4F41C7",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "DepthNoPixelPipeline_1953654101",
+            "Mask": 790657125,
+            "MaskR": 2020167712,
+            "MaskG": 1310747749,
+            "MaskB": 1634562671,
+            "MaskA": 108,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8E1BD186-473601E5-64579F84-E5450731",
+          "Output": {
+            "OutputName": "Fresnel",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "1AB0A0F3-4CE6E646-B5E3968F-C09A47D0",
+          "Output": {
+            "OutputName": "Fresnel Inverted",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "DBC17671-46B3012F-AEBD4CBB-BE59F4AC",
+          "Output": {
+            "OutputName": "Fresnel Unclamped",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "768F6608-40125233-DBC20882-F56FE67E",
+          "Output": {
+            "OutputName": "Fresnel Inverted Unclamped",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "2F31B587-43A4F451-AA04A89D-1850B70C",
+          "Output": {
+            "OutputName": "Fresnel Double Sided",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Fresnel",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Inverted",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Unclamped",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Inverted Unclamped",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Double Sided",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MF_Fresnel_FX'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/MF_Fresnel_FX.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "4C3D3465-41A53303-6DD45C8B-314565A2",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BlendMode_1734963777",
+            "Mask": 1701737576,
+            "MaskR": 29555,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2_1358954495"
+          }
+        },
+        {
+          "ExpressionInputId": "545E5C44-4BE61D69-31087B97-83421388",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "bCanMaskedBeAssumedOpaque_1869641796",
+            "Mask": 1953391982,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2_17407"
+          }
+        },
+        {
+          "ExpressionInputId": "4FA709EF-41DCF1F5-F7E2C997-09C4D17A",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Class_1701667138",
+            "Mask": 1444962674,
+            "MaskR": 1869898597,
+            "MaskG": 114,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2"
+          }
+        },
+        {
+          "ExpressionInputId": "1A85377F-44F85CD8-4DAA79A6-BB4F41C7",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "DepthNoPixelPipeline_1953654101",
+            "Mask": 790657125,
+            "MaskR": 2020167712,
+            "MaskG": 1310747749,
+            "MaskB": 1634562671,
+            "MaskA": 108,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "8E1BD186-473601E5-64579F84-E5450731",
+          "Output": {
+            "OutputName": "Fresnel",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "1AB0A0F3-4CE6E646-B5E3968F-C09A47D0",
+          "Output": {
+            "OutputName": "Fresnel Inverted",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "DBC17671-46B3012F-AEBD4CBB-BE59F4AC",
+          "Output": {
+            "OutputName": "Fresnel Unclamped",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "768F6608-40125233-DBC20882-F56FE67E",
+          "Output": {
+            "OutputName": "Fresnel Inverted Unclamped",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "2F31B587-43A4F451-AA04A89D-1850B70C",
+          "Output": {
+            "OutputName": "Fresnel Double Sided",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Fresnel",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Inverted",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Unclamped",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Inverted Unclamped",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Fresnel Double Sided",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat3'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "050F17B8-471570B4-7A802CB7-CAA5A201",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.5,
+      "ParameterName": "FresnelExp",
+      "ExpressionGUID": "ACDE6F16-40C95903-EE6643AE-BB7939E7",
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 69,
+        "ExpressionName": "ArrayProperty_106"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Balloon_FireRamp_Winter'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Textures/T_Balloon_FireRamp_Winter.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 72,
+        "ExpressionName": "/Game/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame_106"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_NoisePack_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_NoisePack_01.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_BalloonBurner_Winter_Flame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Materials/M_BalloonBurner_Winter_Flame.0"
+      }
+    }
+  }
+]

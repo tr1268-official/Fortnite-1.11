@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Athena_Campfire_PickupMesh'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_PickupMesh.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "85B8CDFE497CBEA69037B7BF00AC8536",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 49947,
+        "SizeOnDisk": 49947,
+        "OffsetInFile": "0x2E460"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Athena_Campfire_PickupMesh'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_PickupMesh.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x3A7C3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FORT_Athena_Campfire_PickupMesh",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_PickupMesh",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Cooler'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Boxes/Materials/MI_Cooler.0"
+          },
+          "MaterialSlotName": "01 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 108.62208,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 108.62208,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.48658943,
+          "Y": 0.25227547,
+          "Z": 12.247786
+        },
+        "BoxExtent": {
+          "X": 28.776678,
+          "Y": 27.930582,
+          "Z": 12.317712
+        },
+        "SphereRadius": 32.50517
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FORT_Athena_Campfire_PickupMesh:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_PickupMesh.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FORT_Athena_Campfire_PickupMesh:NavCollision_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Mesh/FORT_Athena_Campfire_PickupMesh.1"
+    },
+    "LightingGuid": "91492E62-431F2E45-F424F7A8-2F377CE6",
+    "RenderData": null
+  }
+]

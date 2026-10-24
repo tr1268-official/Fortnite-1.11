@@ -1,0 +1,125 @@
+[
+  {
+    "Type": "FortAmmoItemDefinition",
+    "Name": "AmmoDataRockets",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortAmmoItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Ammo/AmmoDataRockets",
+    "Properties": {
+      "ClipIconBrush": {
+        "ImageSize": {
+          "X": 10.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-AmmoSingle-Special'",
+          "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-Ammo/Icon-AmmoSingle-Special.0"
+        }
+      },
+      "AmmoIconBrush": {
+        "Brush_XS": {
+          "ImageSize": {
+            "X": 16.0,
+            "Y": 16.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Special-32'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+          }
+        },
+        "Brush_S": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Special-32'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+          }
+        },
+        "Brush_M": {
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Special-32'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-32.0"
+          }
+        },
+        "Brush_L": {
+          "ImageSize": {
+            "X": 40.0,
+            "Y": 40.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T-Icon-Special-64'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Special-64.0"
+          }
+        }
+      },
+      "bSupportsQuickbarFocus": false,
+      "bShowDirectionalArrowWhenFarOff": false,
+      "DropCount": 10,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Environments/Meshes/S_Rocket_Ammo.S_Rocket_Ammo",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_GamePlay_Sounds/Loot/Pickup_Ammo_Cue.Pickup_Ammo_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "bUsesCraftingRecipeToGetDisintegrationValue": false,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E80E184C4B90254ECD56319426C286CF",
+        "SourceString": "Ammo: Rockets",
+        "LocalizedString": "Ammo: Rockets"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "531A750B4E21416730EFA884062DFF01",
+        "SourceString": "Ammo for weapons with explosives.  Typically used in rocket launchers.",
+        "LocalizedString": "Ammo for weapons with explosives.  Typically used in rocket launchers."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "F00E5CC74B88F468C62C65854DFB4C2B",
+        "SourceString": "Ammo",
+        "LocalizedString": "Ammo"
+      },
+      "bNeverPersisted": true,
+      "MaxStackSize": 999,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Rocket-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Mission/T-Icon-Rocket-128.0"
+      },
+      "Rarity": "EFortRarity::Handmade",
+      "FrontendPreviewMeshOffset": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.42261854,
+          "W": 0.90630764,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.0
+        },
+        "Scale3D": {
+          "X": 0.8,
+          "Y": 0.8,
+          "Z": 0.8
+        }
+      }
+    }
+  }
+]

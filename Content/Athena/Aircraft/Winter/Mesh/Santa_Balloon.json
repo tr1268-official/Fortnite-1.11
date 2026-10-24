@@ -1,0 +1,131 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Santa_Balloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Winter/Mesh/Santa_Balloon.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "B8CA50634B4959670F26008FBA340A38",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 103491,
+        "SizeOnDisk": 103491,
+        "OffsetInFile": "0x81E4D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_4",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Santa_Balloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Winter/Mesh/Santa_Balloon.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x9B2D8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Santa_Balloon",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Aircraft/Winter/Mesh/Santa_Balloon",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Winter_Santa_Balloon'",
+            "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Winter/Materials/Winter_Santa_Balloon.0"
+          },
+          "MaterialSlotName": "lambert1",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1453.8661,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1453.8661,
+      "LightMapResolution": 64,
+      "DistanceFieldSelfShadowBias": 10.0,
+      "bGenerateMeshDistanceField": true,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 54.792145,
+          "Y": 0.0,
+          "Z": 1556.8215
+        },
+        "BoxExtent": {
+          "X": 487.05298,
+          "Y": 591.95404,
+          "Z": 412.81232
+        },
+        "SphereRadius": 654.6806
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Santa_Balloon:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Winter/Mesh/Santa_Balloon.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Santa_Balloon:NavCollision_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Aircraft/Winter/Mesh/Santa_Balloon.1"
+    },
+    "LightingGuid": "4C07BB4A-47A7C0DE-DF1FFEAA-FBE6C576",
+    "RenderData": null
+  }
+]

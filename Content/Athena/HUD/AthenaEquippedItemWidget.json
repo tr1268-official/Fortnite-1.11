@@ -1,0 +1,4131 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaEquippedItemWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaEquippedItemWidget.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.0"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.26"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.12"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWeaponEquipped'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.11"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnLocalAmmoChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.9"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWorldItemsChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.7"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnBuildingMaterialCycled'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.6"
+      },
+      {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:[Image] AmmoIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:[Image] ResourceIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.133"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.134"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.143"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:TextAmmoOutOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.144"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:TextMagazineAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.145"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:TextResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.146"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:TextTotalAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.147"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:CurrentQuickbar'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.122"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:CursorModeEnabled'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.34"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:InfiniteAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.40"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:InfiniteMagazine'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.41"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaEquippedItemWidget": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+      },
+      "OnBuildingMaterialCycled": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnBuildingMaterialCycled'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.6"
+      },
+      "OnWorldItemsChanged": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWorldItemsChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.7"
+      },
+      "OnLocalAmmoChanged": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnLocalAmmoChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.9"
+      },
+      "OnWeaponEquipped": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWeaponEquipped'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.11"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.12"
+      },
+      "FullUpdateAmmoDisplay": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+      },
+      "FullUpdateResourceDisplay": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+      },
+      "UpdateVisibility": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+      },
+      "UpdateWidgetColor": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+      },
+      "UpdateAmmoCapacity": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+      },
+      "UpdateCurrentAmmo": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+      },
+      "UpdateResourceCount": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.26"
+      },
+      "GetCurrentAmmoText": {
+        "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaEquippedItemWidget_C'Default__AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.2"
+    }
+  },
+  {
+    "Type": "AthenaEquippedItemWidget_C",
+    "Name": "Default__AthenaEquippedItemWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.AthenaEquippedItemWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HUDElementTag": [
+        "HUD.Quickbar.Build.EquippedItem"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Image] AmmoIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaEquippedItemWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.4"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.78"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CustomEvent_NewWeapon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.137"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CustomEvent_PrevWeapon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.138"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.35"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.CallFunc_IsValid_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_DynamicCast_AsFort_Weap_Building_Tool_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.139"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.37"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.79"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CreateDelegate_OutputDelegate3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.80"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CustomEvent_LocalCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.123"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CustomEvent_LocalRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.124"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CreateDelegate_OutputDelegate4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.81"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.135"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.K2Node_CreateDelegate_OutputDelegate5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.82"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget.CallFunc_GetContext_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.136"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBuildingMaterialCycled",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnWorldItemsChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:OnLocalAmmoChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLocalAmmoChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:OnLocalAmmoChanged.LocalCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.8"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:OnLocalAmmoChanged.LocalRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.128"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NewWeapon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWeaponEquipped'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnWeaponEquipped",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:OnWeaponEquipped.NewWeapon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:OnWeaponEquipped.PrevWeapon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.142"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "FullUpdateAmmoDisplay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay.CallFunc_GetEquippedWeapon_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.140"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay.CallFunc_GetLocalMagazineAmmoCount_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.125"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay.CallFunc_GetLocalRemainingAmmo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.126"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "FullUpdateResourceDisplay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay.CallFunc_GetCurrentResourceItemDefinition_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.141"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay.CallFunc_GetCurrentResourceCount_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.127"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay.CallFunc_GetItemDefinitionSmallPreviewImageBrush_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.174"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.184"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateVisibility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateVisibility.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateVisibility.CallFunc_GetEquippedWeapon_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.153"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateVisibility.K2Node_DynamicCast_AsFort_Weapon_Ranged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.155"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateVisibility.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateVisibility.K2Node_DynamicCast_AsFort_Weap_Building_Tool_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.154"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateVisibility.K2Node_DynamicCast_bSuccess2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.57"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateVisibility.CallFunc_ShouldDisplayAmmoCounter_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.55"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "HasAmmo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateWidgetColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.HasAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.19"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.84"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.58"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.59"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.85"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_bool_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.60"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_MakeStruct_LinearColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.179"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_MakeStruct_SlateColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.180"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.83"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.CallFunc_Get_Debuff_Color_Color'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.178"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.182"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_MakeStruct_SlateColor2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.181"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_Select3_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.183"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAmmoCapacity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateAmmoCapacity.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateAmmoCapacity.CallFunc_GetCurrentAmmoItemDefinition_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.148"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateAmmoCapacity.K2Node_DynamicCast_AsFort_Ammo_Item_Definition'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.149"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateAmmoCapacity.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.42"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateCurrentAmmo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.LocalCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.23"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.LocalRemaining'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.131"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.44"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Subtract_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.130"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Max_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.129"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.45"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.46"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.189"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.47"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_GetCurrentAmmoText_CurrentAmmoText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.190"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.43"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.48"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_Greater_IntInt_ReturnValue6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.49"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.150"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_GetCurrentAmmoItemDefinition_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.151"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_text_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.192"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.K2Node_DynamicCast_AsFort_Ammo_Item_Definition'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.152"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.51"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.50"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.CallFunc_GetItemDefinitionSmallPreviewImageBrush_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.177"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.52"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_float_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.88"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.191"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_float_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.89"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.53"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_float_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.90"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.86"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_float_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.91"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.Temp_bool_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.54"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaEquippedItemWidget_C:UpdateCurrentAmmo.K2Node_Select3_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.87"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateResourceCount'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.26"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateResourceCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaEquippedItemWidget_C:UpdateResourceCount.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.25"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:UpdateResourceCount.CallFunc_GetCurrentResourceCount_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.132"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:UpdateResourceCount.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.193"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CurrentAmmoCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCurrentAmmoText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CurrentAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.27"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CurrentAmmoText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.188"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.38"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.175"
+      },
+      {
+        "ObjectName": "ArrayProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.30"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeStruct_FormatArgumentData2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.176"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.186"
+      },
+      {
+        "ObjectName": "ArrayProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.32"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CallFunc_Format_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.187"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.185"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.CallFunc_Less_IntInt_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.39"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.30"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.29"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.32"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'AthenaEquippedItemWidget_C:GetCurrentAmmoText.K2Node_MakeArray_Array2.K2Node_MakeArray_Array2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.31"
+    }
+  },
+  {
+    "Type": "AthenaEquippedItemWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.AthenaEquippedItemWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget",
+    "Template": {
+      "ObjectName": "AthenaEquippedItemWidget_C'Default__AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.2"
+    },
+    "Properties": {
+      "[Image] AmmoIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] AmmoIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.120"
+      },
+      "[Image] ResourceIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] ResourceIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.121"
+      },
+      "CommonBorderDivider": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.67"
+      },
+      "SwitcherContent": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+      },
+      "TextAmmoOutOverlay": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextAmmoOutOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.72"
+      },
+      "TextMagazineAmmoCount": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextMagazineAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.73"
+      },
+      "TextResourceCount": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.74"
+      },
+      "TextTotalAmmoCount": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextTotalAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.75"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CursorModeEnabled",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "InfiniteAmmo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "InfiniteMagazine",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_ShouldDisplayAmmoCounter_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.66"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "CommonBorder'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.66"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.166"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorderDivider'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.67"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.67"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.169"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.83"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.84"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.85"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorderDivider",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_HUD_Line_Vert_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_HUD_Line_Vert.0"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.100"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "CommonBorderDivider",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_HUD_Line_Vert_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_HUD_Line_Vert.0"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorderDivider.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.109"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextAmmoOutOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "89DF48F34A46CC58C9AC1F853A64B47E",
+        "SourceString": "Out of Ammo!",
+        "LocalizedString": "Out of Ammo!"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28.OverlaySlot_111'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.160"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 24.0
+        },
+        "Angle": -5.0
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextMagazineAmmoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "0159F8AF447B48D8FC209592DE62BD5B",
+        "SourceString": "0",
+        "LocalizedString": "0"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_329'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.101"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextResourceCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "DCB05690491EADDCA2EC77927BB416E4",
+        "SourceString": "999",
+        "LocalizedString": "999"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox.HorizontalBoxSlot_371'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.108"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextTotalAmmoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "348BB9F247BB066D0886878DD41F9201",
+        "SourceString": "0",
+        "LocalizedString": "0"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_520'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.102"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextAmmoOutOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "89DF48F34A46CC58C9AC1F853A64B47E",
+        "SourceString": "Out of Ammo!",
+        "LocalizedString": "Out of Ammo!"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_28.OverlaySlot_111'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.163"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 24.0
+        },
+        "Angle": -5.0
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextMagazineAmmoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "0159F8AF447B48D8FC209592DE62BD5B",
+        "SourceString": "0",
+        "LocalizedString": "0"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_329'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.110"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextResourceCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "DCB05690491EADDCA2EC77927BB416E4",
+        "SourceString": "999",
+        "LocalizedString": "999"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ResourceDisplayBox.HorizontalBoxSlot_371'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.117"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "TextTotalAmmoCount",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-L-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-L-S.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "348BB9F247BB066D0886878DD41F9201",
+        "SourceString": "0",
+        "LocalizedString": "0"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_520'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.111"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonWidgetSwitcher",
+    "Name": "SwitcherContent",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "TransitionDuration": 0.0,
+      "ActiveWidgetIndex": 1,
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.198"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.199"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28.OverlaySlot_424'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.161"
+      }
+    }
+  },
+  {
+    "Type": "CommonWidgetSwitcher",
+    "Name": "SwitcherContent",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonWidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "TransitionDuration": 0.0,
+      "ActiveWidgetIndex": 1,
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.SwitcherContent.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.200"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.SwitcherContent.WidgetSwitcherSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.201"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_28.OverlaySlot_424'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.164"
+      }
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'HUDBasicDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'HUDBasicDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'ItemsChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'FortPawnEquippedWeaponSignature__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnLocalAmmoChanged__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.63"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.64"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaEquippedItemWidget_C:UpdateWidgetColor.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.65"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select3_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "AmmoDisplayHBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_329'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.101"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.100"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox.HorizontalBoxSlot_520'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.102"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox.VerticalBoxSlot_298'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.196"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.103"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.106"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBoxAmmo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.105"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.104"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.106"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.199"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "ResourceDisplayBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox.HorizontalBoxSlot_366'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.107"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox.HorizontalBoxSlot_371'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.108"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.198"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "AmmoDisplayHBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_329'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.110"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.109"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox.HorizontalBoxSlot_520'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.111"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayVBox.VerticalBoxSlot_298'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.197"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.112"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.115"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBoxAmmo",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.114"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.113"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.115"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.SwitcherContent.WidgetSwitcherSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.201"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "ResourceDisplayBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ResourceDisplayBox.HorizontalBoxSlot_366'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.116"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ResourceDisplayBox.HorizontalBoxSlot_371'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.117"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.SwitcherContent.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.200"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.66"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_329",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "Size": {
+        "Value": 0.75
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextMagazineAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.69"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_520",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextTotalAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.71"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.93"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.93"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.157"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.194"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 18.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.167"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.93"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_366",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.168"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_371",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.70"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0,
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.CommonBorderDivider'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.67"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_329",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "Size": {
+        "Value": 0.75
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextMagazineAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.73"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_520",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextTotalAmmoCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.75"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.97"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.97"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_529'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.159"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayVBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.195"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 18.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.170"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.97"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_366",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ResourceDisplayBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.99"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.99"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_860'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.171"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_371",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ResourceDisplayBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.99"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.99"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextResourceCount'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.74"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] AmmoIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Ammo-Medium-64'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Ammo-Medium-64.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529.OverlaySlot_2541'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.162"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] ResourceIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-S-Loot-Stone'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-Stone.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860.SizeBoxSlot_856'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.172"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] AmmoIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-Ammo-Medium-64'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Ammo/T-Icon-Ammo-Medium-64.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_529.OverlaySlot_2541'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.165"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "[Image] ResourceIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-Icon-S-Loot-Stone'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-Stone.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_860.SizeBoxSlot_856'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.173"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CurrentQuickbar",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_LocalCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_LocalRemaining",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetLocalMagazineAmmoCount_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetLocalRemainingAmmo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetCurrentResourceCount_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalRemaining",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:OnLocalAmmoChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Max_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalRemaining",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetCurrentResourceCount_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateResourceCount'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.26"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "[Image] ResourceIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CommonBorderDivider",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortHUDContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_NewWeapon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_PrevWeapon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Weap_Building_Tool_Base",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:ExecuteUbergraph_AthenaEquippedItemWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeap_BuildingToolBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetEquippedWeapon_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateAmmoDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetCurrentResourceItemDefinition_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortResourceItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PrevWeapon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:OnWeaponEquipped'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SwitcherContent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonWidgetSwitcher'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextAmmoOutOverlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextMagazineAmmoCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextResourceCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextTotalAmmoCount",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetCurrentAmmoItemDefinition_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWorldItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Ammo_Item_Definition",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateAmmoCapacity'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.22"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortAmmoItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortInventoryContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetCurrentAmmoItemDefinition_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWorldItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Ammo_Item_Definition",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortAmmoItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetEquippedWeapon_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeapon'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Weap_Building_Tool_Base",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeap_BuildingToolBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Weapon_Ranged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortWeaponRanged'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28.OverlaySlot_424'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.161"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28.OverlaySlot_111'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.160"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_529",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529.OverlaySlot_2541'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.162"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.103"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_28.OverlaySlot_424'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.164"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_28.OverlaySlot_111'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.163"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_529",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_529.OverlaySlot_2541'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.165"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.112"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_111",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Bottom": 40.0
+      },
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextAmmoOutOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.68"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_424",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+      },
+      "Content": {
+        "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2541",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.157"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.157"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaEquippedItemWidget_C:WidgetTree.[Image] AmmoIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.118"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_111",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_28'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.158"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Bottom": 40.0
+      },
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.158"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.TextAmmoOutOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.72"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_424",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_28'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.158"
+    },
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.158"
+      },
+      "Content": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2541",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_529'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.159"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_529'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.159"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] AmmoIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.120"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 4.0,
+      "HeightOverride": 36.0,
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.61"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 24.0,
+      "MinDesiredHeight": 16.0,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.105"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_860",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 40.0,
+      "HeightOverride": 40.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860.SizeBoxSlot_856'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.172"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox.HorizontalBoxSlot_366'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.107"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 4.0,
+      "HeightOverride": 36.0,
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.CommonBorderDivider.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.62"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 24.0,
+      "MinDesiredHeight": 16.0,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.114"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_860",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 40.0,
+      "HeightOverride": 40.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_860.SizeBoxSlot_856'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.173"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ResourceDisplayBox.HorizontalBoxSlot_366'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.116"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_856",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.168"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.168"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaEquippedItemWidget_C:WidgetTree.[Image] ResourceIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.119"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_856",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_860'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.171"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_860'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.171"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.[Image] ResourceIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.121"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetItemDefinitionSmallPreviewImageBrush_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateBrush'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetItemDefinitionSmallPreviewImageBrush_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateBrush'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Get_Debuff_Color_Color",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select3_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateWidgetColor'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:FullUpdateResourceDisplay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.16"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CurrentAmmoText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:GetCurrentAmmoText'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.28"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetCurrentAmmoText_CurrentAmmoText",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateCurrentAmmo'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.24"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaEquippedItemWidget_C:UpdateResourceCount'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.26"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "AmmoDisplayVBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaEquippedItemWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.202"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox.VerticalBoxSlot_298'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.196"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.104"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "AmmoDisplayVBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.203"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.AmmoDisplayVBox.VerticalBoxSlot_298'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.197"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.113"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_298",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.194"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.194"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_298",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayVBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.195"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayVBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.195"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.AmmoDisplayHBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.96"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ResourceDisplayBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.99"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonWidgetSwitcher'WidgetArchetype:WidgetTree_0.SwitcherContent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.77"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBoxAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.98"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaEquippedItemWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_28'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.156"
+        },
+        {
+          "ObjectName": "CommonWidgetSwitcher'AthenaEquippedItemWidget_C:WidgetTree.SwitcherContent'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.76"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.ResourceDisplayBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.95"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_860'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.168"
+        },
+        {
+          "ObjectName": "Image'AthenaEquippedItemWidget_C:WidgetTree.[Image] ResourceIcon'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.119"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextResourceCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.70"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBoxAmmo'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.94"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.167"
+        },
+        {
+          "ObjectName": "VerticalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayVBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.194"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.AmmoDisplayHBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.92"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextMagazineAmmoCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.69"
+        },
+        {
+          "ObjectName": "CommonBorder'AthenaEquippedItemWidget_C:WidgetTree.CommonBorderDivider'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.66"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaEquippedItemWidget_C:WidgetTree.SizeBox_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.166"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextTotalAmmoCount'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.71"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaEquippedItemWidget_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.93"
+        },
+        {
+          "ObjectName": "Overlay'AthenaEquippedItemWidget_C:WidgetTree.Overlay_529'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.157"
+        },
+        {
+          "ObjectName": "Image'AthenaEquippedItemWidget_C:WidgetTree.[Image] AmmoIcon'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.118"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaEquippedItemWidget_C:WidgetTree.TextAmmoOutOverlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.68"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaEquippedItemWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.33"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_28'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaEquippedItemWidget.158"
+      }
+    }
+  }
+]

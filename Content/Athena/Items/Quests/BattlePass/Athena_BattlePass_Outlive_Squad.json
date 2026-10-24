@@ -1,0 +1,113 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Athena_BattlePass_Outlive_Squad",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/BattlePass/Athena_BattlePass_Outlive_Squad",
+    "Properties": {
+      "QuestType": "EFortQuestType::AthenaBattlePassQuest",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        },
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalBP.AthenaSeasonalBP",
+            "SubPathString": ""
+          },
+          "Quantity": 5
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "athena_battlepass_outlive_squad_players",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "outlive_athena_squad"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "27FF2F024078023CC90B75BA27CE1A7C",
+            "SourceString": "Outlive opponents in squad mode",
+            "LocalizedString": "Outlive opponents in squad mode"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "19890DDF4960DAC1F74031B8E067291A",
+            "SourceString": "Outlive opponents in squad mode",
+            "LocalizedString": "Outlive opponents in squad mode"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 150,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "BR_BattlePass"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "80880D0843AB1138F55118A15DBF3EB9",
+        "SourceString": "Daily Challenge Completed!",
+        "LocalizedString": "Daily Challenge Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "BCE0E3A34884A974BE377292738DC02C",
+        "SourceString": "Outlive opponents in squad mode",
+        "LocalizedString": "Outlive opponents in squad mode"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "C394D05B46728C45E77EB09E61DDCC0B",
+        "SourceString": "Outlive opponents in squad mode",
+        "LocalizedString": "Outlive opponents in squad mode"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Rescue-Survivors-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Rescue-Survivors-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Rescue-Survivors-128.T-Icon-Rescue-Survivors-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

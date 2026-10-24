@@ -1,0 +1,2787 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "DistributionAlphaScaleOverLife",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorScaleOverLife'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.14"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_16'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.19"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+    }
+  },
+  {
+    "Type": "DistributionVectorConstantCurve",
+    "Name": "DistributionVectorConstantCurve_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorScaleOverLife'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.14"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": 0.0,
+            "OutVal": {
+              "X": 0.0,
+              "Y": 4.717327,
+              "Z": 3.534347
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          },
+          {
+            "InVal": 0.33,
+            "OutVal": {
+              "X": 0.865677,
+              "Y": 0.211281,
+              "Z": 0.994792
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          },
+          {
+            "InVal": 0.66,
+            "OutVal": {
+              "X": 1.0,
+              "Y": 0.954775,
+              "Z": 0.309508
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "DistributionVectorConstantCurve",
+    "Name": "DistributionVectorConstantCurve_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSizeMultiplyLife'P_DanceGrenade_Trail:ParticleModuleSizeMultiplyLife_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.25"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": 0.0,
+            "OutVal": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          },
+          {
+            "InVal": 0.3593579,
+            "OutVal": {
+              "X": 1.003133,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_CurveAutoClamped"
+          },
+          {
+            "InVal": 1.0,
+            "OutVal": {
+              "X": 0.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          }
+        ]
+      },
+      "LockedAxes": "EDVLF_XYZ"
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_16'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.31"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.19"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.15"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'P_DanceGrenade_Trail:ParticleModuleColorOverLife_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_DanceGrenade_Trail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.17"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.26"
+      },
+      "PeakActiveParticles": 5
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_89",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_16'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.31"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.19"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.15"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'P_DanceGrenade_Trail:ParticleModuleColorOverLife_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_DanceGrenade_Trail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.17"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.26"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_97",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_16'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.31"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.19"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.15"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.23"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'P_DanceGrenade_Trail:ParticleModuleColorOverLife_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_DanceGrenade_Trail:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.17"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.26"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.32"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_DanceGrenade_Trail:ParticleModuleLocationPrimitiveSphere_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.18"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_DanceGrenade_Trail:ParticleModuleAccelerationConstant_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.11"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'P_DanceGrenade_Trail:ParticleModuleRotation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_DanceGrenade_Trail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleRotationRate'P_DanceGrenade_Trail:ParticleModuleRotationRate_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.22"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_DanceGrenade_Trail:ParticleModuleColor_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.12"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.14"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_DanceGrenade_Trail:ParticleModuleTypeDataGpu_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.30"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.27"
+      },
+      "PeakActiveParticles": 460
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_91",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.32"
+    },
+    "Properties": {
+      "Level": 2,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_DanceGrenade_Trail:ParticleModuleLocationPrimitiveSphere_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.18"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_DanceGrenade_Trail:ParticleModuleAccelerationConstant_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.11"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'P_DanceGrenade_Trail:ParticleModuleRotation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_DanceGrenade_Trail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleRotationRate'P_DanceGrenade_Trail:ParticleModuleRotationRate_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.22"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_DanceGrenade_Trail:ParticleModuleColor_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.12"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.14"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_DanceGrenade_Trail:ParticleModuleTypeDataGpu_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.30"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_77'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.29"
+      },
+      "PeakActiveParticles": 230
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_99",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.32"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.24"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_DanceGrenade_Trail:ParticleModuleLocationPrimitiveSphere_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.18"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationConstant'P_DanceGrenade_Trail:ParticleModuleAccelerationConstant_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.11"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'P_DanceGrenade_Trail:ParticleModuleRotation_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_DanceGrenade_Trail:ParticleModuleSizeMultiplyLife_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.25"
+        },
+        {
+          "ObjectName": "ParticleModuleRotationRate'P_DanceGrenade_Trail:ParticleModuleRotationRate_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.22"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_DanceGrenade_Trail:ParticleModuleColor_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.12"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.14"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_DanceGrenade_Trail:ParticleModuleTypeDataGpu_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.30"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_76'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.28"
+      },
+      "PeakActiveParticles": 414
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationConstant",
+    "Name": "ParticleModuleAccelerationConstant_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAccelerationConstant'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Acceleration": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -60.0
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 2.0,
+        "MaxValue": 2.0,
+        "MinValueVec": {
+          "X": 2.0,
+          "Y": 2.0,
+          "Z": 2.0
+        },
+        "MaxValueVec": {
+          "X": 2.0,
+          "Y": 2.0,
+          "Z": 2.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MaxValue": 4.717327,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.211281,
+          "Z": 0.309508
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 4.717327,
+          "Z": 3.534346
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 64,
+          "EntryStride": 3,
+          "TimeScale": 95.454544,
+          "Values": [
+            0.0,
+            4.717327,
+            3.534346,
+            0.027481807,
+            4.574278,
+            3.4537253,
+            0.054963615,
+            4.431229,
+            3.3731046,
+            0.08244542,
+            4.28818,
+            3.2924838,
+            0.10992723,
+            4.1451306,
+            3.211863,
+            0.13740903,
+            4.0020814,
+            3.1312423,
+            0.16489084,
+            3.8590326,
+            3.0506217,
+            0.19237265,
+            3.7159836,
+            2.9700007,
+            0.21985446,
+            3.5729344,
+            2.88938,
+            0.24733625,
+            3.4298854,
+            2.8087592,
+            0.27481806,
+            3.2868364,
+            2.7281387,
+            0.30229992,
+            3.1437871,
+            2.6475177,
+            0.32978168,
+            3.0007384,
+            2.566897,
+            0.35726354,
+            2.857689,
+            2.4862761,
+            0.38474533,
+            2.71464,
+            2.4056554,
+            0.41222712,
+            2.571591,
+            2.3250346,
+            0.43970895,
+            2.4285417,
+            2.244414,
+            0.4671907,
+            2.285493,
+            2.1637933,
+            0.49467254,
+            2.1424437,
+            2.0831726,
+            0.52215433,
+            1.9993944,
+            2.0025516,
+            0.5496361,
+            1.8563457,
+            1.9219309,
+            0.5771179,
+            1.7132964,
+            1.8413101,
+            0.60459983,
+            1.5702472,
+            1.7606893,
+            0.63208157,
+            1.4271982,
+            1.6800685,
+            0.65956336,
+            1.2841493,
+            1.599448,
+            0.6870452,
+            1.1410998,
+            1.5188268,
+            0.714527,
+            0.998051,
+            1.4382062,
+            0.7420088,
+            0.855002,
+            1.3575855,
+            0.7694906,
+            0.71195275,
+            1.2769648,
+            0.79697245,
+            0.5689038,
+            1.196344,
+            0.82445425,
+            0.42585468,
+            1.1157233,
+            0.85193604,
+            0.28280565,
+            1.0351026,
+            0.8678091,
+            0.22308248,
+            0.9839145,
+            0.8720733,
+            0.24668543,
+            0.96215945,
+            0.8763375,
+            0.27028838,
+            0.9404044,
+            0.88060176,
+            0.2938914,
+            0.9186493,
+            0.884866,
+            0.31749433,
+            0.8968944,
+            0.88913023,
+            0.34109738,
+            0.87513924,
+            0.8933945,
+            0.36470038,
+            0.8533842,
+            0.89765865,
+            0.38830334,
+            0.83162916,
+            0.9019228,
+            0.41190624,
+            0.8098742,
+            0.9061871,
+            0.4355093,
+            0.7881191,
+            0.9104513,
+            0.45911226,
+            0.76636404,
+            0.9147155,
+            0.48271528,
+            0.744609,
+            0.91897976,
+            0.5063183,
+            0.7228539,
+            0.923244,
+            0.52992123,
+            0.70109886,
+            0.92750823,
+            0.55352426,
+            0.67934376,
+            0.9317725,
+            0.5771272,
+            0.6575887,
+            0.93603665,
+            0.6007302,
+            0.63583374,
+            0.9403009,
+            0.624333,
+            0.61407876,
+            0.9445651,
+            0.64793617,
+            0.5923236,
+            0.94882935,
+            0.6715391,
+            0.57056856,
+            0.9530935,
+            0.69514203,
+            0.54881364,
+            0.95735776,
+            0.7187452,
+            0.5270584,
+            0.961622,
+            0.742348,
+            0.50530344,
+            0.9658862,
+            0.765951,
+            0.48354852,
+            0.9701505,
+            0.7895541,
+            0.46179324,
+            0.97441465,
+            0.813157,
+            0.44003832,
+            0.9786789,
+            0.8367599,
+            0.41828337,
+            0.98294306,
+            0.86036295,
+            0.39652827,
+            0.98720735,
+            0.883966,
+            0.37477311,
+            0.9914716,
+            0.907569,
+            0.35301805,
+            0.99573576,
+            0.93117195,
+            0.33126307,
+            1.0,
+            0.95477486,
+            0.3095081
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "TimeBias": 1.0,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstantCurve'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1.DistributionVectorConstantCurve_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.3"
+        }
+      },
+      "AlphaScaleOverLife": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_DanceGrenade_Trail:ParticleModuleColorScaleOverLife_1.DistributionAlphaScaleOverLife'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.0"
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.2,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.2,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.5,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            1.0,
+            1.5
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLight",
+    "Name": "ParticleModuleLight_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLight'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "BrightnessOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "RadiusScale": {
+        "MinValue": 2500.0,
+        "MaxValue": 2500.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            2500.0
+          ]
+        }
+      },
+      "LightExponent": {
+        "MinValue": 8.0,
+        "MaxValue": 8.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            8.0
+          ]
+        }
+      },
+      "b3DDrawMode": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 10.0,
+        "MaxValue": 10.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            10.0
+          ]
+        }
+      },
+      "Velocity": true,
+      "VelocityScale": {
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.0,
+            3.0
+          ]
+        }
+      },
+      "StartLocation": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_lensflare_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/LensFlares/Materials/M_LensFlare_01.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.3,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_DanceGrenade_Trail:ParticleModuleRequired_16.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_DanceGrenade_Bits'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/M_DanceGrenade_Bits.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_DanceGrenade_Trail:ParticleModuleRequired_4.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRotation'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleRotationRate",
+    "Name": "ParticleModuleRotationRate_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRotationRate'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartRotationRate": {
+        "MinValue": -1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            -1.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartSize": {
+        "MinValue": 0.1,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 0.1,
+          "Y": 0.1,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 0.1,
+          "Y": 0.1,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.1,
+            0.1,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "StartSize": {
+        "MinValue": 4.0,
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 4.0,
+          "Y": 4.0,
+          "Z": 4.0
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 5.0,
+          "Z": 5.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            4.0,
+            4.0,
+            4.0,
+            5.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstantCurve'P_DanceGrenade_Trail:ParticleModuleSizeMultiplyLife_2.DistributionVectorConstantCurve_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.4"
+        }
+      },
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 300.0,
+        "MaxValue": 300.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            300.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_76",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 270.0,
+        "MaxValue": 270.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            270.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_77",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 150.0,
+        "MaxValue": 150.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            150.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 4
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataGpu",
+    "Name": "ParticleModuleTypeDataGpu_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataGpu'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "EmitterInfo": {
+        "RequiredModule": {
+          "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+        },
+        "SpawnModule": {
+          "ObjectName": "ParticleModuleSpawn'P_DanceGrenade_Trail:ParticleModuleSpawn_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.27"
+        },
+        "SpawnModules": [
+          {
+            "ObjectName": "ParticleModuleRequired'P_DanceGrenade_Trail:ParticleModuleRequired_4'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.20"
+          },
+          {
+            "ObjectName": "ParticleModuleLifetime'P_DanceGrenade_Trail:ParticleModuleLifetime_4'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.16"
+          },
+          {
+            "ObjectName": "ParticleModuleSize'P_DanceGrenade_Trail:ParticleModuleSize_4'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.24"
+          },
+          {
+            "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_DanceGrenade_Trail:ParticleModuleLocationPrimitiveSphere_1'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.18"
+          },
+          {
+            "ObjectName": "ParticleModuleRotation'P_DanceGrenade_Trail:ParticleModuleRotation_2'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.21"
+          },
+          {
+            "ObjectName": "ParticleModuleRotationRate'P_DanceGrenade_Trail:ParticleModuleRotationRate_1'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.22"
+          }
+        ],
+        "ConstantAcceleration": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -60.0
+        },
+        "InvMaxSize": {
+          "X": 0.2,
+          "Y": 0.2
+        },
+        "InvRotationRateScale": 0.6666667,
+        "MaxLifetime": 1.5,
+        "MaxParticleCount": 460,
+        "ScreenAlignment": "PSA_Square"
+      },
+      "ResourceData": {
+        "QuantizedColorSamples": [
+          {
+            "B": 255,
+            "G": 255,
+            "R": 0,
+            "A": 0,
+            "Hex": "00FFFF"
+          },
+          {
+            "B": 250,
+            "G": 248,
+            "R": 5,
+            "A": 0,
+            "Hex": "05F8FA"
+          },
+          {
+            "B": 245,
+            "G": 242,
+            "R": 10,
+            "A": 0,
+            "Hex": "0AF2F5"
+          },
+          {
+            "B": 240,
+            "G": 236,
+            "R": 15,
+            "A": 0,
+            "Hex": "0FECF0"
+          },
+          {
+            "B": 235,
+            "G": 230,
+            "R": 21,
+            "A": 0,
+            "Hex": "15E6EB"
+          },
+          {
+            "B": 231,
+            "G": 224,
+            "R": 26,
+            "A": 0,
+            "Hex": "1AE0E7"
+          },
+          {
+            "B": 226,
+            "G": 218,
+            "R": 31,
+            "A": 0,
+            "Hex": "1FDAE2"
+          },
+          {
+            "B": 221,
+            "G": 212,
+            "R": 36,
+            "A": 0,
+            "Hex": "24D4DD"
+          },
+          {
+            "B": 216,
+            "G": 206,
+            "R": 42,
+            "A": 0,
+            "Hex": "2ACED8"
+          },
+          {
+            "B": 211,
+            "G": 200,
+            "R": 47,
+            "A": 0,
+            "Hex": "2FC8D3"
+          },
+          {
+            "B": 207,
+            "G": 193,
+            "R": 52,
+            "A": 0,
+            "Hex": "34C1CF"
+          },
+          {
+            "B": 202,
+            "G": 187,
+            "R": 57,
+            "A": 0,
+            "Hex": "39BBCA"
+          },
+          {
+            "B": 197,
+            "G": 181,
+            "R": 63,
+            "A": 0,
+            "Hex": "3FB5C5"
+          },
+          {
+            "B": 192,
+            "G": 175,
+            "R": 68,
+            "A": 0,
+            "Hex": "44AFC0"
+          },
+          {
+            "B": 187,
+            "G": 169,
+            "R": 73,
+            "A": 0,
+            "Hex": "49A9BB"
+          },
+          {
+            "B": 183,
+            "G": 163,
+            "R": 79,
+            "A": 0,
+            "Hex": "4FA3B7"
+          },
+          {
+            "B": 178,
+            "G": 157,
+            "R": 84,
+            "A": 0,
+            "Hex": "549DB2"
+          },
+          {
+            "B": 173,
+            "G": 151,
+            "R": 89,
+            "A": 0,
+            "Hex": "5997AD"
+          },
+          {
+            "B": 168,
+            "G": 145,
+            "R": 94,
+            "A": 0,
+            "Hex": "5E91A8"
+          },
+          {
+            "B": 163,
+            "G": 138,
+            "R": 100,
+            "A": 0,
+            "Hex": "648AA3"
+          },
+          {
+            "B": 159,
+            "G": 132,
+            "R": 105,
+            "A": 0,
+            "Hex": "69849F"
+          },
+          {
+            "B": 154,
+            "G": 126,
+            "R": 110,
+            "A": 0,
+            "Hex": "6E7E9A"
+          },
+          {
+            "B": 149,
+            "G": 120,
+            "R": 115,
+            "A": 0,
+            "Hex": "737895"
+          },
+          {
+            "B": 144,
+            "G": 114,
+            "R": 121,
+            "A": 0,
+            "Hex": "797290"
+          },
+          {
+            "B": 140,
+            "G": 108,
+            "R": 126,
+            "A": 0,
+            "Hex": "7E6C8C"
+          },
+          {
+            "B": 135,
+            "G": 102,
+            "R": 131,
+            "A": 0,
+            "Hex": "836687"
+          },
+          {
+            "B": 130,
+            "G": 96,
+            "R": 136,
+            "A": 0,
+            "Hex": "886082"
+          },
+          {
+            "B": 125,
+            "G": 90,
+            "R": 142,
+            "A": 0,
+            "Hex": "8E5A7D"
+          },
+          {
+            "B": 120,
+            "G": 84,
+            "R": 147,
+            "A": 0,
+            "Hex": "935478"
+          },
+          {
+            "B": 116,
+            "G": 77,
+            "R": 152,
+            "A": 0,
+            "Hex": "984D74"
+          },
+          {
+            "B": 111,
+            "G": 71,
+            "R": 158,
+            "A": 0,
+            "Hex": "9E476F"
+          },
+          {
+            "B": 106,
+            "G": 65,
+            "R": 163,
+            "A": 0,
+            "Hex": "A3416A"
+          },
+          {
+            "B": 101,
+            "G": 59,
+            "R": 168,
+            "A": 0,
+            "Hex": "A83B65"
+          },
+          {
+            "B": 96,
+            "G": 53,
+            "R": 173,
+            "A": 0,
+            "Hex": "AD3560"
+          },
+          {
+            "B": 92,
+            "G": 47,
+            "R": 179,
+            "A": 0,
+            "Hex": "B32F5C"
+          },
+          {
+            "B": 87,
+            "G": 41,
+            "R": 184,
+            "A": 0,
+            "Hex": "B82957"
+          },
+          {
+            "B": 82,
+            "G": 35,
+            "R": 189,
+            "A": 0,
+            "Hex": "BD2352"
+          },
+          {
+            "B": 77,
+            "G": 29,
+            "R": 194,
+            "A": 0,
+            "Hex": "C21D4D"
+          },
+          {
+            "B": 72,
+            "G": 22,
+            "R": 200,
+            "A": 0,
+            "Hex": "C81648"
+          },
+          {
+            "B": 68,
+            "G": 16,
+            "R": 205,
+            "A": 0,
+            "Hex": "CD1044"
+          },
+          {
+            "B": 63,
+            "G": 10,
+            "R": 210,
+            "A": 0,
+            "Hex": "D20A3F"
+          },
+          {
+            "B": 58,
+            "G": 4,
+            "R": 215,
+            "A": 0,
+            "Hex": "D7043A"
+          },
+          {
+            "B": 54,
+            "G": 0,
+            "R": 220,
+            "A": 0,
+            "Hex": "DC0036"
+          },
+          {
+            "B": 52,
+            "G": 0,
+            "R": 221,
+            "A": 0,
+            "Hex": "DD0034"
+          },
+          {
+            "B": 51,
+            "G": 1,
+            "R": 222,
+            "A": 0,
+            "Hex": "DE0133"
+          },
+          {
+            "B": 50,
+            "G": 2,
+            "R": 223,
+            "A": 0,
+            "Hex": "DF0232"
+          },
+          {
+            "B": 48,
+            "G": 3,
+            "R": 224,
+            "A": 0,
+            "Hex": "E00330"
+          },
+          {
+            "B": 47,
+            "G": 4,
+            "R": 224,
+            "A": 0,
+            "Hex": "E0042F"
+          },
+          {
+            "B": 46,
+            "G": 5,
+            "R": 225,
+            "A": 0,
+            "Hex": "E1052E"
+          },
+          {
+            "B": 45,
+            "G": 6,
+            "R": 226,
+            "A": 0,
+            "Hex": "E2062D"
+          },
+          {
+            "B": 43,
+            "G": 7,
+            "R": 227,
+            "A": 0,
+            "Hex": "E3072B"
+          },
+          {
+            "B": 42,
+            "G": 8,
+            "R": 228,
+            "A": 0,
+            "Hex": "E4082A"
+          },
+          {
+            "B": 41,
+            "G": 9,
+            "R": 228,
+            "A": 0,
+            "Hex": "E40929"
+          },
+          {
+            "B": 39,
+            "G": 10,
+            "R": 229,
+            "A": 0,
+            "Hex": "E50A27"
+          },
+          {
+            "B": 38,
+            "G": 11,
+            "R": 230,
+            "A": 0,
+            "Hex": "E60B26"
+          },
+          {
+            "B": 37,
+            "G": 12,
+            "R": 231,
+            "A": 0,
+            "Hex": "E70C25"
+          },
+          {
+            "B": 35,
+            "G": 13,
+            "R": 232,
+            "A": 0,
+            "Hex": "E80D23"
+          },
+          {
+            "B": 34,
+            "G": 14,
+            "R": 233,
+            "A": 0,
+            "Hex": "E90E22"
+          },
+          {
+            "B": 33,
+            "G": 15,
+            "R": 233,
+            "A": 0,
+            "Hex": "E90F21"
+          },
+          {
+            "B": 32,
+            "G": 16,
+            "R": 234,
+            "A": 0,
+            "Hex": "EA1020"
+          },
+          {
+            "B": 30,
+            "G": 17,
+            "R": 235,
+            "A": 0,
+            "Hex": "EB111E"
+          },
+          {
+            "B": 29,
+            "G": 18,
+            "R": 236,
+            "A": 0,
+            "Hex": "EC121D"
+          },
+          {
+            "B": 28,
+            "G": 19,
+            "R": 237,
+            "A": 0,
+            "Hex": "ED131C"
+          },
+          {
+            "B": 26,
+            "G": 20,
+            "R": 237,
+            "A": 0,
+            "Hex": "ED141A"
+          },
+          {
+            "B": 25,
+            "G": 21,
+            "R": 238,
+            "A": 0,
+            "Hex": "EE1519"
+          },
+          {
+            "B": 24,
+            "G": 22,
+            "R": 239,
+            "A": 0,
+            "Hex": "EF1618"
+          },
+          {
+            "B": 23,
+            "G": 23,
+            "R": 240,
+            "A": 0,
+            "Hex": "F01717"
+          },
+          {
+            "B": 21,
+            "G": 24,
+            "R": 241,
+            "A": 0,
+            "Hex": "F11815"
+          },
+          {
+            "B": 20,
+            "G": 25,
+            "R": 242,
+            "A": 0,
+            "Hex": "F21914"
+          },
+          {
+            "B": 19,
+            "G": 26,
+            "R": 242,
+            "A": 0,
+            "Hex": "F21A13"
+          },
+          {
+            "B": 17,
+            "G": 27,
+            "R": 243,
+            "A": 0,
+            "Hex": "F31B11"
+          },
+          {
+            "B": 16,
+            "G": 28,
+            "R": 244,
+            "A": 0,
+            "Hex": "F41C10"
+          },
+          {
+            "B": 15,
+            "G": 29,
+            "R": 245,
+            "A": 0,
+            "Hex": "F51D0F"
+          },
+          {
+            "B": 13,
+            "G": 30,
+            "R": 246,
+            "A": 0,
+            "Hex": "F61E0D"
+          },
+          {
+            "B": 12,
+            "G": 31,
+            "R": 246,
+            "A": 0,
+            "Hex": "F61F0C"
+          },
+          {
+            "B": 11,
+            "G": 32,
+            "R": 247,
+            "A": 0,
+            "Hex": "F7200B"
+          },
+          {
+            "B": 10,
+            "G": 33,
+            "R": 248,
+            "A": 0,
+            "Hex": "F8210A"
+          },
+          {
+            "B": 8,
+            "G": 34,
+            "R": 249,
+            "A": 0,
+            "Hex": "F92208"
+          },
+          {
+            "B": 7,
+            "G": 35,
+            "R": 250,
+            "A": 0,
+            "Hex": "FA2307"
+          },
+          {
+            "B": 6,
+            "G": 36,
+            "R": 251,
+            "A": 0,
+            "Hex": "FB2406"
+          },
+          {
+            "B": 4,
+            "G": 37,
+            "R": 251,
+            "A": 0,
+            "Hex": "FB2504"
+          },
+          {
+            "B": 3,
+            "G": 38,
+            "R": 252,
+            "A": 0,
+            "Hex": "FC2603"
+          },
+          {
+            "B": 2,
+            "G": 39,
+            "R": 253,
+            "A": 0,
+            "Hex": "FD2702"
+          },
+          {
+            "B": 1,
+            "G": 40,
+            "R": 254,
+            "A": 0,
+            "Hex": "FE2801"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          },
+          {
+            "B": 0,
+            "G": 41,
+            "R": 255,
+            "A": 0,
+            "Hex": "FF2900"
+          }
+        ],
+        "QuantizedMiscSamples": [
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 253,
+            "R": 253,
+            "A": 0,
+            "Hex": "FDFD00"
+          },
+          {
+            "B": 0,
+            "G": 248,
+            "R": 248,
+            "A": 0,
+            "Hex": "F8F800"
+          },
+          {
+            "B": 0,
+            "G": 240,
+            "R": 240,
+            "A": 0,
+            "Hex": "F0F000"
+          },
+          {
+            "B": 0,
+            "G": 229,
+            "R": 229,
+            "A": 0,
+            "Hex": "E5E500"
+          },
+          {
+            "B": 0,
+            "G": 216,
+            "R": 216,
+            "A": 0,
+            "Hex": "D8D800"
+          },
+          {
+            "B": 0,
+            "G": 201,
+            "R": 201,
+            "A": 0,
+            "Hex": "C9C900"
+          },
+          {
+            "B": 0,
+            "G": 184,
+            "R": 184,
+            "A": 0,
+            "Hex": "B8B800"
+          },
+          {
+            "B": 0,
+            "G": 166,
+            "R": 166,
+            "A": 0,
+            "Hex": "A6A600"
+          },
+          {
+            "B": 0,
+            "G": 148,
+            "R": 148,
+            "A": 0,
+            "Hex": "949400"
+          },
+          {
+            "B": 0,
+            "G": 128,
+            "R": 128,
+            "A": 0,
+            "Hex": "808000"
+          },
+          {
+            "B": 0,
+            "G": 109,
+            "R": 109,
+            "A": 0,
+            "Hex": "6D6D00"
+          },
+          {
+            "B": 0,
+            "G": 90,
+            "R": 90,
+            "A": 0,
+            "Hex": "5A5A00"
+          },
+          {
+            "B": 0,
+            "G": 72,
+            "R": 72,
+            "A": 0,
+            "Hex": "484800"
+          },
+          {
+            "B": 0,
+            "G": 55,
+            "R": 55,
+            "A": 0,
+            "Hex": "373700"
+          },
+          {
+            "B": 0,
+            "G": 40,
+            "R": 40,
+            "A": 0,
+            "Hex": "282800"
+          },
+          {
+            "B": 0,
+            "G": 26,
+            "R": 26,
+            "A": 0,
+            "Hex": "1A1A00"
+          },
+          {
+            "B": 0,
+            "G": 15,
+            "R": 15,
+            "A": 0,
+            "Hex": "0F0F00"
+          },
+          {
+            "B": 0,
+            "G": 7,
+            "R": 7,
+            "A": 0,
+            "Hex": "070700"
+          },
+          {
+            "B": 0,
+            "G": 1,
+            "R": 1,
+            "A": 0,
+            "Hex": "010100"
+          },
+          {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0,
+            "Hex": "000000"
+          }
+        ],
+        "ColorScale": {
+          "X": 2.0,
+          "Y": 8.978837,
+          "Z": 6.449678,
+          "W": 0.0
+        },
+        "ColorBias": {
+          "X": 0.0,
+          "Y": 0.45581725,
+          "Z": 0.6190162,
+          "W": 1.0
+        },
+        "MiscScale": {
+          "X": 5.015441,
+          "Y": 5.015441,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "SimulationAttrCurveBias": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "SubImageSize": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "SizeBySpeed": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "ConstantAcceleration": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -60.0
+        },
+        "PerParticleVectorFieldBias": 1.0,
+        "CollisionRadiusScale": 0.5,
+        "CollisionRandomDistribution": 1.0,
+        "OneMinusFriction": 1.0,
+        "RotationRateScale": 1.5,
+        "ScreenAlignment": "PSA_Square"
+      },
+      "bClearExistingParticlesOnInit": true,
+      "LODValidity": 7
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "EmitterName": "Light",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_16.ParticleLODLevel_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.5"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_16.ParticleLODLevel_97'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.7"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_16.ParticleLODLevel_89'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_DanceGrenade_Trail'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.33"
+    },
+    "Properties": {
+      "EmitterName": "GPU_collision",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_4.ParticleLODLevel_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.8"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_4.ParticleLODLevel_99'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.10"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_DanceGrenade_Trail:ParticleSpriteEmitter_4.ParticleLODLevel_91'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "P_DanceGrenade_Trail",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.31"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_DanceGrenade_Trail:ParticleSpriteEmitter_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/DanceGrenade/P_DanceGrenade_Trail.32"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0,
+        1100.0,
+        2600.0
+      ],
+      "LODSettings": [
+        {},
+        {},
+        {}
+      ],
+      "bUseFixedRelativeBoundingBox": true,
+      "FixedRelativeBoundingBox": {
+        "Min": {
+          "X": -500000.0,
+          "Y": -500000.0,
+          "Z": -500000.0
+        },
+        "Max": {
+          "X": 500000.0,
+          "Y": 500000.0,
+          "Z": 500000.0
+        },
+        "IsValid": 1
+      },
+      "bShouldResetPeakCounts": true,
+      "MacroUVRadius": 400.0,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

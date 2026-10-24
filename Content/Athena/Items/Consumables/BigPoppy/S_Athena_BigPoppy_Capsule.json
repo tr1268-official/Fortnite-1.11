@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_BigPoppy_Capsule'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "0D17B554402FB9F52E040A97C0D2CABD",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 7621,
+        "SizeOnDisk": 7621,
+        "OffsetInFile": "0x774D"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_12",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_BigPoppy_Capsule'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x955A"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Athena_BigPoppy_Capsule",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_BigPoppyPickup'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/MI_BigPoppyPickup.0"
+          },
+          "MaterialSlotName": "MultiMat",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 470.0019,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 470.0019,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 1.9073486E-06,
+          "Z": 16.0
+        },
+        "BoxExtent": {
+          "X": 15.204351,
+          "Y": 15.20435,
+          "Z": 16.0
+        },
+        "SphereRadius": 16.000002
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Athena_BigPoppy_Capsule:BodySetup_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Athena_BigPoppy_Capsule:NavCollision_12'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule.1"
+    },
+    "LightingGuid": "A8D0A846-41289358-9B9ABCA2-FDC7E336",
+    "RenderData": null
+  }
+]

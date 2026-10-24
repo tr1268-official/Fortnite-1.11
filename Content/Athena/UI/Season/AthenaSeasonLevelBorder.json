@@ -1,0 +1,459 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaSeasonLevelBorder_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaSeasonLevelBorder_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.21"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Season/AthenaSeasonLevelBorder.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaSeasonLevelBorder_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SeasonPassLevelWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaSeasonLevelBorder_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.0"
+      },
+      {
+        "ObjectName": "Function'AthenaSeasonLevelBorder_C:OnSetup'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.15"
+      },
+      {
+        "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaSeasonLevelBorder_C:HighlightBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaSeasonLevelBorder": {
+        "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+      },
+      "OnSetup": {
+        "ObjectName": "Function'AthenaSeasonLevelBorder_C:OnSetup'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.15"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaSeasonLevelBorder_C'Default__AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.2"
+    }
+  },
+  {
+    "Type": "AthenaSeasonLevelBorder_C",
+    "Name": "Default__AthenaSeasonLevelBorder_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.AthenaSeasonLevelBorder_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaSeasonLevelBorder_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.AthenaSeasonLevelBorder_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder",
+    "Template": {
+      "ObjectName": "AthenaSeasonLevelBorder_C'Default__AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.2"
+    },
+    "Properties": {
+      "HighlightBorder": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.HighlightBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.14"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.22"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HighlightBorder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaSeasonLevelBorder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.5"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.9"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.Temp_class_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.18"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_GetLocalAccountInfo_Result'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_GetLevelInfo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.19"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.16"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_IsFreeUnlocked_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.8"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_GetLevel_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.17"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.7"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.Temp_class_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.12"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsFreeUnlocked_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonBorderStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonBorderStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonBorderStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "HighlightBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaSeasonLevelBorder_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.21"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_SeasonRewards_Locked_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_SeasonRewards_Locked.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "HighlightBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.22"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_SeasonRewards_Locked_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_SeasonRewards_Locked.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSetup",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'SeasonPassLevelWidget:OnSetup'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetLevel_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortMcpContext'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLevelInfo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortSeasonPassLevelInfo'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetLocalAccountInfo_Result",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaSeasonLevelBorder_C:ExecuteUbergraph_AthenaSeasonLevelBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortPrivateAccountInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaSeasonLevelBorder_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'AthenaSeasonLevelBorder_C:WidgetTree.HighlightBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.13"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "CommonBorder'AthenaSeasonLevelBorder_C:WidgetTree.HighlightBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaSeasonLevelBorder_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.HighlightBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Season/AthenaSeasonLevelBorder.14"
+      }
+    }
+  }
+]

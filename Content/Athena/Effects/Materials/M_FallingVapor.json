@@ -1,0 +1,361 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_FallingVapor",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FallingVapor",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 53,
+        "ExpressionName": "/Script/CoreUObject",
+        "UseConstant": false,
+        "Constant": {
+          "B": 62,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00003E"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "WorldPositionOffset": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FallingVapor",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 52,
+        "ExpressionName": "/Game/Effects/Fort_Effects/Textures/T_Smoke_Puff_Tile_Up",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.4E-44
+        }
+      },
+      "bUsedWithParticleSprites": true,
+      "EditorX": 1312,
+      "EditorY": 16,
+      "Expressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_FallingVapor:MaterialExpressionTextureSample_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.10"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionDynamicParameter'M_FallingVapor:MaterialExpressionDynamicParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.4"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.5"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_FallingVapor:MaterialExpressionTextureSample_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.11"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionDynamicParameter'M_FallingVapor:MaterialExpressionDynamicParameter_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.6"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.7"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_FallingVapor:MaterialExpressionScalarParameter_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.9"
+        },
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "D52453A5-4DB274E0-3E336E8A-A792D308"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionDynamicParameter",
+    "Name": "MaterialExpressionDynamicParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionDynamicParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionDynamicParameter",
+    "Name": "MaterialExpressionDynamicParameter_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionDynamicParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.4,
+      "ParameterName": "Min",
+      "ExpressionGUID": "DE574FBD-43813E5C-65022EA1-3AF0F56A",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.6,
+      "ParameterName": "Max",
+      "ExpressionGUID": "0C0810FC-4C3D9CC5-6698FF94-FAABD2A1",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Opacity",
+      "ExpressionGUID": "B1C1BB66-481EFE1F-A6A96BB9-E1148B34",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.1,
+      "ParameterName": "Height",
+      "ExpressionGUID": "C2D90305-4D66CB13-D3E85492-2EB46403",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 5000.0,
+      "ParameterName": "World Z Length",
+      "ExpressionGUID": "D188B965-426D2B09-AA1C0D8A-F90EE6DC",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 12892.0,
+      "ParameterName": "World Z Min",
+      "ExpressionGUID": "E62BA03C-48D6EEE2-8FFF3385-6B0A28D7",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "DefaultValue": 12892.0,
+      "ParameterName": "World Z Min",
+      "ExpressionGUID": "668BA09B-4AEF581E-7D97E498-B407B4CC",
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      },
+      "bCollapsed": false
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FallingVapor",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 50,
+        "ExpressionName": "/Script/Engine_80"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Smoke_Puff_Tile_Up'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/T_Smoke_Puff_Tile_Up.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_FallingVapor'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/Effects/Materials/M_FallingVapor",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 50,
+        "ExpressionName": "ArrayProperty_80"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Smoke_Puff_Tile_Up'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/T_Smoke_Puff_Tile_Up.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_FallingVapor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_FallingVapor.0"
+      }
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "HID_004_Athena_Commando_F",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortHeroType'",
+    "Package": "FortniteGame/Content/Athena/Heroes/HID_004_Athena_Commando_F",
+    "Properties": {
+      "Specializations": [
+        {
+          "AssetPathName": "/Game/Athena/Heroes/Specializations/HS_004_Athena_Commando_Athena_F.HS_004_Athena_Commando_Athena_F",
+          "SubPathString": ""
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_Vitality_Health.GE_Map_Athena_Vitality_Health_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_Inventory_StartingSize.GE_Map_Athena_Inventory_StartingSize_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_StartingShields.GE_Map_Athena_StartingShields_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        }
+      ],
+      "RequiredGPTags": [
+        "Unlocks.Class.Commando"
+      ],
+      "OverridePawnClass": {
+        "AssetPathName": "/Game/Athena/PlayerPawn_Athena.PlayerPawn_Athena_C",
+        "SubPathString": ""
+      },
+      "FrontendAnimClass": {
+        "AssetPathName": "/Game/Abilities/Player/Pawns/MenuScreen_Athena.MenuScreen_Athena_C",
+        "SubPathString": ""
+      },
+      "LegacyStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'CharacterAttributesPlayer'",
+          "ObjectPath": "FortniteGame/Content/Characters/Player/DataTables/CharacterAttributesPlayer.0"
+        },
+        "RowName": "PlayerLoadout_AthenaPlayer"
+      },
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "Uncommon"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Hero.UC.T01"
+      },
+      "ConversionRecipes": [
+        {
+          "DataTable": null,
+          "RowName": "None"
+        }
+      ],
+      "MaxLevel": 10,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "4E8C9A6D4B2749F003438FB8A163F18F",
+        "SourceString": "Rescue Trooper Ramirez",
+        "LocalizedString": "Rescue Trooper Ramirez"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "56AA20AC47119C4BFFDB56A08A0A0CB8",
+        "SourceString": "Well-rounded mix of assault rifle perks, survivability, and ammo efficiency.",
+        "LocalizedString": "Well-rounded mix of assault rifle perks, survivability, and ammo efficiency."
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsCommando.Infantryman"
+      ],
+      "bNeverPersisted": true,
+      "Tier": "EFortItemTier::I",
+      "MaxTier": "EFortItemTier::III",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_UC_T01"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Soldier-HID-004-Athena-Commando-F'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-004-Athena-Commando-F.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-004-Athena-Commando-F-L.T-Soldier-HID-004-Athena-Commando-F-L",
+        "SubPathString": ""
+      }
+    }
+  }
+]

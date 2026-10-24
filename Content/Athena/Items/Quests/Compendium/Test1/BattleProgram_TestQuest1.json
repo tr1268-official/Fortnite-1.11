@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "BattleProgram_TestQuest1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Compendium/Test1/BattleProgram_TestQuest1",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "BuildStructures",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "build_any_structure"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 32766,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "CultureInvariantString": null
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "7EB8088B41EC9DCD3ED2E6BEC8EB86C0",
+            "SourceString": "Build anything",
+            "LocalizedString": "Build anything"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 50,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": true,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "5336B58F4C0397265F3533AF310DCBAD",
+        "SourceString": "Battle Builder",
+        "LocalizedString": "Battle Builder"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "2578003C4F3A5BAC3384C8AE76C4D7DE",
+        "SourceString": "Build 50 structures",
+        "LocalizedString": "Build 50 structures"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "E3F4E32545266D7ACFE671967205BBF7",
+        "SourceString": "Build 50 structure pieces in Battle Royal matches",
+        "LocalizedString": "Build 50 structure pieces in Battle Royal matches"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'Icon-Quest-HarvestOptimizer-M'",
+        "ObjectPath": "FortniteGame/Content/UI/Icons/Icon-QuestCategory/Icon-Quest-HarvestOptimizer-M.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Icons/Icon-QuestCategory/Icon-Quest-HarvestOptimizer-XL.Icon-Quest-HarvestOptimizer-XL",
+        "SubPathString": ""
+      }
+    }
+  }
+]

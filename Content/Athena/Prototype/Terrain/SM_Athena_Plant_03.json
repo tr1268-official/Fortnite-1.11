@@ -1,0 +1,202 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Plant_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Plant_03.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": -4.2051463,
+                "Y": 3.0996988,
+                "Z": 157.80188
+              },
+              {
+                "X": -4.2484007,
+                "Y": -56.270992,
+                "Z": 28.250685
+              },
+              {
+                "X": -58.053432,
+                "Y": 3.099702,
+                "Z": 28.250687
+              },
+              {
+                "X": -4.248393,
+                "Y": 62.470398,
+                "Z": 28.250696
+              },
+              {
+                "X": 49.103558,
+                "Y": 3.0996883,
+                "Z": 28.250687
+              },
+              {
+                "X": -4.2051463,
+                "Y": 3.099701,
+                "Z": -8.721245
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -58.053432,
+                "Y": -56.270992,
+                "Z": -8.721245
+              },
+              "Max": {
+                "X": 49.103558,
+                "Y": 62.470398,
+                "Z": 157.80188
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "479E1B48429D72365E1193A0EDF520FE",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21334,
+        "SizeOnDisk": 21334,
+        "OffsetInFile": "0x1E5F5"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Plant_03'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Plant_03.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 409,
+        "SizeOnDisk": 409,
+        "OffsetInFile": "0x23993"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Athena_Plant_03",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Plant_03",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Athena_Plants_01'",
+            "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/MI_Athena_Plants_01.0"
+          },
+          "MaterialSlotName": "MI_TRV_Plants_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 287.93362,
+            "LocalUVDensities[1]": 80853.195,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 80853.195,
+      "LightMapResolution": 64,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -12.244644,
+          "Y": 18.846855,
+          "Z": 93.329926
+        },
+        "BoxExtent": {
+          "X": 105.51503,
+          "Y": 97.01038,
+          "Z": 99.57796
+        },
+        "SphereRadius": 119.98412
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Athena_Plant_03:BodySetup_14'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Plant_03.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Athena_Plant_03:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/SM_Athena_Plant_03.1"
+    },
+    "LightingGuid": "54AE54DF-46ADEFC1-498299AC-10FB7CAD",
+    "RenderData": null
+  }
+]

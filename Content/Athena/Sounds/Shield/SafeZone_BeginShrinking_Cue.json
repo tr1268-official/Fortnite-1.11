@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "SafeZone_BeginShrinking_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_BeginShrinking_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'SafeZone_BeginShrinking_Cue:SoundNodeWavePlayer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_BeginShrinking_Cue.1"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 3.0
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'SafeZone_BeginShrinking_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_BeginShrinking_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Shield/SFX_SafeZone_BeginShrinking.SFX_SafeZone_BeginShrinking",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'SFX_SafeZone_BeginShrinking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SFX_SafeZone_BeginShrinking.0"
+    }
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_ChugJug'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/SM_ChugJug.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "96D39B53451B0CB05B135E862C9CB509",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 85446,
+        "SizeOnDisk": 85446,
+        "OffsetInFile": "0x55BBF"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_2",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_ChugJug'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/SM_ChugJug.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x6A9CD"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_ChugJug",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/SM_ChugJug",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_ChugJug'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/M_ChugJug.0"
+          },
+          "MaterialSlotName": "02 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 126.18169,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_ChugJugGlass'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/M_ChugJugGlass.0"
+          },
+          "MaterialSlotName": "03 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 76.08537,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 114.76839,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 1.6590767,
+          "Y": 1.1024837,
+          "Z": 26.311394
+        },
+        "BoxExtent": {
+          "X": 25.838444,
+          "Y": 22.964706,
+          "Z": 32.53616
+        },
+        "SphereRadius": 33.43623
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_ChugJug:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/SM_ChugJug.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_ChugJug:NavCollision_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/SuperMedkit/SM_ChugJug.1"
+    },
+    "LightingGuid": "DAD5801A-4619682A-F1F86FBF-81D5DDB5",
+    "RenderData": null
+  }
+]

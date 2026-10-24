@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "MaterialInstanceConstant",
+    "Name": "M_SmokeGrenade_01_Inst",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialInstanceConstant'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/SmokeGrenade/M_SmokeGrenade_01_Inst",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Material'M_SmokeMaster_Masked_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Materials/M_SmokeMaster_Masked_01.0"
+      },
+      "bHasStaticPermutationResource": true,
+      "ScalarParameterValues": [
+        {
+          "ParameterName": "Smoke Emissive Boost",
+          "ParameterValue": 0.13,
+          "ExpressionGUID": "1B28A850-481B1337-D67700B4-2386ACD5"
+        },
+        {
+          "ParameterName": "Explosion Debug LERP",
+          "ParameterValue": 1.0,
+          "ExpressionGUID": "80FC2166-4A386B0B-10243491-4D1691DA"
+        },
+        {
+          "ParameterName": "Explosion Debug LERP Speed",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "FEB32CDB-4E41785F-D42CEBAD-4C372149"
+        },
+        {
+          "ParameterName": "Normal Map U Tile",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "BA91FCD8-454983E2-AA5D1496-0014B35A"
+        },
+        {
+          "ParameterName": "Normal Map V Tile",
+          "ParameterValue": 0.5,
+          "ExpressionGUID": "B8466EC9-43E80BFC-4AAD1594-7A5D40E8"
+        },
+        {
+          "ParameterName": "Depth Fade Distance",
+          "ParameterValue": 120.0,
+          "ExpressionGUID": "97591D70-4D17C3E8-07C296B6-78B56F1C"
+        },
+        {
+          "ParameterName": "Near Camera Fade Distance",
+          "ParameterValue": 200.0,
+          "ExpressionGUID": "10483352-433D06C3-9737A9BF-5F404C3A"
+        },
+        {
+          "ParameterName": "RefractionDepthBias",
+          "ParameterValue": 0.0,
+          "ExpressionGUID": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "TextureParameterValues": [
+        {
+          "ParameterName": "Morph Targets Normal",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_RocketExplosion_01_Normals'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_RocketExplosion_01_Normals.0"
+          },
+          "ExpressionGUID": "AEBEB61C-4F93FA0C-7021D18A-8B39A8C3"
+        },
+        {
+          "ParameterName": "Morph Targets Texture",
+          "ParameterValue": {
+            "ObjectName": "Texture2D'T_RocketExplosion_01'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_RocketExplosion_01.0"
+          },
+          "ExpressionGUID": "65F2C3D2-4BADEB7F-A0AEEE92-AA93DEAF"
+        }
+      ],
+      "VectorParameterValues": [
+        {
+          "ParameterName": "Normal Map Intensity",
+          "ParameterValue": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.5,
+            "A": 0.0,
+            "Hex": "FFFFBC"
+          },
+          "ExpressionGUID": "1DC7D56B-47050162-68D97D9E-B77B8575"
+        }
+      ],
+      "BasePropertyOverrides": {
+        "bOverride_BlendMode": true,
+        "bOverride_ShadingModel": true,
+        "BlendMode": "BLEND_Translucent"
+      }
+    },
+    "LoadedMaterialResources": []
+  }
+]

@@ -1,0 +1,304 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Stream_Spline_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_Athena_Stream_Spline_01.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 1024.0,
+                "Y": 4.4759363E-05,
+                "Z": -0.030768968
+              },
+              {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.0308609
+              },
+              {
+                "X": 3.370851E-05,
+                "Y": 1.2789769E-12,
+                "Z": -112.000015
+              },
+              {
+                "X": 1023.9999,
+                "Y": 4.4760465E-05,
+                "Z": -112.0
+              },
+              {
+                "X": 0.0,
+                "Y": -512.0,
+                "Z": -96.02734
+              },
+              {
+                "X": 1023.9999,
+                "Y": -512.0,
+                "Z": -96.02732
+              },
+              {
+                "X": 1024.0,
+                "Y": -512.0,
+                "Z": -111.99997
+              },
+              {
+                "X": 2.5571164E-05,
+                "Y": -512.0,
+                "Z": -112.00001
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": 0.0,
+                "Y": -512.0,
+                "Z": -112.000015
+              },
+              "Max": {
+                "X": 1024.0,
+                "Y": 4.4760465E-05,
+                "Z": -0.030768968
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "VertexData": [
+              {
+                "X": 0.0,
+                "Y": -1023.99994,
+                "Z": 0.027366638
+              },
+              {
+                "X": 1024.0,
+                "Y": -1023.99994,
+                "Z": 0.027339913
+              },
+              {
+                "X": 1023.99994,
+                "Y": -1024.0,
+                "Z": -112.000015
+              },
+              {
+                "X": -1.1583516E-05,
+                "Y": -1023.99994,
+                "Z": -111.99998
+              },
+              {
+                "X": 1024.0,
+                "Y": -511.99997,
+                "Z": -95.96491
+              },
+              {
+                "X": 6.1035156E-05,
+                "Y": -511.99997,
+                "Z": -95.96483
+              },
+              {
+                "X": 1.0796716E-05,
+                "Y": -511.99994,
+                "Z": -111.99997
+              },
+              {
+                "X": 1024.0,
+                "Y": -511.99997,
+                "Z": -112.00001
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -1.1583516E-05,
+                "Y": -1024.0,
+                "Z": -112.000015
+              },
+              "Max": {
+                "X": 1024.0,
+                "Y": -511.99994,
+                "Z": 0.027366638
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "AE2B3E4149F002E9059455A213F9E58B",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 13217,
+        "SizeOnDisk": 13217,
+        "OffsetInFile": "0x1CC7B"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'SM_Athena_Stream_Spline_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_Athena_Stream_Spline_01.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 893,
+        "SizeOnDisk": 893,
+        "OffsetInFile": "0x20064"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "SM_Athena_Stream_Spline_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/SM_Athena_Stream_Spline_01",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'Athena_Terrain_Mat_Spline'",
+            "ObjectPath": "FortniteGame/Content/Athena/Environments/Materials/Spline/Athena_Terrain_Mat_Spline.0"
+          },
+          "MaterialSlotName": "Terrain_Mat",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1037.372,
+            "LocalUVDensities[1]": 1304.3828,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'Stream_Flowmaps_01_Reverse_Spline_Inst'",
+            "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Stream_Flowmaps_01_Reverse_Spline_Inst.0"
+          },
+          "MaterialSlotName": "Stream_Flowmaps_01",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 1027.1019,
+            "LocalUVDensities[1]": 1291.533,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 1032.8417,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 512.0,
+          "Y": -512.0,
+          "Z": -48.0
+        },
+        "BoxExtent": {
+          "X": 512.0,
+          "Y": 512.0,
+          "Z": 48.0
+        },
+        "SphereRadius": 725.66656
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'SM_Athena_Stream_Spline_01:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_Athena_Stream_Spline_01.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'SM_Athena_Stream_Spline_01:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/SM_Athena_Stream_Spline_01.1"
+    },
+    "LightingGuid": "0DAE310E-4307CA90-1B270680-B48DA9DC",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameMode_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.2"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameMode_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_GameMode_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Athena_GameMode",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_GameMode_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortGameModeAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Athena_GameMode_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.1"
+      },
+      {
+        "ObjectName": "ObjectProperty'Athena_GameMode_C:DefaultSceneRoot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.0"
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'Athena_GameMode_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Transient | CLASS_Optional | CLASS_NotPlaceable | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_GameMode_C'Default__Athena_GameMode_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.3"
+    }
+  },
+  {
+    "Type": "Athena_GameMode_C",
+    "Name": "Default__Athena_GameMode_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Athena_GameMode.Athena_GameMode_C'",
+    "Package": "FortniteGame/Content/Athena/Athena_GameMode",
+    "Properties": {
+      "GE_OutsideSafeZone": {
+        "ObjectName": "BlueprintGeneratedClass'GE_OutsideSafeZoneDamage_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/GE_OutsideSafeZoneDamage.0"
+      },
+      "SafeZoneIndicatorClass": {
+        "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+      },
+      "PlaylistDataTables": [
+        {
+          "Description": "Sneaky Silencers",
+          "PlaylistId": 12,
+          "LootTierData": {
+            "ObjectName": "DataTable'AthenaLootTierData_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/SneakySilencers/AthenaLootTierData_Client.0"
+          },
+          "LootPackages": {
+            "ObjectName": "DataTable'AthenaLootPackages_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/SneakySilencers/AthenaLootPackages_Client.0"
+          },
+          "RangedWeapons": null,
+          "GameData": null,
+          "ResourceRates": null
+        },
+        {
+          "Description": "Rockets and Grenades",
+          "PlaylistId": 13,
+          "LootTierData": {
+            "ObjectName": "DataTable'AthenaLootTierData_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/RocketsAndGrenades/AthenaLootTierData_Client.0"
+          },
+          "LootPackages": {
+            "ObjectName": "DataTable'AthenaLootPackages_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/RocketsAndGrenades/AthenaLootPackages_Client.0"
+          },
+          "RangedWeapons": null,
+          "GameData": null,
+          "ResourceRates": null
+        },
+        {
+          "Description": "Speedy Storm",
+          "PlaylistId": 14,
+          "LootTierData": null,
+          "LootPackages": null,
+          "RangedWeapons": null,
+          "GameData": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/FasterRings/AthenaGameData.0"
+          },
+          "ResourceRates": null
+        },
+        {
+          "Description": "Take To The Skies",
+          "PlaylistId": 16,
+          "LootTierData": {
+            "ObjectName": "DataTable'AthenaLootTierData_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/TakeToTheSkies/AthenaLootTierData_Client.0"
+          },
+          "LootPackages": {
+            "ObjectName": "DataTable'AthenaLootPackages_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/TakeToTheSkies/AthenaLootPackages_Client.0"
+          },
+          "RangedWeapons": null,
+          "GameData": null,
+          "ResourceRates": null
+        },
+        {
+          "Description": "Lotsa Loot",
+          "PlaylistId": 17,
+          "LootTierData": {
+            "ObjectName": "DataTable'AthenaLootTierData_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/LotsaLoot/AthenaLootTierData_Client.0"
+          },
+          "LootPackages": null,
+          "RangedWeapons": null,
+          "GameData": {
+            "ObjectName": "CurveTable'AthenaGameData'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/LotsaLoot/AthenaGameData.0"
+          },
+          "ResourceRates": null
+        },
+        {
+          "Description": "Snipers",
+          "PlaylistId": 18,
+          "LootTierData": {
+            "ObjectName": "DataTable'AthenaLootTierData_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/SnipersOnly/AthenaLootTierData_Client.0"
+          },
+          "LootPackages": {
+            "ObjectName": "DataTable'AthenaLootPackages_Client'",
+            "ObjectPath": "FortniteGame/Content/Athena/Events/SnipersOnly/AthenaLootPackages_Client.0"
+          },
+          "RangedWeapons": null,
+          "GameData": null,
+          "ResourceRates": null
+        }
+      ],
+      "StartingItems": [
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortBuildingItemDefinition'BuildingItemData_Wall'",
+            "ObjectPath": "FortniteGame/Content/Items/Weapons/BuildingTools/BuildingItemData_Wall.0"
+          }
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortBuildingItemDefinition'BuildingItemData_Floor'",
+            "ObjectPath": "FortniteGame/Content/Items/Weapons/BuildingTools/BuildingItemData_Floor.0"
+          }
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortBuildingItemDefinition'BuildingItemData_Stair_W'",
+            "ObjectPath": "FortniteGame/Content/Items/Weapons/BuildingTools/BuildingItemData_Stair_W.0"
+          }
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortBuildingItemDefinition'BuildingItemData_RoofS'",
+            "ObjectPath": "FortniteGame/Content/Items/Weapons/BuildingTools/BuildingItemData_RoofS.0"
+          }
+        },
+        {
+          "Count": 1,
+          "Item": {
+            "ObjectName": "FortEditToolItemDefinition'EditTool'",
+            "ObjectPath": "FortniteGame/Content/Items/Weapons/BuildingTools/EditTool.0"
+          }
+        },
+        {
+          "Count": 0,
+          "Item": {
+            "ObjectName": "FortResourceItemDefinition'WoodItemData'",
+            "ObjectPath": "FortniteGame/Content/Items/ResourcePickups/WoodItemData.0"
+          }
+        }
+      ],
+      "DeathPenaltyData": {
+        "AssetPathName": "/Game/Athena/Anthem_DeathPenalty.Anthem_DeathPenalty",
+        "SubPathString": ""
+      },
+      "bOverrideQuickBars": true,
+      "QuickBarDefinitions": {
+        "QuickbarSlots": [
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponHarvest"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponMelee",
+              "EFortItemType::WeaponRanged",
+              "EFortItemType::Gadget",
+              "EFortItemType::Consumable"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponMelee",
+              "EFortItemType::WeaponRanged",
+              "EFortItemType::Gadget",
+              "EFortItemType::Consumable"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponMelee",
+              "EFortItemType::WeaponRanged",
+              "EFortItemType::Gadget",
+              "EFortItemType::Consumable"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponMelee",
+              "EFortItemType::WeaponRanged",
+              "EFortItemType::Gadget",
+              "EFortItemType::Consumable"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::WeaponMelee",
+              "EFortItemType::WeaponRanged",
+              "EFortItemType::Gadget",
+              "EFortItemType::Consumable"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::HeroAbility"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::HomebaseGadget"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::HomebaseGadget"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "QuickBarDefinitions[1]": {
+        "QuickbarSlots": [
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::BuildingPiece"
+            ],
+            "bStaticSlot": true,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::BuildingPiece"
+            ],
+            "bStaticSlot": true,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::BuildingPiece"
+            ],
+            "bStaticSlot": true,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::BuildingPiece"
+            ],
+            "bStaticSlot": true,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::Trap"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::Trap"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "AcceptedItemTypes": [
+              "EFortItemType::Trap"
+            ],
+            "bStaticSlot": false,
+            "DefaultItem": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          }
+        ]
+      },
+      "GameStateClass": {
+        "ObjectName": "BlueprintGeneratedClass'Athena_GameState_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameState.2"
+      },
+      "PlayerControllerClass": {
+        "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameMode_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_GameMode_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.6"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_GameMode_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.4"
+      },
+      "VariableGuid": "6390FA7C-44EE047D-A4CB2594-59B22FE0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameMode_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'Athena_GameMode_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.5"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'Athena_GameMode_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.5"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_GameMode_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_GameMode.5"
+      }
+    }
+  }
+]

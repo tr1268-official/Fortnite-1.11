@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_EnergyCrystals",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/EnergyCrystals/Athena_EnergyCrystals",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/EnergyCrystals/GA_Athena_EnergyCrystals.GA_Athena_EnergyCrystals_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/EnergyCrystals/Athena_EnergyCrystals.Athena_EnergyCrystals",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Items/Art_noLOD/Meshes/S_Loot_Crystal_Red.S_Loot_Crystal_Red",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/shield_pickup_Athena_Cue.shield_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "E36922E14DF5612FA3F7F4BA3A57B1F5",
+        "SourceString": "Energy Crystals",
+        "LocalizedString": "Energy Crystals"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "8953485F451DA21DA661F3881600F903",
+        "SourceString": "Not to be confused with healing crystals.",
+        "LocalizedString": "Not to be confused with healing crystals."
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 2,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-S-Loot-Crystal-Red'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-Crystal-Red.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-S-Loot-Crystal-Red-L.T-Icon-S-Loot-Crystal-Red-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

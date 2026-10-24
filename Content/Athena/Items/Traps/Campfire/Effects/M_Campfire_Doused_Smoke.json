@@ -1,0 +1,359 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Campfire_Doused_Smoke",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 60,
+        "ExpressionName": "Color_Time_of_Day",
+        "UseConstant": false,
+        "Constant": {
+          "B": 74,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00004A"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bUsedWithBeamTrails": true,
+      "Expressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Campfire_Doused_Smoke:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.2"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Campfire_Doused_Smoke:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.3"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Campfire_Doused_Smoke:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_Campfire_Doused_Smoke:MaterialExpressionVectorParameter_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_Campfire_Doused_Smoke:MaterialExpressionVectorParameter_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_Campfire_Doused_Smoke:MaterialExpressionVectorParameter_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_Campfire_Doused_Smoke:MaterialExpressionVectorParameter_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.7"
+        }
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "8CB79C54-4BCF8609-151DE49E-CCDBD2A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'Color_Time_of_Day'",
+            "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/Color_Time_of_Day.2"
+          }
+        },
+        {
+          "StateId": "127A25CC-4BE0E6F9-0A2D99BF-43C74E15",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat4Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.0"
+          }
+        }
+      ],
+      "MaterialParameterCollectionInfos": [
+        {
+          "StateId": "A94D5006-4B63826C-8C4986A4-C8BDA176",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'FortniteMaterialParameters'",
+            "ObjectPath": "FortniteGame/Content/Packages/Fortress_SharedMaterials/GlobalMaterialParameters/FortniteMaterialParameters.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "C50373DC-40D22059-A14915B5-35D98ED2"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'Color_Time_of_Day'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/_Functions/Color_Time_of_Day.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "6D2116FF-477655F4-8CD548B4-BA427EA3",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "AEE37BCE-490413A9-FF10DA9E-292BB061",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1869377346",
+            "Mask": 1631870834,
+            "MaskR": 65657,
+            "MaskG": 65536,
+            "MaskB": 65536,
+            "MaskA": 65536,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components_4128767"
+          }
+        },
+        {
+          "ExpressionInputId": "DE8F52DF-4C556D18-5316B6AE-69BC2BBE",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "973084DA-4CDDEB2F-2194F3B6-1FD7E201",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BreakOutFloat4Components_1869377346",
+            "Mask": 1766743922,
+            "MaskR": 7628903,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 1,
+            "ExpressionName": "/Game/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "A59743C7-4AE61721-A18F9D9B-8B47B935",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 61,
+        "ExpressionName": "/Game/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke_96"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_NoisePack_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_NoisePack_01.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 61,
+        "ExpressionName": "/Game/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_NoisePack_01_96"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_NoisePack_01'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Gameplay/SmokeDustExplosions/Textures/T_NoisePack_01.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.8,
+        "G": 0.600943,
+        "B": 0.4,
+        "A": 0.0,
+        "Hex": "E8CCAA"
+      },
+      "ParameterName": "Tint Morning",
+      "ExpressionGUID": "B8F40844-4C8EEF4A-622460A0-56505C87",
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 0.935979,
+        "B": 0.82,
+        "A": 0.0,
+        "Hex": "FFF8EA"
+      },
+      "ParameterName": "Tint Day",
+      "ExpressionGUID": "082927F0-4967E449-C7F5FB84-33C253EA",
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.7,
+        "G": 0.56,
+        "B": 0.49,
+        "A": 0.0,
+        "Hex": "DAC6BA"
+      },
+      "ParameterName": "Tint Evening",
+      "ExpressionGUID": "0BA09B6A-4B43A239-0FEF3692-525B79F9",
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.35,
+        "G": 0.385362,
+        "B": 0.5,
+        "A": 0.0,
+        "Hex": "A0A7BC"
+      },
+      "ParameterName": "Tint Night",
+      "ExpressionGUID": "B066DC17-46465195-855241B4-26A33125",
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      }
+    }
+  }
+]

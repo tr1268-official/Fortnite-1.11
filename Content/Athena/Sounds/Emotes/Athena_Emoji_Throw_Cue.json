@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Emoji_Throw_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emoji_Throw_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeWavePlayer'Athena_Emoji_Throw_Cue:SoundNodeWavePlayer_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emoji_Throw_Cue.1"
+      },
+      "VolumeMultiplier": 0.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_DanceMusic'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_DanceMusic.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 1.8262917,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Emotes_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Emotes_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emoji_Throw_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emoji_Throw_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/FrontEnd/fort_new_menu_health_01.fort_new_menu_health_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'fort_new_menu_health_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/FrontEnd/fort_new_menu_health_01.0"
+    }
+  }
+]

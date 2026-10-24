@@ -1,0 +1,653 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_PlayerController_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Athena_PlayerController",
+    "Properties": {
+      "ComponentTemplates": [
+        {
+          "ObjectName": "AmbientControllerComponent_Athena_C'Athena_PlayerController_C:NODE_AddAmbientControllerComponent_Athena-1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.3"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_PlayerController_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.22"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'Athena_PlayerController_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortPlayerControllerAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'Athena_PlayerController_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.0"
+      },
+      {
+        "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+      },
+      {
+        "ObjectName": "Function'Athena_PlayerController_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.10"
+      },
+      {
+        "ObjectName": "Function'Athena_PlayerController_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.9"
+      },
+      {
+        "ObjectName": "Function'Athena_PlayerController_C:PlayWinEffects'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.8"
+      },
+      {
+        "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'Athena_PlayerController_C:ListenerOverride'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_Athena_PlayerController": {
+        "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+      },
+      "PlayWinEffects": {
+        "ObjectName": "Function'Athena_PlayerController_C:PlayWinEffects'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.8"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'Athena_PlayerController_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.9"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'Athena_PlayerController_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.10"
+      },
+      "IsLocalPlayerFriendsWithSquadMember": {
+        "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_PlayerController_C'Default__Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.2"
+    }
+  },
+  {
+    "Type": "Athena_PlayerController_C",
+    "Name": "Default__Athena_PlayerController_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Athena_PlayerController.Athena_PlayerController_C'",
+    "Package": "FortniteGame/Content/Athena/Athena_PlayerController",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AthenaSoundMix": {
+        "ObjectName": "SoundMix'Fort_Default_Athena_Mix'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Default_Athena_Mix.0"
+      },
+      "AudioOnExitAircraft": {
+        "ObjectName": "SoundCue'FlyingBus_Drop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Bus/FlyingBus_Drop_Cue.0"
+      },
+      "CustomizationLoadout": {
+        "Glider": {
+          "ObjectName": "AthenaGliderItemDefinition'DefaultGlider'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Cosmetics/Gliders/DefaultGlider.0"
+        },
+        "Pickaxe": {
+          "ObjectName": "AthenaPickaxeItemDefinition'DefaultPickaxe'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Cosmetics/Pickaxes/DefaultPickaxe.0"
+        }
+      },
+      "HUDVisibilityGameplayTags": [
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.Center.Reticle"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "87FD467A4CA8D16EE6A7FFA22237A97F",
+            "SourceString": "Reticle",
+            "LocalizedString": "Reticle"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "DFD45F894299B9CEB4BDB393B35C0B20",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.TopLeft.PlayerHitPoints"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "F4A98D194370C788EFCF21B8AC6CCE49",
+            "SourceString": "Player Health",
+            "LocalizedString": "Player Health"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "4449EC5D4751ED9F538CEAAB45FF8B4A",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.TopLeft.PickupManager"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "BF108DE047C712724AB700B208F3608F",
+            "SourceString": "Pickup Info",
+            "LocalizedString": "Pickup Info"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "E2007A304E38D32A35CE55ADF67C2BF1",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.TopRight.Minimap"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "BF294B0347FF399F33E3A49CED5BF1CF",
+            "SourceString": "Minimap",
+            "LocalizedString": "Minimap"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "5E1E45B14683605B99E6C2A03F67339A",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.Quickbar"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "DFA9B76A4A28ECC18CAD9EA377377677",
+            "SourceString": "Quick Bar",
+            "LocalizedString": "Quick Bar"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "E374FBAC40CCF3A15DB140AA389325D7",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.InWorld.BuildingInfoIndicator"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "CE3378F145EFEEF52533B2973F1F0A3B",
+            "SourceString": "Target Info",
+            "LocalizedString": "Target Info"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "B885F42442F1500B81DBCEB0BE1AFCBF",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.TopLeft.PlayerInfo"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Visible",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "312658B747632070868387833CDFA879",
+            "SourceString": "Interaction Info",
+            "LocalizedString": "Interaction Info"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "FA92DB734819BA0AB6437E8EAFDBB77B",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": false
+        },
+        {
+          "HUDVisibilityGameplayTag": {
+            "TagName": "HUD.TopLeft.NetDebugUI"
+          },
+          "DefaultHUDVisibility": "ESlateVisibility::Collapsed",
+          "DisplayText": {
+            "Namespace": "",
+            "Key": "9E4A59D440F4242AFF068EBFAB30DD2F",
+            "SourceString": "Net Debug Stats",
+            "LocalizedString": "Net Debug Stats"
+          },
+          "TooltipText": {
+            "Namespace": "",
+            "Key": "385E95DC409F53F1492D96A0DF102AA0",
+            "SourceString": "Changes the HUD element visibility in the game.",
+            "LocalizedString": "Changes the HUD element visibility in the game."
+          },
+          "bHideOnConsolePlatforms": true
+        }
+      ],
+      "GamepadSettingsAssetPtr": {
+        "AssetPathName": "/Game/Gamepad/AthenaGamepadSettings.AthenaGamepadSettings",
+        "SubPathString": ""
+      },
+      "MovementCancellableActionLeashLength": 75.0,
+      "PossibleInteractContextInfo": {
+        "ObjectName": "FortInteractContextInfo'Default__Athena_PlayerController_C:PossibleInteractContextInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.16"
+      },
+      "TransformComponent": {
+        "ObjectName": "SceneComponent'Default__Athena_PlayerController_C:TransformComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.20"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__Athena_PlayerController_C:TransformComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.20"
+      }
+    }
+  },
+  {
+    "Type": "AmbientControllerComponent_Athena_C",
+    "Name": "NODE_AddAmbientControllerComponent_Athena-1",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Sounds/Ambient/AmbientControllerComponent_Athena.AmbientControllerComponent_Athena_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "Template": {
+      "ObjectName": "AmbientControllerComponent_Athena_C'Default__AmbientControllerComponent_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/AmbientControllerComponent_Athena.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ListenerOverride",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_Athena_PlayerController",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.5"
+      },
+      {
+        "ObjectName": "BoolProperty'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController.CallFunc_IsLocalPlayerController_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.7"
+      },
+      {
+        "ObjectName": "StructProperty'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController.Temp_struct_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController.CallFunc_AddComponent_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsLocalPlayerController_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayWinEffects",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortPlayerControllerAthena:PlayWinEffects'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SquadMember",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerState'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "IsLocalPlayerFriendsWithSquadMember",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortPlayerControllerAthena:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.SquadMember'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.11"
+      },
+      {
+        "ObjectName": "BoolProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.18"
+      },
+      {
+        "ObjectName": "StructProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.CallFunc_GetLocalTeamTeamMemberInfo_TeamMemberInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.24"
+      },
+      {
+        "ObjectName": "BoolProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.CallFunc_GetLocalTeamTeamMemberInfo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.13"
+      },
+      {
+        "ObjectName": "BoolProperty'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember.CallFunc_IsTeamMemberFriend_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetLocalTeamTeamMemberInfo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsTeamMemberFriend_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FortInteractContextInfo",
+    "Name": "PossibleInteractContextInfo",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortInteractContextInfo'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerController_C'Default__Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddComponent_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'AmbientControllerComponent_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/AmbientControllerComponent_Athena.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPartyContext'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "TransformComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerController_C'Default__Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_PlayerController_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.22"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_PlayerController_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.19"
+      },
+      "VariableGuid": "A8E6DD4D-4F8B17B4-EB929A9E-A81042D9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_PlayerController_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_PlayerController_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.21"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:ExecuteUbergraph_Athena_PlayerController'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetLocalTeamTeamMemberInfo_TeamMemberInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'Athena_PlayerController_C:IsLocalPlayerFriendsWithSquadMember'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerController.12"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortTeamMemberInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  }
+]

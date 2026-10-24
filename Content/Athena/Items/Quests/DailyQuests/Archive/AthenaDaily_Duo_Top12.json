@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "AthenaDaily_Duo_Top12",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/DailyQuests/Archive/AthenaDaily_Duo_Top12",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 500
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "daily_athena_duo_top12_v2",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_athena_duo_top_12"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "627FC14D459B851F4DF264BBE86F9E32",
+            "SourceString": "Place within the top 12 teams in duo matches",
+            "LocalizedString": "Place within the top 12 teams in duo matches"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "81F5CCEF4928F6D9AF649686E0D8C216",
+            "SourceString": "Place Top 12 in Duo",
+            "LocalizedString": "Place Top 12 in Duo"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        }
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "DDEDE7E049137C986E127B9300A475AC",
+        "SourceString": "Daily Challenge Completed!",
+        "LocalizedString": "Daily Challenge Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "0A8D297F42C88D6993F3F6835C9F99E6",
+        "SourceString": "Place in the Top 12 in Duo Matches",
+        "LocalizedString": "Place in the Top 12 in Duo Matches"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "92EC6685441F6C93EF4EF18943A7450F",
+        "SourceString": "Duo Top 12",
+        "LocalizedString": "Duo Top 12"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Trophy-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Trophy-128.T-Icon-Trophy-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

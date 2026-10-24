@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "0FC5C56B-4335798F-20CB928C-F1C87421",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "6BC893C2-47FCFC56-7178CE94-4E213385",
+          "Output": {
+            "OutputName": "R",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "9720C81E-449DF8E5-514FCB8A-80FD5FA3",
+          "Output": {
+            "OutputName": "G",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "17CE6E2C-4E70841B-48F3D1B7-3828AA03",
+          "Output": {
+            "OutputName": "B",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+      },
+      "Outputs": [
+        {
+          "OutputName": "R",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "G",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "B",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": null
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Function": {
+        "ObjectName": "MaterialFunction'MF_SafeZoneTest'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.2"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialFunction",
+    "Name": "MF_SafeZoneTest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialFunction'",
+    "Package": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest",
+    "Properties": {
+      "StateId": "22D64C63-4770AAF2-8D3B8999-618FC7B8",
+      "Description": "Returns 1 if inside the specified safe zone, and 0 otherwise",
+      "FunctionExpressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_SafeZoneTest:MaterialExpressionMaterialFunctionCall_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.1"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MF_SafeZoneTest:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/MiniMap/MF_SafeZoneTest.0"
+        }
+      ]
+    }
+  }
+]

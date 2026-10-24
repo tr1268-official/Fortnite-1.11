@@ -1,0 +1,1034 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_Rifle_Smoke_Beam_Athena:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.10"
+    }
+  },
+  {
+    "Type": "DistributionVectorConstant",
+    "Name": "DistributionSourceTangent",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleBeamSource'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamSource_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.4"
+    },
+    "Properties": {
+      "Constant": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "DistributionVectorConstant",
+    "Name": "DistributionTargetTangent",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleBeamTarget'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamTarget_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.5"
+    },
+    "Properties": {
+      "Constant": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Rifle_Smoke_Beam_Athena:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.14"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Rifle_Smoke_Beam_Athena:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.10"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Rifle_Smoke_Beam_Athena:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.8"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Rifle_Smoke_Beam_Athena:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.11"
+        },
+        {
+          "ObjectName": "ParticleModuleBeamTarget'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamTarget_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.5"
+        },
+        {
+          "ObjectName": "ParticleModuleBeamSource'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamSource_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.4"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Rifle_Smoke_Beam_Athena:ParticleModuleColor_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.6"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_Rifle_Smoke_Beam_Athena:ParticleModuleColorScaleOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.7"
+        },
+        {
+          "ObjectName": "ParticleModuleParameterDynamic'P_Rifle_Smoke_Beam_Athena:ParticleModuleParameterDynamic_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.9"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataBeam2'P_Rifle_Smoke_Beam_Athena:ParticleModuleTypeDataBeam2_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.13"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Rifle_Smoke_Beam_Athena:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.12"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleBeamSource",
+    "Name": "ParticleModuleBeamSource_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleBeamSource'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "SourceMethod": "PEB2STM_UserSet",
+      "SourceName": "Source",
+      "Source": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            50.0,
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "SourceTangent": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstant'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamSource_1.DistributionSourceTangent'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.1"
+        }
+      },
+      "SourceStrength": {
+        "MinValue": 25.0,
+        "MaxValue": 25.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            25.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleBeamTarget",
+    "Name": "ParticleModuleBeamTarget_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleBeamTarget'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "TargetMethod": "PEB2STM_UserSet",
+      "TargetName": "Target",
+      "Target": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 50.0,
+          "Y": 50.0,
+          "Z": 50.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            50.0,
+            50.0,
+            50.0
+          ]
+        }
+      },
+      "bTargetAbsolute": true,
+      "TargetTangent": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstant'P_Rifle_Smoke_Beam_Athena:ParticleModuleBeamTarget_1.DistributionTargetTangent'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.2"
+        }
+      },
+      "TargetStrength": {
+        "MinValue": 25.0,
+        "MaxValue": 25.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            25.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": -0.000899,
+        "MaxValue": 1.9342446,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -0.000899
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.9342446
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 64,
+          "EntryStride": 3,
+          "TimeScale": 62.999996,
+          "Values": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.5145826,
+            0.0,
+            1.0,
+            1.8136908,
+            0.0,
+            1.0,
+            1.9293761,
+            0.0,
+            1.0,
+            1.8936905,
+            0.0,
+            1.0,
+            1.7386858,
+            0.0,
+            1.0,
+            1.4964137,
+            0.0,
+            1.0,
+            1.198926,
+            0.0,
+            1.0,
+            0.8782751,
+            0.0,
+            1.0,
+            0.5665124,
+            0.0,
+            1.0,
+            0.2956888,
+            0.0,
+            1.0,
+            0.09785724,
+            4.814271E-07,
+            1.0,
+            0.00459152,
+            5.287704E-05,
+            1.0,
+            -0.000899,
+            0.00029130827,
+            1.0,
+            -0.0008989999,
+            0.00078250864,
+            1.0,
+            -0.000899,
+            0.0015878712,
+            1.0,
+            -0.000899,
+            0.002768789,
+            1.0,
+            -0.00089900004,
+            0.0043866616,
+            1.0,
+            -0.000899,
+            0.006502881,
+            1.0,
+            -0.000899,
+            0.009178837,
+            1.0,
+            -0.000899,
+            0.012475926,
+            1.0,
+            -0.000899,
+            0.016455553,
+            1.0,
+            -0.000899,
+            0.021179091,
+            1.0,
+            -0.000899,
+            0.026707958,
+            1.0,
+            -0.000899,
+            0.033103533,
+            1.0,
+            -0.000899,
+            0.040427208,
+            1.0,
+            -0.000899,
+            0.048740387,
+            1.0,
+            -0.000899,
+            0.058104455,
+            1.0,
+            -0.000899,
+            0.06858082,
+            1.0,
+            -0.000899,
+            0.080230854,
+            1.0,
+            -0.000899,
+            0.09311595,
+            1.0,
+            -0.000899,
+            0.107646465,
+            0.9995273,
+            -0.0008981658,
+            0.1253166,
+            0.99652606,
+            -0.00089292746,
+            0.14623885,
+            0.99061584,
+            -0.000882771,
+            0.17015329,
+            0.9818957,
+            -0.0008680414,
+            0.1968004,
+            0.97046506,
+            -0.0008490838,
+            0.22592014,
+            0.95642316,
+            -0.0008262434,
+            0.25725296,
+            0.9398692,
+            -0.0007998651,
+            0.2905389,
+            0.92090267,
+            -0.0007702942,
+            0.32551843,
+            0.8996226,
+            -0.0007378755,
+            0.36193156,
+            0.87612844,
+            -0.0007029545,
+            0.3995188,
+            0.85051924,
+            -0.0006658758,
+            0.43802005,
+            0.8228946,
+            -0.00062698487,
+            0.47717607,
+            0.7933533,
+            -0.0005866264,
+            0.51672643,
+            0.76199526,
+            -0.000545146,
+            0.5564119,
+            0.7289192,
+            -0.00050288835,
+            0.5959725,
+            0.6942248,
+            -0.0004601988,
+            0.6351487,
+            0.6580108,
+            -0.00041742195,
+            0.6736802,
+            0.6203771,
+            -0.00037490364,
+            0.71130776,
+            0.58142257,
+            -0.00033298833,
+            0.7477713,
+            0.5412468,
+            -0.00029202158,
+            0.78281146,
+            0.49994856,
+            -0.00025234796,
+            0.81616795,
+            0.45762774,
+            -0.00021431313,
+            0.8475815,
+            0.41438305,
+            -0.00017826165,
+            0.8767919,
+            0.3703143,
+            -0.00014453907,
+            0.9035399,
+            0.32552022,
+            -0.000113489965,
+            0.92756516,
+            0.28010064,
+            -8.5460015E-05,
+            0.94860846,
+            0.23415431,
+            -6.0793773E-05,
+            0.96640974,
+            0.18778083,
+            -3.983659E-05,
+            0.98070925,
+            0.14107925,
+            -2.2933596E-05,
+            0.9912473,
+            0.09414914,
+            -1.0429796E-05,
+            0.9977641,
+            0.047089703,
+            -2.6702735E-06,
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0657955,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 1,
+          "TimeScale": 14.999999,
+          "Values": [
+            1.0,
+            1.0049847,
+            1.0173732,
+            1.033425,
+            1.0493562,
+            1.0613877,
+            1.0657601,
+            1.0586838,
+            1.0363958,
+            0.9951242,
+            0.9310743,
+            0.8405201,
+            0.71960676,
+            0.5646082,
+            0.2439583,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.2,
+        "MaxValue": 0.25,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.2,
+            0.25
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleParameterDynamic",
+    "Name": "ParticleModuleParameterDynamic_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleParameterDynamic'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "DynamicParams": [
+        {
+          "ParamName": "PannerOffset",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 0.0,
+            "MaxValue": 2.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 2,
+              "EntryCount": 1,
+              "EntryStride": 2,
+              "SubEntryStride": 1,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                0.0,
+                2.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param2",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param3",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        },
+        {
+          "ParamName": "Param4",
+          "bUseEmitterTime": false,
+          "bSpawnTimeOnly": false,
+          "ValueMethod": "EDPV_UserSet",
+          "bScaleVelocityByParamValue": false,
+          "ParamValue": {
+            "MinValue": 1.0,
+            "MaxValue": 1.0,
+            "Distribution": null,
+            "Table": {
+              "Op": 1,
+              "EntryCount": 1,
+              "EntryStride": 1,
+              "SubEntryStride": 0,
+              "TimeScale": 0.0,
+              "TimeBias": 0.0,
+              "Values": [
+                1.0
+              ],
+              "LockFlag": 0
+            }
+          }
+        }
+      ],
+      "UpdateFlags": 15,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "MaterialInstanceConstant'M_SmokeTrail_Beam_Athena'",
+        "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/Effects/Materials/M_SmokeTrail_Beam_Athena.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 0.1,
+      "EmitterLoops": 1,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Rifle_Smoke_Beam_Athena:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 80.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 100.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            80.0,
+            0.0,
+            0.0,
+            100.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataBeam2",
+    "Name": "ParticleModuleTypeDataBeam2_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataBeam2'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "TextureTile": 0,
+      "TextureTileDistance": 2500.0,
+      "MaxBeamCount": 1,
+      "Speed": 10000.0,
+      "Distance": {
+        "MinValue": 500.0,
+        "MaxValue": 500.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            500.0
+          ]
+        }
+      },
+      "TaperMethod": "PEBTM_Partial",
+      "TaperFactor": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "TaperScale": {
+        "MinValue": 0.25,
+        "MaxValue": 12.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 128,
+          "EntryStride": 1,
+          "TimeScale": 127.0,
+          "Values": [
+            0.25,
+            0.62007874,
+            0.9901575,
+            1.3602362,
+            1.730315,
+            2.1003938,
+            2.4704723,
+            2.8405511,
+            3.21063,
+            3.5807085,
+            3.9507873,
+            4.320866,
+            4.6909447,
+            5.061023,
+            5.4311023,
+            5.8011813,
+            6.17126,
+            6.5413384,
+            6.911417,
+            7.281496,
+            7.6515746,
+            8.021653,
+            8.391732,
+            8.761811,
+            9.131889,
+            9.501968,
+            9.872046,
+            10.242126,
+            10.612205,
+            10.982284,
+            11.352363,
+            11.722441,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            11.722441,
+            11.352363,
+            10.982284,
+            10.6122055,
+            10.242126,
+            9.872048,
+            9.50197,
+            9.131891,
+            8.761812,
+            8.391731,
+            8.021652,
+            7.651574,
+            7.2814956,
+            6.911417,
+            6.5413384,
+            6.17126,
+            5.8011813,
+            5.4311028,
+            5.061024,
+            4.6909456,
+            4.320867,
+            3.9507885,
+            3.5807095,
+            3.2106314,
+            2.8405495,
+            2.4704714,
+            2.1003933,
+            1.7303143,
+            1.3602352,
+            0.9901571,
+            0.62007904,
+            0.25
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Rifle_Smoke_Beam_Athena'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.15"
+    },
+    "Properties": {
+      "EmitterName": "Beam",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_Rifle_Smoke_Beam_Athena:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "P_Rifle_Smoke_Beam_Athena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_Rifle_Smoke_Beam_Athena:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Weapons/P_Rifle_Smoke_Beam_Athena.14"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

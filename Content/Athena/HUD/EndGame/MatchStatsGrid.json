@@ -1,0 +1,3315 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "AccuracyStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Target",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStat (Float)'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStat (Float)",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:SetStat (Float).Target'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.1"
+      },
+      {
+        "ObjectName": "FloatProperty'MatchStatsGrid_C:SetStat (Float).Value'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.57"
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Target",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStat (Integer)'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.4"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStat (Integer)",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:SetStat (Integer).Target'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.3"
+      },
+      {
+        "ObjectName": "IntProperty'MatchStatsGrid_C:SetStat (Integer).Value'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.109"
+      },
+      {
+        "ObjectName": "FloatProperty'MatchStatsGrid_C:SetStat (Integer).CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AthenaMatchStats",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStats'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'AthenaMatchStats'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStats",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MatchStatsGrid_C:SetStats.AthenaMatchStats'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.5"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "MatchStatsGrid_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/EndGame/MatchStatsGrid.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStats'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.6"
+      },
+      {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStat (Integer)'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.4"
+      },
+      {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStat (Float)'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:AccuracyStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:AssistsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.111"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:DamageReceivedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.112"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:DamageToPlayersStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.113"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:DistanceStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.114"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:HeadshotsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.115"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:HitsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.116"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:KillsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.117"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:MaterialsGatheredStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.118"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:MaterialsUsedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.119"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:RevivesStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.120"
+      },
+      {
+        "ObjectName": "ObjectProperty'MatchStatsGrid_C:StructuralDamageStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.121"
+      }
+    ],
+    "FuncMap": {
+      "SetStat (Float)": {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStat (Float)'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.2"
+      },
+      "SetStat (Integer)": {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStat (Integer)'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.4"
+      },
+      "SetStats": {
+        "ObjectName": "Function'MatchStatsGrid_C:SetStats'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.6"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MatchStatsGrid_C'Default__MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.8"
+    }
+  },
+  {
+    "Type": "MatchStatsGrid_C",
+    "Name": "Default__MatchStatsGrid_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.MatchStatsGrid_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "AccuracyStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "NumericType": "ECommonNumericType::Percentage",
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.66"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "AssistsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.80"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DamageReceivedStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_19'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.72"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DamageToPlayersStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_17'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.70"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DistanceStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "NumericType": "ECommonNumericType::Distance",
+      "FormattingSpecification": {
+        "MinimumFractionalDigits": 1,
+        "MaximumFractionalDigits": 2
+      },
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.78"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "HeadshotsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.82"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "HitsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_23'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.77"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "KillsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.62"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "MaterialsGatheredStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.64"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "MaterialsUsedStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_15'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.68"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "RevivesStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.84"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "StructuralDamageStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_21'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.75"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "AccuracyStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "NumericType": "ECommonNumericType::Percentage",
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_13'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.90"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "AssistsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.104"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DamageReceivedStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_19'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.96"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DamageToPlayersStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_17'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.94"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "DistanceStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "NumericType": "ECommonNumericType::Distance",
+      "FormattingSpecification": {
+        "MinimumFractionalDigits": 1,
+        "MaximumFractionalDigits": 2
+      },
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.102"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "HeadshotsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.106"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "HitsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_23'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.101"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "KillsStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.86"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "MaterialsGatheredStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.88"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "MaterialsUsedStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_15'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.92"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "RevivesStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_9'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.108"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonNumericTextBlock",
+    "Name": "StructuralDamageStat",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonNumericTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "PerformSizeInterpolation": false,
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "MinDesiredWidth": 130.0,
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_21'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.99"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E8D8FC084211D53E7CFD09A4DAA4E66A",
+        "SourceString": "Damage To Players",
+        "LocalizedString": "Damage To Players"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.69"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "9CD23CDA46B54735955091A61AA682EF",
+        "SourceString": "Kills",
+        "LocalizedString": "Kills"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.61"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "560CF92548F46017942BD88A636E1BA8",
+        "SourceString": "Distance Traveled",
+        "LocalizedString": "Distance Traveled"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.73"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "76013A334A6C8AF69B2FB1B03C5B9C37",
+        "SourceString": "Assists",
+        "LocalizedString": "Assists"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.79"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "131751034B5A476C60EDA38B92D98C35",
+        "SourceString": "Head Shots",
+        "LocalizedString": "Head Shots"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.81"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E1F092DC41EBAB61837ED1B0DA904346",
+        "SourceString": "Damage Taken",
+        "LocalizedString": "Damage Taken"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_18'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.71"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "3470A20249C6F12BB502DDA61BDF1806",
+        "SourceString": "Revives",
+        "LocalizedString": "Revives"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.83"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "F973345642B0137C977BEAB31CBC3B62",
+        "SourceString": "Materials Gathered",
+        "LocalizedString": "Materials Gathered"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.63"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "11888089496BAECB50C8A7B27FF9CC54",
+        "SourceString": "Accuracy",
+        "LocalizedString": "Accuracy"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_12'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.65"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "804D9A0F4056DAC5D998198D8A02BC24",
+        "SourceString": "Materials Used",
+        "LocalizedString": "Materials Used"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.67"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "1CADC1C644A903F056B563947D5642BE",
+        "SourceString": "Hits",
+        "LocalizedString": "Hits"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_22'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.76"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "StructuralDamage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E13A9C0B478A14826B9C5BB8928D72E3",
+        "SourceString": "Damage To Structures",
+        "LocalizedString": "Damage To Structures"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_20'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.74"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E8D8FC084211D53E7CFD09A4DAA4E66A",
+        "SourceString": "Damage To Players",
+        "LocalizedString": "Damage To Players"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_16'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.93"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "9CD23CDA46B54735955091A61AA682EF",
+        "SourceString": "Kills",
+        "LocalizedString": "Kills"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.85"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "560CF92548F46017942BD88A636E1BA8",
+        "SourceString": "Distance Traveled",
+        "LocalizedString": "Distance Traveled"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.97"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "76013A334A6C8AF69B2FB1B03C5B9C37",
+        "SourceString": "Assists",
+        "LocalizedString": "Assists"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.103"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "131751034B5A476C60EDA38B92D98C35",
+        "SourceString": "Head Shots",
+        "LocalizedString": "Head Shots"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.105"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E1F092DC41EBAB61837ED1B0DA904346",
+        "SourceString": "Damage Taken",
+        "LocalizedString": "Damage Taken"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_18'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.95"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_31",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "3470A20249C6F12BB502DDA61BDF1806",
+        "SourceString": "Revives",
+        "LocalizedString": "Revives"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.107"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "F973345642B0137C977BEAB31CBC3B62",
+        "SourceString": "Materials Gathered",
+        "LocalizedString": "Materials Gathered"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_10'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.87"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_35",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "11888089496BAECB50C8A7B27FF9CC54",
+        "SourceString": "Accuracy",
+        "LocalizedString": "Accuracy"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_12'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.89"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_37",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "804D9A0F4056DAC5D998198D8A02BC24",
+        "SourceString": "Materials Used",
+        "LocalizedString": "Materials Used"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_14'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.91"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "1CADC1C644A903F056B563947D5642BE",
+        "SourceString": "Hits",
+        "LocalizedString": "Hits"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_22'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.100"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "StructuralDamage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E13A9C0B478A14826B9C5BB8928D72E3",
+        "SourceString": "Damage To Structures",
+        "LocalizedString": "Damage To Structures"
+      },
+      "Slot": {
+        "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_20'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.98"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Value",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStat (Float)'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStat (Integer)'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.4"
+    }
+  },
+  {
+    "Type": "GridPanel",
+    "Name": "StatGrid",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'MatchStatsGrid_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.122"
+    },
+    "Properties": {
+      "ColumnFill": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Slots": [
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.61"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.62"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.73"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.78"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.79"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.80"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.81"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.82"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.83"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.84"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.63"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.64"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.65"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.66"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.67"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.68"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.69"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.70"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.71"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.72"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.74"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_21'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.75"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_22'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.76"
+        },
+        {
+          "ObjectName": "GridSlot'MatchStatsGrid_C:WidgetTree.StatGrid.GridSlot_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.77"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GridPanel",
+    "Name": "StatGrid",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+    },
+    "Properties": {
+      "ColumnFill": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Slots": [
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.85"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.86"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.97"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.102"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.103"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.104"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.105"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.106"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.107"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.108"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.87"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.88"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.89"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.90"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.91"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.92"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.93"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.94"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.95"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.96"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.98"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_21'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.99"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_22'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.100"
+        },
+        {
+          "ObjectName": "GridSlot'WidgetArchetype:WidgetTree_0.StatGrid.GridSlot_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.101"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_23'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.34"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.KillsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.16"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 1,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_33'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.40"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 1,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.MaterialsGatheredStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.17"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_35'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.41"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 3,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.AccuracyStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.9"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 2,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.42"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 2,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.MaterialsUsedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.18"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 4,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.33"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 4,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DamageToPlayersStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.12"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 3,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.38"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 3,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DamageReceivedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.11"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_25'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.35"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 5,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.StructuralDamage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.44"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 5,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.StructuralDamageStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.20"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 4,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.43"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 4,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.HitsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.15"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DistanceStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.13"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_27'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.36"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 1,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.AssistsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.10"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 5,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_29'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.37"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 5,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.HeadshotsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.14"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_31'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.39"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+    },
+    "Properties": {
+      "Row": 2,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.RevivesStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.19"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_23'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.46"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.KillsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.28"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 1,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_33'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.52"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 1,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.MaterialsGatheredStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.29"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_35'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.53"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 3,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.AccuracyStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.21"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 2,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_37'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.54"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 2,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.MaterialsUsedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.30"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 4,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.45"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 4,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DamageToPlayersStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.24"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 3,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.50"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 3,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DamageReceivedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.23"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_25'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.47"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 5,
+      "Column": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.StructuralDamage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.56"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 5,
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.StructuralDamageStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.32"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_22",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 4,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.55"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 4,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.HitsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.27"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Column": 3,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DistanceStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.25"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_27'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.48"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 1,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.AssistsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.22"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 5,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_29'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.49"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 5,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.HeadshotsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.26"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 30.0
+      },
+      "Row": 2,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_31'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.51"
+      }
+    }
+  },
+  {
+    "Type": "GridSlot",
+    "Name": "GridSlot_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'GridSlot'",
+    "Outer": {
+      "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+    },
+    "Properties": {
+      "Row": 2,
+      "Column": 1,
+      "Parent": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      },
+      "Content": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.RevivesStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.31"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Value",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'MatchStatsGrid_C:SetStat (Integer)'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.4"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "MatchStatsGrid_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.MatchStatsGrid_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid",
+    "Template": {
+      "ObjectName": "MatchStatsGrid_C'Default__MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.8"
+    },
+    "Properties": {
+      "AccuracyStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.AccuracyStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.21"
+      },
+      "AssistsStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.AssistsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.22"
+      },
+      "DamageReceivedStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DamageReceivedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.23"
+      },
+      "DamageToPlayersStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DamageToPlayersStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.24"
+      },
+      "DistanceStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.DistanceStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.25"
+      },
+      "HeadshotsStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.HeadshotsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.26"
+      },
+      "HitsStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.HitsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.27"
+      },
+      "KillsStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.KillsStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.28"
+      },
+      "MaterialsGatheredStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.MaterialsGatheredStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.29"
+      },
+      "MaterialsUsedStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.MaterialsUsedStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.30"
+      },
+      "RevivesStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.RevivesStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.31"
+      },
+      "StructuralDamageStat": {
+        "ObjectName": "CommonNumericTextBlock'WidgetArchetype:WidgetTree_0.StructuralDamageStat'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.32"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.123"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AssistsStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DamageReceivedStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DamageToPlayersStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DistanceStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HeadshotsStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HitsStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "KillsStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MaterialsGatheredStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MaterialsUsedStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RevivesStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StructuralDamageStat",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonNumericTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'MatchStatsGrid_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.7"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "GridPanel'MatchStatsGrid_C:WidgetTree.StatGrid'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.59"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.34"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.KillsStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.16"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_25'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.35"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DistanceStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.13"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_27'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.36"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.AssistsStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.10"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_29'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.37"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.HeadshotsStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.14"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_31'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.39"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.RevivesStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.19"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_33'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.40"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.MaterialsGatheredStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.17"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_35'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.41"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.AccuracyStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.9"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_37'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.42"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.MaterialsUsedStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.18"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.33"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DamageToPlayersStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.12"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.38"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.DamageReceivedStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.11"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.StructuralDamage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.44"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.StructuralDamageStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.20"
+        },
+        {
+          "ObjectName": "CommonTextBlock'MatchStatsGrid_C:WidgetTree.CommonTextBlock_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.43"
+        },
+        {
+          "ObjectName": "CommonNumericTextBlock'MatchStatsGrid_C:WidgetTree.HitsStat'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "MatchStatsGrid_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.110"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "GridPanel'WidgetArchetype:WidgetTree_0.StatGrid'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/EndGame/MatchStatsGrid.60"
+      }
+    }
+  }
+]

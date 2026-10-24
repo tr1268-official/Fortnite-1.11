@@ -1,0 +1,219 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_PlayerPawnMacros_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'PlayerPawn_Athena_Generic_Parent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'PlayerPawn_Athena_Generic_Parent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.1"
+    },
+    "ClassFlags": "CLASS_Abstract | CLASS_Config | CLASS_Optional | CLASS_NotPlaceable | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    }
+  },
+  {
+    "Type": "Athena_PlayerPawnMacros_C",
+    "Name": "Default__Athena_PlayerPawnMacros_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Athena_PlayerPawnMacros.Athena_PlayerPawnMacros_C'",
+    "Package": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros",
+    "Template": {
+      "ObjectName": "PlayerPawn_Athena_Generic_Parent_C'Default__PlayerPawn_Athena_Generic_Parent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.2"
+    },
+    "Properties": {
+      "MeshParachuteOpen": {
+        "ObjectName": "SkeletalMeshComponent'Default__Athena_PlayerPawnMacros_C:MeshParachuteOpen0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.7"
+      },
+      "OutsideSafeZonePPComponent": {
+        "ObjectName": "PostProcessComponent'Default__Athena_PlayerPawnMacros_C:OutsideSafeZonePP0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.5"
+      },
+      "VocalChords": [
+        {
+          "FeedbackAudioComponent": {
+            "ObjectName": "AudioComponent'Default__Athena_PlayerPawnMacros_C:FeedbackAudioComp0'",
+            "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.2"
+          },
+          "ReplicatedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "PendingSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "QueuedSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          },
+          "CurrentSpokenLine": {
+            "Audio": null,
+            "AnimMontage": null,
+            "AnimSequence": null,
+            "Addressee": null,
+            "BroadcastFilter": "FFBF_None_Max",
+            "Delay": 0.0,
+            "bInterruptCurrentLine": false,
+            "bCanBeInterrupted": false,
+            "bCanQue": false
+          }
+        }
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__Athena_PlayerPawnMacros_C:CharacterMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.6"
+      },
+      "CharacterMovement": {
+        "ObjectName": "FortMovementComp_CharacterAthena'Default__Athena_PlayerPawnMacros_C:CharMoveComp'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.4"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__Athena_PlayerPawnMacros_C:CollisionCylinder'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.3"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__Athena_PlayerPawnMacros_C:CollisionCylinder'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.3"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "FeedbackAudioComp0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "AudioComponent'Default__PlayerPawn_Athena_Generic_Parent_C:FeedbackAudioComp0'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.25"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__Athena_PlayerPawnMacros_C:CollisionCylinder'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.3"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__PlayerPawn_Athena_Generic_Parent_C:CollisionCylinder'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.43"
+    }
+  },
+  {
+    "Type": "FortMovementComp_CharacterAthena",
+    "Name": "CharMoveComp",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMovementComp_CharacterAthena'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "FortMovementComp_CharacterAthena'Default__PlayerPawn_Athena_Generic_Parent_C:CharMoveComp'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.46"
+    }
+  },
+  {
+    "Type": "PostProcessComponent",
+    "Name": "OutsideSafeZonePP0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PostProcessComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "PostProcessComponent'Default__PlayerPawn_Athena_Generic_Parent_C:OutsideSafeZonePP0'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.51"
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "CharacterMesh0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__PlayerPawn_Athena_Generic_Parent_C:CharacterMesh0'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.56"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__Athena_PlayerPawnMacros_C:CollisionCylinder'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.3"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "MeshParachuteOpen0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_PlayerPawnMacros_C'Default__Athena_PlayerPawnMacros_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.1"
+    },
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__PlayerPawn_Athena_Generic_Parent_C:MeshParachuteOpen0'",
+      "ObjectPath": "FortniteGame/Content/Athena/PlayerPawn_Athena_Generic_Parent.57"
+    },
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponent'Default__Athena_PlayerPawnMacros_C:CharacterMesh0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Athena_PlayerPawnMacros.6"
+      }
+    }
+  }
+]

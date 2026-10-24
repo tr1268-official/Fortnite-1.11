@@ -1,0 +1,779 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "MiniReward1CountTB",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.3"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonTextBlock'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "HasReward",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupReward",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.3"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'SmallLevelUpReward_C:SetupReward.HasReward'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.1"
+      },
+      {
+        "ObjectName": "StructProperty'SmallLevelUpReward_C:SetupReward.RewardItem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.34"
+      },
+      {
+        "ObjectName": "IntProperty'SmallLevelUpReward_C:SetupReward.LevelRewarded'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.23"
+      },
+      {
+        "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.13"
+      },
+      {
+        "ObjectName": "TextProperty'SmallLevelUpReward_C:SetupReward.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.35"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'SmallLevelUpReward_C:SetupReward.CallFunc_GetSmallPreviewImage_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'SmallLevelUpReward_C:SetupReward.CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.26"
+      },
+      {
+        "ObjectName": "ObjectProperty'SmallLevelUpReward_C:SetupReward.K2Node_DynamicCast_AsTexture_2D'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.27"
+      },
+      {
+        "ObjectName": "BoolProperty'SmallLevelUpReward_C:SetupReward.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.5"
+      },
+      {
+        "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.14"
+      },
+      {
+        "ObjectName": "BoolProperty'SmallLevelUpReward_C:SetupReward.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.6"
+      },
+      {
+        "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "SmallLevelUpReward_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'SmallLevelUpReward_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.36"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Progression/SmallLevelUpReward.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+      },
+      {
+        "ObjectName": "ObjectProperty'SmallLevelUpReward_C:MiniReward1CountTB'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'SmallLevelUpReward_C:MiniReward1Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'SmallLevelUpReward_C:RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.25"
+      }
+    ],
+    "FuncMap": {
+      "SetupReward": {
+        "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SmallLevelUpReward_C'Default__SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.4"
+    }
+  },
+  {
+    "Type": "SmallLevelUpReward_C",
+    "Name": "Default__SmallLevelUpReward_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.SmallLevelUpReward_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.12"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.13"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.14"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "MiniReward1CountTB",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'SmallLevelUpReward_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.36"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "0D1A24494EC7520C2B0083A3030CFCAC",
+        "SourceString": "500",
+        "LocalizedString": "500"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'SmallLevelUpReward_C:WidgetTree.RewardContainer.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.18"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "MiniReward1CountTB",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.37"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-70pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-70pc.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "0D1A24494EC7520C2B0083A3030CFCAC",
+        "SourceString": "500",
+        "LocalizedString": "500"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.RewardContainer.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.20"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'SmallLevelUpReward_C:SetupReward.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.7"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.8"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'SmallLevelUpReward_C:SetupReward.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.9"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "RewardContainer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'SmallLevelUpReward_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.36"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'SmallLevelUpReward_C:WidgetTree.RewardContainer.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.17"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'SmallLevelUpReward_C:WidgetTree.RewardContainer.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.18"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "RewardContainer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.37"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.RewardContainer.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.19"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.RewardContainer.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.20"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 4.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'SmallLevelUpReward_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.28"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'SmallLevelUpReward_C:WidgetTree.MiniReward1CountTB'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.10"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 4.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.29"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.MiniReward1CountTB'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.11"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MiniReward1Image",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'SmallLevelUpReward_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.36"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-FNBR-SeasonalXP'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-FNBR-SeasonalXP.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'SmallLevelUpReward_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.30"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MiniReward1Image",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.37"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T-FNBR-SeasonalXP'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-FNBR-SeasonalXP.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.31"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LevelRewarded",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MiniReward1Image",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.3"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RewardContainer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.3"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'HorizontalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'SmallLevelUpReward_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.36"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'SmallLevelUpReward_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'SmallLevelUpReward_C:WidgetTree.RewardContainer.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.17"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.37"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.RewardContainer.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.19"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'SmallLevelUpReward_C:WidgetTree.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.28"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'SmallLevelUpReward_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.28"
+      },
+      "Content": {
+        "ObjectName": "Image'SmallLevelUpReward_C:WidgetTree.MiniReward1Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.21"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.29"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.MiniReward1Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.22"
+      }
+    }
+  },
+  {
+    "Type": "SmallLevelUpReward_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.SmallLevelUpReward_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward",
+    "Template": {
+      "ObjectName": "SmallLevelUpReward_C'Default__SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.4"
+    },
+    "Properties": {
+      "MiniReward1CountTB": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.MiniReward1CountTB'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.11"
+      },
+      "MiniReward1Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.MiniReward1Image'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.22"
+      },
+      "RewardContainer": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.37"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "CallFunc_GetSmallPreviewImage_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "RewardItem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortItemInstanceQuantityPair'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'SmallLevelUpReward_C:SetupReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.2"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'SmallLevelUpReward_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'SmallLevelUpReward_C:WidgetTree.RewardContainer'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.15"
+        },
+        {
+          "ObjectName": "SizeBox'SmallLevelUpReward_C:WidgetTree.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.28"
+        },
+        {
+          "ObjectName": "Image'SmallLevelUpReward_C:WidgetTree.MiniReward1Image'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.21"
+        },
+        {
+          "ObjectName": "CommonTextBlock'SmallLevelUpReward_C:WidgetTree.MiniReward1CountTB'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "SmallLevelUpReward_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.32"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.RewardContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/SmallLevelUpReward.16"
+      }
+    }
+  }
+]

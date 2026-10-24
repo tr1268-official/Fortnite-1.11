@@ -1,0 +1,455 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_SimpleContrailFireSmoke",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 71,
+        "ExpressionName": "BoolProperty",
+        "UseConstant": false,
+        "Constant": {
+          "B": 83,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000053"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bUsedWithParticleSprites": true,
+      "bUsedWithBeamTrails": true,
+      "Expressions": [
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_SimpleContrailFireSmoke:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.9"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_SimpleContrailFireSmoke:MaterialExpressionTextureSample_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.10"
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_SimpleContrailFireSmoke:MaterialExpressionTextureSample_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.11"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_SimpleContrailFireSmoke:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.12"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.7"
+        },
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.2"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_SimpleContrailFireSmoke:MaterialExpressionScalarParameter_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.4"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_SimpleContrailFireSmoke:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.1"
+        },
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "DD44CC9D-4987047F-E7B9B381-E4FC7145",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDepthFade'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "2E4B8A74-41E77EEF-BC1DEF95-C7571C7A"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CameraDepthFade'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "79FFEA6C-4F3A46F5-1F8E50A3-49E4BB4B",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "BlendMode_1701077317",
+            "Mask": 1852132384,
+            "MaskR": 6845543,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "D5EC0E2F-4DB88867-9BFC2A8B-921262ED",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "BlendMode_1701077317",
+            "Mask": 1717980960,
+            "MaskR": 7628147,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "7B4195E6-455691CA-37823986-87468578",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "Class_544370501",
+            "Mask": 1953654102,
+            "MaskR": 1394636901,
+            "MaskG": 1701077352,
+            "MaskB": 114,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "160C0042-4E845E29-3F44DCBE-13738CEE",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Fire Tile Y",
+      "ExpressionGUID": "12F2F754-4614D389-79FBA896-0EFDCA1D",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 4.0,
+      "ParameterName": "Opacity Adjust",
+      "ExpressionGUID": "62D5A701-4E66BF7D-312BE3B9-A295840A",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Blend Power",
+      "ExpressionGUID": "18234C9B-4676A67A-5A4A0CA1-A2EF9179",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 2.0,
+      "ParameterName": "Amplify",
+      "ExpressionGUID": "3F11E2AC-463B8B0E-862F82B7-AFE183FC",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Smoke Tile X",
+      "ExpressionGUID": "4A8A7B45-44C35770-17DE3896-328F04FC",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Smoke Tile Y",
+      "ExpressionGUID": "6FE7D175-4C1C7061-D072AEBE-2149AD30",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Fire Tile X",
+      "ExpressionGUID": "2760A32A-4C56B580-2F58F19D-A444ACBE",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Particle_EdgedBand'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Textures/T_Particle_EdgedBand.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 72,
+        "ExpressionName": "/Script/CoreUObject_109"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Smoke_Puff_Tile_Up'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/T_Smoke_Puff_Tile_Up.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "Coordinates": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 72,
+        "ExpressionName": "/Game/Effects/Fort_Effects/Textures/T_Smoke_Puff_Tile_Up_109"
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'T_Smoke_OUT'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/T_Smoke_Out.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.985,
+        "G": 0.483091,
+        "B": 0.076446,
+        "A": 1.0,
+        "Hex": "FEB94E"
+      },
+      "ParameterName": "Flame",
+      "ExpressionGUID": "17B079EC-4EB2F784-DC728284-CB3217B9",
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailFireSmoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailFireSmoke.0"
+      }
+    }
+  }
+]

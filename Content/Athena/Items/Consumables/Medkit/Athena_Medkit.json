@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Medkit",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Medkit/Athena_Medkit",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Medkit/GA_Athena_Medkit.GA_Athena_Medkit_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Medkit/Athena_Medkit.Athena_Medkit",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Items/Art_noLOD/Meshes/MedKit.MedKit",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/medkit_pickup_Athena_Cue.medkit_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "A273F450478F9707E861F88FE1AA1AF2",
+        "SourceString": "Med Kit",
+        "LocalizedString": "Med Kit"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "9742ABF241160C2ED1F83FB04A743EBF",
+        "SourceString": "Works wonders. Get all health back.",
+        "LocalizedString": "Works wonders. Get all health back."
+      },
+      "SearchTags": {
+        "Namespace": "",
+        "Key": "5736B3F34B523879010816A9DA8259DA",
+        "SourceString": "Gadget UtilityItem M80",
+        "LocalizedString": "Gadget UtilityItem M80"
+      },
+      "GameplayTags": [
+        "Gameplay.DamageSource.Ability"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 3,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-MedKit'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-Icon-MedKit.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-Icon-MedKit-L.T-Icon-MedKit-L",
+        "SubPathString": ""
+      }
+    }
+  }
+]

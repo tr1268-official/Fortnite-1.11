@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Emote_DanceMoves_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'Athena_Emote_DanceMoves_3P_Cue:SoundNodeRandom_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.1"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_DanceMusic_3P'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_DanceMusic_3P.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "VolumeScale": 0.5
+      },
+      "Duration": 7.811917,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Emotes_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Emotes_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_DanceMoves_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_DanceMoves_3P_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_DanceMoves_3P_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Emote_DanceMoves_3P_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_DanceMoves_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Music/Dance/ninja_dance_01.ninja_dance_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'ninja_dance_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Music/Dance/ninja_dance_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_DanceMoves_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Music/Dance/outlander_dance01.outlander_dance01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'outlander_dance01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Music/Dance/outlander_dance01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Emote_DanceMoves_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Emotes/Athena_Emote_DanceMoves_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Music/Dance/dance_soldier_03.dance_soldier_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'dance_soldier_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Music/Dance/dance_soldier_03.0"
+    }
+  }
+]

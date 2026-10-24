@@ -1,0 +1,121 @@
+[
+  {
+    "Type": "FortHeroType",
+    "Name": "HID_031_Athena_Commando_M_Retro",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortHeroType'",
+    "Package": "FortniteGame/Content/Athena/Heroes/HID_031_Athena_Commando_M_Retro",
+    "Properties": {
+      "Specializations": [
+        {
+          "AssetPathName": "/Game/Athena/Heroes/Specializations/HS_031_Athena_Commando_M_Retro.HS_031_Athena_Commando_M_Retro",
+          "SubPathString": ""
+        }
+      ],
+      "CombinedStatGEs": [
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_Vitality_Health.GE_Map_Athena_Vitality_Health_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_Inventory_StartingSize.GE_Map_Athena_Inventory_StartingSize_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        },
+        {
+          "GameplayEffect": {
+            "AssetPathName": "/Game/Athena/MappedEffects/GE_Map_Athena_StartingShields.GE_Map_Athena_StartingShields_C",
+            "SubPathString": ""
+          },
+          "Level": 0.0
+        }
+      ],
+      "RequiredGPTags": [
+        "Unlocks.Class.Commando"
+      ],
+      "OverridePawnClass": {
+        "AssetPathName": "/Game/Athena/PlayerPawn_Athena.PlayerPawn_Athena_C",
+        "SubPathString": ""
+      },
+      "FrontendAnimClass": {
+        "AssetPathName": "/Game/Abilities/Player/Pawns/MenuScreen_Athena.MenuScreen_Athena_C",
+        "SubPathString": ""
+      },
+      "LegacyStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'CharacterAttributesPlayer'",
+          "ObjectPath": "FortniteGame/Content/Characters/Player/DataTables/CharacterAttributesPlayer.0"
+        },
+        "RowName": "PlayerLoadout_AthenaPlayer"
+      },
+      "Gender": "EFortCustomGender::Male",
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "SuperRare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "SuperRare"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Hero.SR.T01"
+      },
+      "ConversionRecipes": [
+        {
+          "DataTable": null,
+          "RowName": "None"
+        }
+      ],
+      "MaxLevel": 10,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "2754F1604AC65C7F3AFFB0A5F2EEC968",
+        "SourceString": "Skull Trooper Jonesy",
+        "LocalizedString": "Skull Trooper Jonesy"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3938F9EA440540E86B2101A02BE7B042",
+        "SourceString": "Rifle-focused soldier who gets bonuses for successful headshots.",
+        "LocalizedString": "Rifle-focused soldier who gets bonuses for successful headshots."
+      },
+      "GameplayTags": [
+        "Homebase.Class.IsCommando.Headshot"
+      ],
+      "bNeverPersisted": true,
+      "Tier": "EFortItemTier::I",
+      "MaxTier": "EFortItemTier::V",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_SR_T01"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Soldier-HID-031-Athena-Commando-M-Retro'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-031-Athena-Commando-M-Retro.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/T-Soldier-HID-031-Athena-Commando-M-Retro-L.T-Soldier-HID-031-Athena-Commando-M-Retro-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Fine"
+    }
+  }
+]

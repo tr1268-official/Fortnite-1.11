@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "SID_Ceiling_Falling_Athena",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Schematics/Traps/SID_Ceiling_Falling_Athena",
+    "Properties": {
+      "CraftingRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'CraftingRecipes_New'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/CraftingRecipes_New.0"
+        },
+        "RowName": "Ammo.Shells"
+      },
+      "CraftingPoints": 45,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "CraftingTimeRowName": "Craft_Tier_2",
+      "DefaultAlterationSlots": [
+        {
+          "Type": "EFortAlteration::GameplaySlot",
+          "NumSlots": 1
+        },
+        {
+          "Type": "EFortAlteration::AttributeSlot",
+          "NumSlots": 4
+        }
+      ],
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "Rare"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "Rare"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Trap.R.T03"
+      },
+      "ConversionRecipes": [
+        {
+          "DataTable": null,
+          "RowName": "None"
+        }
+      ],
+      "MinLevel": 20,
+      "MaxLevel": 30,
+      "GameplayTags": [
+        "trap.ceiling"
+      ],
+      "bNeverPersisted": true,
+      "MaxTier": "EFortItemTier::V",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_R_T03"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Weapons-Cieling-Drop-TrapPickup'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-Cieling-Drop-TrapPickup.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Weapons-Cieling-Drop-TrapPickup.T-Icon-Weapons-Cieling-Drop-TrapPickup",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

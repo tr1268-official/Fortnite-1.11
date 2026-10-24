@@ -1,0 +1,1786 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_11'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.22"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.23"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.24"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_8'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.32"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionVectorConstantCurve",
+    "Name": "DistributionVectorConstantCurve_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorConstantCurve'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSizeMultiplyLife'P_Telenade_Trail_temp:ParticleModuleSizeMultiplyLife_9'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.29"
+    },
+    "Properties": {
+      "ConstantCurve": {
+        "Points": [
+          {
+            "InVal": -0.004444432,
+            "OutVal": {
+              "X": 0.26536238,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 2.728695,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 2.728695,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_CurveUser"
+          },
+          {
+            "InVal": 0.29586923,
+            "OutVal": {
+              "X": 0.69034606,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_CurveAutoClamped"
+          },
+          {
+            "InVal": 1.0,
+            "OutVal": {
+              "X": 0.0,
+              "Y": 1.0,
+              "Z": 1.0
+            },
+            "ArriveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "LeaveTangent": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "InterpMode": "CIM_Linear"
+          }
+        ]
+      },
+      "LockedAxes": "EDVLF_XYZ"
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_11'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.36"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.24"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.28"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_Telenade_Trail_temp:ParticleModuleColorScaleOverLife_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.16"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_Telenade_Trail_temp:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.34"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.32"
+      },
+      "PeakActiveParticles": 570
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_11'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.36"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.24"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.19"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.28"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.15"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_Telenade_Trail_temp:ParticleModuleColorScaleOverLife_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.16"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_Telenade_Trail_temp:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.34"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.32"
+      },
+      "PeakActiveParticles": 52
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_18'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.37"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.22"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.17"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.26"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.14"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_Telenade_Trail_temp:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_Telenade_Trail_temp:ParticleModuleSizeMultiplyLife_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.29"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag'P_Telenade_Trail_temp:ParticleModuleAccelerationDrag_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.11"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'P_Telenade_Trail_temp:ParticleModuleRotation_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.25"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocityInheritParent'P_Telenade_Trail_temp:ParticleModuleVelocityInheritParent_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.35"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_Telenade_Trail_temp:ParticleModuleTypeDataGpu_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.33"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_12'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.30"
+      },
+      "PeakActiveParticles": 6
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_58",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_18'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.37"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_11'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.22"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.17"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.26"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.13"
+        },
+        {
+          "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_Telenade_Trail_temp:ParticleModuleLocationPrimitiveSphere_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.21"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_Telenade_Trail_temp:ParticleModuleSizeMultiplyLife_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.29"
+        },
+        {
+          "ObjectName": "ParticleModuleAccelerationDrag'P_Telenade_Trail_temp:ParticleModuleAccelerationDrag_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.11"
+        },
+        {
+          "ObjectName": "ParticleModuleRotation'P_Telenade_Trail_temp:ParticleModuleRotation_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.25"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocityInheritParent'P_Telenade_Trail_temp:ParticleModuleVelocityInheritParent_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.35"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataGpu'P_Telenade_Trail_temp:ParticleModuleTypeDataGpu_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.33"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_12'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.30"
+      },
+      "PeakActiveParticles": 6
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.38"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.23"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.27"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.15"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset'P_Telenade_Trail_temp:ParticleModuleCameraOffset_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.12"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_Telenade_Trail_temp:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.20"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.31"
+      },
+      "PeakActiveParticles": 3
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_5'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.38"
+    },
+    "Properties": {
+      "Level": 1,
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.23"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.18"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.27"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Telenade_Trail_temp:ParticleModuleColor_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.15"
+        },
+        {
+          "ObjectName": "ParticleModuleCameraOffset'P_Telenade_Trail_temp:ParticleModuleCameraOffset_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.12"
+        },
+        {
+          "ObjectName": "ParticleModuleLight'P_Telenade_Trail_temp:ParticleModuleLight_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.20"
+        }
+      ],
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.31"
+      },
+      "PeakActiveParticles": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleAccelerationDrag",
+    "Name": "ParticleModuleAccelerationDrag_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAccelerationDrag'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "DragCoefficientRaw": {
+        "MinValue": 5.0,
+        "MaxValue": 5.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            5.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleCameraOffset",
+    "Name": "ParticleModuleCameraOffset_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleCameraOffset'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "CameraOffset": {
+        "MinValue": 5.0,
+        "MaxValue": 5.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            5.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 50.425194,
+          "Z": 100.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 50.425194,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            50.425194,
+            100.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 3.249997,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            50.0,
+            3.249997,
+            5.232817
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 2
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartColor": {
+        "MaxValue": 50.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 15.501046,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 15.501046,
+          "Z": 50.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            15.501046,
+            50.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 0.2,
+        "MaxValue": 0.2,
+        "MinValueVec": {
+          "X": 0.2,
+          "Y": 0.2,
+          "Z": 0.2
+        },
+        "MaxValueVec": {
+          "X": 0.2,
+          "Y": 0.2,
+          "Z": 0.2
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 2,
+          "EntryStride": 1,
+          "TimeScale": 1.0,
+          "Values": [
+            1.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.2,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.5,
+            0.2
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Lifetime": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleLight",
+    "Name": "ParticleModuleLight_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLight'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "bUseInverseSquaredFalloff": false,
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "BrightnessOverLife": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.5
+          ]
+        }
+      },
+      "RadiusScale": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            20.0
+          ]
+        }
+      },
+      "LightExponent": {
+        "MinValue": 6.0,
+        "MaxValue": 6.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            6.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleLocationPrimitiveSphere",
+    "Name": "ParticleModuleLocationPrimitiveSphere_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocationPrimitiveSphere'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartRadius": {
+        "MinValue": 40.0,
+        "MaxValue": 40.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            40.0
+          ]
+        }
+      },
+      "Velocity": true,
+      "VelocityScale": {
+        "MinValue": 0.5,
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.5,
+            3.0
+          ]
+        }
+      },
+      "StartLocation": {
+        "MaxValue": 40.0,
+        "MinValueVec": {
+          "X": 40.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 40.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            40.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_Smasher_GPU_Particles'",
+        "ObjectPath": "FortniteGame/Content/Characters/Enemies/Smasher/Materials/M_Smasher_GPU_Particles.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "EmitterDuration": 1.5,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Telenade_Trail_temp:ParticleModuleRequired_11.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_RadialGlow_DepthFade'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Materials/Base/M_RadialGlow_DepthFade.0"
+      },
+      "bUseLocalSpace": true,
+      "bKillOnDeactivate": true,
+      "bUseLegacyEmitterTime": false,
+      "EmitterLoops": 1,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Telenade_Trail_temp:ParticleModuleRequired_3.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.1"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_BR_Eye_Ribbon'",
+        "ObjectPath": "FortniteGame/Content/Missions/Secondary/BossRampage2/M_BR_Eye_Ribbon.0"
+      },
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Telenade_Trail_temp:ParticleModuleRequired_5.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.2"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleRotation",
+    "Name": "ParticleModuleRotation_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRotation'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartRotation": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 2,
+          "SubEntryStride": 1,
+          "Values": [
+            0.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 8.0,
+        "MinValueVec": {
+          "X": 4.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 8.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            4.0,
+            0.0,
+            0.0,
+            8.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 12.0,
+        "MinValueVec": {
+          "X": 12.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 12.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            12.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 5.0,
+        "MinValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            5.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "Distribution": {
+          "ObjectName": "DistributionVectorConstantCurve'P_Telenade_Trail_temp:ParticleModuleSizeMultiplyLife_9.DistributionVectorConstantCurve_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.4"
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 20.0,
+        "MaxValue": 20.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            20.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Rate": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstList": [
+        {
+          "Count": 1,
+          "CountLow": -1,
+          "Time": 0.0
+        }
+      ],
+      "BurstScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 50.0,
+        "MaxValue": 50.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            50.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Telenade_Trail_temp:ParticleModuleSpawn_8.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.3"
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataGpu",
+    "Name": "ParticleModuleTypeDataGpu_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataGpu'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "EmitterInfo": {
+        "RequiredModule": {
+          "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.22"
+        },
+        "SpawnModule": {
+          "ObjectName": "ParticleModuleSpawn'P_Telenade_Trail_temp:ParticleModuleSpawn_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.30"
+        },
+        "SpawnModules": [
+          {
+            "ObjectName": "ParticleModuleRequired'P_Telenade_Trail_temp:ParticleModuleRequired_11'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.22"
+          },
+          {
+            "ObjectName": "ParticleModuleLifetime'P_Telenade_Trail_temp:ParticleModuleLifetime_11'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.17"
+          },
+          {
+            "ObjectName": "ParticleModuleSize'P_Telenade_Trail_temp:ParticleModuleSize_17'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.26"
+          },
+          {
+            "ObjectName": "ParticleModuleLocationPrimitiveSphere'P_Telenade_Trail_temp:ParticleModuleLocationPrimitiveSphere_0'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.21"
+          },
+          {
+            "ObjectName": "ParticleModuleRotation'P_Telenade_Trail_temp:ParticleModuleRotation_1'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.25"
+          },
+          {
+            "ObjectName": "ParticleModuleVelocityInheritParent'P_Telenade_Trail_temp:ParticleModuleVelocityInheritParent_0'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.35"
+          }
+        ],
+        "InvMaxSize": {
+          "X": 0.125,
+          "Y": 0.125
+        },
+        "InvRotationRateScale": 5.0,
+        "MaxLifetime": 0.2,
+        "MaxParticleCount": 6,
+        "ScreenAlignment": "PSA_Square"
+      },
+      "ResourceData": {
+        "QuantizedMiscSamples": [
+          {
+            "B": 0,
+            "G": 102,
+            "R": 102,
+            "A": 0,
+            "Hex": "666600"
+          },
+          {
+            "B": 0,
+            "G": 133,
+            "R": 133,
+            "A": 0,
+            "Hex": "858500"
+          },
+          {
+            "B": 0,
+            "G": 160,
+            "R": 160,
+            "A": 0,
+            "Hex": "A0A000"
+          },
+          {
+            "B": 0,
+            "G": 184,
+            "R": 184,
+            "A": 0,
+            "Hex": "B8B800"
+          },
+          {
+            "B": 0,
+            "G": 205,
+            "R": 205,
+            "A": 0,
+            "Hex": "CDCD00"
+          },
+          {
+            "B": 0,
+            "G": 222,
+            "R": 222,
+            "A": 0,
+            "Hex": "DEDE00"
+          },
+          {
+            "B": 0,
+            "G": 235,
+            "R": 235,
+            "A": 0,
+            "Hex": "EBEB00"
+          },
+          {
+            "B": 0,
+            "G": 246,
+            "R": 246,
+            "A": 0,
+            "Hex": "F6F600"
+          },
+          {
+            "B": 0,
+            "G": 252,
+            "R": 252,
+            "A": 0,
+            "Hex": "FCFC00"
+          },
+          {
+            "B": 0,
+            "G": 255,
+            "R": 255,
+            "A": 0,
+            "Hex": "FFFF00"
+          },
+          {
+            "B": 0,
+            "G": 254,
+            "R": 254,
+            "A": 0,
+            "Hex": "FEFE00"
+          },
+          {
+            "B": 0,
+            "G": 250,
+            "R": 250,
+            "A": 0,
+            "Hex": "FAFA00"
+          },
+          {
+            "B": 0,
+            "G": 243,
+            "R": 243,
+            "A": 0,
+            "Hex": "F3F300"
+          },
+          {
+            "B": 0,
+            "G": 234,
+            "R": 234,
+            "A": 0,
+            "Hex": "EAEA00"
+          },
+          {
+            "B": 0,
+            "G": 223,
+            "R": 223,
+            "A": 0,
+            "Hex": "DFDF00"
+          },
+          {
+            "B": 0,
+            "G": 210,
+            "R": 210,
+            "A": 0,
+            "Hex": "D2D200"
+          },
+          {
+            "B": 0,
+            "G": 195,
+            "R": 195,
+            "A": 0,
+            "Hex": "C3C300"
+          },
+          {
+            "B": 0,
+            "G": 180,
+            "R": 180,
+            "A": 0,
+            "Hex": "B4B400"
+          },
+          {
+            "B": 0,
+            "G": 163,
+            "R": 163,
+            "A": 0,
+            "Hex": "A3A300"
+          },
+          {
+            "B": 0,
+            "G": 146,
+            "R": 146,
+            "A": 0,
+            "Hex": "929200"
+          },
+          {
+            "B": 0,
+            "G": 129,
+            "R": 129,
+            "A": 0,
+            "Hex": "818100"
+          },
+          {
+            "B": 0,
+            "G": 111,
+            "R": 111,
+            "A": 0,
+            "Hex": "6F6F00"
+          },
+          {
+            "B": 0,
+            "G": 94,
+            "R": 94,
+            "A": 0,
+            "Hex": "5E5E00"
+          },
+          {
+            "B": 0,
+            "G": 77,
+            "R": 77,
+            "A": 0,
+            "Hex": "4D4D00"
+          },
+          {
+            "B": 0,
+            "G": 61,
+            "R": 61,
+            "A": 0,
+            "Hex": "3D3D00"
+          },
+          {
+            "B": 0,
+            "G": 47,
+            "R": 47,
+            "A": 0,
+            "Hex": "2F2F00"
+          },
+          {
+            "B": 0,
+            "G": 34,
+            "R": 34,
+            "A": 0,
+            "Hex": "222200"
+          },
+          {
+            "B": 0,
+            "G": 22,
+            "R": 22,
+            "A": 0,
+            "Hex": "161600"
+          },
+          {
+            "B": 0,
+            "G": 13,
+            "R": 13,
+            "A": 0,
+            "Hex": "0D0D00"
+          },
+          {
+            "B": 0,
+            "G": 6,
+            "R": 6,
+            "A": 0,
+            "Hex": "060600"
+          },
+          {
+            "B": 0,
+            "G": 1,
+            "R": 1,
+            "A": 0,
+            "Hex": "010100"
+          },
+          {
+            "B": 0,
+            "G": 0,
+            "R": 0,
+            "A": 0,
+            "Hex": "000000"
+          }
+        ],
+        "ColorBias": {
+          "X": 0.0,
+          "Y": 50.425194,
+          "Z": 100.0,
+          "W": 1.0
+        },
+        "MiscScale": {
+          "X": 5.5206437,
+          "Y": 5.5206437,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "MiscBias": {
+          "X": 1.5832484E-08,
+          "Y": 1.5832484E-08,
+          "Z": 0.0,
+          "W": 0.0
+        },
+        "SimulationAttrCurveBias": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "SubImageSize": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "SizeBySpeed": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 1.0,
+          "W": 1.0
+        },
+        "PerParticleVectorFieldBias": 1.0,
+        "DragCoefficientBias": 5.0,
+        "CollisionRadiusScale": 0.5,
+        "CollisionRandomDistribution": 1.0,
+        "OneMinusFriction": 1.0,
+        "RotationRateScale": 0.2,
+        "ScreenAlignment": "PSA_Square"
+      },
+      "bClearExistingParticlesOnInit": true,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "bTangentRecalculationEveryFrame": true,
+      "bSpawnInitialParticle": true,
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocityInheritParent",
+    "Name": "ParticleModuleVelocityInheritParent_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocityInheritParent'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "Scale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 3
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_11.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.5"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_11.ParticleLODLevel_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "EmitterName": "GPU_Core",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_18.ParticleLODLevel_58'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.8"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_18.ParticleLODLevel_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Telenade_Trail_temp'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.39"
+    },
+    "Properties": {
+      "EmitterName": "GlowWide_FARLOD",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_5.ParticleLODLevel_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.9"
+        },
+        {
+          "ObjectName": "ParticleLODLevel'P_Telenade_Trail_temp:ParticleSpriteEmitter_5.ParticleLODLevel_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "P_Telenade_Trail_temp",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.38"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.37"
+        },
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_Telenade_Trail_temp:ParticleSpriteEmitter_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Telenade/P_Telenade_Trail_temp.36"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0,
+        2500.0
+      ],
+      "bRegenerateLODDuplicate": true,
+      "LODSettings": [
+        {},
+        {}
+      ],
+      "bUseFixedRelativeBoundingBox": true,
+      "FixedRelativeBoundingBox": {
+        "Min": {
+          "X": -403.34903,
+          "Y": -403.34903,
+          "Z": -403.34903
+        },
+        "Max": {
+          "X": 403.34903,
+          "Y": 403.34903,
+          "Z": 403.34903
+        },
+        "IsValid": 1
+      },
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayersImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaPlayersLeftWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaPlayersLeftWidget_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaPlayersLeftWidget_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.15"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaPlayersLeftWidget.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaPlayersLeftBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaPlayersLeftWidget_C:PlayersImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.0"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaPlayersLeftWidget_C:TeamsLeft'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.14"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaPlayersLeftWidget_C'Default__AthenaPlayersLeftWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.2"
+    }
+  },
+  {
+    "Type": "AthenaPlayersLeftWidget_C",
+    "Name": "Default__AthenaPlayersLeftWidget_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.AthenaPlayersLeftWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget",
+    "Properties": {
+      "HUDElementTag": [
+        "HUD.Athena.PlayersLeft"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaPlayersLeftWidget_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.AthenaPlayersLeftWidget_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget",
+    "Template": {
+      "ObjectName": "AthenaPlayersLeftWidget_C'Default__AthenaPlayersLeftWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.2"
+    },
+    "Properties": {
+      "PlayersImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayersImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.13"
+      },
+      "PlayersLeftText": {
+        "ObjectName": "FortRichTextBlock'WidgetArchetype:WidgetTree_0.PlayersLeftText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.5"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.16"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "FortRichTextBlock",
+    "Name": "PlayersLeftText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaPlayersLeftWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.15"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "074D2253414D9EBD6D60CDA30C6ECCE5",
+        "SourceString": "100",
+        "LocalizedString": "100"
+      },
+      "StyleSet": {
+        "ObjectName": "DataTable'PlayersLeftStyle'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/PlayersLeftStyle.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.9"
+      }
+    }
+  },
+  {
+    "Type": "FortRichTextBlock",
+    "Name": "PlayersLeftText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortRichTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.16"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "074D2253414D9EBD6D60CDA30C6ECCE5",
+        "SourceString": "100",
+        "LocalizedString": "100"
+      },
+      "StyleSet": {
+        "ObjectName": "DataTable'PlayersLeftStyle'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/PlayersLeftStyle.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.11"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaPlayersLeftWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.15"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.8"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.16"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.10"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaPlayersLeftWidget_C:WidgetTree.PlayersImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.12"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 1.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+      },
+      "Content": {
+        "ObjectName": "FortRichTextBlock'AthenaPlayersLeftWidget_C:WidgetTree.PlayersLeftText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.4"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.7"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.7"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayersImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.13"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.7"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 1.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.7"
+      },
+      "Content": {
+        "ObjectName": "FortRichTextBlock'WidgetArchetype:WidgetTree_0.PlayersLeftText'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.5"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "PlayersImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaPlayersLeftWidget_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.15"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 34.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'AliveIco'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/AliveIco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.8"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "PlayersImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.16"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 34.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'AliveIco'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/AliveIco.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.10"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "TeamsLeft",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaPlayersLeftWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaPlayersLeftWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "HorizontalBox'AthenaPlayersLeftWidget_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.6"
+        },
+        {
+          "ObjectName": "Image'AthenaPlayersLeftWidget_C:WidgetTree.PlayersImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.12"
+        },
+        {
+          "ObjectName": "FortRichTextBlock'AthenaPlayersLeftWidget_C:WidgetTree.PlayersLeftText'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaPlayersLeftWidget_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaPlayersLeftWidget.7"
+      }
+    }
+  }
+]

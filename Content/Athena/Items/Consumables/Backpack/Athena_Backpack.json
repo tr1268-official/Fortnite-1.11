@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_Backpack",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Backpack/Athena_Backpack",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Bandage/B_Proj_Athena_Bandage.B_Proj_Athena_Bandage_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_M80"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Backpack/GA_Athena_Backpack.GA_Athena_Backpack_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Backpack/Athena_Backpack.Athena_Backpack",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Glow_Torch.HUD_Xhair_Glow_Torch",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapViewableDistance": 0.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/Backpack/Shelters_Backpack02.Shelters_Backpack02",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/medkit_pickup_Athena_Cue.medkit_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "ItemType": "EFortItemType::Consumable",
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F6F04B134A29A636145889933D46C105",
+        "SourceString": "Backpack",
+        "LocalizedString": "Backpack"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "1D00C8544E74E9AF1E2CBEB892A55BC8",
+        "SourceString": "Increases inventory size.",
+        "LocalizedString": "Increases inventory size."
+      },
+      "GameplayTags": [
+        "Event.Athena.Backpack.Owned"
+      ],
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "bAllowMultipleStacks": false,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Backpack-64'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/HUD/T-Icon-Backpack-64.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/HUD/T-Icon-Backpack-128.T-Icon-Backpack-128",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

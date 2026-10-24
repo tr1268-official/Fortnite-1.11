@@ -1,0 +1,1964 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaInventoryFortItemTileButton_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Bindings": [
+        {
+          "ObjectName": "ItemWidgetHolder",
+          "PropertyName": "OnMouseButtonDownEvent",
+          "FunctionName": "On_ItemWidgetHolder_MouseButtonDown",
+          "SourcePath": {
+            "Segments": [
+              {
+                "Name": "On_ItemWidgetHolder_MouseButtonDown",
+                "ArrayIndex": -1
+              }
+            ]
+          },
+          "Kind": "EBindingKind::Function"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AthenaInventoryFortItemTileButtonBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.0"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateStyle'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.12"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnInventoryItemSelected_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.11"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.9"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.8"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.7"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.56"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaInventoryFortItemTileButton": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.6"
+      },
+      "OnSelected": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnSelected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.7"
+      },
+      "Destruct": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:Destruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.8"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.9"
+      },
+      "OnInventoryItemSelected_Event_0": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnInventoryItemSelected_Event_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.11"
+      },
+      "UpdateStyle": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateStyle'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.12"
+      },
+      "OnDragDetected": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+      },
+      "UpdateInteractionWidgetVisibility": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+      },
+      "On_ItemWidgetHolder_MouseButtonDown": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+      },
+      "OnFocusReceived": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+      },
+      "OnDrop": {
+        "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaInventoryFortItemTileButton_C'Default__AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.2"
+    }
+  },
+  {
+    "Type": "AthenaInventoryFortItemTileButton_C",
+    "Name": "Default__AthenaInventoryFortItemTileButton_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.AthenaInventoryFortItemTileButton_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ItemCardSize": "EFortItemCardSize::S",
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'WorldItemTileButtonStyle_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/WorldItemTileButtonStyle.0"
+      },
+      "bSelectable": true,
+      "bInteractableWhenSelected": true,
+      "bToggleable": true,
+      "ClickMethod": "EButtonClickMethod::MouseDown",
+      "ForegroundColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaInventoryFortItemTileButton_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.AthenaInventoryFortItemTileButton_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton",
+    "Template": {
+      "ObjectName": "AthenaInventoryFortItemTileButton_C'Default__AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.2"
+    },
+    "Properties": {
+      "DropTarget": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.53"
+      },
+      "InputActionWrapper": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.69"
+      },
+      "ItemWidgetHolder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.37"
+      },
+      "ItemWidget": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.51"
+      },
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.45"
+      },
+      "NormalStyle": {
+        "Disabled": {}
+      },
+      "SelectedStyle": {
+        "Disabled": {}
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DropTarget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaInventoryFortItemTileButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton.K2Node_CustomEvent_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.54"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSelected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnSelected'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Destruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Destruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnInventoryItemSelected_Event_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInventoryItemSelected_Event_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnInventoryItemSelected_Event_0.Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateStyle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDragDetected",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDragDetected'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.13"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.85"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_CreateDragDropOperation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.59"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_GetInputEventFromPointerEvent_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.84"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_InputEvent_IsShiftDown_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.22"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_GetCardSize_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.16"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.15"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateInteractionWidgetVisibility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.16"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.49"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_GetData_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.64"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.K2Node_DynamicCast_AsFort_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.66"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.34"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_GetType_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_GetOwningController_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.65"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.31"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_IsEquipable_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.32"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.33"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.30"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.48"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "On_ItemWidgetHolder_MouseButtonDown",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.18"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.MouseEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.82"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.83"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_Unhandled_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.80"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.57"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_DetectDrag_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.79"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_IsUsingGamepad_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.20"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.21"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown.CallFunc_Unhandled_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.81"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_InputEvent_IsShiftDown_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFocusReceived",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnFocusReceived'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnFocusReceived.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.23"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnFocusReceived.InFocusEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.88"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnFocusReceived.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.89"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnFocusReceived.CallFunc_Unhandled_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.87"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnDrop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:OnDrop'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnDrop.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.25"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaInventoryFortItemTileButton_C:OnDrop.PointerEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.86"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDrop.Operation'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.63"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:OnDrop.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.28"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:OnDrop.ValidDrop'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryFortItemTileButton_C:OnDrop.K2Node_DynamicCast_AsFort_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.62"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryFortItemTileButton_C:OnDrop.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.27"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ValidDrop",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsEquipable_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "ItemWidgetHolder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "OnMouseButtonDownEvent": {
+        "Object": null,
+        "FunctionName": "On_ItemWidgetHolder_MouseButtonDown_0"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.74"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ItemWidgetHolder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "OnMouseButtonDownEvent": {
+        "Object": null,
+        "FunctionName": "On_ItemWidgetHolder_MouseButtonDown_0"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ItemWidgetHolder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.78"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.36"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.36"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.50"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ItemWidgetHolder'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.37"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.37"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.51"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_GetCardSize_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.46"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_GetType_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.47"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.48"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.49"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.71"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 16.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "IconRimBrush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Button-Console-YellowOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/Materials/M-Button-Console-YellowOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Image"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.InputActionWrapper.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.75"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 16.0
+        }
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetCardSize_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortItemCardSize'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryFortItemTileButton_C:OnDragDetected.CallFunc_GetCardSize_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.40"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetType_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortItemType'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.CallFunc_GetType_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.41"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.42"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.43"
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.38"
+      }
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ItemWidgetHolder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.39"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropTarget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "Margin": {
+          "Left": 0.14,
+          "Top": 0.14,
+          "Right": 0.14,
+          "Bottom": 0.14
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-QuickbarSlot-Highlight'",
+          "ObjectPath": "FortniteGame/Content/UI/Quickbar/Icon-QuickbarSlot-Highlight.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.72"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropTarget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 64.0
+        },
+        "Margin": {
+          "Left": 0.14,
+          "Top": 0.14,
+          "Right": 0.14,
+          "Bottom": 0.14
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'Icon-QuickbarSlot-Highlight'",
+          "ObjectPath": "FortniteGame/Content/UI/Quickbar/Icon-QuickbarSlot-Highlight.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Border"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.76"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:ExecuteUbergraph_AthenaInventoryFortItemTileButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "InputActionWrapper",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Overlay'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemWidgetHolder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Border'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreateDragDropOperation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'AthenaInventoryDragDrop_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragDrop.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Operation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'DragDropOperation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetData_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningController_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:UpdateInteractionWidgetVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.17"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InputActionWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.73"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "RootOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryFortItemTileButton_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.90"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.74"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.73"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.72"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InputActionWrapper",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.InputActionWrapper.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.77"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "RootOverlay",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.91"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.78"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.77"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RootOverlay.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.76"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.67"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.67"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.44"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaInventoryFortItemTileButton_C:WidgetTree.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.52"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+      },
+      "Content": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.67"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+      },
+      "Content": {
+        "ObjectName": "Border'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.InputActionWrapper'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.69"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.69"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.45"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropTarget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.53"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.InputActionWrapper'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.69"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+      },
+      "Content": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ItemWidgetHolder'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.37"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_DetectDrag_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Unhandled_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Unhandled_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MouseEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:On_ItemWidgetHolder_MouseButtonDown'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.19"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetInputEventFromPointerEvent_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'InputEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDragDetected'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PointerEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnDrop'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Unhandled_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InFocusEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FocusEvent'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryFortItemTileButton_C:OnFocusReceived'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.24"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'EventReply'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryFortItemTileButton_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.RootOverlay'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.68"
+        },
+        {
+          "ObjectName": "Border'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidgetHolder'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.36"
+        },
+        {
+          "ObjectName": "FortMultiSizeItemCard'AthenaInventoryFortItemTileButton_C:WidgetTree.ItemWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.50"
+        },
+        {
+          "ObjectName": "Overlay'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWrapper'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.67"
+        },
+        {
+          "ObjectName": "CommonActionWidget'AthenaInventoryFortItemTileButton_C:WidgetTree.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.44"
+        },
+        {
+          "ObjectName": "Image'AthenaInventoryFortItemTileButton_C:WidgetTree.DropTarget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaInventoryFortItemTileButton_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RootOverlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryFortItemTileButton.70"
+      }
+    }
+  }
+]

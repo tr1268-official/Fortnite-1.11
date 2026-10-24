@@ -1,0 +1,337 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Temperate_Grasslands_Hills_Night_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeQualityLevel'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeQualityLevel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.7"
+      },
+      "VolumeMultiplier": 0.5,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Ambient_Outdoors_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Ambient_Outdoors_Athena.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Ambient_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Ambient_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeEnveloper",
+    "Name": "SoundNodeEnveloper_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeEnveloper'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "LoopEnd": 30.0,
+      "bLoopIndefinitely": true,
+      "bLoop": true,
+      "VolumeCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 16.142082,
+              "Value": 0.920999,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 30.000002,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "PitchCurve": {
+        "EditorCurveData": {
+          "Keys": [
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 0.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 15.946812,
+              "Value": 0.9181,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            },
+            {
+              "InterpMode": "RCIM_Cubic",
+              "TangentMode": "RCTM_Auto",
+              "TangentWeightMode": "RCTWM_WeightedNone",
+              "Time": 30.0,
+              "Value": 1.0,
+              "ArriveTangent": 0.0,
+              "ArriveTangentWeight": 0.0,
+              "LeaveTangent": 0.0,
+              "LeaveTangentWeight": 0.0
+            }
+          ]
+        }
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeModulator_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeModulator_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.9,
+      "PitchMax": 1.1,
+      "VolumeMin": 0.9,
+      "VolumeMax": 1.1,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeEnveloper'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeEnveloper_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.85,
+      "PitchMax": 0.85,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeWavePlayer_57'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.7,
+      "PitchMax": 0.7,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeWavePlayer_33'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.0,
+      "VolumeMin": 0.8,
+      "VolumeMax": 0.8,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeMixer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeQualityLevel",
+    "Name": "SoundNodeQualityLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeQualityLevel'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeModulator_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeModulator'Temperate_Grasslands_Hills_Night_Athena_Cue:SoundNodeModulator_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Mountain_Exterior/Mountain_Wind01.Mountain_Wind01",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Dread_Exterior/Spooky_Night02.Spooky_Night02",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_33",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Grassland_Exterior/Grassland_Evening04.Grassland_Evening04",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_57",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Temperate_Grasslands_Hills_Night_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/Temperate_Grasslands_Hills_Night_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Grassland_Exterior/Grassland_Dusk01.Grassland_Dusk01",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": null
+  }
+]

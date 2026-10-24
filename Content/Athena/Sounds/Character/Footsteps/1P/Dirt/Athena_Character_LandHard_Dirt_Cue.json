@@ -1,0 +1,235 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Character_LandHard_Dirt_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Athena_Character_LandHard_Dirt_Cue:SoundNodeModulator_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.2"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_1P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_1P_Athena.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 4,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 1.3011667,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_JumpAndLand_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_JumpAndLand_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Character_LandHard_Dirt_Cue:SoundNodeRandom_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Character_LandHard_Dirt_Cue:SoundNodeRandom_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 0.9,
+      "PitchMax": 1.1,
+      "VolumeMin": 0.7,
+      "VolumeMax": 1.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Athena_Character_LandHard_Dirt_Cue:SoundNodeMixer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_LandHard_Dirt_Cue:SoundNodeWavePlayer_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_LandHard_Dirt_Cue:SoundNodeWavePlayer_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_LandHard_Dirt_Cue:SoundNodeWavePlayer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_LandHard_Dirt_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Character_LandHard_Dirt_Cue:SoundNodeWavePlayer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/soldier_land_01.soldier_land_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'soldier_land_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/soldier_land_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Human/soldier_land_02.soldier_land_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'soldier_land_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Human/soldier_land_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Land_006.Commando_Land_006",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Land_006'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Land_006.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Land_002.Commando_Land_002",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Land_002'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Land_002.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Character_LandHard_Dirt_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/1P/Dirt/Athena_Character_LandHard_Dirt_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fortress_Foley/Commando/Commando_Land_005.Commando_Land_005",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Commando_Land_005'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fortress_Foley/Commando/Commando_Land_005.0"
+    }
+  }
+]

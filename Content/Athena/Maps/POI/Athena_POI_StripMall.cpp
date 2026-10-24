@@ -1,0 +1,1 @@
+class UAthena_POI_StripMall_C : public UFortLevelScriptActor;

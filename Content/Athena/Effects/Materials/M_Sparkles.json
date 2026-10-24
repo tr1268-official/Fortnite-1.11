@@ -1,0 +1,167 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_Sparkles",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 54,
+        "ExpressionName": "/Script/CoreUObject",
+        "UseConstant": false,
+        "Constant": {
+          "B": 62,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "00003E"
+        }
+      },
+      "Opacity": null,
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "bUsedWithParticleSprites": true,
+      "Expressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_Sparkles:MaterialExpressionTextureSample_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_Sparkles:MaterialExpressionMaterialFunctionCall_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.1"
+        },
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "DD44CC9D-4987047F-E7B9B381-E4FC7145",
+          "Function": {
+            "ObjectName": "MaterialFunction'CameraDepthFade'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "B72F269F-49271E2C-7A312CAD-EF254E7B"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_Sparkles'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CameraDepthFade'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "79FFEA6C-4F3A46F5-1F8E50A3-49E4BB4B",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "CameraDepthFade_1701077317",
+            "Mask": 1852132384,
+            "MaskR": 6845543,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "D5EC0E2F-4DB88867-9BFC2A8B-921262ED",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "CameraDepthFade_1701077317",
+            "Mask": 1717980960,
+            "MaskR": 7628147,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        },
+        {
+          "ExpressionInputId": "7B4195E6-455691CA-37823986-87468578",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "EBlendMode_544370501",
+            "Mask": 1953654102,
+            "MaskR": 1394636901,
+            "MaskG": 1701077352,
+            "MaskB": 114,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "160C0042-4E845E29-3F44DCBE-13738CEE",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_Sparkles'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_Sparkles'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_GlowStar_5pt'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/Textures/Flares/T_GlowStar_5pt.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_Sparkles'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_Sparkles.0"
+      }
+    }
+  }
+]

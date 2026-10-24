@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "AthenaEvent1_PlayMatches",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/Events/AthenaEvent1_PlayMatches",
+    "Properties": {
+      "QuestType": "EFortQuestType::AthenaEvent",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Items/PersistentResources/AthenaSeasonalXP.AthenaSeasonalXP",
+            "SubPathString": ""
+          },
+          "Quantity": 1000
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "athena_event_1_play_matches",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "complete_athena_event_1"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Max_None",
+          "Description": {
+            "Namespace": "",
+            "Key": "5A1D14AD42F7644002992987561DB5C0",
+            "SourceString": "Play Special Event Matches",
+            "LocalizedString": "Play Special Event Matches"
+          },
+          "HudShortDescription": {
+            "Namespace": "",
+            "Key": "B661074949BA9926EFA85AB8BAAB7E53",
+            "SourceString": "Play Special Event Matches",
+            "LocalizedString": "Play Special Event Matches"
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 3,
+          "Stage": -1,
+          "bHidden": false,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": true,
+          "DynamicUpdateCompletionDelay": 1.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "Category": {
+        "DataTable": {
+          "ObjectName": "DataTable'QuestCategoryTable'",
+          "ObjectPath": "FortniteGame/Content/Quests/QuestCategoryTable.0"
+        },
+        "RowName": "BREvent"
+      },
+      "CompletionText": {
+        "Namespace": "",
+        "Key": "0497FFB74134FB4056C256A6CD719CB5",
+        "SourceString": "Daily Challenge Completed!",
+        "LocalizedString": "Daily Challenge Completed!"
+      },
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "98549451459CA635B472B89944029406",
+        "SourceString": "Play Special Event Matches",
+        "LocalizedString": "Play Special Event Matches"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "502B495C49A7F3A863953CA05F69B277",
+        "SourceString": "Play Special Event Matches",
+        "LocalizedString": "Play Special Event Matches"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Icon-Daily-128'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Quest/T-Icon-Daily-128.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Quest/T-Icon-Daily-128.T-Icon-Daily-128",
+        "SubPathString": ""
+      }
+    }
+  }
+]

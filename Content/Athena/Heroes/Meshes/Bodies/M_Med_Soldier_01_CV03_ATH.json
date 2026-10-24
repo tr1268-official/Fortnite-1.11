@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "CustomCharacterBodyPartData",
+    "Name": "CustomCharacterBodyPartData_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterBodyPartData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'M_Med_Soldier_01_CV03_ATH'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/M_Med_Soldier_01_CV03_ATH.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Meshes/SK_M_Med_Soldier_04_Skeleton_AnimBP.SK_M_Med_Soldier_04_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "M_Med_Soldier_01_CV03_ATH",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/M_Med_Soldier_01_CV03_ATH",
+    "Properties": {
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "CharacterPartType": "EFortCustomPartType::Body",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterBodyPartData'M_Med_Soldier_01_CV03_ATH:CustomCharacterBodyPartData_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/M_Med_Soldier_01_CV03_ATH.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/SK_M_Med_Soldier_04_ATH.SK_M_Med_Soldier_04_ATH",
+        "SubPathString": ""
+      },
+      "MasterSkeletalMeshes": [
+        {
+          "AssetPathName": "/Game/Characters/Player/Male/Medium/Base/SK_M_MALE_Base_Skeleton.SK_M_MALE_Base_Skeleton",
+          "SubPathString": ""
+        }
+      ],
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Male/Medium/Bodies/M_Med_Soldier_04/Materials/CV03/M_Med_Soldier_04_CV03.M_Med_Soldier_04_CV03",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 1,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

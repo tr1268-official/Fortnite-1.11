@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_4xScope_Proto'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "ABA9B1C34FDB3CAE631893A6041FE8B8",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 24917,
+        "SizeOnDisk": 24917,
+        "OffsetInFile": "0x110DE"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_4xScope_Proto'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x1727B"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_4xScope_Proto",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_SniperScope_MeshMaterial_proto'",
+            "ObjectPath": "FortniteGame/Content/Weapons/FORT_Rifles/SniperScope/M_SniperScope_MeshMaterial_proto.0"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 6.019878,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 6.019878,
+      "LightMapResolution": 64,
+      "Sockets": [
+        {
+          "ObjectName": "StaticMeshSocket'S_4xScope_Proto:StaticMeshSocket_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.3"
+        },
+        {
+          "ObjectName": "StaticMeshSocket'S_4xScope_Proto:StaticMeshSocket_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.4"
+        }
+      ],
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": -0.20892334,
+          "Z": -2.3841858E-07
+        },
+        "BoxExtent": {
+          "X": 3.2554145,
+          "Y": 1.153281,
+          "Z": 3.2554145
+        },
+        "SphereRadius": 3.453662
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_4xScope_Proto:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_4xScope_Proto:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.1"
+    },
+    "LightingGuid": "2A3C40F6-40FF5CD6-9FA6FEB7-897545EB",
+    "RenderData": null
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_4xScope_Proto'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.2"
+    },
+    "Properties": {
+      "SocketName": "TopLeftScope",
+      "RelativeLocation": {
+        "X": 2.5,
+        "Y": -0.765987,
+        "Z": 2.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshSocket",
+    "Name": "StaticMeshSocket_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshSocket'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_4xScope_Proto'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/reticles/S_4xScope_Proto.2"
+    },
+    "Properties": {
+      "SocketName": "BottomRightScope",
+      "RelativeLocation": {
+        "X": -2.5,
+        "Y": -0.765987,
+        "Z": -2.5
+      }
+    }
+  }
+]

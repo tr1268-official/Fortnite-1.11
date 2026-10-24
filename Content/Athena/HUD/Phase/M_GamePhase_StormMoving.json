@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_GamePhase_StormMoving",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/BellCurve",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 56,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions02/Math/Pi",
+        "UseConstant": false,
+        "Constant": {
+          "B": 66,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000042"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_StormMoving:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_StormMoving:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.3"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_GamePhase_StormMoving:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.1"
+        },
+        null,
+        null,
+        null
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "FA9538D1-4EF87F6C-99D76C98-B88678B2",
+          "Function": {
+            "ObjectName": "MaterialFunction'BellCurve'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.2"
+          }
+        },
+        {
+          "StateId": "FDF0E218-49F6EE8B-E9059C85-221B2F68",
+          "Function": {
+            "ObjectName": "MaterialFunction'Pi'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Pi.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "98B3AF45-4D2E5F78-B7C6F5A6-13B96BF8"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_StormMoving'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'BellCurve'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/BellCurve.2"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "653916A0-4C81FC90-3A5FF5AD-91624DEC",
+          "Input": null
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "655C92DD-4A259B2C-324020AD-F9B630F6",
+          "Output": {
+            "OutputName": "0-1",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "C42309D2-48203FF4-5E5BACB5-29521A71",
+          "Output": {
+            "OutputName": "Standard",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_StormMoving'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "0-1",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Standard",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_StormMoving'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_GamePhaseBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_GamePhaseBackground.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_StormMoving'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_StormMoving'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_StormMoving'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_StormMoving.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_StormMoving'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_StormMoving.0"
+      }
+    }
+  }
+]

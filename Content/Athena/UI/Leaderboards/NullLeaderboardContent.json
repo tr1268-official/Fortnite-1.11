@@ -1,0 +1,135 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "NullLeaderboardContent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'NullLeaderboardContent_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.5"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Leaderboards/NullLeaderboardContent.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NullLeaderboardContent_C'Default__NullLeaderboardContent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.1"
+    }
+  },
+  {
+    "Type": "NullLeaderboardContent_C",
+    "Name": "Default__NullLeaderboardContent_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.NullLeaderboardContent_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent",
+    "Properties": {
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "NullLeaderboardContent_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.NullLeaderboardContent_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent",
+    "Template": {
+      "ObjectName": "NullLeaderboardContent_C'Default__NullLeaderboardContent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.1"
+    },
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.6"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Spacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'NullLeaderboardContent_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.5"
+    },
+    "Properties": {
+      "Size": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Spacer'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.6"
+    },
+    "Properties": {
+      "Size": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NullLeaderboardContent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Spacer'NullLeaderboardContent_C:WidgetTree.Spacer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.3"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Spacer'NullLeaderboardContent_C:WidgetTree.Spacer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "NullLeaderboardContent_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Spacer'WidgetArchetype:WidgetTree_0.Spacer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Leaderboards/NullLeaderboardContent.4"
+      }
+    }
+  }
+]

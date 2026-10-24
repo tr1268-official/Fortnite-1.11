@@ -1,0 +1,2430 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "SafeZoneIndicator_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator",
+    "Properties": {
+      "Timelines": [
+        {
+          "ObjectName": "TimelineTemplate'SafeZoneIndicator_C:FadeSafeZoneVisuals_Template'",
+          "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.133"
+        },
+        {
+          "ObjectName": "TimelineTemplate'SafeZoneIndicator_C:StormFadeTimeline_Template'",
+          "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.134"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'SafeZoneIndicator_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.114"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortSafeZoneIndicator'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.0"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:UpdateAudioComponentLocations'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.39"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:HandleInsideOutsideMix'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.38"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:InitClosestPointAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.37"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.18"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:FadeSafeZoneVisuals__FinishedFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.16"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:FadeSafeZoneVisuals__UpdateFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.15"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:StormFadeTimeline__FinishedFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.14"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:StormFadeTimeline__UpdateFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.13"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:OnSafeZoneStateChange'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.12"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.9"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.7"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:Apply Lowpass to Audio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.6"
+      },
+      {
+        "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:StormFadeTimeline_StormFadeIn_6FB75EFB416FB419D85F8797DEDD058C'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.3"
+      },
+      {
+        "ObjectName": "ByteProperty'SafeZoneIndicator_C:StormFadeTimeline__Direction_6FB75EFB416FB419D85F8797DEDD058C'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:StormFadeTimeline'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.105"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:FadeSafeZoneVisuals_LERP_E671C79642CD40ABC82D55BF6EBA9626'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.75"
+      },
+      {
+        "ObjectName": "ByteProperty'SafeZoneIndicator_C:FadeSafeZoneVisuals__Direction_E671C79642CD40ABC82D55BF6EBA9626'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:FadeSafeZoneVisuals'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.94"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:ShieldBoundaryAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.103"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:ShieldBoundaryLoopSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.104"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:LocalPlayerDistanceFromCenter'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.89"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:bLocalPlayerOutside'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.25"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:AudioCrossfade'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.50"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:AudioPitchMod'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.52"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:HoldingLoopSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.97"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:HoldingAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.96"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:GameState'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.95"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:HoldingStartTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.86"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:HoldingLoopTickSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.98"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:HoldingTickAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.99"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:SafeZoneMID'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.102"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:InitialSafeZoneWorldScale'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.88"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:bIsViewTargetPawnOutside'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:ViewTargetPawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.110"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:AudioLowPassValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.51"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:AudioStormFade'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.53"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:HugeMovementFade'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.87"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:ViewTargetLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.132"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:NextSafeZoneSweepSpeed'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.90"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_SafeZoneIndicator": {
+        "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+      },
+      "Apply Lowpass to Audio": {
+        "ObjectName": "Function'SafeZoneIndicator_C:Apply Lowpass to Audio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.6"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'SafeZoneIndicator_C:ReceiveBeginPlay'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.7"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'SafeZoneIndicator_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.9"
+      },
+      "OnSafeZoneStateChange": {
+        "ObjectName": "Function'SafeZoneIndicator_C:OnSafeZoneStateChange'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.12"
+      },
+      "StormFadeTimeline__UpdateFunc": {
+        "ObjectName": "Function'SafeZoneIndicator_C:StormFadeTimeline__UpdateFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.13"
+      },
+      "StormFadeTimeline__FinishedFunc": {
+        "ObjectName": "Function'SafeZoneIndicator_C:StormFadeTimeline__FinishedFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.14"
+      },
+      "FadeSafeZoneVisuals__UpdateFunc": {
+        "ObjectName": "Function'SafeZoneIndicator_C:FadeSafeZoneVisuals__UpdateFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.15"
+      },
+      "FadeSafeZoneVisuals__FinishedFunc": {
+        "ObjectName": "Function'SafeZoneIndicator_C:FadeSafeZoneVisuals__FinishedFunc'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.16"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'SafeZoneIndicator_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.18"
+      },
+      "GetClosestPointOnSafeZone": {
+        "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+      },
+      "UpdateClosestPointAudioLocation": {
+        "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+      },
+      "InitClosestPointAudio": {
+        "ObjectName": "Function'SafeZoneIndicator_C:InitClosestPointAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.37"
+      },
+      "HandleInsideOutsideMix": {
+        "ObjectName": "Function'SafeZoneIndicator_C:HandleInsideOutsideMix'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.38"
+      },
+      "UpdateAudioComponentLocations": {
+        "ObjectName": "Function'SafeZoneIndicator_C:UpdateAudioComponentLocations'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.39"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "SafeZoneIndicator_C'Default__SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.2"
+    }
+  },
+  {
+    "Type": "SafeZoneIndicator_C",
+    "Name": "Default__SafeZoneIndicator_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.SafeZoneIndicator_C'",
+    "Package": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ShieldBoundaryLoopSound": {
+        "ObjectName": "SoundCue'Shield_PowerLoop_Crossfade_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/Shield_PowerLoop_Crossfade_Cue.0"
+      },
+      "HoldingLoopSound": {
+        "ObjectName": "SoundCue'SafeZone_HoldingLoop_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_HoldingLoop_Cue.0"
+      },
+      "HoldingLoopTickSound": {
+        "ObjectName": "SoundCue'SafeZone_HoldingLoop_Time_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Shield/SafeZone_HoldingLoop_Time_Cue.0"
+      },
+      "InitialSafeZoneWorldScale": 3700.0,
+      "bIsViewTargetPawnOutside": true,
+      "AudioLowPassValue": 3700.0,
+      "ViewTargetLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "NextSafeZoneSweepSpeed": 1500.0,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Map_SafeZone'",
+          "ObjectPath": "FortniteGame/Content/Athena/SafeZone/UI_Map_SafeZone.0"
+        },
+        "ImageType": "ESlateBrushImageType::FullColor"
+      },
+      "FarOffMiniMapIconBrush": {
+        "ImageSize": {
+          "X": 20.0,
+          "Y": 20.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_PlayerArrow_OOB'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/Radar/UI_Radar_PlayerArrow_OOB.0"
+        },
+        "ImageType": "ESlateBrushImageType::FullColor"
+      },
+      "SafeZoneToWorldScale": 0.02,
+      "SafeZoneMesh": {
+        "ObjectName": "StaticMeshComponent'Default__SafeZoneIndicator_C:SafeZoneMesh'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.115"
+      },
+      "MovementAudioCrossfadeCurve": {
+        "ObjectName": "CurveFloat'C_SafeZoneMovementAudioCrossfade'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/C_SafeZoneMovementAudioCrossfade.0"
+      },
+      "MovementAudioPitchModCurve": {
+        "ObjectName": "CurveFloat'C_SafeZoneMovementAudioPitchMod'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/C_SafeZoneMovementAudioPitchMod.0"
+      },
+      "ClockTickingAudioVolumeCurve": {
+        "ObjectName": "CurveFloat'C_SafeZoneClockTickingAudioVolumeMod'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/C_SafeZoneClockTickingAudioVolumeMod.0"
+      },
+      "ClockTickingAudioPitchCurve": {
+        "ObjectName": "CurveFloat'C_SafeZoneClockTickingAudioPitchMod'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/C_SafeZoneClockTickingAudioPitchMod.0"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__SafeZoneIndicator_C:Scene'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.111"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "StormFadeTimeline_StormFadeIn_6FB75EFB416FB419D85F8797DEDD058C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_SafeZoneIndicator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.4"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetSafeZoneCenter_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.117"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.35"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_Conv_VectorToLinearColor_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.116"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.Temp_float_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.73"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.Temp_float_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.74"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.30"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsValid_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.31"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsPlaying_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.28"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsValid_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.32"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsPlaying_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.29"
+      },
+      {
+        "ObjectName": "EnumProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_Event_NewState'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.49"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetGameState_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.92"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_DynamicCast_AsAthena_Game_State'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.93"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.33"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetServerWorldTimeSeconds_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.63"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetServerWorldTimeSeconds_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.64"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetServerWorldTimeSeconds_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.65"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_MapRangeClamped_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.68"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetClockTickingAudioCurveValues_VolumeModValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.60"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetClockTickingAudioCurveValues_PitchModValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.59"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_MapRangeUnclamped_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.70"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_IsDedicatedServer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.27"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_MakeStruct_LinearColor'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.119"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_MapRangeClamped_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.69"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetMovementAudioCurveValues_CrossfadeValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.61"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetMovementAudioCurveValues_PitchModValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.62"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_Lerp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.67"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_Event_DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.71"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_K2_GetComponentScale_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.118"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_BreakVector_X'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.54"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_BreakVector_Y'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.55"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_BreakVector_Z'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.56"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.57"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.72"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_GetWorldDeltaSeconds_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.66"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_FInterpTo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.58"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.CallFunc_AreAnyListenersWithinRange_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "Apply Lowpass to Audio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ReceiveTick'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:ReceiveTick.DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'SafeZoneIndicator_C:OnSafeZoneStateChange.NewState'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.11"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "NewState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:OnSafeZoneStateChange'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EFortSafeZoneState'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'SafeZoneIndicator_C:OnSafeZoneStateChange.NewState.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.10"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnSafeZoneStateChange",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortSafeZoneIndicator:OnSafeZoneStateChange'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'SafeZoneIndicator_C:OnSafeZoneStateChange.NewState'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StormFadeTimeline__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "StormFadeTimeline__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FadeSafeZoneVisuals__UpdateFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "FadeSafeZoneVisuals__FinishedFunc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.18"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:UserConstructionScript.CallFunc_IsDedicatedServer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:UserConstructionScript.CallFunc_CreateDynamicMaterialInstance_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.109"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PlayerLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetClosestPointOnSafeZone",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.PlayerLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.19"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.128"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_GetSafeZoneCenter_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.121"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_X'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.76"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Y'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.79"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Z'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.82"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_X2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.77"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Y2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.80"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Z2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.83"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_MakeVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.122"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_MakeVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.123"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.127"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_Normal_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.126"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_VSize_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.85"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_Multiply_VectorFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.125"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.120"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_X3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.78"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Y3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.81"
+      },
+      {
+        "ObjectName": "FloatProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_BreakVector_Z3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.84"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:GetClosestPointOnSafeZone.CallFunc_MakeVector_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.124"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateClosestPointAudioLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.106"
+      },
+      {
+        "ObjectName": "IntProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.91"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_GetViewTarget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.107"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.41"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.42"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.K2Node_DynamicCast_AsFort_Player_Pawn_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.108"
+      },
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.43"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.131"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_GetClosestPointOnSafeZone_Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.130"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.23"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'SafeZoneIndicator_C:UpdateClosestPointAudioLocation.CallFunc_GetLocalFortPlayerControllers_ReturnValue.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.22"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bIsViewTargetPawnOutside",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLocalPlayerOutside",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_AreAnyListenersWithinRange_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsDedicatedServer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsPlaying_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsPlaying_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnSoundAttached_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:InitClosestPointAudio'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.37"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "InitClosestPointAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:InitClosestPointAudio.CallFunc_SpawnSoundAttached_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:InitClosestPointAudio.CallFunc_SpawnSoundAttached_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.100"
+      },
+      {
+        "ObjectName": "ObjectProperty'SafeZoneIndicator_C:InitClosestPointAudio.CallFunc_SpawnSoundAttached_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.101"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "HandleInsideOutsideMix",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateAudioComponentLocations",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'SafeZoneIndicator_C:UpdateAudioComponentLocations.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.40"
+      },
+      {
+        "ObjectName": "StructProperty'SafeZoneIndicator_C:UpdateAudioComponentLocations.CallFunc_K2_SetWorldLocation_SweepHitResult'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.129"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateAudioComponentLocations'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.39"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_Event_NewState'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.49"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "FadeSafeZoneVisuals__Direction_E671C79642CD40ABC82D55BF6EBA9626",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ETimelineDirection'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "StormFadeTimeline__Direction_6FB75EFB416FB419D85F8797DEDD058C",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ETimelineDirection'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_4",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "CurveFloat",
+    "Name": "CurveFloat_5",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveFloat'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 0.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 25.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Event_NewState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortSafeZoneState'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator.K2Node_Event_NewState.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AudioCrossfade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AudioLowPassValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AudioPitchMod",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AudioStormFade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FInterpTo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetClockTickingAudioCurveValues_PitchModValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetClockTickingAudioCurveValues_VolumeModValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetMovementAudioCurveValues_CrossfadeValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetMovementAudioCurveValues_PitchModValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetServerWorldTimeSeconds_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetServerWorldTimeSeconds_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetServerWorldTimeSeconds_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetWorldDeltaSeconds_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Lerp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_MapRangeClamped_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_MapRangeClamped_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_MapRangeUnclamped_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "FadeSafeZoneVisuals_LERP_E671C79642CD40ABC82D55BF6EBA9626",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_VSize_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "HoldingStartTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "HugeMovementFade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InitialSafeZoneWorldScale",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "LocalPlayerDistanceFromCenter",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "NextSafeZoneSweepSpeed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetGameState_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'GameStateBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Game_State",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameState.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FadeSafeZoneVisuals",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'TimelineComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GameState",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_GameState_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Athena_GameState.2"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HoldingAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HoldingLoopSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HoldingLoopTickSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HoldingTickAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnSoundAttached_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:InitClosestPointAudio'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.37"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnSoundAttached_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:InitClosestPointAudio'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.37"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SafeZoneMID",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ShieldBoundaryAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ShieldBoundaryLoopSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StormFadeTimeline",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'TimelineComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetViewTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawnAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UserConstructionScript'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ViewTargetPawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawnAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Scene",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "SafeZoneIndicator_C'Default__SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'SafeZoneIndicator_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.114"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'SafeZoneIndicator_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.112"
+      },
+      "VariableGuid": "34D5EE9B-4B43A34D-98B5F1BD-6048B5F4",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'SafeZoneIndicator_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.113"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SafeZoneMesh",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "SafeZoneIndicator_C'Default__SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SafeZoneCylinder'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneCylinder.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_SafeZoneSphere'",
+          "ObjectPath": "FortniteGame/Content/Athena/SafeZone/M_SafeZoneSphere.0"
+        }
+      ],
+      "AttachParent": {
+        "ObjectName": "SceneComponent'Default__SafeZoneIndicator_C:Scene'",
+        "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.111"
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Conv_VectorToLinearColor_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetSafeZoneCenter_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:ExecuteUbergraph_SafeZoneIndicator'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetSafeZoneCenter_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Normal_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:GetClosestPointOnSafeZone'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.20"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetWorldLocation_SweepHitResult",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateAudioComponentLocations'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.39"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'HitResult'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetClosestPointOnSafeZone_Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'SafeZoneIndicator_C:UpdateClosestPointAudioLocation'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.21"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ViewTargetLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "FadeSafeZoneVisuals_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Properties": {
+      "TimelineLength": 10.0,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'SafeZoneIndicator_C:CurveFloat_4'",
+            "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.47"
+          },
+          "TrackName": "LERP",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "E671C796-42CD40AB-C82D55BF-6EBA9626"
+    }
+  },
+  {
+    "Type": "TimelineTemplate",
+    "Name": "StormFadeTimeline_Template",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TimelineTemplate'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'SafeZoneIndicator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.1"
+    },
+    "Properties": {
+      "TimelineLength": 25.0,
+      "bValidatedAsWired": true,
+      "FloatTracks": [
+        {
+          "CurveFloat": {
+            "ObjectName": "CurveFloat'SafeZoneIndicator_C:CurveFloat_5'",
+            "ObjectPath": "FortniteGame/Content/Athena/SafeZone/SafeZoneIndicator.48"
+          },
+          "TrackName": "StormFadeIn",
+          "bIsExternalCurve": false
+        }
+      ],
+      "TimelineGuid": "6FB75EFB-416FB419-D85F8797-DEDD058C"
+    }
+  }
+]

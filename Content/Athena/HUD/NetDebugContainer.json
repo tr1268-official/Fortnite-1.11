@@ -1,0 +1,1355 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "NetDebugContainer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/NetDebugContainer",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'NetDebugContainer_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.54"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/NetDebugContainer.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'NetDebugContainer_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'NetDebugContainer_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.0"
+      },
+      {
+        "ObjectName": "Function'NetDebugContainer_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.22"
+      },
+      {
+        "ObjectName": "Function'NetDebugContainer_C:OnVisibilitySetEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.9"
+      },
+      {
+        "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'NetDebugContainer_C:InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'NetDebugContainer_C:NetDebugUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.39"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_NetDebugContainer": {
+        "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+      },
+      "OnVisibilitySetEvent": {
+        "ObjectName": "Function'NetDebugContainer_C:OnVisibilitySetEvent'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'NetDebugContainer_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.22"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "NetDebugContainer_C'Default__NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.2"
+    }
+  },
+  {
+    "Type": "NetDebugContainer_C",
+    "Name": "Default__NetDebugContainer_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/NetDebugContainer.NetDebugContainer_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/NetDebugContainer",
+    "Properties": {
+      "UberGraphFrame": {},
+      "HUDElementTag": [
+        "HUD.TopLeft.NetDebugUI"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "InvalidationBox_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'InvalidationBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_NetDebugContainer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.4"
+      },
+      {
+        "ObjectName": "EnumProperty'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer.K2Node_Event_InVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.21"
+      },
+      {
+        "ObjectName": "BoolProperty'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer.K2Node_Event_InVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.21"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "InVisibility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'NetDebugContainer_C:OnVisibilitySetEvent'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'NetDebugContainer_C:OnVisibilitySetEvent.InVisibility.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.10"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnVisibilitySetEvent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortHUDElementWidget:OnVisibilitySetEvent'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'NetDebugContainer_C:OnVisibilitySetEvent.InVisibility'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'NetDebugContainer_C:OnVisibilitySetEvent.InVisibility'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.8"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Outer": {
+      "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CanvasPanel_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.11"
+    },
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 386.2857,
+          "Bottom": 259.42856
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CanvasPanel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.11"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "E2EC668D4ED968CC5F37DE90E3D6B6ED",
+        "SourceString": "Connection Timeout",
+        "LocalizedString": "Connection Timeout"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.30"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "DownBandwidthUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.48"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PacketInLossUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.50"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PacketInRateUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.49"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PacketOutLossUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.47"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PacketOutRateUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.46"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "PingUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.51"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "UpBandwidthUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XXS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XXS-B.0"
+      },
+      "Text": {
+        "Namespace": "UMG",
+        "Key": "TextBlockDefaultValue",
+        "SourceString": "Text Block",
+        "LocalizedString": "Text Block"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.45"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Event_InVisibility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.5"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'NetDebugContainer_C:ExecuteUbergraph_NetDebugContainer.K2Node_Event_InVisibility.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.7"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_414",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.26"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.28"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.27"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_8'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.53"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "TimeoutUI",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.29"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.52"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0,
+        "Right": 2.0,
+        "Bottom": 2.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.Image_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.Image_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.31"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0,
+        "Right": 2.0,
+        "Bottom": 2.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.33"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.13"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'NetDirectionArrow'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/NetDirectionArrow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.27"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.0,
+          "Y": -1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'NetDirectionArrow'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/NetDirectionArrow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "TimeoutIcon",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'ConnectionError_B'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/ConnectionError_B.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.29"
+      }
+    }
+  },
+  {
+    "Type": "InvalidationBox",
+    "Name": "InvalidationBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InvalidationBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'NetDebugContainer_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.54"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'NetDebugContainer_C:WidgetTree.InvalidationBox_0.PanelSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.40"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InvalidationBox",
+    "Name": "InvalidationBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InvalidationBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.55"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.InvalidationBox_0.PanelSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NetDebugContainer_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/NetDebugContainer.NetDebugContainer_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/NetDebugContainer",
+    "Template": {
+      "ObjectName": "NetDebugContainer_C'Default__NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.2"
+    },
+    "Properties": {
+      "InvalidationBox_0": {
+        "ObjectName": "InvalidationBox'WidgetArchetype:WidgetTree_0.InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.35"
+      },
+      "NetDebugUI": {
+        "ObjectName": "NetDebugUI_C'WidgetArchetype:WidgetTree_0.NetDebugUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.38"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.55"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "NetDebugUI_C",
+    "Name": "NetDebugUI",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/NetDebugUI.NetDebugUI_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'NetDebugContainer_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.54"
+    },
+    "Template": {
+      "ObjectName": "NetDebugUI_C'Default__NetDebugUI_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugUI.2"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "PanelSlot'NetDebugContainer_C:WidgetTree.InvalidationBox_0.PanelSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.40"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "NetDebugUI_C",
+    "Name": "NetDebugUI",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/NetDebugUI.NetDebugUI_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.55"
+    },
+    "Template": {
+      "ObjectName": "NetDebugUI_C'Default__NetDebugUI_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugUI.2"
+    },
+    "Properties": {
+      "Image_1": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.Image_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.31"
+      },
+      "Image_2": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.Image_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.32"
+      },
+      "TimeoutIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.33"
+      },
+      "PingUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PingUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.19"
+      },
+      "PacketInRateUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketInRateUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.16"
+      },
+      "PacketOutRateUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketOutRateUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.18"
+      },
+      "PacketInLossUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketInLossUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.15"
+      },
+      "PacketOutLossUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketOutLossUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.17"
+      },
+      "UpBandwidthUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.UpBandwidthUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.20"
+      },
+      "DownBandwidthUI": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.DownBandwidthUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.14"
+      },
+      "TimeoutUI": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.InvalidationBox_0.PanelSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.41"
+      },
+      "Visibility": "ESlateVisibility::HitTestInvisible"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NetDebugUI",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugUI_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugUI.1"
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PanelSlot'",
+    "Outer": {
+      "ObjectName": "InvalidationBox'NetDebugContainer_C:WidgetTree.InvalidationBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.34"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "InvalidationBox'NetDebugContainer_C:WidgetTree.InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.34"
+      },
+      "Content": {
+        "ObjectName": "NetDebugUI_C'NetDebugContainer_C:WidgetTree.NetDebugUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.37"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'PanelSlot'",
+    "Outer": {
+      "ObjectName": "InvalidationBox'WidgetArchetype:WidgetTree_0.InvalidationBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.35"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "InvalidationBox'WidgetArchetype:WidgetTree_0.InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.35"
+      },
+      "Content": {
+        "ObjectName": "NetDebugUI_C'WidgetArchetype:WidgetTree_0.NetDebugUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.38"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.45"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.46"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.25"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.48"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.49"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414.HorizontalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.28"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.51"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.53"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2.VerticalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.12"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.UpBandwidthUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.20"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketOutRateUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.18"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.42"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketOutLossUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.17"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.DownBandwidthUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.14"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketInRateUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.16"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.43"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PacketInLossUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.15"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.PingUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.19"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.TimeoutUI'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.24"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.VerticalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.HorizontalBox_414'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.23"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'NetDebugContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "InvalidationBox'NetDebugContainer_C:WidgetTree.InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.34"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "InvalidationBox'NetDebugContainer_C:WidgetTree.InvalidationBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.34"
+        },
+        {
+          "ObjectName": "NetDebugUI_C'NetDebugContainer_C:WidgetTree.NetDebugUI'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.37"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "NetDebugContainer_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.36"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "InvalidationBox'WidgetArchetype:WidgetTree_0.InvalidationBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.35"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "NetDebugUI_C'WidgetArchetype:WidgetTree_0.NetDebugUI'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.38"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NetDebugUI.WidgetTree_1.CanvasPanel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/NetDebugContainer.11"
+      }
+    }
+  }
+]

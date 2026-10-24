@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Consumable_CantApply_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Consumable_CantApply_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.1"
+      },
+      "VolumeMultiplier": 0.7,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_UI'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_UI.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "ResolutionRule": "EMaxConcurrentResolutionRule::PreventNew"
+      },
+      "Duration": 0.217125
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Consumable_CantApply_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.4
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Consumable_CantApply_Cue:SoundNodeModulator_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Consumable_CantApply_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Consumable_CantApply_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.3,
+      "PitchMax": 1.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Consumable_CantApply_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Consumable_CantApply_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_UI_Sounds/Gameplay/fort_ui_new_neg_01.fort_ui_new_neg_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'fort_ui_new_neg_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_UI_Sounds/Gameplay/fort_ui_new_neg_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Consumable_CantApply_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Items/Consumable_CantApply_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/pistol/pistol_foley/auto_sdk_end_01.auto_sdk_end_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'auto_sdk_end_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Weapons/pistol/pistol_foley/auto_sdk_end_01.0"
+    }
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Foundation_POI_75x75'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_POI_75x75.2"
+    },
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "4699B7C24B0CF735094B36AEA641E504",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5607,
+        "SizeOnDisk": 5607,
+        "OffsetInFile": "0x7740"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'FORT_Foundation_POI_75x75'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_POI_75x75.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 21,
+        "SizeOnDisk": 21,
+        "OffsetInFile": "0x8D6F"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "FORT_Foundation_POI_75x75",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_POI_75x75",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Foundation_Texture'",
+            "ObjectPath": "FortniteGame/Content/Environments/World/Foundations/Materials/M_Foundation_Texture.0"
+          },
+          "MaterialSlotName": "02 - Default",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 192942.5,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 192942.5,
+      "LightMapResolution": 64,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.00390625,
+          "Y": 0.0,
+          "Z": 765.91187
+        },
+        "BoxExtent": {
+          "X": 19200.004,
+          "Y": 19200.016,
+          "Z": 765.9119
+        },
+        "SphereRadius": 27163.709
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'FORT_Foundation_POI_75x75:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_POI_75x75.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'FORT_Foundation_POI_75x75:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/FORT_Foundation_POI_75x75.1"
+    },
+    "LightingGuid": "B0BB48C3-444B6FD3-CD0491A2-FAE9C304",
+    "RenderData": null
+  }
+]

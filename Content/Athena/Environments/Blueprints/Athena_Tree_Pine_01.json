@@ -1,0 +1,186 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Tree_Pine_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Tree_Pine_01_C:SimpleConstructionScript_886'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Tree_Pine_01_C'Default__Athena_Tree_Pine_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.1"
+    }
+  },
+  {
+    "Type": "Athena_Tree_Pine_01_C",
+    "Name": "Default__Athena_Tree_Pine_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.Athena_Tree_Pine_01_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01",
+    "Template": {
+      "ObjectName": "Parent_Tree_C'Default__Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.2"
+    },
+    "Properties": {
+      "LeafTypes": "En_LeafTypes_01::NewEnumerator3",
+      "EmitterSize": {
+        "X": 150.0,
+        "Y": 300.0,
+        "Z": 90.0
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_Tree_Pine_01_'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_Tree_Pine_01_.2"
+      },
+      "RandomScaleRange": {
+        "X": 0.9,
+        "Y": 1.25
+      },
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Tree_Pine_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.5"
+      },
+      "DestructionLootTierGroup": "Destruction_TreeMedium",
+      "BuildingResourceAmountOverride": {
+        "RowName": "ResourceWoodMedium"
+      },
+      "WindSpeedCurve": {
+        "AssetPathName": "/Game/VisualThreatManager/StormVisuals/Foliage_Trees/Tree_Pine_01_WindSpeed.Tree_Pine_01_WindSpeed",
+        "SubPathString": ""
+      },
+      "WindPannerSpeedCurve": {
+        "AssetPathName": "/Game/VisualThreatManager/StormVisuals/Foliage_Trees/Tree_Pine_01_PannerSpeed.Tree_Pine_01_PannerSpeed",
+        "SubPathString": ""
+      },
+      "IntenseWindMaterials": [
+        {
+          "AssetPathName": "/Game/Environments/Props/Trees/Materials/PP2/MI_Pine_01_storm.MI_Pine_01_storm",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Environments/Props/Trees/Materials/PP2/MI_Pine_01_Storm_Leaves.MI_Pine_01_Storm_Leaves",
+          "SubPathString": ""
+        }
+      ],
+      "WindAudio": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Storm_Trees/storm_foliage_SmallPine_Loop_Cue.storm_foliage_SmallPine_Loop_Cue",
+        "SubPathString": ""
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_Pine_Tree_Med_Destruction'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Trees/P_Pine_Tree_Med_Destruction.148"
+      },
+      "DeathSound": {
+        "ObjectName": "SoundCue'Demo_Tree_Destroyed_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Wood/Demo_Tree_Destroyed_Cue.0"
+      },
+      "AttributeInitKey": {
+        "AttributeInitSubCategory": "2"
+      },
+      "PlayHitSound": {
+        "ObjectName": "SoundCue'Demo_PineTree_Impact_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Wood/Demo_PineTree_Impact_Cue.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Tree_Pine_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_724",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Tree_Pine_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_734",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Tree_Pine_01_C:SimpleConstructionScript_886'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Tree_Pine_01_C:SceneComponent_724'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_886",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Tree_Pine_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Tree_Pine_01_C:SimpleConstructionScript_886.SCS_Node_734'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Tree_Pine_01_C'Default__Athena_Tree_Pine_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Pine_01.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__Parent_Tree_C:StaticMeshComponent0'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.150"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_Tree_Pine_01_'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_Tree_Pine_01_.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'M_Tree_Pine'",
+          "ObjectPath": "FortniteGame/Content/Environments/Props/Trees/Materials/M_Tree_Pine.0"
+        }
+      ],
+      "LDMaxDrawDistance": 16395.56,
+      "CachedMaxDrawDistance": 16395.56
+    }
+  }
+]

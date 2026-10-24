@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_BigPoppy_Balloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Balloon.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "SphereElems": [
+          {
+            "Center": {
+              "X": 0.0,
+              "Y": 1.5258789E-05,
+              "Z": 256.0
+            },
+            "Radius": 256.00003
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "0DA8BCC541A09C7C9DB36D8BB8D7ADCD",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 25497,
+        "SizeOnDisk": 25497,
+        "OffsetInFile": "0x2CB2A"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'S_Athena_BigPoppy_Balloon'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Balloon.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 5521,
+        "SizeOnDisk": 5521,
+        "OffsetInFile": "0x32F0B"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "S_Athena_BigPoppy_Balloon",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Balloon",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "Material'M_Athena_BigPoppy_Balloon'",
+            "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/M_Athena_BigPoppy_Balloon.0"
+          },
+          "MaterialSlotName": "None",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 985.535,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 985.535,
+      "LightMapResolution": 64,
+      "DistanceFieldSelfShadowBias": 0.25,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.0,
+          "Y": 1.5258789E-05,
+          "Z": 256.0
+        },
+        "BoxExtent": {
+          "X": 256.0,
+          "Y": 256.0,
+          "Z": 256.0
+        },
+        "SphereRadius": 256.00003
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'S_Athena_BigPoppy_Balloon:BodySetup_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Balloon.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'S_Athena_BigPoppy_Balloon:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Balloon.1"
+    },
+    "LightingGuid": "195CD086-491B7624-07FB0F99-E843C828",
+    "RenderData": null
+  }
+]

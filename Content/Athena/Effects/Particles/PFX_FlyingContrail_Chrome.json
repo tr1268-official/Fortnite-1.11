@@ -1,0 +1,914 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Chrome:ParticleModuleRequired_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.14"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Chrome:ParticleModuleSpawn_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.18"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionFloatParticleParameter",
+    "Name": "DistributionFloatParticleParameter_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorScaleOverLife'PFX_FlyingContrail_Chrome:ParticleModuleColorScaleOverLife_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.12"
+    },
+    "Properties": {
+      "ParameterName": "TrailAlpha",
+      "ParamMode": "DPM_Direct",
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Chrome:ParticleModuleColor_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.9"
+    },
+    "Properties": {
+      "ParameterName": "TrailColor",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Abs",
+      "Constant": {
+        "X": 1.0,
+        "Y": 0.57305,
+        "Z": 0.14596
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Chrome:ParticleModuleColorOverLife_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.10"
+    },
+    "Properties": {
+      "ParameterName": "TrailColor",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Direct",
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "DistributionVectorParticleParameter",
+    "Name": "DistributionVectorParticleParameter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionVectorParticleParameter'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Chrome:ParticleModuleSizeMultiplyLife_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.17"
+    },
+    "Properties": {
+      "ParameterName": "TrailWidth",
+      "ParamModes": "DPM_Direct",
+      "ParamModes[1]": "DPM_Direct",
+      "ParamModes[2]": "DPM_Direct",
+      "Constant": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "bIsDirty": false
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Chrome:ParticleSpriteEmitter_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.21"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'PFX_FlyingContrail_Chrome:ParticleModuleRequired_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.14"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'PFX_FlyingContrail_Chrome:ParticleModuleLifetime_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.13"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Chrome:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.16"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'PFX_FlyingContrail_Chrome:ParticleModuleSize_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.15"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'PFX_FlyingContrail_Chrome:ParticleModuleVelocity_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.20"
+        },
+        {
+          "ObjectName": "ParticleModuleColorOverLife'PFX_FlyingContrail_Chrome:ParticleModuleColorOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.10"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Chrome:ParticleModuleAcceleration_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.7"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'PFX_FlyingContrail_Chrome:ParticleModuleAcceleration_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.8"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'PFX_FlyingContrail_Chrome:ParticleModuleColor_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.9"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'PFX_FlyingContrail_Chrome:ParticleModuleColorScaleOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.11"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'PFX_FlyingContrail_Chrome:ParticleModuleColorScaleOverLife_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.12"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'PFX_FlyingContrail_Chrome:ParticleModuleSizeMultiplyLife_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.17"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'PFX_FlyingContrail_Chrome:ParticleModuleTypeDataRibbon_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.19"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'PFX_FlyingContrail_Chrome:ParticleModuleSpawn_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.18"
+      },
+      "PeakActiveParticles": 571
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            100.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MinValue": -3.0,
+        "MaxValue": 3.0,
+        "MinValueVec": {
+          "X": -3.0,
+          "Y": -3.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 3.0,
+          "Y": 3.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -3.0,
+            -3.0,
+            0.0,
+            3.0,
+            3.0,
+            0.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.14596,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 0.57305,
+          "Z": 0.14596
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 0.57305,
+          "Z": 0.14596
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Chrome:ParticleModuleColor_0.DistributionVectorParticleParameter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.3"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorOverLife",
+    "Name": "ParticleModuleColorOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "ColorOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Chrome:ParticleModuleColorOverLife_0.DistributionVectorParticleParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.4"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1,
+          "TimeScale": 31.482225,
+          "TimeBias": 0.015317289,
+          "Values": [
+            0.0,
+            0.13330069,
+            0.4360497,
+            0.76512825,
+            0.9774178,
+            0.99830997,
+            0.989219,
+            0.9727014,
+            0.949392,
+            0.9199254,
+            0.8849364,
+            0.8450433,
+            0.80089474,
+            0.75313514,
+            0.70239896,
+            0.6493211,
+            0.594536,
+            0.5386785,
+            0.48238334,
+            0.42628533,
+            0.37101874,
+            0.3172229,
+            0.26554087,
+            0.21660167,
+            0.1710403,
+            0.12949122,
+            0.0925893,
+            0.0609692,
+            0.035265382,
+            0.01611276,
+            0.0041460954,
+            3.812602E-09
+          ]
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": -0.03314024,
+        "MaxValue": 0.9968996,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1,
+          "TimeScale": 31.49457,
+          "TimeBias": 0.015703237,
+          "Values": [
+            -0.03314024,
+            0.10566699,
+            0.42021444,
+            0.76041216,
+            0.97616947,
+            0.9950811,
+            0.9858345,
+            0.9692144,
+            0.94585156,
+            0.91637695,
+            0.8814214,
+            0.8415995,
+            0.79755634,
+            0.74993193,
+            0.6993572,
+            0.6464631,
+            0.5918804,
+            0.53624,
+            0.48017278,
+            0.4243096,
+            0.36928153,
+            0.3157232,
+            0.2642743,
+            0.21556015,
+            0.1702114,
+            0.12885928,
+            0.092134304,
+            0.06066767,
+            0.035090014,
+            0.016032316,
+            0.004125351,
+            3.812602E-09
+          ]
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": {
+          "ObjectName": "DistributionFloatParticleParameter'PFX_FlyingContrail_Chrome:ParticleModuleColorScaleOverLife_1.DistributionFloatParticleParameter_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.2"
+        },
+        "Table": {
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 0.5,
+        "MaxValue": 0.5,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.5
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_SimpleContrailRibbon_Chrome'",
+        "ObjectPath": "FortniteGame/Content/Athena/Effects/Materials/M_SimpleContrailRibbon_Chrome.0"
+      },
+      "bKillOnDeactivate": true,
+      "bKillOnCompleted": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Chrome:ParticleModuleRequired_0.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 0.7,
+        "MinValueVec": {
+          "X": 0.7,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 0.7,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.7,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 2.0474455,
+        "MaxValue": 4.551361,
+        "MinValueVec": {
+          "X": 2.0474455,
+          "Y": 2.0474455,
+          "Z": 2.0474455
+        },
+        "MaxValueVec": {
+          "X": 4.551361,
+          "Y": 4.551361,
+          "Z": 4.551361
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 16,
+          "EntryStride": 3,
+          "TimeScale": 64.669815,
+          "TimeBias": 0.0010940904,
+          "Values": [
+            4.551361,
+            4.551361,
+            4.551361,
+            4.5193586,
+            4.5193586,
+            4.5193586,
+            4.429668,
+            4.429668,
+            4.429668,
+            4.290887,
+            4.290887,
+            4.290887,
+            4.1121306,
+            4.1121306,
+            4.1121306,
+            3.9021635,
+            3.9021635,
+            3.9021635,
+            3.669968,
+            3.669968,
+            3.669968,
+            3.424408,
+            3.424408,
+            3.424408,
+            3.174399,
+            3.174399,
+            3.174399,
+            2.928839,
+            2.928839,
+            2.928839,
+            2.6966434,
+            2.6966434,
+            2.6966434,
+            2.4866765,
+            2.4866765,
+            2.4866765,
+            2.3079197,
+            2.3079197,
+            2.3079197,
+            2.1691387,
+            2.1691387,
+            2.1691387,
+            2.079448,
+            2.079448,
+            2.079448,
+            2.0474455,
+            2.0474455,
+            2.0474455
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 0.0
+        },
+        "Distribution": {
+          "ObjectName": "DistributionVectorParticleParameter'PFX_FlyingContrail_Chrome:ParticleModuleSizeMultiplyLife_3.DistributionVectorParticleParameter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.5"
+        },
+        "Table": {
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 100.0,
+        "MaxValue": 100.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            100.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'PFX_FlyingContrail_Chrome:ParticleModuleSpawn_0.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.1"
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "bTangentRecalculationEveryFrame": true,
+      "bSpawnInitialParticle": true,
+      "TilingDistance": 256.0,
+      "DistanceTessellationStepSize": 10.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -10.0,
+        "MaxValue": 100.0,
+        "MinValueVec": {
+          "X": -10.0,
+          "Y": -10.0,
+          "Z": 50.0
+        },
+        "MaxValueVec": {
+          "X": 10.0,
+          "Y": 10.0,
+          "Z": 100.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -10.0,
+            -10.0,
+            50.0,
+            10.0,
+            10.0,
+            100.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "bInWorldSpace": true,
+      "bEnabled": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'PFX_FlyingContrail_Chrome'",
+      "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.22"
+    },
+    "Properties": {
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'PFX_FlyingContrail_Chrome:ParticleSpriteEmitter_0.ParticleLODLevel_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "PFX_FlyingContrail_Chrome",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'PFX_FlyingContrail_Chrome:ParticleSpriteEmitter_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Effects/Particles/PFX_FlyingContrail_Chrome.21"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

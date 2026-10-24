@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_GamePhase_Setup",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Phase/M_GamePhase_Setup",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 33,
+        "ExpressionName": "/Game/Athena/HUD/Phase/T_GamePhaseBackground",
+        "UseConstant": false,
+        "Constant": {
+          "B": 38,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000026"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_Setup:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_Setup:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.2"
+        },
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "67744F3C-4E3EAFED-41A476A2-7A10FA1B"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_Setup'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_GamePhaseBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_GamePhaseBackground.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_Setup'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_Setup'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T-Icon-Check-64'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Checks/T-Icon-Check-64.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_Setup'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Setup.0"
+      }
+    }
+  }
+]

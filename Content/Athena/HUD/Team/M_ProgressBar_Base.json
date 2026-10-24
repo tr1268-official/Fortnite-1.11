@@ -1,0 +1,265 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_ProgressBar_Base",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base",
+    "Properties": {
+      "BaseColor": null,
+      "Normal": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient_0",
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 0,
+        "MaskA": 69,
+        "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+        "UseConstant": false,
+        "Constant": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 3.5E-44
+        }
+      },
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 58,
+        "ExpressionName": "ArrayProperty",
+        "UseConstant": false,
+        "Constant": {
+          "B": 72,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000048"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "ShadingModel": "MSM_Unlit",
+      "EditorX": -448,
+      "EditorY": -352,
+      "Expressions": [
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'M_ProgressBar_Base:MaterialExpressionMaterialFunctionCall_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.1"
+        },
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_ProgressBar_Base:MaterialExpressionVectorParameter_23'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_ProgressBar_Base:MaterialExpressionVectorParameter_21'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'M_ProgressBar_Base:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.2"
+        },
+        null,
+        null,
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'M_ProgressBar_Base:MaterialExpressionVectorParameter_24'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.5"
+        }
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "DD08DFF6-4F11A1CD-D0F55C9C-F04E1A49"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Outer": {
+      "ObjectName": "Material'M_ProgressBar_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+    },
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'LinearGradient'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.0"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "95684635-4D2549E6-65DAC685-33EC21EC",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": 0,
+            "InputName": "Class_1126192724",
+            "Mask": 1852727656,
+            "MaskR": 27749,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "ExpressionName": "/Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient_1023410175"
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0F11154B-443B1137-CC991499-8FC01F5E",
+          "Output": {
+            "OutputName": "UGradient",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "D0E9AADC-4F9EEDBB-FD95F9B3-A5165013",
+          "Output": {
+            "OutputName": "VGradient",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'M_ProgressBar_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "UGradient",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "VGradient",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_ProgressBar_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+    },
+    "Properties": {
+      "DefaultValue": 0.75,
+      "ParameterName": "Progress",
+      "ExpressionGUID": "0944ABDB-4586D4BE-7FF41ABC-3D4EB8E6",
+      "Material": {
+        "ObjectName": "Material'M_ProgressBar_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_21",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_ProgressBar_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.0,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "00FF00"
+      },
+      "ParameterName": "ColorB",
+      "ExpressionGUID": "14E2A0E3-48293BF1-318C6E9B-6F48D494",
+      "Material": {
+        "ObjectName": "Material'M_ProgressBar_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_23",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_ProgressBar_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "ParameterName": "ColorA",
+      "ExpressionGUID": "2BE21B65-4CBFA6A5-1F70A592-5F8242DA",
+      "Material": {
+        "ObjectName": "Material'M_ProgressBar_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Outer": {
+      "ObjectName": "Material'M_ProgressBar_Base'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+    },
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.25,
+        "Hex": "3F000000"
+      },
+      "ParameterName": "Unfilled Color",
+      "ExpressionGUID": "A39DA85B-4837AD84-D2130B8C-D83AF5CB",
+      "Material": {
+        "ObjectName": "Material'M_ProgressBar_Base'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Team/M_ProgressBar_Base.0"
+      }
+    }
+  }
+]

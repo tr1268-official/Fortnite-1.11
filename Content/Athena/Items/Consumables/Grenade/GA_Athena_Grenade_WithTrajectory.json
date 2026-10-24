@@ -1,0 +1,3917 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Athena_Grenade_WithTrajectory_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory",
+    "Properties": {
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortGameplayAbility'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.0"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Destroyed_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.40"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Exploded_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.38"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Stopped_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.36"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Bounced_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.34"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Touched_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.32"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Created_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.30"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.28"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.26"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.24"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_E8F8DC5A465F19B633AF0E8888171F5A'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.22"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_4B1D92B7427697E6BD9D58ACA0F87155'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.21"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnCancelled_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.20"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnInterrupted_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.19"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnBlendOut_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.18"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnCompleted_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.17"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_C70D988C492A7EF3B105DC8DADDBD86D'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.16"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:K2_ActivateAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.15"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.14"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnAbilityInputReleased'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.12"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:K2_OnEndAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.11"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CleanupTrajectoryDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.9"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:TossGrenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.8"
+      },
+      {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:EventActivation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.3"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:EventComplete'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.169"
+      },
+      {
+        "ObjectName": "ClassProperty'GA_Athena_Grenade_WithTrajectory_C:Prj_Grenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.78"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeSpeedMin'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.120"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeSpeedMax'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.119"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:GravityScale'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.118"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.156"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:EC_DefaultExplosion'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.166"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:EC_ReturnedEffect'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.167"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExplosionRadius'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.117"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:AdditionalThrowAngle'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.97"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeDialogFeedback'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.194"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeAmmo'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.73"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:PlasmaGrenades'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.75"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:Flashbang'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.72"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:GrenadeTargetingOriginOffset'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.195"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:DummyProjectile'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.147"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:DummyShouldBounce'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.54"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:DummyBounciness'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.107"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:DummyFriction'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.109"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:TrajectoryUpdateInterval'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.141"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:DummyGravity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.110"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:DummyTimeStep'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.111"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:DummyExtent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.108"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:InThrowWindup'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.74"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:TrajectoryIndicator'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.163"
+      },
+      {
+        "ObjectName": "ClassProperty'GA_Athena_Grenade_WithTrajectory_C:TrajectoryIndicatorClass'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.80"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ThrowWindupMontage'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.207"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:AbilityKeyPressed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.53"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:MaxSpeedPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.121"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:MinSpeedPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.123"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Event Data'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.168"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:PlayerPawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.157"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:MaxTossPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.122"
+      },
+      {
+        "ObjectName": "IntProperty'GA_Athena_Grenade_WithTrajectory_C:MaxTrajectoryBounces'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.146"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+      },
+      "TossGrenade": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:TossGrenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.8"
+      },
+      "CleanupTrajectoryDisplay": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CleanupTrajectoryDisplay'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.9"
+      },
+      "K2_OnEndAbility": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:K2_OnEndAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.11"
+      },
+      "OnAbilityInputReleased": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnAbilityInputReleased'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.12"
+      },
+      "Server_SpawnProjectile": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.14"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:K2_ActivateAbility'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.15"
+      },
+      "OnFinish_C70D988C492A7EF3B105DC8DADDBD86D": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_C70D988C492A7EF3B105DC8DADDBD86D'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.16"
+      },
+      "OnCompleted_758AC809498064C01C71318E141D1E46": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnCompleted_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.17"
+      },
+      "OnBlendOut_758AC809498064C01C71318E141D1E46": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnBlendOut_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.18"
+      },
+      "OnInterrupted_758AC809498064C01C71318E141D1E46": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnInterrupted_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.19"
+      },
+      "OnCancelled_758AC809498064C01C71318E141D1E46": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnCancelled_758AC809498064C01C71318E141D1E46'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.20"
+      },
+      "OnFinish_4B1D92B7427697E6BD9D58ACA0F87155": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_4B1D92B7427697E6BD9D58ACA0F87155'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.21"
+      },
+      "OnFinish_E8F8DC5A465F19B633AF0E8888171F5A": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:OnFinish_E8F8DC5A465F19B633AF0E8888171F5A'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.22"
+      },
+      "Triggered_B08560984B3818F6EECB3C9A92E61ADC": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.24"
+      },
+      "Cancelled_B08560984B3818F6EECB3C9A92E61ADC": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.26"
+      },
+      "Completed_B08560984B3818F6EECB3C9A92E61ADC": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.28"
+      },
+      "Created_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Created_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.30"
+      },
+      "Touched_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Touched_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.32"
+      },
+      "Bounced_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Bounced_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.34"
+      },
+      "Stopped_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Stopped_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.36"
+      },
+      "Exploded_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Exploded_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.38"
+      },
+      "Destroyed_40FE015D40E881984FE611B980B75D52": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Destroyed_40FE015D40E881984FE611B980B75D52'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.40"
+      },
+      "SetupGrenade": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+      },
+      "SpawnLocationAndRotation": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+      },
+      "SetupDummyProjectile": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+      },
+      "UpdateTrajectorySpline": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+      },
+      "CalcGrenadeSpeedFromPitch": {
+        "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Athena_Grenade_WithTrajectory_C'Default__GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.2"
+    }
+  },
+  {
+    "Type": "GA_Athena_Grenade_WithTrajectory_C",
+    "Name": "Default__GA_Athena_Grenade_WithTrajectory_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.GA_Athena_Grenade_WithTrajectory_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory",
+    "Properties": {
+      "UberGraphFrame": {},
+      "EventActivation": {
+        "TagName": "Abilities.generic.M80.DeActivate"
+      },
+      "EventComplete": {
+        "TagName": "Abilities.generic.M80.Activate"
+      },
+      "Prj_Grenade": {
+        "ObjectName": "BlueprintGeneratedClass'B_Prj_Athena_Grenade_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/B_Prj_Athena_Grenade.1"
+      },
+      "GrenadeSpeedMin": 4000.0,
+      "GrenadeSpeedMax": 4000.0,
+      "GravityScale": 0.8,
+      "GrenadeSound": {
+        "ObjectName": "SoundCue'Soldier_Proxy_Mine_Activate_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_Gadgets/Soldier/Soldier_Proxy_Mine_Activate_Cue.0"
+      },
+      "EC_DefaultExplosion": {
+        "TagName": "Abilities.generic.GenericProjectile.Explode"
+      },
+      "EC_ReturnedEffect": {
+        "TargetSelection": {
+          "List": [],
+          "bStopAtFirstSuccess": true,
+          "bKeepCheckingListOnIndestructibleHit": false,
+          "bUseWeaponRanges": true,
+          "bUseMaxYawAngleToTarget": false,
+          "MaxYawAngleToTarget": 0.0
+        },
+        "TargetGameplayEffectSpecs": [],
+        "OwnerGameplayEffectSpecs": [],
+        "ActivationCues": [],
+        "ImpactCues": []
+      },
+      "GrenadeDialogFeedback": {
+        "FeedbackBank": {
+          "ObjectName": "FortFeedbackBank'Soldier_Male_Feedback'",
+          "ObjectPath": "FortniteGame/Content/Characters/Feedback/Soldier_Male_Feedback.0"
+        },
+        "EventName": "Grenade_Throw",
+        "bReadOnly": false,
+        "bBankDefined": false,
+        "BroadcastFilterOverride": "FFBF_None_Max"
+      },
+      "GrenadeTargetingOriginOffset": {
+        "X": 12.0,
+        "Y": 20.0,
+        "Z": 93.0
+      },
+      "TrajectoryUpdateInterval": 0.01,
+      "DummyTimeStep": 0.04,
+      "TrajectoryIndicatorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_ProjectileTrajectory_Athena_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/BP_ProjectileTrajectory_Athena.0"
+      },
+      "ThrowWindupMontage": {
+        "MontageToPlay": {
+          "ObjectName": "AnimMontage'Grenade_Cook_IntroAnLoop'",
+          "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Combat/Gadgets/Medium/Male/Grenade_Cook_IntroAnLoop.0"
+        },
+        "AnimPlayRate": 1.0,
+        "AnimRootMotionTranslationScale": 1.0,
+        "MontageSectionToPlay": "EFortGameplayAbilityMontageSectionToPlay::FirstSection",
+        "OverrideSection": "None",
+        "bPlayRandomSection": false,
+        "CharacterPartMontages": []
+      },
+      "MaxSpeedPitch": 35.0,
+      "MinSpeedPitch": -35.0,
+      "Event Data": {
+        "EventTag": {
+          "TagName": "None"
+        },
+        "Instigator": null,
+        "Target": null,
+        "OptionalObject": null,
+        "OptionalObject2": null,
+        "ContextHandle": {},
+        "InstigatorTags": [],
+        "TargetTags": [],
+        "EventMagnitude": 0.0,
+        "TargetData": {}
+      },
+      "MaxTossPitch": 80.0,
+      "MaxTrajectoryBounces": 1,
+      "EffectContainers": {
+        "ApplicationTag": {
+          "TagName": "Abilities.generic.GenericProjectile.Explode"
+        },
+        "TargetSelection": {
+          "List": [
+            {
+              "Shape": "EFortTargetSelectionShape::Sphere",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Overlap",
+              "PrimarySource": "EFortAbilityTargetingSource::PawnForward",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 500.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 1.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Damageable",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": false,
+                "bExcludeRequester": false,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": false,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": true,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 8
+            }
+          ]
+        },
+        "TargetGameplayEffectClasses": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'GE_M80_Damage_C'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/Gadgets/M80/GE_M80_Damage.0"
+          }
+        ]
+      },
+      "AbilityCosts": [
+        {
+          "CostSource": "EFortAbilityCostSource::AmmoPrimary",
+          "CostValue": {
+            "Value": 1.0,
+            "Curve": {
+              "CurveTable": null,
+              "RowName": "None"
+            }
+          },
+          "ItemDefinition": {
+            "ObjectName": "FortWeaponRangedItemDefinition'WeaponData_M80'",
+            "ObjectPath": "FortniteGame/Content/Abilities/Player/Generic/UtilityItems/WeaponData_M80.0"
+          },
+          "bOnlyApplyCostOnHit": false
+        }
+      ],
+      "bPersistOnDeath": false,
+      "MontageInfo": {
+        "MontageToPlay": {
+          "ObjectName": "AnimMontage'Grenade_Cook_Outro'",
+          "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Combat/Gadgets/Medium/Male/Grenade_Cook_Outro.0"
+        }
+      },
+      "Tooltip": {
+        "ObjectName": "BlueprintGeneratedClass'TT_Commando_FragGrenade_C'",
+        "ObjectPath": "FortniteGame/Content/Abilities/Player/Commando/Actives/FragGrenade/TT_Commando_FragGrenade.6"
+      },
+      "AbilityTags": [
+        "Gameplay.DamageSource.Ability",
+        "Abilities.generic.M80",
+        "Gameplay.Action.Player.Light"
+      ],
+      "ReplicationPolicy": "EGameplayAbilityReplicationPolicy::ReplicateYes",
+      "InstancingPolicy": "EGameplayAbilityInstancingPolicy::InstancedPerActor"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EventActivation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.4"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.184"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.183"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.81"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.182"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.89"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.181"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.90"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.Temp_struct_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.191"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.91"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_TargetData3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.189"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ApplicationTag3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.178"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_TargetData2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.188"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ApplicationTag2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.177"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.92"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_TargetData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.187"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ApplicationTag'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.176"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.93"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.Temp_struct_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.192"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.Temp_struct_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.193"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate7'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.94"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_WaitDelay_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.152"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate8'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.95"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_WaitDelay_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.153"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate9'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.96"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.62"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate10'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.82"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate11'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.83"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate12'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.84"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate13'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.85"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_WaitDelay_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.154"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_K2_CommitAbility_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.67"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.63"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate14'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.86"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.186"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_PlayMontageInfoAndWaitForTrigger_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.150"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate15'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.87"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.64"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.180"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_Direction'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.179"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SpawnLocationAndRotation_OutLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.174"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SpawnLocationAndRotation_OutRot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.175"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BreakRotator_Roll'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.113"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BreakRotator_Pitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.112"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BreakRotator_Yaw'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.114"
+      },
+      {
+        "ObjectName": "ClassProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SetupGrenade_Base_Grenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.77"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SetupGrenade_Projectile_Speed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.116"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SetupGrenade_Explosion_Gameplay_Spec'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.173"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SetupGrenade_Projectile_Gravity_Scale'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.115"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CustomEvent_ProjectileData5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.185"
+      },
+      {
+        "ObjectName": "DelegateProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_CreateDelegate_OutputDelegate16'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.88"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsStandalone_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.60"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_K2_SetTimer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.172"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_Event_bWasCancelled'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.71"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_GetActorInfo_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.171"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_DynamicCast_AsFort_Player_Pawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.155"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.70"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.K2Node_MakeStruct_GameplayEventData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.190"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_AbilityTargetDataFromActor_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.170"
+      },
+      {
+        "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.7"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsLocallyControlled_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.59"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_HasAuthority_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.58"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.69"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.56"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_SpawnProjectileAndWait_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.151"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BeginSpawningActor_SpawnedActor'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.148"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BeginSpawningActor_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.55"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.65"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_K2_CommitAbility_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.68"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_CreatePlayMontageAndWaitProxy_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.149"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_IsValid_ReturnValue6'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.66"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.7"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'ActiveGameplayEffectHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue.CallFunc_BP_ApplyGameplayEffectToTarget_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.6"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "TossGrenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "CleanupTrajectoryDisplay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bWasCancelled",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:K2_OnEndAbility'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnEndAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_OnEndAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:K2_OnEndAbility.bWasCancelled'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAbilityInputReleased",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortGameplayAbility:OnAbilityInputReleased'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Server_SpawnProjectile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile.Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.13"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile.Direction'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.196"
+      }
+    ],
+    "FunctionFlags": "FUNC_Net | FUNC_NetReliable | FUNC_NetServer | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_C70D988C492A7EF3B105DC8DADDBD86D",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCompleted_758AC809498064C01C71318E141D1E46",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnBlendOut_758AC809498064C01C71318E141D1E46",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnInterrupted_758AC809498064C01C71318E141D1E46",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnCancelled_758AC809498064C01C71318E141D1E46",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_4B1D92B7427697E6BD9D58ACA0F87155",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_E8F8DC5A465F19B633AF0E8888171F5A",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TargetData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.24"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Triggered_B08560984B3818F6EECB3C9A92E61ADC",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC.TargetData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.23"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC.ApplicationTag'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.208"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TargetData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.26"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Cancelled_B08560984B3818F6EECB3C9A92E61ADC",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC.TargetData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.25"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC.ApplicationTag'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.164"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TargetData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.28"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Completed_B08560984B3818F6EECB3C9A92E61ADC",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC.TargetData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.27"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC.ApplicationTag'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.165"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Created_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.30"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Created_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Created_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Touched_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.32"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Touched_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Touched_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.31"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Bounced_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.34"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Bounced_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Bounced_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.33"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Stopped_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.36"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Stopped_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Stopped_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.35"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Exploded_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.38"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Exploded_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Exploded_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.37"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Destroyed_40FE015D40E881984FE611B980B75D52'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.40"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Destroyed_40FE015D40E881984FE611B980B75D52",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:Destroyed_40FE015D40E881984FE611B980B75D52.ProjectileData'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.39"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AimPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupGrenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.AimPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.41"
+      },
+      {
+        "ObjectName": "ClassProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.Base Grenade'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.79"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.Projectile Speed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.132"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.Explosion Gameplay Spec'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.199"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.Projectile Gravity Scale'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.131"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.CallFunc_CalcGrenadeSpeedFromPitch_GrenadeSpeed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.130"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade.CallFunc_MakeGameplayEffectContainerSpec_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.198"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "OutLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SpawnLocationAndRotation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.OutLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.43"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.OutRot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.206"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_K2_GetActorRotation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.203"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.202"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Roll'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.136"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Pitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.134"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Yaw'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.138"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_RotateAngleAxis_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.205"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_GetDefaultTargetingRotation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.201"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.200"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Roll2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.137"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Pitch2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.135"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_BreakRotator_Yaw2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.139"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_Add_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.133"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_FMin_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.140"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation.CallFunc_MakeRotator_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.204"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetTransform_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupDummyProjectile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_GetTransform_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.45"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_GetScaledCapsuleSize_OutRadius'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.128"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_GetScaledCapsuleSize_OutHalfHeight'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.127"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_FMax_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.125"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_GetGravityZ_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.126"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.124"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_GetTransform_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.197"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.158"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_FinishSpawningActor_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.160"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.K2Node_DynamicCast_AsBP_Projectile_Trajectory'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.162"
+      },
+      {
+        "ObjectName": "BoolProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.159"
+      },
+      {
+        "ObjectName": "ObjectProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_FinishSpawningActor_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.161"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile.CallFunc_Multiply_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.129"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SelectFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateTrajectorySpline",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_SelectFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.47"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_SpawnLocationAndRotation_OutLoc'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.211"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_SpawnLocationAndRotation_OutRot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.212"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_Conv_RotatorToVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.209"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_BreakRotator_Roll'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.143"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_BreakRotator_Pitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.142"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_BreakRotator_Yaw'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.144"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalcGrenadeSpeedFromPitch_GrenadeSpeed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.145"
+      },
+      {
+        "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_Multiply_VectorFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.210"
+      },
+      {
+        "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.50"
+      },
+      {
+        "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.52"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.50"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints.CallFunc_CalculateProjectileTrajectorySpline_OutSplinePoints'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.49"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.52"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline.CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents.CallFunc_CalculateProjectileTrajectorySpline_OutSplineTangents'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.51"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "AbilityKeyPressed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DummyShouldBounce",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BeginSpawningActor_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAuthority_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsLocallyControlled_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsStandalone_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_K2_CommitAbility_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_K2_CommitAbility_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_bWasCancelled",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Flashbang",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "GrenadeAmmo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "InThrowWindup",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "PlasmaGrenades",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "CallFunc_SetupGrenade_Base_Grenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Prj_Grenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Base Grenade",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "TrajectoryIndicatorClass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate10",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate11",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate12",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate13",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate14",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate15",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate16",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'SpawnProjectileEventData__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitTargetSelectionDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitTargetSelectionDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitTargetSelectionDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate7",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate8",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WaitDelayDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate9",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'MontageWaitSimpleDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AdditionalThrowAngle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "Function",
+    "Name": "CalcGrenadeSpeedFromPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.AimPitch'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.99"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.GrenadeSpeed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.106"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_NormalizeAxis_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.103"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.104"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_FClamp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.101"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_Subtract_FloatFloat_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.105"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.100"
+      },
+      {
+        "ObjectName": "FloatProperty'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch.CallFunc_Lerp_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.102"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "AimPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FClamp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Lerp_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_NormalizeAxis_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "GrenadeSpeed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:CalcGrenadeSpeedFromPitch'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.98"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DummyBounciness",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DummyExtent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DummyFriction",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DummyGravity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DummyTimeStep",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Pitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Roll",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Yaw",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SetupGrenade_Projectile_Gravity_Scale",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SetupGrenade_Projectile_Speed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "ExplosionRadius",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "GravityScale",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "GrenadeSpeedMax",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "GrenadeSpeedMin",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "MaxSpeedPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "MaxTossPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "MinSpeedPitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMax_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetGravityZ_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScaledCapsuleSize_OutHalfHeight",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScaledCapsuleSize_OutRadius",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_CalcGrenadeSpeedFromPitch_GrenadeSpeed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Projectile Gravity Scale",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Projectile Speed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Pitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Pitch2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Roll",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Roll2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Yaw",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Yaw2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_FMin_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "TrajectoryUpdateInterval",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Pitch",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Roll",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakRotator_Yaw",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_CalcGrenadeSpeedFromPitch_GrenadeSpeed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "MaxTrajectoryBounces",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DummyProjectile",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginSpawningActor_SpawnedActor",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreatePlayMontageAndWaitProxy_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AbilityTask_PlayMontageAndWait'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayMontageInfoAndWaitForTrigger_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortAbilityTask_PlayMontageWaitTarget'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnProjectileAndWait_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortAbilityTask_SpawnProjectileAndWait'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_WaitDelay_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AbilityTask_WaitDelay'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_WaitDelay_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AbilityTask_WaitDelay'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_WaitDelay_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'AbilityTask_WaitDelay'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Pawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GrenadeSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerPawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FinishSpawningActor_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortProjectileBase'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsBP_Projectile_Trajectory",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ProjectileTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/BP_ProjectileTrajectory.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TrajectoryIndicator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "BlueprintGeneratedClass'BP_ProjectileTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/BP_ProjectileTrajectory.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ApplicationTag",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Cancelled_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.26"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ApplicationTag",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Completed_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.28"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EC_DefaultExplosion",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EC_ReturnedEffect",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortGameplayEffectContainerSpec'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Event Data",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEventData'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EventComplete",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_AbilityTargetDataFromActor_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetActorInfo_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityActorInfo'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetTimer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'TimerHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_SetupGrenade_Explosion_Gameplay_Spec",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortGameplayEffectContainerSpec'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_SpawnLocationAndRotation_OutLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_SpawnLocationAndRotation_OutRot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ApplicationTag",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ApplicationTag2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ApplicationTag3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Direction",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_ProjectileData6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm | ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_TargetData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_TargetData2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_TargetData3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_GameplayEventData",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayEventData'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "PropertyFlags": "ContainsInstancedReference",
+    "Struct": {
+      "ObjectName": "ScriptStruct'ProjectileEventData'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Temp_struct_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:ExecuteUbergraph_GA_Athena_Grenade_WithTrajectory'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayAbilityTargetDataHandle'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "GrenadeDialogFeedback",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortFeedbackHandle'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "GrenadeTargetingOriginOffset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Direction",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Server_SpawnProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.14"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetTransform_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupDummyProjectile'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.46"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeGameplayEffectContainerSpec_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortGameplayEffectContainerSpec'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Explosion Gameplay Spec",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SetupGrenade'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.42"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortGameplayEffectContainerSpec'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDefaultTargetingRotation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeRotator_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_RotateAngleAxis_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "OutRot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:SpawnLocationAndRotation'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.44"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ThrowWindupMontage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Athena_Grenade_WithTrajectory_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortGameplayAbilityMontageInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ApplicationTag",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:Triggered_B08560984B3818F6EECB3C9A92E61ADC'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.24"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'GameplayTag'",
+      "ObjectPath": "/Script/GameplayTags"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Conv_RotatorToVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_SpawnLocationAndRotation_OutLoc",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_SpawnLocationAndRotation_OutRot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'GA_Athena_Grenade_WithTrajectory_C:UpdateTrajectorySpline'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Consumables/Grenade/GA_Athena_Grenade_WithTrajectory.48"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Rotator'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

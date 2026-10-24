@@ -1,0 +1,988 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaInventoryDragVisual_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaInventoryDragVisual_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.45"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/Inventory/AthenaInventoryDragVisual.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaInventoryDragVisual_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortUserWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaInventoryDragVisual_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.0"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.10"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.8"
+      },
+      {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:DropImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.33"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ItemCardSize'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.24"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaInventoryDragVisual": {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.6"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.8"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.10"
+      },
+      "ShowDropIcon": {
+        "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaInventoryDragVisual_C'Default__AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.2"
+    }
+  },
+  {
+    "Type": "AthenaInventoryDragVisual_C",
+    "Name": "Default__AthenaInventoryDragVisual_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.AthenaInventoryDragVisual_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ItemCardSize": "EFortItemCardSize::M",
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaInventoryDragVisual_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.AthenaInventoryDragVisual_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual",
+    "Template": {
+      "ObjectName": "AthenaInventoryDragVisual_C'Default__AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.2"
+    },
+    "Properties": {
+      "DropImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.31"
+      },
+      "DropImageContainer": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.16"
+      },
+      "ItemWidget": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.29"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.46"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DropImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaInventoryDragVisual",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.5"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_None"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ExecuteUbergraph_AthenaInventoryDragVisual'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragVisual_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.8"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Drop Action",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'AthenaDragDropAction'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaDragDropAction.0"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowDropIcon",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Drop Action'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.11"
+      },
+      {
+        "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.21"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragVisual_C:ShowDropIcon.CallFunc_NotEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_object_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_object_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_object_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.38"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaInventoryDragVisual_C:ShowDropIcon.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.35"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.26"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.27"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.25"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "DropImageContainer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryDragVisual_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.45"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 16.0,
+        "Right": 16.0,
+        "Bottom": 16.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.42"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "DropImageContainer",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.46"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 16.0,
+        "Right": 16.0,
+        "Bottom": 16.0
+      },
+      "Background": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 0.7,
+            "Hex": "B3000000"
+          }
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.DropImageContainer.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.44"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.15"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 16.0,
+        "Right": 16.0,
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "Border'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.15"
+      },
+      "Content": {
+        "ObjectName": "Image'AthenaInventoryDragVisual_C:WidgetTree.DropImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.30"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.DropImageContainer'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.16"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 16.0,
+        "Right": 16.0,
+        "Bottom": 16.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.16"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.DropImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.31"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ItemCardSize'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.24"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.K2Node_Select2_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.25"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'AthenaDragDropAction'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaDragDropAction.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.26"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable3'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.27"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "ItemCardSize",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "Enum": {
+      "ObjectName": "Enum'EFortItemCardSize'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ItemCardSize.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.19"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ShowDropIcon.K2Node_Select2_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.20"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.22"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaInventoryDragVisual_C:ShowDropIcon.Temp_byte_Variable3.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.23"
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryDragVisual_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.45"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.41"
+      }
+    }
+  },
+  {
+    "Type": "FortMultiSizeItemCard",
+    "Name": "ItemWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortMultiSizeItemCard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.46"
+    },
+    "Properties": {
+      "BPItemCardSize": "EFortItemCardSize::M",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.43"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryDragVisual_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.45"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AthenaDropItem'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/T_AthenaDropItem.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.17"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "DropImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.46"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AthenaDropItem'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/Styles/T_AthenaDropItem.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.DropImageContainer.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.18"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DropImageContainer",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Border'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "PropertyClass": {
+      "ObjectName": "Class'FortItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ItemWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'FortMultiSizeItemCard'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaInventoryDragVisual_C:ShowDropIcon'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaInventoryDragVisual_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.45"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.41"
+        },
+        {
+          "ObjectName": "OverlaySlot'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.42"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.46"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.43"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'AthenaInventoryDragVisual_C:WidgetTree.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.28"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+      },
+      "Content": {
+        "ObjectName": "Border'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.15"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.40"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.40"
+      },
+      "Content": {
+        "ObjectName": "FortMultiSizeItemCard'WidgetArchetype:WidgetTree_0.ItemWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.40"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.40"
+      },
+      "Content": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.DropImageContainer'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.16"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaInventoryDragVisual_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'AthenaInventoryDragVisual_C:WidgetTree.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.39"
+        },
+        {
+          "ObjectName": "FortMultiSizeItemCard'AthenaInventoryDragVisual_C:WidgetTree.ItemWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.28"
+        },
+        {
+          "ObjectName": "Border'AthenaInventoryDragVisual_C:WidgetTree.DropImageContainer'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.15"
+        },
+        {
+          "ObjectName": "Image'AthenaInventoryDragVisual_C:WidgetTree.DropImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaInventoryDragVisual_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Inventory/AthenaInventoryDragVisual.40"
+      }
+    }
+  }
+]

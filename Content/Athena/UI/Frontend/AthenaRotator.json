@@ -1,0 +1,2370 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaRotator_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Frontend/AthenaRotator.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'AthenaRotator_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.49"
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaRotator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonRotator'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.0"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:NewFunction_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.55"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:ChangeDirection'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.17"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.16"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.15"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.13"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.11"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.9"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:OnClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.7"
+      },
+      {
+        "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.4"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:Left Triggering Input Action'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.89"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:Right Triggering Input Action'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.90"
+      },
+      {
+        "ObjectName": "ClassProperty'AthenaRotator_C:TextStyle'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.40"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ShowGamepadButtonOnlyWhenFocused'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.30"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaRotator": {
+        "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+      },
+      "OnClicked": {
+        "ObjectName": "Function'AthenaRotator_C:OnClicked'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.7"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'AthenaRotator_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.9"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaRotator_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.11"
+      },
+      "BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature": {
+        "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.13"
+      },
+      "BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature": {
+        "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.15"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaRotator_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.16"
+      },
+      "ChangeDirection": {
+        "ObjectName": "Function'AthenaRotator_C:ChangeDirection'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.17"
+      },
+      "NewFunction_0": {
+        "ObjectName": "Function'AthenaRotator_C:NewFunction_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.55"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaRotator_C'Default__AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.2"
+    }
+  },
+  {
+    "Type": "AthenaRotator_C",
+    "Name": "Default__AthenaRotator_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.AthenaRotator_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Left Triggering Input Action": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "PlaylistChange"
+      },
+      "Right Triggering Input Action": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "PlaylistChange"
+      },
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Base_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-Base.0"
+      },
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaRotator_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.AthenaRotator_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator",
+    "Template": {
+      "ObjectName": "AthenaRotator_C'Default__AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.2"
+    },
+    "Properties": {
+      "MainBorder": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.44"
+      },
+      "ButtonLeft": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonLeft'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.76"
+      },
+      "ButtonRight": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonRight'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.77"
+      },
+      "MyText": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.MyText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.48"
+      },
+      "NormalStyle": {
+        "Disabled": {}
+      },
+      "SelectedStyle": {
+        "Disabled": {}
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MainBorder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaRotator",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.5"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.29"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.51"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.52"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_ComponentBoundEvent_Button2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.85"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_ComponentBoundEvent_Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.84"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.82"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.86"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.53"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_IsUsingGamepad_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.25"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_MakeStruct_WidgetTransform'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.87"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_MakeStruct_WidgetTransform2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.88"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_IsInteractionEnabled_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.23"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.28"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_IsInteractionEnabled_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.24"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_GetContext_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.83"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_IsUsingGamepad_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.26"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.27"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_IsHovered_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.22"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.21"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.50"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnClicked",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'CommonButton:OnClicked'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaRotator_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.10"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaRotator_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.54"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.13"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature.Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'AthenaRotator_C:BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature.Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeDirection",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ChangeDirection.bDirection'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.18"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaRotator_C:ChangeDirection.CallFunc_IsInteractionEnabled_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bDirection",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ChangeDirection'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.17"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsInteractionEnabled_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ChangeDirection'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.17"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsHovered_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsInteractionEnabled_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsInteractionEnabled_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsUsingGamepad_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ShowGamepadButtonOnlyWhenFocused",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.34"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.35"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'AthenaRotator_C:WidgetTree.MainBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.43"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'AthenaRotator_C:WidgetTree.MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.43"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.31"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.31"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.32"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.32"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.MainBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.44"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.44"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.50"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.51"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.52"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "TextStyle",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ClassProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CommonTextStyle'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.64"
+      }
+    }
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.68"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "MainBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-ItemInfo-Blank-DkBlue_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-ItemInfo-Blank-DkBlue.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 18.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.4,
+          "Top": 0.4,
+          "Right": 0.4,
+          "Bottom": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-1pxOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-1pxOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaRotator_C:WidgetTree.MainBorder.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.33"
+        }
+      ],
+      "bIsVariable": true,
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'AthenaRotator_C:WidgetTree.MainBorder.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.91"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "MainBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border-ItemInfo-Blank-DkBlue_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border-ItemInfo-Blank-DkBlue.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 18.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.4,
+          "Top": 0.4,
+          "Right": 0.4,
+          "Bottom": 0.4
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-Border-1pxOutline'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Materials/M-Border-1pxOutline.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.MainBorder.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.36"
+        }
+      ],
+      "bIsVariable": true,
+      "Navigation": {
+        "ObjectName": "WidgetNavigation'WidgetArchetype:WidgetTree_0.MainBorder.WidgetNavigation_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.92"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "MyText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "AA5C8209418C855738B5569F2B84AAE4",
+        "SourceString": "Option",
+        "LocalizedString": "Option"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.60"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.63"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.67"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "MyText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-S-B-Black_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-S-B-Black.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "AA5C8209418C855738B5569F2B84AAE4",
+        "SourceString": "Option",
+        "LocalizedString": "Option"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.71"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "ButtonRight",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__ButtonRight_K2Node_ComponentBoundEvent_15_CommonButtonClicked__DelegateSignature"
+        },
+        {
+          "ComponentPropertyName": "ButtonLeft",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__ButtonLeft_K2Node_ComponentBoundEvent_1_CommonButtonClicked__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.37"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.38"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaRotator_C:ExecuteUbergraph_AthenaRotator.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.39"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "NewFunction_0",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.62"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.60"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaRotator_C:WidgetTree.MainBorder.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.33"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.64"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.65"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.63"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.34"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.68"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.69"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.67"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.35"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.73"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.71"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.MainBorder.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.36"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'AthenaRotator_C:WidgetTree.MyText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.45"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'AthenaRotator_C:WidgetTree.ButtonRight'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.75"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'AthenaRotator_C:WidgetTree.ButtonLeft'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.74"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.46"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.41"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.78"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.80"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.47"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.42"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.79"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.81"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.MyText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.48"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Right": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonRight'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.77"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 8.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.59"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonLeft'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.76"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonLeft",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "ButtonText": {
+        "CultureInvariantString": null
+      },
+      "ControllerInputStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-TextOnlyBase_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-TextOnlyBase.0"
+      },
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Left_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-Left.0"
+      },
+      "bApplyAlphaOnDisable": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.62"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonRight",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaRotator_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.93"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "ButtonText": {
+        "CultureInvariantString": null
+      },
+      "ControllerInputStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-TextOnlyBase_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-TextOnlyBase.0"
+      },
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Right_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-Right.0"
+      },
+      "bApplyAlphaOnDisable": true,
+      "bHideInputActionWithKeyboard": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaRotator_C:WidgetTree.HorizontalBox_3.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.61"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonLeft",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.46"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.31"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.78"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.80"
+      },
+      "ButtonText": {
+        "CultureInvariantString": null
+      },
+      "ControllerInputStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-TextOnlyBase_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-TextOnlyBase.0"
+      },
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Left_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-Left.0"
+      },
+      "bApplyAlphaOnDisable": true,
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.41"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.73"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ButtonRight",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.94"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.47"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.32"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.79"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.81"
+      },
+      "ButtonText": {
+        "CultureInvariantString": null
+      },
+      "ControllerInputStyle": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-TextOnlyBase_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-TextOnlyBase.0"
+      },
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Right_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/ButtonStyle-Right.0"
+      },
+      "bApplyAlphaOnDisable": true,
+      "bHideInputActionWithKeyboard": true,
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.42"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_3.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.72"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.65"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.69"
+      }
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.95"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.66"
+      }
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.96"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.70"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_ComponentBoundEvent_Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_ComponentBoundEvent_Button2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaRotator_C:ExecuteUbergraph_AthenaRotator'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Left Triggering Input Action",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DataTableRowHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Right Triggering Input Action",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DataTableRowHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonBorder'AthenaRotator_C:WidgetTree.MainBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.43"
+    },
+    "Properties": {
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetNavigation",
+    "Name": "WidgetNavigation_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetNavigation'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.MainBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.44"
+    },
+    "Properties": {
+      "Left": {
+        "Rule": "EUINavigationRule::Stop"
+      },
+      "Right": {
+        "Rule": "EUINavigationRule::Stop"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaRotator_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'AthenaRotator_C:WidgetTree.MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.43"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "CommonBorder'AthenaRotator_C:WidgetTree.MainBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.43"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaRotator_C:WidgetTree.HorizontalBox_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.56"
+        },
+        {
+          "ObjectName": "IconTextButton_C'AthenaRotator_C:WidgetTree.ButtonLeft'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.74"
+        },
+        {
+          "ObjectName": "CommonTextBlock'AthenaRotator_C:WidgetTree.MyText'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.45"
+        },
+        {
+          "ObjectName": "IconTextButton_C'AthenaRotator_C:WidgetTree.ButtonRight'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.75"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaRotator_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.MainBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.44"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonLeft'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.76"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.31"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.31"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.57"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.41"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.78"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.46"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonLeft.WidgetTree_1.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.80"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ButtonRight'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.77"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.32"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.32"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.58"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.42"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.79"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.47"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ButtonRight.WidgetTree_2.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaRotator.81"
+        }
+      ]
+    }
+  }
+]

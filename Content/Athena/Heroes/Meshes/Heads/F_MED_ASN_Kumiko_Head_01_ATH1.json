@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CustomCharacterHeadData",
+    "Name": "CustomCharacterHeadData_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterHeadData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'F_MED_ASN_Kumiko_Head_01_ATH1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Kumiko_Head_01_ATH1.1"
+    },
+    "Properties": {
+      "SkinColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Skin/F_Med_ASN_Kumiko.F_Med_ASN_Kumiko",
+        "SubPathString": ""
+      },
+      "HairColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Hair/HairColor_10.HairColor_10",
+        "SubPathString": ""
+      },
+      "CapMorphTargets": [
+        "Hair_cap"
+      ],
+      "HelmetMorphTargets": [
+        "Hair_Helmet"
+      ],
+      "HatMorphTargets": [
+        "Hair_Hat"
+      ],
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_MED_ASN_Kumiko_Head_01/Meshes/F_MED_ASN_Kumiko_Head_01_Skeleton_AnimBP.F_MED_ASN_Kumiko_Head_01_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "F_MED_ASN_Kumiko_Head_01_ATH1",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Kumiko_Head_01_ATH1",
+    "Properties": {
+      "GenderPermitted": "EFortCustomGender::Female",
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterHeadData'F_MED_ASN_Kumiko_Head_01_ATH1:CustomCharacterHeadData_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Kumiko_Head_01_ATH1.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Heads/F_MED_ASN_Kumiko_Head_01_ATH.F_MED_ASN_Kumiko_Head_01_ATH",
+        "SubPathString": ""
+      },
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Female/Small/Heads/F_SML_ASN_Kumiko_Head_01/Materials/BR08/F_SML_ASN_Kumiko_Head_01_BR08.F_SML_ASN_Kumiko_Head_01_BR08",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 1,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

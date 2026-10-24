@@ -1,0 +1,1591 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BulletWhipTrackerComponent_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent",
+    "Properties": {
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'ActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.0"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.11"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:Reset'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.9"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:Update Velocity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.7"
+      },
+      {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:PassByPawn'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.3"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PreviousPlaneDotProd'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.51"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:VelocityDirection'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.90"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:StartLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.80"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:CachedPassDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.31"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PassByClosenessIntensity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.37"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:bHasPlayedPassBySound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.18"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PassByRadiusMax'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.38"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PassByRadiusMin'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.39"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:PassByFarSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.65"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:PassByCloseSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.64"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:End'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.68"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BulletWhipTrackerComponent": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+      },
+      "Update Velocity": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:Update Velocity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.7"
+      },
+      "Reset": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:Reset'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.9"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:ReceiveTick'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.11"
+      },
+      "TrackWhipStatus": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+      },
+      "GetLocalPawnForTracking": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+      },
+      "PlayWhipSound": {
+        "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BulletWhipTrackerComponent_C'Default__BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.2"
+    }
+  },
+  {
+    "Type": "BulletWhipTrackerComponent_C",
+    "Name": "Default__BulletWhipTrackerComponent_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.BulletWhipTrackerComponent_C'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent",
+    "Properties": {
+      "UberGraphFrame": {},
+      "VelocityDirection": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "StartLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PassByRadiusMax": 400.0,
+      "PassByRadiusMin": 50.0,
+      "PassByFarSound": {
+        "ObjectName": "SoundCue'bullet_whip_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_Cue.0"
+      },
+      "PassByCloseSound": {
+        "ObjectName": "SoundCue'bullet_whip_heavy_Cue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/bullet_whip_heavy_Cue.0"
+      },
+      "End": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "PrimaryComponentTick": {
+        "bCanEverTick": true,
+        "bStartWithTickEnabled": false
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByPawn",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BulletWhipTrackerComponent",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.4"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.21"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.K2Node_Event_DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.36"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_LessEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.20"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_TrackWhipStatus_Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.22"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_TrackWhipStatus_Whip_Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.34"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_MapRangeClamped_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.32"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.19"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.33"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.K2Node_CustomEvent_StartLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.70"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_TrackWhipStatus_Changed2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.23"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.CallFunc_TrackWhipStatus_Whip_Distance2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.35"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent.K2Node_CustomEvent_Current_Velocity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.69"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Current Velocity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:Update Velocity'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.7"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Update Velocity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:Update Velocity.Current Velocity'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "StartLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:Reset'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Reset",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:Reset.StartLocation'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ReceiveTick'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.11"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'ActorComponent:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:ReceiveTick.DeltaSeconds'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "TrackWhipStatus",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.Changed'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.12"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.Whip Distance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.55"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.ChangedResult'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.30"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_K2_GetComponentLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.83"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_K2_GetComponentLocation_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.84"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_GetLocalPawnForTracking_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.66"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_GetOwner_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.67"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_K2_GetActorLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.82"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_Subtract_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.87"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_Subtract_VectorVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.88"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_K2_GetComponentLocation_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.85"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_ProjectVectorOnToVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.86"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.81"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_Dot_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.52"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_Subtract_VectorVector_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.89"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_SignOfFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.53"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_VSize_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.54"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:TrackWhipStatus.CallFunc_NotEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetLocalPawnForTracking",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetOwner_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.59"
+      },
+      {
+        "ObjectName": "ArrayProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetInstigator_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.58"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.57"
+      },
+      {
+        "ObjectName": "IntProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetSpectatorPawn_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.61"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_K2_GetRootComponent_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.62"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetPlayerPawn_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_K2_GetRootComponent_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.63"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_IsValid_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.26"
+      },
+      {
+        "ObjectName": "BoolProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_NotEqual_ObjectObject_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.27"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.17"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetLocalFortPlayerControllers_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'BulletWhipTrackerComponent_C:GetLocalPawnForTracking.CallFunc_GetLocalFortPlayerControllers_ReturnValue.CallFunc_GetLocalFortPlayerControllers_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.16"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bHasPlayedPassBySound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_TrackWhipStatus_Changed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_TrackWhipStatus_Changed2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ObjectObject_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ChangedResult",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CachedPassDistance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_MapRangeClamped_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_TrackWhipStatus_Whip_Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_TrackWhipStatus_Whip_Distance2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_DeltaSeconds",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByClosenessIntensity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByRadiusMax",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PassByRadiusMin",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Location",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "PlayWhipSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.Location'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.40"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_GetRightVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.72"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_GetRightVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.73"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_K2_GetComponentLocation_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.74"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_X'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.42"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_Y'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.44"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_Z'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.46"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_MakeVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.75"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.50"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_Normal_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.78"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_X2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.43"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_Y2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.45"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_BreakVector_Z2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.47"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_MakeVector_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.76"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_Dot_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.48"
+      },
+      {
+        "ObjectName": "FloatProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_RadiansToDegrees_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.49"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_RotateAngleAxis_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.79"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_Multiply_VectorFloat_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.77"
+      },
+      {
+        "ObjectName": "StructProperty'BulletWhipTrackerComponent_C:PlayWhipSound.CallFunc_Add_VectorVector_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.71"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_X2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Y2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector_Z2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Dot_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_RadiansToDegrees_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "PreviousPlaneDotProd",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Dot_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_SignOfFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_VSize_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Whip Distance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetInstigator_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Pawn'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwner_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerPawn'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetSpectatorPawn_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'SpectatorPawn'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_K2_GetRootComponent_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_K2_GetRootComponent_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:GetLocalPawnForTracking'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.15"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByCloseSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PassByFarSound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetLocalPawnForTracking_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwner_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "End",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Current_Velocity",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_StartLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:ExecuteUbergraph_BulletWhipTrackerComponent'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetRightVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetRightVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_VectorFloat_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Normal_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_RotateAngleAxis_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:PlayWhipSound'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.41"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "StartLocation",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentLocation_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentLocation_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_GetComponentLocation_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_ProjectVectorOnToVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_VectorVector_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'BulletWhipTrackerComponent_C:TrackWhipStatus'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "VelocityDirection",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BulletWhipTrackerComponent_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/BulletWhips/BulletWhipTrackerComponent.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  }
+]

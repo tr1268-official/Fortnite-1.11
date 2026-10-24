@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Campfire_Fire_Doused_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeRandom'Campfire_Fire_Doused_Cue:SoundNodeRandom_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.1"
+      },
+      "VolumeMultiplier": 3.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 1.5406041,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Traps_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Traps_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Campfire_Fire_Doused_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Campfire_Fire_Doused_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Campfire_Fire_Doused_Cue:SoundNodeWavePlayer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Campfire_Fire_Doused_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Campfire/sfx_campfire_doused_02.sfx_campfire_doused_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_campfire_doused_02'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/sfx_campfire_doused_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Campfire_Fire_Doused_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/Campfire_Fire_Doused_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Campfire/sfx_campfire_doused_01.sfx_campfire_doused_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_campfire_doused_01'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Campfire/sfx_campfire_doused_01.0"
+    }
+  }
+]

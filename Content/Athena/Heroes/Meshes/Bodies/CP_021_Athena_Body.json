@@ -1,0 +1,62 @@
+[
+  {
+    "Type": "CustomCharacterBodyPartData",
+    "Name": "CustomCharacterBodyPartData_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterBodyPartData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'CP_021_Athena_Body'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_021_Athena_Body.1"
+    },
+    "Properties": {
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Female/Medium/Bodies/F_Med_Soldier_01/Meshes/F_Med_Soldier_01_Skeleton_AnimBP.F_Med_Soldier_01_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "CP_021_Athena_Body",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_021_Athena_Body",
+    "Properties": {
+      "GenderPermitted": "EFortCustomGender::Female",
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "CharacterPartType": "EFortCustomPartType::Body",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterBodyPartData'CP_021_Athena_Body:CustomCharacterBodyPartData_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Bodies/CP_021_Athena_Body.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/F_Med_Soldier_01_ATH.F_Med_Soldier_01_ATH",
+        "SubPathString": ""
+      },
+      "MasterSkeletalMeshes": [
+        {
+          "AssetPathName": "/Game/Characters/Player/Female/Medium/Base/SK_M_Female_Base_Skeleton.SK_M_Female_Base_Skeleton",
+          "SubPathString": ""
+        }
+      ],
+      "bSupportsColorSwatches": false,
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Commando_01/Materials/TV16/F_MED_Commando_Body_TV16.F_MED_Commando_Body_TV16",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 1,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

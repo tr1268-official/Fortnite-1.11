@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "SID_Pistol_SixShooter_Athena_C_Ore_T02",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Schematics/Weapons/SID_Pistol_SixShooter_Athena_C_Ore_T02",
+    "Properties": {
+      "CraftingRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'CraftingRecipes_New'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/CraftingRecipes_New.0"
+        },
+        "RowName": "Ammo.Shells"
+      },
+      "CraftingPoints": 285,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "DefaultAlterationSlots": [
+        {
+          "Type": "EFortAlteration::GameplaySlot",
+          "NumSlots": 1
+        },
+        {
+          "Type": "EFortAlteration::AttributeSlot",
+          "NumSlots": 1
+        }
+      ],
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "Common"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "Common"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Ranged.C.T02"
+      },
+      "MinLevel": 10,
+      "MaxLevel": 20,
+      "GameplayTags": [
+        "weapon.ranged.pistol"
+      ],
+      "bNeverPersisted": true,
+      "MaxTier": "EFortItemTier::II",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_C_T02"
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

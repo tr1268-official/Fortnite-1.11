@@ -1,0 +1,396 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GAB_Melee_ImpactCombo_Athena_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GAB_Melee_ImpactCombo_Athena",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GAB_Melee_GenericCombo_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Melee/GAB_Melee_GenericCombo.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'GAB_Melee_GenericCombo_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Melee/GAB_Melee_GenericCombo.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GAB_Melee_ImpactCombo_Athena_C'Default__GAB_Melee_ImpactCombo_Athena_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GAB_Melee_ImpactCombo_Athena.1"
+    }
+  },
+  {
+    "Type": "GAB_Melee_ImpactCombo_Athena_C",
+    "Name": "Default__GAB_Melee_ImpactCombo_Athena_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Items/Weapons/Abilities/GAB_Melee_ImpactCombo_Athena.GAB_Melee_ImpactCombo_Athena_C'",
+    "Package": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GAB_Melee_ImpactCombo_Athena",
+    "Template": {
+      "ObjectName": "GAB_Melee_GenericCombo_C'Default__GAB_Melee_GenericCombo_C'",
+      "ObjectPath": "FortniteGame/Content/Abilities/Weapons/Melee/GAB_Melee_GenericCombo.2"
+    },
+    "Properties": {
+      "EffectContainers": {
+        "TargetSelection": {
+          "List": [
+            {
+              "Shape": "EFortTargetSelectionShape::Cone",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Overlap",
+              "PrimarySource": "EFortAbilityTargetingSource::PawnForward",
+              "SecondarySource": "EFortAbilityTargetingSource::Camera",
+              "Range": 128.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 20.0,
+              "ConePitchAngle": 20.0,
+              "ConeMinRadius": 20.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Pawns",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": true,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Line",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 400.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 1.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::WeakSpots",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Sphere",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::PawnForward",
+              "Range": 300.0,
+              "HalfExtents": {
+                "X": 20.0,
+                "Y": 20.0,
+                "Z": 20.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 50.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Damageable",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": true,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Line",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 90.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 50.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::World",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::OnlyTargeting",
+              "MaxTargets": 1
+            }
+          ],
+          "bKeepCheckingListOnIndestructibleHit": true
+        }
+      },
+      "EffectContainers[1]": {
+        "TargetSelection": {
+          "List": [
+            {
+              "Shape": "EFortTargetSelectionShape::Cone",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Overlap",
+              "PrimarySource": "EFortAbilityTargetingSource::PawnForward",
+              "SecondarySource": "EFortAbilityTargetingSource::Camera",
+              "Range": 128.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 20.0,
+              "ConePitchAngle": 20.0,
+              "ConeMinRadius": 20.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Pawns",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": true,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Line",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 400.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 1.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::WeakSpots",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Sphere",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::PawnForward",
+              "Range": 300.0,
+              "HalfExtents": {
+                "X": 20.0,
+                "Y": 20.0,
+                "Z": 20.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 50.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::Damageable",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": true,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::BothTargetingAndCanHit",
+              "MaxTargets": 1
+            },
+            {
+              "Shape": "EFortTargetSelectionShape::Line",
+              "CustomShapeComponentName": "",
+              "TestType": "EFortTargetSelectionTestType::Swept",
+              "PrimarySource": "EFortAbilityTargetingSource::Camera",
+              "SecondarySource": "EFortAbilityTargetingSource::Max_None",
+              "Range": 90.0,
+              "HalfExtents": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ConeYawAngle": 0.0,
+              "ConePitchAngle": 0.0,
+              "ConeMinRadius": 50.0,
+              "TargetFilter": {
+                "ActorTypeFilter": "EFortTargetSelectionFilter::World",
+                "ActorClassFilter": null,
+                "bExcludeInstigator": true,
+                "bExcludeRequester": true,
+                "bExcludeAllAttachedToInstigator": false,
+                "bExcludeAllAttachedToRequester": false,
+                "bExcludePawnFriends": true,
+                "bExcludeFriendlyAI": false,
+                "bExcludePawnEnemies": false,
+                "bExcludeNonPawnFriends": false,
+                "bExcludeNonPawnEnemies": false,
+                "bExcludeDBNOPawns": false,
+                "bExcludeWithoutNavigationCorridor": false,
+                "bExcludeNonPlayerBuiltPieces": false,
+                "bExcludePlayerBuiltPieces": false,
+                "bExcludeNonBGABuildings": false,
+                "bExcludeNonBlockingHits": false,
+                "bTraceComplexCollision": false
+              },
+              "bExcludeObstructedByWorld": false,
+              "bCreateHitResultWhenNoTargetsFound": false,
+              "bUseProjectileRotationForDamageZones": false,
+              "TargetSelectionUsage": "EFortAbilityTargetSelectionUsage::OnlyTargeting",
+              "MaxTargets": 1
+            }
+          ],
+          "bKeepCheckingListOnIndestructibleHit": true
+        }
+      },
+      "WeaponTestApplicationTag": {
+        "TagName": "Gameplay.Melee.Hit1"
+      },
+      "MontageInfo": {
+        "MontageToPlay": {
+          "ObjectName": "AnimMontage'PlayerMeleeCombo'",
+          "ObjectPath": "FortniteGame/Content/Animation/Game/MainPlayer/Montages/Melee/PlayerMeleeCombo.0"
+        }
+      },
+      "CostGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_Athena_MeleeMovementSpeed_C'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Weapons/Abilities/GE_Athena_MeleeMovementSpeed.0"
+      }
+    }
+  }
+]

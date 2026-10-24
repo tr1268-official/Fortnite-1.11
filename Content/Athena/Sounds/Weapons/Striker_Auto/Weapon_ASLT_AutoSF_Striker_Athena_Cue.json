@@ -1,0 +1,308 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Weapon_ASLT_AutoSF_Striker_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeMixer_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.4"
+      },
+      "VolumeMultiplier": 1.0,
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_WeaponMelee_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_WeaponMelee_PSM.0"
+      },
+      "bDebug": true,
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.9615419
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeWavePlayer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Distant_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Distant_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeModulator_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Medium_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Medium_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        0.1
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeModulator_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeSoundClass_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.9"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        0.9,
+        0.6
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeSoundClass_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeSoundClass_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeMixer_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeAttenuation_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_Distant'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_Distant.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeAttenuation_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_ASLT_AutoSF_Striker_Athena_Cue:SoundNodeAttenuation_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_close.sfx_striker_singlefire_close",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_striker_singlefire_close'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_close.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_distant.sfx_striker_singlefire_distant",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_striker_singlefire_distant'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_distant.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_ASLT_AutoSF_Striker_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Weapon_ASLT_AutoSF_Striker_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_medium.sfx_striker_singlefire_medium",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_striker_singlefire_medium'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Striker_Auto/Single_Shot/sfx_striker_singlefire_medium.0"
+    }
+  }
+]

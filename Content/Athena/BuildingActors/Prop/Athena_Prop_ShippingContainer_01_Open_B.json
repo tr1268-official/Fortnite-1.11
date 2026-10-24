@@ -1,0 +1,142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Prop_ShippingContainer_01_Open_B_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Prop_ShippingContainer_01_Open_B_C:SimpleConstructionScript_587'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingProp'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Prop_ShippingContainer_01_Open_B_C'Default__Athena_Prop_ShippingContainer_01_Open_B_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.1"
+    }
+  },
+  {
+    "Type": "Athena_Prop_ShippingContainer_01_Open_B_C",
+    "Name": "Default__Athena_Prop_ShippingContainer_01_Open_B_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.Athena_Prop_ShippingContainer_01_Open_B_C'",
+    "Package": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B",
+    "Properties": {
+      "bAutoAssignNavProperties": false,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_Prop_ShippingContainer_01_Open_B'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01_Open_B.2"
+      },
+      "ResourceType": "EFortResourceType::Metal",
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_ShippingContainer_01_Open_B_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.5"
+      },
+      "BuildingResourceAmountOverride": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResourceRates'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/ResourceRates.0"
+        },
+        "RowName": "ResourceMetalMedium"
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_General_Deco_Destruction_Large'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Base_Effects/P_General_Deco_Destruction_Large.38"
+      },
+      "BuildingAttachmentSlot": "SLOT_Floor",
+      "BuildingAttachmentType": "ATTACH_Floor",
+      "AttributeInitKey": {
+        "AttributeInitCategory": "ResourceMetal",
+        "AttributeInitSubCategory": "4"
+      },
+      "NavigationObstacleOverride": "ENavigationObstacleOverride::ForceDisabled",
+      "bCanExportNavigationCollisions": true,
+      "bForceAutomationPass": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Prop_ShippingContainer_01_Open_B_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_1991",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_ShippingContainer_01_Open_B_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1995",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Prop_ShippingContainer_01_Open_B_C:SimpleConstructionScript_587'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Prop_ShippingContainer_01_Open_B_C:SceneComponent_1991'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_587",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Prop_ShippingContainer_01_Open_B_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Prop_ShippingContainer_01_Open_B_C:SimpleConstructionScript_587.SCS_Node_1995'",
+        "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Prop_ShippingContainer_01_Open_B_C'Default__Athena_Prop_ShippingContainer_01_Open_B_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/BuildingActors/Prop/Athena_Prop_ShippingContainer_01_Open_B.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_Prop_ShippingContainer_01_Open_B'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_Prop_ShippingContainer_01_Open_B.2"
+      },
+      "CanCharacterStepUpOn": "ECB_Yes",
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "bAutoWeld": false
+      }
+    }
+  }
+]

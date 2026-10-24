@@ -1,0 +1,372 @@
+[
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaMinimapContainer_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaMinimapContainer_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.13"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaMinimapContainer.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaMinimapContainer_C'Default__AthenaMinimapContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.1"
+    }
+  },
+  {
+    "Type": "AthenaMinimapContainer_C",
+    "Name": "Default__AthenaMinimapContainer_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.AthenaMinimapContainer_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer",
+    "Properties": {
+      "HUDElementTag": [
+        "HUD.TopRight.Minimap"
+      ],
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaMinimapContainer_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.AthenaMinimapContainer_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer",
+    "Template": {
+      "ObjectName": "AthenaMinimapContainer_C'Default__AthenaMinimapContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.1"
+    },
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.14"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaMinimapContainer_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.13"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 5.0,
+        "Right": 5.0,
+        "Bottom": 5.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 264.0,
+          "Y": 264.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.597345,
+          "Right": 0.504425,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'minimap_Art_square'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/minimap_Art_square.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'AthenaMinimapContainer_C:WidgetTree.Border_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.14"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 5.0,
+        "Right": 5.0,
+        "Bottom": 5.0
+      },
+      "Background": {
+        "ImageSize": {
+          "X": 264.0,
+          "Y": 264.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.597345,
+          "Right": 0.504425,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'minimap_Art_square'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Art/minimap_Art_square.0"
+        }
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Border_0.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'AthenaMinimapContainer_C:WidgetTree.Border_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.3"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 5.0,
+        "Right": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Border'AthenaMinimapContainer_C:WidgetTree.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.3"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'AthenaMinimapContainer_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.9"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.4"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 5.0,
+        "Right": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.4"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.10"
+      }
+    }
+  },
+  {
+    "Type": "FortLegacySlateBridgeWidget",
+    "Name": "FortSlateWidgetMinimap",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortLegacySlateBridgeWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaMinimapContainer_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.13"
+    },
+    "Properties": {
+      "ContainedWidgetType": "EFortLegacySlateWidget::AthenaMiniMap",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'AthenaMinimapContainer_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.11"
+      }
+    }
+  },
+  {
+    "Type": "FortLegacySlateBridgeWidget",
+    "Name": "FortSlateWidgetMinimap",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortLegacySlateBridgeWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.14"
+    },
+    "Properties": {
+      "ContainedWidgetType": "EFortLegacySlateWidget::AthenaMiniMap",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.12"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaMinimapContainer_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.13"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 280.0,
+      "HeightOverride": 280.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'AthenaMinimapContainer_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'AthenaMinimapContainer_C:WidgetTree.Border_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.5"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.14"
+    },
+    "Properties": {
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "WidthOverride": 280.0,
+      "HeightOverride": 280.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.Border_0.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.6"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'AthenaMinimapContainer_C:WidgetTree.SizeBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.9"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'AthenaMinimapContainer_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.9"
+      },
+      "Content": {
+        "ObjectName": "FortLegacySlateBridgeWidget'AthenaMinimapContainer_C:WidgetTree.FortSlateWidgetMinimap'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.7"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.10"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.10"
+      },
+      "Content": {
+        "ObjectName": "FortLegacySlateBridgeWidget'WidgetArchetype:WidgetTree_0.FortSlateWidgetMinimap'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.8"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaMinimapContainer_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.0"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'AthenaMinimapContainer_C:WidgetTree.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.3"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'AthenaMinimapContainer_C:WidgetTree.Border_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.3"
+        },
+        {
+          "ObjectName": "SizeBox'AthenaMinimapContainer_C:WidgetTree.SizeBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.9"
+        },
+        {
+          "ObjectName": "FortLegacySlateBridgeWidget'AthenaMinimapContainer_C:WidgetTree.FortSlateWidgetMinimap'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaMinimapContainer_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.2"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaMinimapContainer.4"
+      }
+    }
+  }
+]

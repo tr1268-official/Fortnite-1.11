@@ -1,0 +1,150 @@
+[
+  {
+    "Type": "FortQuestItemDefinition",
+    "Name": "Athena_BattlePass_QuestTrigger",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortQuestItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Quests/BattlePass/Athena_BattlePass_QuestTrigger",
+    "Properties": {
+      "QuestType": "EFortQuestType::Athena",
+      "Rewards": [
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Athena_BattlePass_QuestTrigger.Athena_BattlePass_QuestTrigger",
+            "SubPathString": ""
+          },
+          "Quantity": 1
+        },
+        {
+          "ItemDefinition": {
+            "AssetPathName": "/Game/Athena/Items/Quests/BattlePass/Athena_BattlePass_QuestPack.Athena_BattlePass_QuestPack",
+            "SubPathString": ""
+          },
+          "Quantity": 1
+        }
+      ],
+      "Objectives": [
+        {
+          "BackendName": "custom_login",
+          "ObjectiveStatHandle": {
+            "DataTable": {
+              "ObjectName": "DataTable'ObjectiveStatTable'",
+              "ObjectPath": "FortniteGame/Content/Quests/ObjectiveStatTable.0"
+            },
+            "RowName": "custom_login"
+          },
+          "AlternativeStatHandles": [],
+          "ItemEvent": "EFortQuestObjectiveItemEvent::Max_None",
+          "ItemReference": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ItemTemplateIdOverride": "",
+          "LinkSquadID": "None",
+          "LinkSquadIndex": 0,
+          "LinkVaultTab": "EFortInventoryFilter::Max_None",
+          "LinkToItemManagement": "EFortFrontendInventoryFilter::Schematics",
+          "Description": {
+            "Namespace": "",
+            "Key": "24C570B44C3B2EAF7DE6A3B317AAB91E",
+            "SourceString": "Trigger daily quest on log-in",
+            "LocalizedString": "Trigger daily quest on log-in"
+          },
+          "HudShortDescription": {
+            "CultureInvariantString": null
+          },
+          "HudIcon": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "Count": 1,
+          "Stage": -1,
+          "bHidden": true,
+          "bRequirePrimaryMissionCompletion": false,
+          "bCanProgressInZone": true,
+          "bDisplayDynamicAnnouncementUpdate": false,
+          "bDisplayDynamicStatusUpdate": false,
+          "DynamicUpdateCompletionDelay": 0.0,
+          "ScriptedAction": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "GrantToProfileType": "athena",
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "965BDACE4CC1D39EED15D1A9D4C48F97",
+        "SourceString": "Battle Pass Challenges",
+        "LocalizedString": "Battle Pass Challenges"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "8B0063D043170B618859B59DAD426EB5",
+        "SourceString": "+1 daily quest",
+        "LocalizedString": "+1 daily quest"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "672DF139425AC800F0F418B763482CB1",
+        "SourceString": "A Battle Pass Challenge will be awarded every day if your Battle Pass Challenge slot is empty.",
+        "LocalizedString": "A Battle Pass Challenge will be awarded every day if your Battle Pass Challenge slot is empty."
+      },
+      "Access": "EFortTemplateAccess::Private",
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-FNBR-ExtraDailyQuest'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Icons/Items/T-FNBR-ExtraDailyQuest.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Items/T-FNBR-ExtraDailyQuest-L.T-FNBR-ExtraDailyQuest-L",
+        "SubPathString": ""
+      },
+      "FrontendPreviewMeshOffset": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.65,
+          "W": 1.0,
+          "IsNormalized": false,
+          "Size": 1.192686,
+          "SizeSquared": 1.4224999
+        },
+        "Translation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -14.0
+        },
+        "Scale3D": {
+          "X": 1.4,
+          "Y": 1.4,
+          "Z": 1.4
+        }
+      },
+      "AthenaFrontendPreviewMeshOffset": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.66262007,
+          "W": 0.7489557,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10.0,
+          "Y": 0.0,
+          "Z": -25.0
+        },
+        "Scale3D": {
+          "X": 3.0,
+          "Y": 3.0,
+          "Z": 3.0
+        }
+      },
+      "FrontendPreviewMeshOverride": {
+        "AssetPathName": "/Game/UI/Frontend/ItemInspect/Workers/S-WorkersPhotos.S-WorkersPhotos",
+        "SubPathString": ""
+      }
+    }
+  }
+]

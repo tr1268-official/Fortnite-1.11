@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "FortWeaponRangedItemDefinition",
+    "Name": "Athena_BigPoppy",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortWeaponRangedItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Consumables/BigPoppy/Athena_BigPoppy",
+    "Properties": {
+      "ProjectileTemplate": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/BigPoppy/B_Prj_Athena_BigPoppy.B_Prj_Athena_BigPoppy_C",
+        "SubPathString": ""
+      },
+      "WeaponActorClass": {
+        "AssetPathName": "/Game/Abilities/Player/Generic/UtilityItems/B_UtilityItem_Generic_Athena.B_UtilityItem_Generic_Athena_C",
+        "SubPathString": ""
+      },
+      "WeaponStatHandle": {
+        "DataTable": {
+          "ObjectName": "DataTable'UtilityItemDamage'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/UtilityItemDamage.0"
+        },
+        "RowName": "Generic_NonDamaging"
+      },
+      "PrimaryFireAbility": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/BigPoppy/GA_Athena_BigPoppy.GA_Athena_BigPoppy_C",
+        "SubPathString": ""
+      },
+      "AmmoData": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/BigPoppy/Athena_BigPoppy.Athena_BigPoppy",
+        "SubPathString": ""
+      },
+      "ReticleImage": {
+        "AssetPathName": "/Game/UI/HUD/Reticles/HUD_Xhair_Launcher_comp.HUD_Xhair_Launcher_comp",
+        "SubPathString": ""
+      },
+      "ReticleCornerAngles": [],
+      "bShowDirectionalArrowWhenFarOff": false,
+      "bItemCanBeStolen": false,
+      "bItemHasDurability": false,
+      "MiniMapIconBrush": {
+        "ResourceObject": {
+          "ObjectName": "Texture2D'UI_Radar_EnemyDot_White'",
+          "ObjectPath": "FortniteGame/Content/UI/Fort_HUD/UI_Radar_EnemyDot_White.0"
+        }
+      },
+      "MiniMapViewableDistance": 5000.0,
+      "bDropOnDeath": true,
+      "PickupStaticMesh": {
+        "AssetPathName": "/Game/Athena/Items/Consumables/BigPoppy/S_Athena_BigPoppy_Capsule.S_Athena_BigPoppy_Capsule",
+        "SubPathString": ""
+      },
+      "PickupSound": {
+        "AssetPathName": "/Game/Sounds/Fort_Gadgets/Teleporter/medkit_pickup_Athena_Cue.medkit_pickup_Athena_Cue",
+        "SubPathString": ""
+      },
+      "bHasDisintegrationValue": false,
+      "MaxLevel": 1,
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "916B770D4BA0FE91997901887C738024",
+        "SourceString": "Big Poppy",
+        "LocalizedString": "Big Poppy"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "3B25CCDA48BC8A355DA6479DC24BE328",
+        "SourceString": "A self-inflating balloon that demands personal space.",
+        "LocalizedString": "A self-inflating balloon that demands personal space."
+      },
+      "FilterOverride": "EFortInventoryFilter::WeaponRanged",
+      "bNeverPersisted": true,
+      "MaxStackSize": 10,
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'T-Banners-Icons-Balloon'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Textures/Banner/Bucket/T-Banners-Icons-Balloon.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/UI/Foundation/Textures/Banner/Bucket/T-Banners-Icons-Balloon-L.T-Banners-Icons-Balloon-L",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Quality"
+    }
+  }
+]

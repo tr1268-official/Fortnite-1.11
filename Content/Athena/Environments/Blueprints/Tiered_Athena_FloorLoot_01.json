@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Tiered_Athena_FloorLoot_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Tiered_Athena_FloorLoot_01_C:SimpleConstructionScript_136'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingContainer'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Tiered_Athena_FloorLoot_01_C'Default__Tiered_Athena_FloorLoot_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.1"
+    }
+  },
+  {
+    "Type": "Tiered_Athena_FloorLoot_01_C",
+    "Name": "Default__Tiered_Athena_FloorLoot_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.Tiered_Athena_FloorLoot_01_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01",
+    "Properties": {
+      "SearchLootTierGroup": "Loot_AthenaFloorLoot",
+      "SearchBounceRadiusOverride": 200.0,
+      "LootTossSpeed_Athena": 350.0,
+      "LootTossConeHalfAngle_Athena": 180.0,
+      "bDestroyContainerOnSearch": true,
+      "bStartAlreadySearched_Athena": true,
+      "SearchSpeed": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'SearchSpeed'",
+          "ObjectPath": "FortniteGame/Content/Balance/SearchSpeed.0"
+        },
+        "RowName": "SearchSpeedVeryFast"
+      },
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_LootTiered_Athena_FloorLoot_01'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_LootTiered_Athena_FloorLoot_01.2"
+      },
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Tiered_Athena_FloorLoot_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.5"
+      },
+      "BuildingAttachmentType": "ATTACH_Floor",
+      "AreaClass": {
+        "AssetPathName": "/Script/Engine.NavArea_Default",
+        "SubPathString": ""
+      },
+      "AttributeInitKey": {
+        "AttributeInitCategory": "PropWood",
+        "AttributeInitSubCategory": "1"
+      },
+      "DefaultTags": [
+        "Building.Type.Container.CardboardBox"
+      ],
+      "bIsNavigationRelevant": false,
+      "bDestroyOnPlayerBuildingPlacement": true,
+      "bEnableAutoLODGeneration": false,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Tiered_Athena_FloorLoot_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_130",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tiered_Athena_FloorLoot_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_140",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Tiered_Athena_FloorLoot_01_C:SimpleConstructionScript_136'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Tiered_Athena_FloorLoot_01_C:SceneComponent_130'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_136",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Tiered_Athena_FloorLoot_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Tiered_Athena_FloorLoot_01_C:SimpleConstructionScript_136.SCS_Node_140'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Tiered_Athena_FloorLoot_01_C'Default__Tiered_Athena_FloorLoot_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Tiered_Athena_FloorLoot_01.1"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'S_LootTiered_Athena_FloorLoot_01'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/S_LootTiered_Athena_FloorLoot_01.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom",
+        "bAutoWeld": false
+      },
+      "bHiddenInGame": true
+    }
+  }
+]

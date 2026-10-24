@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "CustomCharacterHeadData",
+    "Name": "CustomCharacterHeadData_5",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterHeadData'",
+    "Outer": {
+      "ObjectName": "CustomCharacterPart'F_MED_ASN_Sarah_Head_01_HelmetHair_ATH'",
+      "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_01_HelmetHair_ATH.1"
+    },
+    "Properties": {
+      "SkinColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Skin/F_Med_ASN.F_Med_ASN",
+        "SubPathString": ""
+      },
+      "HairColorSwatch": {
+        "AssetPathName": "/Game/Characters/CharacterColorSwatches/Hair/HairColor_01.HairColor_01",
+        "SubPathString": ""
+      },
+      "CapMorphTargets": [
+        "Hair_cap"
+      ],
+      "HelmetMorphTargets": [
+        "Hair_Helmet"
+      ],
+      "HatMorphTargets": [
+        "Hair_Hat"
+      ],
+      "AnimClass": {
+        "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_MED_ASN_Sarah_Head_01/Meshes/F_MED_ASN_Sarah_Head_01_Skeleton_AnimBP.F_MED_ASN_Sarah_Head_01_Skeleton_AnimBP_C",
+        "SubPathString": ""
+      }
+    }
+  },
+  {
+    "Type": "CustomCharacterPart",
+    "Name": "F_MED_ASN_Sarah_Head_01_HelmetHair_ATH",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CustomCharacterPart'",
+    "Package": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_01_HelmetHair_ATH",
+    "Properties": {
+      "GenderPermitted": "EFortCustomGender::Female",
+      "BodyTypesPermitted": "EFortCustomBodyType::Medium",
+      "AdditionalData": {
+        "ObjectName": "CustomCharacterHeadData'F_MED_ASN_Sarah_Head_01_HelmetHair_ATH:CustomCharacterHeadData_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_01_HelmetHair_ATH.0"
+      },
+      "SkeletalMesh": {
+        "AssetPathName": "/Game/Athena/Heroes/Meshes/Heads/F_MED_ASN_Sarah_Head_ATH_HelmetHair_01.F_MED_ASN_Sarah_Head_ATH_HelmetHair_01",
+        "SubPathString": ""
+      },
+      "MaterialOverrides": [
+        {
+          "MaterialOverrideIndex": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_MED_ASN_Sarah_Head_01/Materials/F_MED_ASN_Sarah_Head_01.F_MED_ASN_Sarah_Head_01",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "MaterialOverrideFlags": 1,
+      "MiniMapIconBrush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      }
+    }
+  }
+]

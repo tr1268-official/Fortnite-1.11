@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "Material",
+    "Name": "M_GamePhase_Bus",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Material'",
+    "Package": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus",
+    "Properties": {
+      "EmissiveColor": {
+        "Expression": null,
+        "OutputIndex": 0,
+        "InputName": "/Game/Athena/HUD/Phase/M_GamePhase_Bus",
+        "Mask": 0,
+        "MaskR": 0,
+        "MaskG": 0,
+        "MaskB": 0,
+        "MaskA": 33,
+        "ExpressionName": "/Game/Athena/HUD/Phase/T_Bus",
+        "UseConstant": false,
+        "Constant": {
+          "B": 38,
+          "G": 0,
+          "R": 0,
+          "A": 0,
+          "Hex": "000026"
+        }
+      },
+      "Opacity": null,
+      "MaterialDomain": "MD_UI",
+      "BlendMode": "BLEND_Translucent",
+      "EditorX": 288,
+      "Expressions": [
+        null,
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_Bus:MaterialExpressionTextureSample_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSample'M_GamePhase_Bus:MaterialExpressionTextureSample_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.2"
+        },
+        null,
+        null
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "BD34D40D-471EDC5A-6D7FBAB7-4FE82257"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_Bus'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_GamePhaseBackground'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_GamePhaseBackground.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_Bus'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSample",
+    "Name": "MaterialExpressionTextureSample_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MaterialExpressionTextureSample'",
+    "Outer": {
+      "ObjectName": "Material'M_GamePhase_Bus'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.0"
+    },
+    "Properties": {
+      "Texture": {
+        "ObjectName": "Texture2D'T_Bus'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/T_Bus.0"
+      },
+      "Material": {
+        "ObjectName": "Material'M_GamePhase_Bus'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/Phase/M_GamePhase_Bus.0"
+      }
+    }
+  }
+]

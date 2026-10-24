@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Fort_SupplyDrop_Falling_Loop_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeMixer'Fort_SupplyDrop_Falling_Loop_Athena_Cue:SoundNodeMixer_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.1"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Gadgets'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Gadgets.0"
+      },
+      "Duration": 10000.0,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_SupplyDrop_Crate_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Crate_Athena_Att.0"
+      }
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Falling_Loop_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeParamCrossFade'Fort_SupplyDrop_Falling_Loop_Athena_Cue:SoundNodeParamCrossFade_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.2"
+        },
+        {
+          "ObjectName": "SoundNodeParamCrossFade'Fort_SupplyDrop_Falling_Loop_Athena_Cue:SoundNodeParamCrossFade_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeParamCrossFade",
+    "Name": "SoundNodeParamCrossFade_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeParamCrossFade'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Falling_Loop_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.0"
+    },
+    "Properties": {
+      "ParamName": "FallingPercent",
+      "CrossFadeInput": [
+        {
+          "FadeInDistanceStart": 0.0,
+          "FadeInDistanceEnd": 0.5,
+          "FadeOutDistanceStart": 0.9,
+          "FadeOutDistanceEnd": 1.0,
+          "Volume": 1.0
+        }
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Fort_SupplyDrop_Falling_Loop_Athena_Cue:SoundNodeWavePlayer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeParamCrossFade",
+    "Name": "SoundNodeParamCrossFade_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeParamCrossFade'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Falling_Loop_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.0"
+    },
+    "Properties": {
+      "ParamName": "FallingPercent",
+      "CrossFadeInput": [
+        {
+          "FadeInDistanceStart": 0.6,
+          "FadeInDistanceEnd": 0.8,
+          "FadeOutDistanceStart": 0.9,
+          "FadeOutDistanceEnd": 1.0,
+          "Volume": 0.25
+        }
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Fort_SupplyDrop_Falling_Loop_Athena_Cue:SoundNodeWavePlayer_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Falling_Loop_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/SupplyDrops/sfx_supplydrop_falling_layer1.sfx_supplydrop_falling_layer1",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_supplydrop_falling_layer1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/sfx_supplydrop_falling_layer1.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Fort_SupplyDrop_Falling_Loop_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/Fort_SupplyDrop_Falling_Loop_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/SupplyDrops/sfx_supplydrop_falling_layer2.sfx_supplydrop_falling_layer2",
+        "SubPathString": ""
+      },
+      "bLooping": true
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'sfx_supplydrop_falling_layer2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/SupplyDrops/sfx_supplydrop_falling_layer2.0"
+    }
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Athena_Soldier_Metal_Sprint_Footstep_3P_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeModulator'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeModulator_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.1"
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Player_Foley_3P_Athena'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Player_Foley_3P_Athena.0"
+      },
+      "SoundConcurrencySettings": {
+        "ObjectName": "SoundConcurrency'Athena_Footstep_Conc'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Concurrency_Rules/Athena_Footstep_Conc.0"
+      },
+      "ConcurrencyOverrides": {
+        "MaxCount": 1,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 1.0144792,
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Player_Footsteps_Sprint_3P_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Player_Footsteps_Sprint_3P_Athena_Att.0"
+      },
+      "Priority": 0.5
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.0,
+      "PitchMax": 1.07,
+      "VolumeMin": 0.7,
+      "VolumeMax": 1.0,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeRandom_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_12'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.3"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_13'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.4"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_14'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.5"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.6"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.7"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_24'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_25'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.10"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_26'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.11"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_27'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.12"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_28'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.13"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue:SoundNodeWavePlayer_29'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_12",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_10.Soldier_Step_Run_Metal_10",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_10'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_10.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_13",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_11.Soldier_Step_Run_Metal_11",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_11'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_11.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_14",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_12.Soldier_Step_Run_Metal_12",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_12'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_12.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_01.Soldier_Step_Run_Metal_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_01'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_01.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_02.Soldier_Step_Run_Metal_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_02'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_02.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_03.Soldier_Step_Run_Metal_03",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_03'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_03.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_24",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_04.Soldier_Step_Run_Metal_04",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_04'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_04.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_25",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_05.Soldier_Step_Run_Metal_05",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_05'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_05.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_26",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_06.Soldier_Step_Run_Metal_06",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_06'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_06.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_27",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_07.Soldier_Step_Run_Metal_07",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_07'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_07.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_28",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_08.Soldier_Step_Run_Metal_08",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_08'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_08.0"
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_29",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Athena_Soldier_Metal_Sprint_Footstep_3P_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Character/Footsteps/3P/Metal/Athena_Soldier_Metal_Sprint_Footstep_3P_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_09.Soldier_Step_Run_Metal_09",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": {
+      "ObjectName": "SoundWave'Soldier_Step_Run_Metal_09'",
+      "ObjectPath": "FortniteGame/Content/Sounds/Fort_Step_Sounds/Soldier/Soldier_Step_Run_Metal_09.0"
+    }
+  }
+]

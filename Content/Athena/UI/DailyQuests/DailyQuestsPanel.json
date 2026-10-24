@@ -1,0 +1,4832 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "DailyQuestsPanel_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/DailyQuests/DailyQuestsPanel.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'DailyQuestsPanel_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.101"
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'DailyQuestsPanel_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortAccountWidgetBase'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'DailyQuestsPanel_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.0"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:ClaimNextQuestReward'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.47"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnNoQuestRewardsToClaim'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.28"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestRewardClaimed'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.21"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsGranted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.19"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.10"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.9"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnAccountInfoChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.7"
+      },
+      {
+        "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.151"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BattlePassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.152"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BattlePassList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.153"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ClaimButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.156"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:DailyQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.162"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:EventQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.163"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.164"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ClaimingQuestsInProgress'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.26"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:QuestTypeToClaim'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.118"
+      },
+      {
+        "ObjectName": "StructProperty'DailyQuestsPanel_C:InspectActionButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.203"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ParentPanel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.170"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_DailyQuestsPanel": {
+        "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+      },
+      "OnAccountInfoChanged": {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnAccountInfoChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.7"
+      },
+      "BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature": {
+        "ObjectName": "Function'DailyQuestsPanel_C:BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'DailyQuestsPanel_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.10"
+      },
+      "BindEventListeners": {
+        "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+      },
+      "OnQuestsUpdated": {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+      },
+      "CreateQuestWidget": {
+        "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+      },
+      "OnQuestsGranted": {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsGranted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.19"
+      },
+      "OnQuestRewardClaimed": {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnQuestRewardClaimed'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.21"
+      },
+      "OnNoQuestRewardsToClaim": {
+        "ObjectName": "Function'DailyQuestsPanel_C:OnNoQuestRewardsToClaim'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.28"
+      },
+      "ClaimNextQuestReward": {
+        "ObjectName": "Function'DailyQuestsPanel_C:ClaimNextQuestReward'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.47"
+      },
+      "ShowModalQuests": {
+        "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+      },
+      "ProcessQuestUpdate": {
+        "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+      },
+      "SetInputActionHandlers": {
+        "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+      },
+      "UpdateBattlePass": {
+        "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "DailyQuestsPanel_C'Default__DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.2"
+    }
+  },
+  {
+    "Type": "DailyQuestsPanel_C",
+    "Name": "Default__DailyQuestsPanel_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.DailyQuestsPanel_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel",
+    "Properties": {
+      "UberGraphFrame": {},
+      "QuestTypeToClaim": "EFortQuestType::AthenaDailyQuest",
+      "InspectActionButton": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "Athena_QuestInspect_Open"
+      },
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BattlePassBorder",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_DailyQuestsPanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel.K2Node_ComponentBoundEvent_Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.165"
+      },
+      {
+        "ObjectName": "StructProperty'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel.K2Node_Event_Result'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.202"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Result",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnAccountInfoChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.7"
+    },
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortPublicAccountInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnAccountInfoChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'FortAccountWidgetBase:OnAccountInfoChanged'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'DailyQuestsPanel_C:OnAccountInfoChanged.Result'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature.Button'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnQuestsUpdated__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BindEventListeners",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'DailyQuestsPanel_C:BindEventListeners.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.11"
+      },
+      {
+        "ObjectName": "DelegateProperty'DailyQuestsPanel_C:BindEventListeners.K2Node_CreateDelegate_OutputDelegate2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.103"
+      },
+      {
+        "ObjectName": "DelegateProperty'DailyQuestsPanel_C:BindEventListeners.K2Node_CreateDelegate_OutputDelegate3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.104"
+      },
+      {
+        "ObjectName": "DelegateProperty'DailyQuestsPanel_C:BindEventListeners.K2Node_CreateDelegate_OutputDelegate4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.105"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BindEventListeners.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.154"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:BindEventListeners.CallFunc_GetQuestManager_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.155"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ClaimQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestsUpdated",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.ClaimQuests'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.13"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.43"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.111"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.112"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.44"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.113"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.114"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.167"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.148"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetQuestManager_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.169"
+      },
+      {
+        "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetCurrentQuests_OutCurrentQuests'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_Array_Get_Item'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.166"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.147"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetQuestDefinitionBP_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.168"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetQuestType_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.107"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.115"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.42"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.38"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.116"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_HasAnyChildren_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.33"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_HasAnyChildren_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.34"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_HasAnyChildren_ReturnValue3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.35"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_BooleanOR_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.31"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_BooleanOR_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.32"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_ProcessQuestUpdate_QuestIsCompleted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.39"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.30"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_HasAnyChildren_ReturnValue4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.36"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_ProcessQuestUpdate_QuestIsCompleted2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.40"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.110"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_ProcessQuestUpdate_QuestIsCompleted3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.41"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.108"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.149"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.37"
+      },
+      {
+        "ObjectName": "IntProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.146"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_bool_Variable3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.45"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select3_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.109"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Quest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "CreateQuestWidget",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:CreateQuestWidget.Quest'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:CreateQuestWidget.QuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.161"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:CreateQuestWidget.QuestCompleted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.27"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:CreateQuestWidget.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.160"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:CreateQuestWidget.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.159"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:CreateQuestWidget.CallFunc_AddChild_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.158"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NewQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestsGranted.NewQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.18"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "NewQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsGranted'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.19"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsGranted.NewQuests.NewQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.17"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestsGranted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestsGranted.NewQuests'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Quest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestRewardClaimed'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnQuestRewardClaimed",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestRewardClaimed.Quest'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.20"
+      },
+      {
+        "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestRewardClaimed.Rewards'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Rewards",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestRewardClaimed.Rewards'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.23"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortItemInstanceQuantityPair'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Rewards",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestRewardClaimed'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.21"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'DailyQuestsPanel_C:OnQuestRewardClaimed.Rewards.Rewards'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.22"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetCurrentQuests_OutCurrentQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "ArrayProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetCurrentQuests_OutCurrentQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.25"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetCurrentQuests_OutCurrentQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "ObjectProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetCurrentQuests_OutCurrentQuests.CallFunc_GetCurrentQuests_OutCurrentQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.24"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "ClaimingQuestsInProgress",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "QuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "OnNoQuestRewardsToClaim",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:OnNoQuestRewardsToClaim.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnNoQuestRewardsToClaim'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.28"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanOR_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAnyChildren_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAnyChildren_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAnyChildren_ReturnValue3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAnyChildren_ReturnValue4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_ProcessQuestUpdate_QuestIsCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_ProcessQuestUpdate_QuestIsCompleted2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_ProcessQuestUpdate_QuestIsCompleted3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ClaimNextQuestReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.47"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ClaimNextQuestReward",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ClaimNextQuestReward.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ClaimNextQuestReward.CallFunc_GetQuestManager_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.157"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bCommitted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowModalQuests",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ShowModalQuests.bCommitted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.48"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ShowModalQuests.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.175"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ShowModalQuests.CallFunc_GetUIManagerWidget_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.176"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ShowModalQuests.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.174"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Quest",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ProcessQuestUpdate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ProcessQuestUpdate.Quest'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:ProcessQuestUpdate.QuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.171"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ProcessQuestUpdate.QuestIsCompleted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.55"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ProcessQuestUpdate.QuestCompleted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.54"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ProcessQuestUpdate.CallFunc_CreateQuestWidget_QuestCompleted'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.52"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:ProcessQuestUpdate.CallFunc_GetQuestState_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.117"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:ProcessQuestUpdate.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.53"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_CreateQuestWidget_QuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "QuestCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "QuestIsCompleted",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetParent_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PanelWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetInputActionHandlers",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:SetInputActionHandlers.CallFunc_GetParent_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.56"
+      },
+      {
+        "ObjectName": "DelegateProperty'DailyQuestsPanel_C:SetInputActionHandlers.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.106"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:SetInputActionHandlers.CallFunc_FindParentWidgetOfType_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.172"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:SetInputActionHandlers.K2Node_DynamicCast_AsAthena_Lobby'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.173"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:SetInputActionHandlers.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateBattlePass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.59"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.120"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.121"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:UpdateBattlePass.CallFunc_GetContext_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.178"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_bool_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.63"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:UpdateBattlePass.CallFunc_GetAthenaProfile_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.177"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:UpdateBattlePass.CallFunc_HasPurchasedSeasonBook_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.62"
+      },
+      {
+        "ObjectName": "ObjectProperty'DailyQuestsPanel_C:UpdateBattlePass.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.179"
+      },
+      {
+        "ObjectName": "BoolProperty'DailyQuestsPanel_C:UpdateBattlePass.CallFunc_HasAnyChildren_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.61"
+      },
+      {
+        "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.K2Node_Select2_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.119"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAnyChildren_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasPurchasedSeasonBook_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "ContentBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Border'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Background": {
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.69"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.BattlePassBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.88"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 0.0,
+        "Right": 16.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.88"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.89"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.89"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.191"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.90"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.90"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.190"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BattlePassBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.91"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Top": 0.0,
+        "Right": 16.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.91"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.128"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.64"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.64"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.DailyQuestsLabel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.92"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.DailyQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.92"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.194"
+      }
+    }
+  },
+  {
+    "Type": "BorderSlot",
+    "Name": "BorderSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BorderSlot'",
+    "Outer": {
+      "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.EventQuestsLabel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.93"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Parent": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.93"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.193"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetQuestType_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.107"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select2_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.108"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select3_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.109"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.110"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.111"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.112"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.113"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.114"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable5'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.115"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable6'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.116"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:ProcessQuestUpdate.CallFunc_GetQuestState_ReturnValue'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.117"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:QuestTypeToClaim'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.118"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.K2Node_Select2_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.119"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.120"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.121"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "CommonActionWidget",
+    "Name": "InputActionWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonActionWidget'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "ProgressMaterialBrush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FFFF00"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'HollowCircularProgressBar'",
+          "ObjectPath": "FortniteGame/Content/UI/Materials/HollowCircularProgressBar.0"
+        }
+      },
+      "ProgressMaterialParam": "Percentage",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.134"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "BattlePassBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_Grad_Purchasable_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_Grad_Purchasable.0"
+      },
+      "Padding": {
+        "Left": 16.0,
+        "Top": 0.0,
+        "Right": 16.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.BattlePassBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.65"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.221"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "DailyQuestsLabel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_AthenaStore_OfferHeaderBacking_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_AthenaStore_OfferHeaderBacking.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.184"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "EventQuestsLabel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_AthenaStore_OfferHeaderBacking_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_AthenaStore_OfferHeaderBacking.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.182"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "BattlePassBorder",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_Grad_Purchasable_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_Grad_Purchasable.0"
+      },
+      "Padding": {
+        "Left": 16.0,
+        "Top": 0.0,
+        "Right": 16.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.BattlePassBorder.BorderSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.223"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "DailyQuestsLabel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_AthenaStore_OfferHeaderBacking_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_AthenaStore_OfferHeaderBacking.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.DailyQuestsLabel.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_6'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.188"
+      }
+    }
+  },
+  {
+    "Type": "CommonBorder",
+    "Name": "EventQuestsLabel",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonBorder'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'Border_AthenaStore_OfferHeaderBacking_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Border/Border_AthenaStore_OfferHeaderBacking.0"
+      },
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "Slots": [
+        {
+          "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.EventQuestsLabel.BorderSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.186"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-40pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-40pc.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-NoFade_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-NoFade.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "46EE574046070717199ACC856DCF1B94",
+        "SourceString": "EVENT CHALLENGES",
+        "LocalizedString": "EVENT CHALLENGES"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.129"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-Base_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-Base.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "08C43E804C44B1DB737350B2692B5797",
+        "SourceString": "Battle Pass owners receive an extra daily challenge, and many more rewards!",
+        "LocalizedString": "Battle Pass owners receive an extra daily challenge, and many more rewards!"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.131"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "HeaderText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-40pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-40pc.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-NoFade_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-NoFade.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "113D03764ADD472F9C86EA9635D8A4FC",
+        "SourceString": "DAILY CHALLENGES",
+        "LocalizedString": "DAILY CHALLENGES"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.130"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CenterButtonTextWidget",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-MediumButton_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/TextStyles/TextStyle-MediumButton.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "8CF2791C43994615289B75A65595F59B",
+        "SourceString": "{Text}",
+        "LocalizedString": "{Text}"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.133"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-40pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-40pc.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-NoFade_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-NoFade.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "46EE574046070717199ACC856DCF1B94",
+        "SourceString": "EVENT CHALLENGES",
+        "LocalizedString": "EVENT CHALLENGES"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.137"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "CommonTextBlock_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-Base_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-Base.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "08C43E804C44B1DB737350B2692B5797",
+        "SourceString": "Battle Pass owners receive an extra daily challenge, and many more rewards!",
+        "LocalizedString": "Battle Pass owners receive an extra daily challenge, and many more rewards!"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.139"
+      }
+    }
+  },
+  {
+    "Type": "CommonTextBlock",
+    "Name": "HeaderText",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonTextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'TextStyle-Base-XS-B-40pc_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextStyle-Base-XS-B-40pc.0"
+      },
+      "ScrollStyle": {
+        "ObjectName": "BlueprintGeneratedClass'TextScrollStyle-NoFade_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Text/TextScrollStyle-NoFade.0"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "113D03764ADD472F9C86EA9635D8A4FC",
+        "SourceString": "DAILY CHALLENGES",
+        "LocalizedString": "DAILY CHALLENGES"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.138"
+      }
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "ClaimButton",
+          "DelegatePropertyName": "OnButtonClicked",
+          "FunctionNameToBind": "BndEvt__IconTextButton_K2Node_ComponentBoundEvent_66_CommonButtonClicked__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "DailyQuestsPanel_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.DailyQuestsPanel_C'",
+    "Package": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel",
+    "Template": {
+      "ObjectName": "DailyQuestsPanel_C'Default__DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.2"
+    },
+    "Properties": {
+      "BattlePassBorder": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.91"
+      },
+      "BattlePassDailiySwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+      },
+      "BattlePassImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.BattlePassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.144"
+      },
+      "BattlePassList": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.BattlePassList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.208"
+      },
+      "ClaimButton": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ClaimButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.142"
+      },
+      "DailyQuestList": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.DailyQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.209"
+      },
+      "EventQuestList": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.EventQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.210"
+      },
+      "EventQuestsLabel": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.93"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnQuestRewardClaimed__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnQuestsGranted__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnQuestsUpdated__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'CommonActionCommited__DelegateSignature'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetQuestType_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortQuestType'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.CallFunc_GetQuestType_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.72"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select2_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.73"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select3_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EInputActionState'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select3_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.74"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.75"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.76"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.77"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable3",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable3.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.78"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable4",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable4.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.79"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable5",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EInputActionState'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable5.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.80"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable6",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EInputActionState'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:OnQuestsUpdated.Temp_byte_Variable6.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.81"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetQuestState_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "Enum": {
+      "ObjectName": "Enum'EFortQuestState'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:ProcessQuestUpdate.CallFunc_GetQuestState_ReturnValue.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.82"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "QuestTypeToClaim",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Enum": {
+      "ObjectName": "Enum'EFortQuestType'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:QuestTypeToClaim.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.83"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select2_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:UpdateBattlePass.K2Node_Select2_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.84"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.85"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'DailyQuestsPanel_C:UpdateBattlePass.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.86"
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.129"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.196"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.130"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_2.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.197"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.132"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.131"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.BattlePassBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.134"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.135"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.133"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.136"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.69"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.137"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.199"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.138"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.200"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.140"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.139"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.BattlePassBorder.BorderSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.68"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.122"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.122"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.94"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.123"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.123"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.HeaderText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.96"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.CommonTextBlock_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.95"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+      },
+      "Content": {
+        "ObjectName": "Image'DailyQuestsPanel_C:WidgetTree.BattlePassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.143"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Top": 4.0,
+        "Right": 5.0,
+        "Bottom": 4.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.97"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 2.0,
+        "Top": 2.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+      },
+      "Content": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.87"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.145"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+      },
+      "Content": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.150"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.126"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.126"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.98"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.127"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.127"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.HeaderText'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.100"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.128"
+    },
+    "Properties": {
+      "Size": {
+        "SizeRule": "ESlateSizeRule::Fill"
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.128"
+      },
+      "Content": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.CommonTextBlock_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.99"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.128"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Right": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.128"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.BattlePassImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.144"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ClaimButton",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "ContentAlignment": "HAlign_Left",
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Outline-Green-Shine_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/TopBar/ButtonStyle-Outline-Green-Shine.0"
+      },
+      "TriggeringInputAction": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "AthenaDailyChallengePanel"
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.214"
+      }
+    }
+  },
+  {
+    "Type": "IconTextButton_C",
+    "Name": "ClaimButton",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.IconTextButton_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Template": {
+      "ObjectName": "IconTextButton_C'Default__IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.2"
+    },
+    "Properties": {
+      "CenterButtonTextWidget": {
+        "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.CenterButtonTextWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.97"
+      },
+      "ContentBorder": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.64"
+      },
+      "LeftSideImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.LeftSideImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.145"
+      },
+      "RightExtraContentSlot": {
+        "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.RightExtraContentSlot'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.150"
+      },
+      "ContentAlignment": "HAlign_Left",
+      "Style": {
+        "ObjectName": "BlueprintGeneratedClass'ButtonStyle-Outline-Green-Shine_C'",
+        "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/ButtonStyles/TopBar/ButtonStyle-Outline-Green-Shine.0"
+      },
+      "TriggeringInputAction": {
+        "DataTable": {
+          "ObjectName": "DataTable'InputActionDataTable'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Input/InputActionDataTable.0"
+        },
+        "RowName": "AthenaDailyChallengePanel"
+      },
+      "InputActionWidget": {
+        "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.InputActionWidget'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.87"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_5'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.217"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BattlePassImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-BattlePassBadge'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/XPBoost/M-BattlePassBadge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.132"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BattlePassImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-BattlePassBadge'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/XPBoost/M-BattlePassBadge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_2.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.140"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeftSideImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "DrawAs": "ESlateBrushDrawType::NoDrawType"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.135"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    }
+  },
+  {
+    "Type": "NamedSlot",
+    "Name": "RightExtraContentSlot",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NamedSlot'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.226"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.136"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BattlePassDailiySwitcher",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetSwitcher'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BattlePassImage",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BattlePassList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuestManager_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:BindEventListeners'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.12"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestManager'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ClaimButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'IconTextButton_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Buttons/IconTextButton.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuestManager_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ClaimNextQuestReward'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.47"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestManager'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChild_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestWidget_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestWidget.9"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "QuestList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:CreateQuestWidget'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.16"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DailyQuestList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EventQuestList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "EventQuestsLabel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CommonBorder'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_ComponentBoundEvent_Button",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'CommonButton'",
+      "ObjectPath": "/Script/CommonUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItem'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortGlobalUIContext'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuestDefinitionBP_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestItemDefinition'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetQuestManager_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:OnQuestsUpdated'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.14"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortQuestManager'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ParentPanel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobby_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobby.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "QuestList",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ProcessQuestUpdate'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.51"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'VerticalBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_FindParentWidgetOfType_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsAthena_Lobby",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:SetInputActionHandlers'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.57"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaLobby_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Frontend/AthenaLobby.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+    },
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'QuestsModal_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/QuestsModal.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetUIManagerWidget_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ShowModalQuests'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.49"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortUIManagerWidget_NUI'",
+      "ObjectPath": "/Script/FortniteUI"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetAthenaProfile_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortMcpProfileAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetContext_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortMcpContext'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:UpdateBattlePass'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.60"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "ScrollBox_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.182"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.183"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.184"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.185"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_3.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.198"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "ScrollBox_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.186"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.187"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.188"
+        },
+        {
+          "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.189"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_3.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.201"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.90"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.EventQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.206"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.89"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.DailyQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.205"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.EventQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.93"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+    },
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.EventQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.210"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.DailyQuestsLabel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.92"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBoxSlot",
+    "Name": "ScrollBoxSlot_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScrollBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.DailyQuestList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.209"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 36.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.196"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.67"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 36.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_2.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.197"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.66"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "bOverride_MaxDesiredHeight": true,
+      "MaxDesiredHeight": 270.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'DailyQuestsPanel_C:WidgetTree.SizeBox_3.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.198"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.212"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 36.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.199"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.EventQuestsLabel.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.71"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "bOverride_HeightOverride": true,
+      "HeightOverride": 36.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.200"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "BorderSlot'WidgetArchetype:WidgetTree_0.DailyQuestsLabel.BorderSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.70"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "bOverride_MaxDesiredHeight": true,
+      "MaxDesiredHeight": 270.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_3.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.201"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.215"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.190"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Right": 16.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.190"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.122"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.191"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Right": 16.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.191"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.123"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.192"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.192"
+      },
+      "Content": {
+        "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.193"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Right": 16.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.193"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.126"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.194"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 16.0,
+        "Right": 16.0
+      },
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.194"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.127"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.195"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.195"
+      },
+      "Content": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.ScrollBox_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.181"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_Result",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'DailyQuestsPanel_C:ExecuteUbergraph_DailyQuestsPanel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.5"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'FortPublicAccountInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InspectActionButton",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DataTableRowHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "BattlePassList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.220"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "DailyQuestList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.185"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "EventQuestList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'DailyQuestsPanel_C:WidgetTree.ScrollBox_4.ScrollBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.183"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.213"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.212"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.214"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "BattlePassList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.222"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "DailyQuestList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_7'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.189"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "EventQuestList",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScrollBoxSlot'WidgetArchetype:WidgetTree_0.ScrollBox_4.ScrollBoxSlot_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.187"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.216"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.215"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.217"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.192"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'DailyQuestsPanel_C:WidgetTree.ClaimButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.141"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+    },
+    "Properties": {
+      "Padding": {
+        "Top": 4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.195"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Outer": {
+      "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 4.0,
+        "Top": 4.0,
+        "Right": 4.0,
+        "Bottom": 4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+      },
+      "Content": {
+        "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ClaimButton'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.142"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "BattlePassDailiySwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'DailyQuestsPanel_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.224"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.220"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.221"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'DailyQuestsPanel_C:WidgetTree.VerticalBox_1.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.213"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "BattlePassDailiySwitcher",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.225"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.222"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.223"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_1.VerticalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.216"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.BattlePassList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.204"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.88"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.BattlePassList'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.208"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Outer": {
+      "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.BattlePassDailiySwitcher'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.219"
+      },
+      "Content": {
+        "ObjectName": "CommonBorder'WidgetArchetype:WidgetTree_0.BattlePassBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.91"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'DailyQuestsPanel_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.VerticalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.207"
+        },
+        {
+          "ObjectName": "WidgetSwitcher'DailyQuestsPanel_C:WidgetTree.BattlePassDailiySwitcher'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.218"
+        },
+        {
+          "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.BattlePassList'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.204"
+        },
+        {
+          "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.BattlePassBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.88"
+        },
+        {
+          "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.124"
+        },
+        {
+          "ObjectName": "Image'DailyQuestsPanel_C:WidgetTree.BattlePassImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.143"
+        },
+        {
+          "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.CommonTextBlock_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.95"
+        },
+        {
+          "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.192"
+        },
+        {
+          "ObjectName": "ScrollBox'DailyQuestsPanel_C:WidgetTree.ScrollBox_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.180"
+        },
+        {
+          "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.EventQuestsLabel'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.90"
+        },
+        {
+          "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.190"
+        },
+        {
+          "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.122"
+        },
+        {
+          "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.CommonTextBlock_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.94"
+        },
+        {
+          "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.EventQuestList'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.206"
+        },
+        {
+          "ObjectName": "CommonBorder'DailyQuestsPanel_C:WidgetTree.DailyQuestsLabel'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.89"
+        },
+        {
+          "ObjectName": "SizeBox'DailyQuestsPanel_C:WidgetTree.SizeBox_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.191"
+        },
+        {
+          "ObjectName": "HorizontalBox'DailyQuestsPanel_C:WidgetTree.HorizontalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.123"
+        },
+        {
+          "ObjectName": "CommonTextBlock'DailyQuestsPanel_C:WidgetTree.HeaderText'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.96"
+        },
+        {
+          "ObjectName": "VerticalBox'DailyQuestsPanel_C:WidgetTree.DailyQuestList'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.205"
+        },
+        {
+          "ObjectName": "IconTextButton_C'DailyQuestsPanel_C:WidgetTree.ClaimButton'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.141"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "DailyQuestsPanel_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.102"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.211"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "IconTextButton_C'WidgetArchetype:WidgetTree_0.ClaimButton'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.142"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.64"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Border'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.ContentBorder'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.64"
+        },
+        {
+          "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.HorizontalBox'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.125"
+        },
+        {
+          "ObjectName": "CommonActionWidget'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.InputActionWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.87"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.LeftSideImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.145"
+        },
+        {
+          "ObjectName": "CommonTextBlock'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.CenterButtonTextWidget'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.97"
+        },
+        {
+          "ObjectName": "NamedSlot'WidgetArchetype:WidgetTree_0.ClaimButton.WidgetTree_1.RightExtraContentSlot'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/DailyQuests/DailyQuestsPanel.150"
+        }
+      ]
+    }
+  }
+]

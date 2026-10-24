@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_Tree_Hero_02_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_Tree_Hero_02_C:SimpleConstructionScript_908'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.1"
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_Tree_Hero_02_C'Default__Athena_Tree_Hero_02_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.1"
+    }
+  },
+  {
+    "Type": "Athena_Tree_Hero_02_C",
+    "Name": "Default__Athena_Tree_Hero_02_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.Athena_Tree_Hero_02_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02",
+    "Template": {
+      "ObjectName": "Parent_Tree_C'Default__Parent_Tree_C'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.2"
+    },
+    "Properties": {
+      "LeafTypes": "En_LeafTypes_01::NewEnumerator1",
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_HeroTrees_02'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_HeroTrees_02.2"
+      },
+      "bDoNotBlockInteract": true,
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Tree_Hero_02_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.5"
+      },
+      "BuildingResourceAmountOverride": {
+        "RowName": "ResourceWoodVeryHigh"
+      },
+      "WindAudio": {
+        "AssetPathName": "/Game/Sounds/Fort_Ambient_Looping/Storm_Trees/storm_foliage_BigTree_Loop_Cue.storm_foliage_BigTree_Loop_Cue",
+        "SubPathString": ""
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_HeroTree_02_Destruction'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Trees/P_HeroTree_02_Destruction.424"
+      },
+      "DeathParticleSocketName": "FX_Destruct",
+      "AttributeInitKey": {
+        "AttributeInitSubCategory": "4"
+      },
+      "PlayHitSound": {
+        "ObjectName": "SoundCue'Demo_OakTree_Impact_Cue'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Fort_Impact_Sounds/Demolition/Wood/Demo_OakTree_Impact_Cue.0"
+      },
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_Tree_Hero_02_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.5"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_1074",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Tree_Hero_02_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1084",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_Tree_Hero_02_C:SimpleConstructionScript_908'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.4"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_Tree_Hero_02_C:SceneComponent_1074'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.2"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_908",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_Tree_Hero_02_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_Tree_Hero_02_C:SimpleConstructionScript_908.SCS_Node_1084'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.3"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_Tree_Hero_02_C'Default__Athena_Tree_Hero_02_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_Tree_Hero_02.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__Parent_Tree_C:StaticMeshComponent0'",
+      "ObjectPath": "FortniteGame/Content/Building/ActorBlueprints/Prop/Parent_Tree.150"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'Athena_HeroTrees_02'",
+        "ObjectPath": "FortniteGame/Content/Athena/Prototype/Terrain/Athena_HeroTrees_02.2"
+      }
+    }
+  }
+]

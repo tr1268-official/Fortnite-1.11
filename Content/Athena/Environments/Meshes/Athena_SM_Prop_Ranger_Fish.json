@@ -1,0 +1,330 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BodySetup'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_SM_Prop_Ranger_Fish'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.2"
+    },
+    "Properties": {
+      "AggGeom": {
+        "ConvexElems": [
+          {
+            "VertexData": [
+              {
+                "X": 64.335976,
+                "Y": -0.23415947,
+                "Z": 12.312399
+              },
+              {
+                "X": -48.309017,
+                "Y": -0.23415947,
+                "Z": -28.521866
+              },
+              {
+                "X": -49.238777,
+                "Y": -0.23415947,
+                "Z": -27.57685
+              },
+              {
+                "X": -21.54241,
+                "Y": 5.3970566,
+                "Z": -24.296387
+              },
+              {
+                "X": -47.837593,
+                "Y": 4.9284315,
+                "Z": 28.275322
+              },
+              {
+                "X": 61.520504,
+                "Y": 4.9284315,
+                "Z": -16.78442
+              },
+              {
+                "X": -47.837593,
+                "Y": -0.23415947,
+                "Z": 28.275322
+              },
+              {
+                "X": 47.443153,
+                "Y": 4.9284315,
+                "Z": 32.9703
+              },
+              {
+                "X": 51.65981,
+                "Y": -0.23415947,
+                "Z": -26.643875
+              },
+              {
+                "X": -65.201836,
+                "Y": 4.9284315,
+                "Z": -7.863964
+              },
+              {
+                "X": 47.443153,
+                "Y": -0.23415947,
+                "Z": 32.9703
+              },
+              {
+                "X": -65.201836,
+                "Y": -0.23415947,
+                "Z": 10.903906
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -65.201836,
+                "Y": -0.23415947,
+                "Z": -28.521866
+              },
+              "Max": {
+                "X": 64.335976,
+                "Y": 5.3970566,
+                "Z": 32.9703
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "VertexData": [
+              {
+                "X": 31.020287,
+                "Y": 16.66863,
+                "Z": 12.78268
+              },
+              {
+                "X": -14.04036,
+                "Y": 18.540373,
+                "Z": -30.868893
+              },
+              {
+                "X": -14.04036,
+                "Y": 19.479322,
+                "Z": -30.868893
+              },
+              {
+                "X": -42.673653,
+                "Y": 20.424429,
+                "Z": 26.398205
+              },
+              {
+                "X": -36.104317,
+                "Y": 36.848347,
+                "Z": -1.2911794
+              },
+              {
+                "X": -46.428707,
+                "Y": 6.811201,
+                "Z": 5.7426944
+              },
+              {
+                "X": 17.873577,
+                "Y": 5.398159,
+                "Z": 9.494908
+              },
+              {
+                "X": 19.747086,
+                "Y": 29.804688,
+                "Z": 10.900461
+              },
+              {
+                "X": 17.873577,
+                "Y": 13.851782,
+                "Z": 31.562084
+              },
+              {
+                "X": 18.339943,
+                "Y": 14.319717,
+                "Z": -24.293354
+              },
+              {
+                "X": -21.550468,
+                "Y": 5.398159,
+                "Z": -23.352242
+              },
+              {
+                "X": -49.709354,
+                "Y": 19.014465,
+                "Z": -8.801719
+              }
+            ],
+            "ElemBox": {
+              "Min": {
+                "X": -49.709354,
+                "Y": 5.398159,
+                "Z": -30.868893
+              },
+              "Max": {
+                "X": 31.020287,
+                "Y": 36.848347,
+                "Z": 31.562084
+              },
+              "IsValid": 1
+            },
+            "Transform": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ]
+      },
+      "DefaultInstance": {
+        "ObjectType": "ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "FCC_Trace_WeaponCapsule",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_PawnAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_WeaponMulti",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Trace_Weapon",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_Projectile",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileIgnoreAI",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "FCC_Object_ProjectileMesh",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    },
+    "BodySetupGuid": "C592EAD6415717F0C2C7EB8B37C5E858",
+    "CookedFormatData": {
+      "PhysXPC": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 12194,
+        "SizeOnDisk": 12194,
+        "OffsetInFile": "0x1D1BB"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NavCollision'",
+    "Outer": {
+      "ObjectName": "StaticMesh'Athena_SM_Prop_Ranger_Fish'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.2"
+    },
+    "CookedFormatData": {
+      "NavCollision_X": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 1829,
+        "SizeOnDisk": 1829,
+        "OffsetInFile": "0x201A5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "Athena_SM_Prop_Ranger_Fish",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMesh'",
+    "Package": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'M_Prop_Ranger_Fish'",
+            "ObjectPath": "FortniteGame/Content/Environments/Props/Ranger/Materials/M_Prop_Ranger_Fish.0"
+          },
+          "MaterialSlotName": "M_Prop_Ranger_Fish",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 138.86623,
+            "LocalUVDensities[1]": 0.0,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          }
+        }
+      ],
+      "LightmapUVDensity": 138.86623,
+      "LightMapResolution": 64,
+      "LODForCollision": 2,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": 0.27420807,
+          "Y": 18.21521,
+          "Z": 0.9792156
+        },
+        "BoxExtent": {
+          "X": 66.655624,
+          "Y": 18.215218,
+          "Z": 31.613403
+        },
+        "SphereRadius": 69.101555
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'Athena_SM_Prop_Ranger_Fish:BodySetup_3'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'Athena_SM_Prop_Ranger_Fish:NavCollision_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Meshes/Athena_SM_Prop_Ranger_Fish.1"
+    },
+    "LightingGuid": "9FF16998-4CC3C225-496ADB88-7DDB0D1B",
+    "RenderData": null
+  }
+]

@@ -1,0 +1,600 @@
+[
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "RequiredDistributionSpawnRate",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleRequired'P_Athena_Campfire_Doused:ParticleModuleRequired_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.8"
+    }
+  },
+  {
+    "Type": "DistributionFloatConstant",
+    "Name": "BurstScaleDistribution",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DistributionFloatConstant'",
+    "Outer": {
+      "ObjectName": "ParticleModuleSpawn'P_Athena_Campfire_Doused:ParticleModuleSpawn_2'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.11"
+    },
+    "Properties": {
+      "Constant": 1.0
+    }
+  },
+  {
+    "Type": "ParticleLODLevel",
+    "Name": "ParticleLODLevel_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleLODLevel'",
+    "Outer": {
+      "ObjectName": "ParticleSpriteEmitter'P_Athena_Campfire_Doused:ParticleSpriteEmitter_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.14"
+    },
+    "Properties": {
+      "RequiredModule": {
+        "ObjectName": "ParticleModuleRequired'P_Athena_Campfire_Doused:ParticleModuleRequired_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.8"
+      },
+      "Modules": [
+        {
+          "ObjectName": "ParticleModuleLifetime'P_Athena_Campfire_Doused:ParticleModuleLifetime_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.6"
+        },
+        {
+          "ObjectName": "ParticleModuleSize'P_Athena_Campfire_Doused:ParticleModuleSize_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.9"
+        },
+        {
+          "ObjectName": "ParticleModuleVelocity'P_Athena_Campfire_Doused:ParticleModuleVelocity_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.13"
+        },
+        {
+          "ObjectName": "ParticleModuleColor'P_Athena_Campfire_Doused:ParticleModuleColor_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.4"
+        },
+        {
+          "ObjectName": "ParticleModuleLocation'P_Athena_Campfire_Doused:ParticleModuleLocation_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.7"
+        },
+        {
+          "ObjectName": "ParticleModuleAcceleration'P_Athena_Campfire_Doused:ParticleModuleAcceleration_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.3"
+        },
+        {
+          "ObjectName": "ParticleModuleColorScaleOverLife'P_Athena_Campfire_Doused:ParticleModuleColorScaleOverLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.5"
+        },
+        {
+          "ObjectName": "ParticleModuleSizeMultiplyLife'P_Athena_Campfire_Doused:ParticleModuleSizeMultiplyLife_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.10"
+        }
+      ],
+      "TypeDataModule": {
+        "ObjectName": "ParticleModuleTypeDataRibbon'P_Athena_Campfire_Doused:ParticleModuleTypeDataRibbon_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.12"
+      },
+      "SpawnModule": {
+        "ObjectName": "ParticleModuleSpawn'P_Athena_Campfire_Doused:ParticleModuleSpawn_2'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.11"
+      },
+      "PeakActiveParticles": 523
+    }
+  },
+  {
+    "Type": "ParticleModuleAcceleration",
+    "Name": "ParticleModuleAcceleration_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleAcceleration'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "Acceleration": {
+        "MaxValue": 60.0,
+        "MinValueVec": {
+          "X": 40.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "MaxValueVec": {
+          "X": 40.0,
+          "Y": 0.0,
+          "Z": 60.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            40.0,
+            0.0,
+            60.0
+          ]
+        }
+      },
+      "bAlwaysInWorldSpace": true,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColor",
+    "Name": "ParticleModuleColor_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColor'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "StartColor": {
+        "MinValue": 0.7,
+        "MaxValue": 0.7,
+        "MinValueVec": {
+          "X": 0.7,
+          "Y": 0.7,
+          "Z": 0.7
+        },
+        "MaxValueVec": {
+          "X": 0.7,
+          "Y": 0.7,
+          "Z": 0.7
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.7,
+            0.7,
+            0.7
+          ]
+        }
+      },
+      "StartAlpha": {
+        "MinValue": 0.25,
+        "MaxValue": 0.25,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.25
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleColorScaleOverLife",
+    "Name": "ParticleModuleColorScaleOverLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleColorScaleOverLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "ColorScaleOverLife": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "MinValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "MaxValueVec": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "AlphaScaleOverLife": {
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 32,
+          "EntryStride": 1,
+          "TimeScale": 31.0,
+          "Values": [
+            0.0,
+            0.09155367,
+            0.31337416,
+            0.5879481,
+            0.83776146,
+            0.9853012,
+            0.9996255,
+            0.9975202,
+            0.9934046,
+            0.98712975,
+            0.9785464,
+            0.9674955,
+            0.9538315,
+            0.9374102,
+            0.91808224,
+            0.8956987,
+            0.87011045,
+            0.84116846,
+            0.8087234,
+            0.7726263,
+            0.7327283,
+            0.6888721,
+            0.6408995,
+            0.58867675,
+            0.53205514,
+            0.4708851,
+            0.40501738,
+            0.33430326,
+            0.2585938,
+            0.17773962,
+            0.09159114,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLifetime",
+    "Name": "ParticleModuleLifetime_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLifetime'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "Lifetime": {
+        "MinValue": 3.0,
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            3.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleLocation",
+    "Name": "ParticleModuleLocation_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleLocation'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "StartLocation": {
+        "MinValue": -16.0,
+        "MinValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -16.0
+        },
+        "MaxValueVec": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -16.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            0.0,
+            0.0,
+            -16.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleRequired",
+    "Name": "ParticleModuleRequired_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleRequired'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'M_Campfire_Doused_Smoke'",
+        "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/M_Campfire_Doused_Smoke.0"
+      },
+      "bUseLocalSpace": true,
+      "bUseLegacyEmitterTime": false,
+      "SpawnRate": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Athena_Campfire_Doused:ParticleModuleRequired_2.RequiredDistributionSpawnRate'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.0"
+        }
+      },
+      "RandomImageTime": 1.0,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSize",
+    "Name": "ParticleModuleSize_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSize'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "StartSize": {
+        "MaxValue": 32.0,
+        "MinValueVec": {
+          "X": 32.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "MaxValueVec": {
+          "X": 32.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 3,
+          "Values": [
+            32.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSizeMultiplyLife",
+    "Name": "ParticleModuleSizeMultiplyLife_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSizeMultiplyLife'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "LifeMultiplier": {
+        "MinValue": 0.3,
+        "MaxValue": 1.0000001,
+        "MinValueVec": {
+          "X": 0.3,
+          "Y": 0.3,
+          "Z": 0.3
+        },
+        "MaxValueVec": {
+          "X": 1.0000001,
+          "Y": 1.0000001,
+          "Z": 1.0000001
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 4,
+          "EntryStride": 3,
+          "TimeScale": 3.0,
+          "Values": [
+            0.3,
+            0.3,
+            0.3,
+            0.7101949,
+            0.7101949,
+            0.7101949,
+            0.9328714,
+            0.9328714,
+            0.9328714,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleSpawn",
+    "Name": "ParticleModuleSpawn_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleSpawn'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "Rate": {
+        "MinValue": 3.0,
+        "MaxValue": 3.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            3.0
+          ]
+        }
+      },
+      "RateScale": {
+        "MinValue": 1.0,
+        "MaxValue": 1.0,
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            1.0
+          ]
+        }
+      },
+      "BurstScale": {
+        "Distribution": {
+          "ObjectName": "DistributionFloatConstant'P_Athena_Campfire_Doused:ParticleModuleSpawn_2.BurstScaleDistribution'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.1"
+        }
+      },
+      "bApplyGlobalSpawnRateScale": false,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleTypeDataRibbon",
+    "Name": "ParticleModuleTypeDataRibbon_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleTypeDataRibbon'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "bTangentRecalculationEveryFrame": true,
+      "TangentSpawningScalar": 1.0,
+      "TilingDistance": 512.0,
+      "DistanceTessellationStepSize": 2.5,
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleModuleVelocity",
+    "Name": "ParticleModuleVelocity_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleModuleVelocity'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "StartVelocity": {
+        "MinValue": -5.0,
+        "MaxValue": 60.0,
+        "MinValueVec": {
+          "X": -5.0,
+          "Y": -5.0,
+          "Z": 60.0
+        },
+        "MaxValueVec": {
+          "X": 5.0,
+          "Y": 5.0,
+          "Z": 60.0
+        },
+        "Distribution": null,
+        "Table": {
+          "Op": 2,
+          "EntryCount": 1,
+          "EntryStride": 6,
+          "SubEntryStride": 3,
+          "Values": [
+            -5.0,
+            -5.0,
+            60.0,
+            5.0,
+            5.0,
+            60.0
+          ]
+        }
+      },
+      "StartVelocityRadial": {
+        "Distribution": null,
+        "Table": {
+          "Op": 1,
+          "EntryCount": 1,
+          "EntryStride": 1,
+          "Values": [
+            0.0
+          ]
+        }
+      },
+      "LODValidity": 1
+    }
+  },
+  {
+    "Type": "ParticleSpriteEmitter",
+    "Name": "ParticleSpriteEmitter_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSpriteEmitter'",
+    "Outer": {
+      "ObjectName": "ParticleSystem'P_Athena_Campfire_Doused'",
+      "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.15"
+    },
+    "Properties": {
+      "EmitterName": "Ribbon_Down",
+      "LODLevels": [
+        {
+          "ObjectName": "ParticleLODLevel'P_Athena_Campfire_Doused:ParticleSpriteEmitter_1.ParticleLODLevel_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ParticleSystem",
+    "Name": "P_Athena_Campfire_Doused",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ParticleSystem'",
+    "Package": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused",
+    "Properties": {
+      "Emitters": [
+        {
+          "ObjectName": "ParticleSpriteEmitter'P_Athena_Campfire_Doused:ParticleSpriteEmitter_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Items/Traps/Campfire/Effects/P_Athena_Campfire_Doused.14"
+        }
+      ],
+      "CurveEdSetup": null,
+      "LODDistances": [
+        0.0
+      ],
+      "LODSettings": [
+        {}
+      ],
+      "bShouldResetPeakCounts": true,
+      "CustomOcclusionBounds": {
+        "Min": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Max": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "IsValid": 1
+      }
+    }
+  }
+]

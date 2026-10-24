@@ -1,0 +1,1 @@
+class UAthena_IND_5x5_Factory_b_C : public UFortLevelScriptActor;

@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "FortSchematicItemDefinition",
+    "Name": "SID_Assault_SingleShot_Athena_SR_Ore_T03",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FortSchematicItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Schematics/Weapons/SID_Assault_SingleShot_Athena_SR_Ore_T03",
+    "Properties": {
+      "CraftingRecipe": {
+        "DataTable": {
+          "ObjectName": "DataTable'CraftingRecipes_New'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/CraftingRecipes_New.0"
+        },
+        "RowName": "Ammo.Shells"
+      },
+      "CraftingPoints": 325,
+      "LootLevelData": {
+        "DataTable": {
+          "ObjectName": "DataTable'LootLevelData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/LootLevelData.0"
+        },
+        "ColumnName": "Category",
+        "RowContents": "Crafting"
+      },
+      "DefaultAlterationSlots": [
+        {
+          "Type": "EFortAlteration::GameplaySlot",
+          "NumSlots": 1
+        },
+        {
+          "Type": "EFortAlteration::AttributeSlot",
+          "NumSlots": 2
+        }
+      ],
+      "LevelToXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemLevels'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemLevels.0"
+        },
+        "RowName": "Uncommon"
+      },
+      "LevelToSacrificeXpHandle": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'XPAccountItemRewards'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/XPAccountItemRewards.0"
+        },
+        "RowName": "Uncommon"
+      },
+      "TransmogSacrificeRow": {
+        "DataTable": {
+          "ObjectName": "DataTable'TransmogSacrificeData'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/TransmogSacrificeData.0"
+        },
+        "RowName": "Recycle.Ranged.UC.T03"
+      },
+      "MinLevel": 20,
+      "MaxLevel": 30,
+      "GameplayTags": [
+        "weapon.ranged.shotgun"
+      ],
+      "bNeverPersisted": true,
+      "MaxTier": "EFortItemTier::III",
+      "RatingLookup": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'BaseItemRating'",
+          "ObjectPath": "FortniteGame/Content/Items/Datatables/BaseItemRating.0"
+        },
+        "RowName": "Default_UC_T03"
+      },
+      "Rarity": "EFortRarity::Sturdy"
+    }
+  }
+]

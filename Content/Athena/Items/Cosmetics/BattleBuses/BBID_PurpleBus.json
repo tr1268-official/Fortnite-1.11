@@ -1,0 +1,66 @@
+[
+  {
+    "Type": "AthenaBattleBusItemDefinition",
+    "Name": "BBID_PurpleBus",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AthenaBattleBusItemDefinition'",
+    "Package": "FortniteGame/Content/Athena/Items/Cosmetics/BattleBuses/BBID_PurpleBus",
+    "Properties": {
+      "IgnitionSound": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/Athena_Bus_Ignition_Cue.Athena_Bus_Ignition_Cue",
+        "SubPathString": ""
+      },
+      "LobbyLoopingMusic": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_worm_music.athena_emote_worm_music",
+        "SubPathString": ""
+      },
+      "LobbyLoopingSound": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/Athena_Bus_Engine_Idle_Cue.Athena_Bus_Engine_Idle_Cue",
+        "SubPathString": ""
+      },
+      "FlightLoopingMusic": {
+        "AssetPathName": "/Game/Athena/Sounds/Emotes/athena_emote_fresh_music.athena_emote_fresh_music",
+        "SubPathString": ""
+      },
+      "FlightLoopingSound": {
+        "AssetPathName": "/Game/Athena/Sounds/Vehicles/Athena_Bus_Flying_Loop_Cue.Athena_Bus_Flying_Loop_Cue",
+        "SubPathString": ""
+      },
+      "BusPrefabClass": {
+        "AssetPathName": "/Game/Athena/Aircraft/Skins/B_StockBattleBus.B_StockBattleBus_C",
+        "SubPathString": ""
+      },
+      "MaterialOverrides": [
+        {
+          "ComponentName": "Bus",
+          "MaterialOverrideIndex": 0,
+          "ProgressionThreshold": 0,
+          "OverrideMaterial": {
+            "AssetPathName": "/Game/Athena/Environments/Materials/MI_Athena_Bus_Purple.MI_Athena_Bus_Purple",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "F3DFF673450DC68A639549BC84D9318B",
+        "SourceString": "Purple Battle Bus",
+        "LocalizedString": "Purple Battle Bus"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "E5A456774FA5292B05FD248CED539B87",
+        "SourceString": "Purple Battle Bus",
+        "LocalizedString": "Purple Battle Bus"
+      },
+      "SmallPreviewImage": {
+        "ObjectName": "Texture2D'Icon-PurpleBus'",
+        "ObjectPath": "FortniteGame/Content/Athena/Textures/Icons/BattleBuses/Icon-PurpleBus.0"
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/Athena/Textures/Icons/BattleBuses/Icon-PurpleBus.Icon-PurpleBus",
+        "SubPathString": ""
+      }
+    }
+  }
+]

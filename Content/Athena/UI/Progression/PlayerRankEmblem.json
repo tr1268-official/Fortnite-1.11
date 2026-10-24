@@ -1,0 +1,2039 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "PlayerRankEmblem_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'PlayerRankEmblem_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.54"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'PlayerRankEmblem_C:Flash_INST'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.52"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/UI/Progression/PlayerRankEmblem.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'PlayerRankEmblem_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CommonUserWidget'",
+      "ObjectPath": "/Script/CommonUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'PlayerRankEmblem_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.0"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.23"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerSurroundLevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.15"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerOwner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.13"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.11"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.9"
+      },
+      {
+        "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'PlayerRankEmblem_C:Flash'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'PlayerRankEmblem_C:PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.19"
+      },
+      {
+        "ObjectName": "BoolProperty'PlayerRankEmblem_C:BindToLocalPlayerByDefault'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PlayerRankEmblem": {
+        "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'PlayerRankEmblem_C:PreConstruct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.9"
+      },
+      "Construct": {
+        "ObjectName": "Function'PlayerRankEmblem_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.11"
+      },
+      "SetBannerOwner": {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerOwner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.13"
+      },
+      "SetBannerSurroundLevel": {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerSurroundLevel'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.15"
+      },
+      "SetBannerInfo": {
+        "ObjectName": "Function'PlayerRankEmblem_C:SetBannerInfo'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.23"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PlayerRankEmblem_C'Default__PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.2"
+    }
+  },
+  {
+    "Type": "PlayerRankEmblem_C",
+    "Name": "Default__PlayerRankEmblem_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.PlayerRankEmblem_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem",
+    "Properties": {
+      "UberGraphFrame": {},
+      "BindToLocalPlayerByDefault": true,
+      "bCanEverTick": false,
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "BindToLocalPlayerByDefault",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Flash",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | BlueprintReadOnly | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PlayerRankEmblem",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.36"
+      },
+      {
+        "ObjectName": "ObjectProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.K2Node_DynamicCast_AsFort_Player_Controller'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.37"
+      },
+      {
+        "ObjectName": "BoolProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.7"
+      },
+      {
+        "ObjectName": "StructProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.CallFunc_GetGameAccountId_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.50"
+      },
+      {
+        "ObjectName": "BoolProperty'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'PlayerRankEmblem_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:PreConstruct'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.9"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Target",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerOwner'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.13"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBannerOwner",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'PlayerRankEmblem_C:SetBannerOwner.Target'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.12"
+      },
+      {
+        "ObjectName": "StructProperty'PlayerRankEmblem_C:SetBannerOwner.CallFunc_GetGameAccountId_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.51"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Level",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerSurroundLevel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBannerSurroundLevel",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'PlayerRankEmblem_C:SetBannerSurroundLevel.Level'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.14"
+      },
+      {
+        "ObjectName": "BoolProperty'PlayerRankEmblem_C:SetBannerSurroundLevel.Animate'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Animate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerSurroundLevel'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.15"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CommonLoadGuard",
+    "Name": "LoadGuard",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonLoadGuard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+    },
+    "Properties": {
+      "LoadingText": {
+        "CultureInvariantString": null
+      },
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard.SizeBoxSlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.39"
+      }
+    }
+  },
+  {
+    "Type": "CommonLoadGuard",
+    "Name": "SurroundLoadGuard",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CommonLoadGuard'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+    },
+    "Properties": {
+      "LoadingText": {
+        "CultureInvariantString": null
+      },
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard.SizeBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.40"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "PlayerBanner",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerBanner_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.1"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Conv_StringToName_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerInfo'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.23"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Conv_StringToName_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NameProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerInfo'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.23"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Banner",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerInfo'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.23"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PlayerBannerInfo'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetBannerInfo",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'PlayerRankEmblem_C:SetBannerInfo.Banner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.22"
+      },
+      {
+        "ObjectName": "NameProperty'PlayerRankEmblem_C:SetBannerInfo.CallFunc_Conv_StringToName_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.21"
+      },
+      {
+        "ObjectName": "NameProperty'PlayerRankEmblem_C:SetBannerInfo.CallFunc_Conv_StringToName_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.20"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "BannerImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'BannerIcon'",
+          "ObjectPath": "FortniteGame/Content/UI/Banner/BannerIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard.SizeBoxSlot_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.48"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SurroundImage",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Image'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+    },
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 32.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M-BR-Banner-Inst-Bronze'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Banner/BR-Banner/M-BR-Banner-Inst-Bronze.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard.SizeBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.49"
+      },
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Flash",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'PlayerRankEmblem_C:Flash_INST'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.52"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Guid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "Name": "PlayerBanner",
+          "PossessedObjectClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'PlayerBanner_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.1"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "BindingName": "PlayerBanner",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.30"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "LowerBound": {
+          "Type": "ERangeBoundTypes::Inclusive"
+        },
+        "UpperBound": {
+          "Type": "ERangeBoundTypes::Inclusive",
+          "Value": 0.5
+        }
+      },
+      "FixedFrameInterval": 0.05,
+      "Signature": "EFBAD187-4565825D-4D89639C-F327B44E"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Flash",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene'",
+    "Outer": {
+      "ObjectName": "WidgetAnimation'WidgetArchetype:Flash_INST'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.53"
+    },
+    "Properties": {
+      "Possessables": [
+        {
+          "Guid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "Name": "PlayerBanner",
+          "PossessedObjectClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'PlayerBanner_C'",
+            "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.1"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "BindingName": "PlayerBanner",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.31"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "LowerBound": {
+          "Type": "ERangeBoundTypes::Inclusive"
+        },
+        "UpperBound": {
+          "Type": "ERangeBoundTypes::Inclusive",
+          "Value": 0.5
+        }
+      },
+      "FixedFrameInterval": 0.05,
+      "Signature": "EFBAD187-4565825D-4D89639C-F327B44E"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.30"
+    },
+    "Properties": {
+      "Scale": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.15,
+            "Value": -1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 1.0,
+            "ArriveTangent": 8.4,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 8.4,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.4,
+            "Value": 1.1,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "Scale[1]": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.15,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 1.0,
+            "ArriveTangent": 0.4000001,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.4000001,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.4,
+            "Value": 1.1,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseInFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.32"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseOutFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.33"
+        }
+      },
+      "EndTime": 0.5,
+      "Signature": "7991E059-4085E784-0AE7BDB9-2155BAB0"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformTrack'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.31"
+    },
+    "Properties": {
+      "Scale": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.15,
+            "Value": -1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 1.0,
+            "ArriveTangent": 8.4,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 8.4,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.4,
+            "Value": 1.1,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "Scale[1]": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.15,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.3,
+            "Value": 1.0,
+            "ArriveTangent": 0.4000001,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.4000001,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.4,
+            "Value": 1.1,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 1.0,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      },
+      "EvalOptions": {
+        "CompletionMode": "EMovieSceneCompletionMode::KeepState"
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseInFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.34"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1.EaseOutFunction'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.35"
+        }
+      },
+      "EndTime": 0.5,
+      "Signature": "7991E059-4085E784-0AE7BDB9-2155BAB0"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'PlayerRankEmblem_C:Flash_INST.Flash'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.26"
+    },
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.28"
+        }
+      ],
+      "Signature": "C51ECFBA-463974D0-57A579BE-EC2C21D8"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Outer": {
+      "ObjectName": "MovieScene'WidgetArchetype:Flash_INST.Flash'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.27"
+    },
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.29"
+        }
+      ],
+      "Signature": "C51ECFBA-463974D0-57A579BE-EC2C21D8"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.28"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.28"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.29"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Outer": {
+      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.29"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Controller",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerController'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.39"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.40"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+      },
+      "Content": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.17"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+      },
+      "Content": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.18"
+      }
+    }
+  },
+  {
+    "Type": "PlayerBanner_C",
+    "Name": "PlayerBanner",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.PlayerBanner_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PlayerRankEmblem_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.54"
+    },
+    "Template": {
+      "ObjectName": "PlayerBanner_C'Default__PlayerBanner_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.2"
+    },
+    "Properties": {
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'PlayerRankEmblem_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.46"
+      }
+    }
+  },
+  {
+    "Type": "PlayerBanner_C",
+    "Name": "PlayerBanner",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.PlayerBanner_C'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.55"
+    },
+    "Template": {
+      "ObjectName": "PlayerBanner_C'Default__PlayerBanner_C'",
+      "ObjectPath": "FortniteGame/Content/UI/Foundation/Profile/PlayerBanner.2"
+    },
+    "Properties": {
+      "BannerImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.BannerImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.24"
+      },
+      "LoadGuard": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.17"
+      },
+      "SurroundImage": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.25"
+      },
+      "SurroundLoadGuard": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.18"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.56"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.47"
+      }
+    }
+  },
+  {
+    "Type": "PlayerRankEmblem_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.PlayerRankEmblem_C'",
+    "Package": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem",
+    "Template": {
+      "ObjectName": "PlayerRankEmblem_C'Default__PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.2"
+    },
+    "Properties": {
+      "Flash": {
+        "ObjectName": "WidgetAnimation'WidgetArchetype:Flash_INST'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.53"
+      },
+      "PlayerBanner": {
+        "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.42"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.55"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'PlayerRankEmblem_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.54"
+    },
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 3.2,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'PlayerRankEmblem_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.46"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.55"
+    },
+    "Properties": {
+      "Stretch": "EStretch::UserSpecified",
+      "UserSpecifiedScale": 3.2,
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.47"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScaleBox'PlayerRankEmblem_C:WidgetTree.ScaleBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.44"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'PlayerRankEmblem_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.44"
+      },
+      "Content": {
+        "ObjectName": "PlayerBanner_C'PlayerRankEmblem_C:WidgetTree.PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.41"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Outer": {
+      "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.45"
+    },
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.45"
+      },
+      "Content": {
+        "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.PlayerBanner'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.42"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.17"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.BannerImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.24"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Outer": {
+      "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.18"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundImage'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.25"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetGameAccountId_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:ExecuteUbergraph_PlayerRankEmblem'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'UniqueNetIdRepl'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetGameAccountId_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'PlayerRankEmblem_C:SetBannerOwner'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.13"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'UniqueNetIdRepl'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Flash_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'PlayerRankEmblem_C:Flash_INST.Flash'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.26"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "PlayerBanner",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "bIsRootWidget": false
+        }
+      ],
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": "0",
+            "Value": {
+              "ObjectBindingID": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": null,
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.15,
+                          "Value": -1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.3,
+                          "Value": 1.0,
+                          "ArriveTangent": 8.4,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 8.4,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.4,
+                          "Value": 1.1,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.5,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.15,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.3,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.4000001,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.4000001,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.4,
+                          "Value": 1.1,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.5,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSection": {
+                      "ObjectName": "MovieScene2DTransformSection'PlayerRankEmblem_C:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+                      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.28"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 0.0
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 0.5
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentIndex": 0,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 1
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 0
+                }
+              ]
+            }
+          ]
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackReferenceCounts": null,
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "C51ECFBA-463974D0-57A579BE-EC2C21D8",
+              "Value": {
+                "Value": 51
+              }
+            }
+          ]
+        }
+      },
+      "Signature": "61116C5E-4D89D4D2-EF198FAA-0B7570DA"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Flash_INST",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Outer": {
+      "ObjectName": "PlayerRankEmblem_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.43"
+    },
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WidgetArchetype:Flash_INST.Flash'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.27"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "PlayerBanner",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+          "bIsRootWidget": false
+        }
+      ],
+      "EvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": "0",
+            "Value": {
+              "ObjectBindingID": "A0F5CA42-4D2A968F-0C72D3BC-4EC1F7AC",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": null,
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.15,
+                          "Value": -1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.3,
+                          "Value": 1.0,
+                          "ArriveTangent": 8.4,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 8.4,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.4,
+                          "Value": 1.1,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.5,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": [
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.0,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Cubic",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.15,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.3,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.4000001,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.4000001,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.4,
+                          "Value": 1.1,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        },
+                        {
+                          "InterpMode": "RCIM_Linear",
+                          "TangentMode": "RCTM_Auto",
+                          "TangentWeightMode": "RCTWM_WeightedNone",
+                          "Time": 0.5,
+                          "Value": 1.0,
+                          "ArriveTangent": 0.0,
+                          "ArriveTangentWeight": 0.0,
+                          "LeaveTangent": 0.0,
+                          "LeaveTangentWeight": 0.0
+                        }
+                      ]
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_Constant",
+                      "PostInfinityExtrap": "RCCE_Constant",
+                      "DefaultValue": 3.4028235E+38,
+                      "Keys": []
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSection": {
+                      "ObjectName": "MovieScene2DTransformSection'WidgetArchetype:Flash_INST.Flash.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_1'",
+                      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.29"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "LowerBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 0.0
+              },
+              "UpperBound": {
+                "Type": "ERangeBoundTypes::Inclusive",
+                "Value": 0.5
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentIndex": 0,
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "EvaluationIndex": 1
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "EvaluationIndex": 0
+                }
+              ]
+            }
+          ]
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackReferenceCounts": null,
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "C51ECFBA-463974D0-57A579BE-EC2C21D8",
+              "Value": {
+                "Value": 51
+              }
+            }
+          ]
+        }
+      },
+      "Signature": "61116C5E-4D89D4D2-EF198FAA-0B7570DA"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'PlayerRankEmblem_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'PlayerRankEmblem_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.44"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "ScaleBox'PlayerRankEmblem_C:WidgetTree.ScaleBox_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.44"
+        },
+        {
+          "ObjectName": "PlayerBanner_C'PlayerRankEmblem_C:WidgetTree.PlayerBanner'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "PlayerRankEmblem_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.43"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.45"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "PlayerBanner_C'WidgetArchetype:WidgetTree_0.PlayerBanner'",
+      "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.42"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.38"
+        },
+        {
+          "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.LoadGuard'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.17"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.BannerImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.24"
+        },
+        {
+          "ObjectName": "CommonLoadGuard'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundLoadGuard'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.18"
+        },
+        {
+          "ObjectName": "Image'WidgetArchetype:WidgetTree_0.PlayerBanner.WidgetTree_1.SurroundImage'",
+          "ObjectPath": "FortniteGame/Content/Athena/UI/Progression/PlayerRankEmblem.25"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,774 @@
+[
+  {
+    "Type": "SoundCue",
+    "Name": "Weapon_PSTL_SixShooter_Athena_Cue",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundCue'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue",
+    "Properties": {
+      "FirstNode": {
+        "ObjectName": "SoundNodeQualityLevel'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeQualityLevel_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.18"
+      },
+      "VolumeMultiplier": 1.0,
+      "AttenuationOverrides": {
+        "DistanceAlgorithm": "EAttenuationDistanceModel::NaturalSound",
+        "AttenuationShapeExtents": {
+          "X": 1000.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "FalloffDistance": 5000.0
+      },
+      "SoundClassObject": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "bOverrideConcurrency": true,
+      "ConcurrencyOverrides": {
+        "MaxCount": 2,
+        "bLimitToOwner": true,
+        "ResolutionRule": "EMaxConcurrentResolutionRule::StopOldest"
+      },
+      "Duration": 2.5460207
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Close_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Close_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeMixer_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Distant_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Distant_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeRandom_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Distant_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Distant_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeModulator_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Pistol_Sml_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Pistol_Sml_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeMixer_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeAttenuation",
+    "Name": "SoundNodeAttenuation_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeAttenuation'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "AttenuationSettings": {
+        "ObjectName": "SoundAttenuation'Fort_Weapon_Projectile_Medium_Athena_Att'",
+        "ObjectPath": "FortniteGame/Content/Sounds/Attenuation/Fort_Weapon_Projectile_Medium_Athena_Att.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeRandom_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.3,
+      "DelayMax": 0.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeModulator_7'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.15"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeDelay",
+    "Name": "SoundNodeDelay_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeDelay'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "DelayMin": 0.3,
+      "DelayMax": 0.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeModulator_10'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeMixer_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.9"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeSoundClass_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        0.5,
+        0.7
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeSoundClass_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.22"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeSoundClass_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        2.0,
+        0.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeModulator_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.14"
+        },
+        {
+          "ObjectName": "SoundNodeDelay'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeDelay_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.6"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeSoundClass_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.25"
+        },
+        {
+          "ObjectName": "SoundNodeSoundClass'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeSoundClass_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeMixer",
+    "Name": "SoundNodeMixer_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeMixer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "InputVolume": [
+        2.0,
+        0.5
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeModulator'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeModulator_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.17"
+        },
+        {
+          "ObjectName": "SoundNodeDelay'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeDelay_3'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_10",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.1,
+      "PitchMax": 1.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_15'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.3,
+      "PitchMax": 1.5,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_11'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_7",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.1,
+      "PitchMax": 1.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_8'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "VolumeMin": 0.3,
+      "VolumeMax": 0.3,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeRandom'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeRandom_2'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeModulator",
+    "Name": "SoundNodeModulator_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeModulator'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "PitchMin": 1.3,
+      "PitchMax": 1.5,
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_16'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeQualityLevel",
+    "Name": "SoundNodeQualityLevel_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeQualityLevel'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeMixer_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.8"
+        },
+        {
+          "ObjectName": "SoundNodeMixer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeMixer_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_9'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_17'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.30"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_18'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeRandom",
+    "Name": "SoundNodeRandom_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeRandom'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "Weights": [
+        1.0,
+        1.0
+      ],
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_19'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.32"
+        },
+        {
+          "ObjectName": "SoundNodeWavePlayer'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeWavePlayer_20'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeAttenuation_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_Distant'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_Distant.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeAttenuation_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.2"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_Distant'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_Distant.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeAttenuation_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.3"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_5",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeAttenuation_5'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.4"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeSoundClass",
+    "Name": "SoundNodeSoundClass_6",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeSoundClass'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundClassOverride": {
+        "ObjectName": "SoundClass'Fort_Weapon_Projectile_PSM'",
+        "ObjectPath": "FortniteGame/Content/Sounds/FortSoundClassesAndModes/Fort_Weapon_Projectile_PSM.0"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SoundNodeAttenuation'Weapon_PSTL_SixShooter_Athena_Cue:SoundNodeAttenuation_6'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.5"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_11",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/shotgun_sharpshot_01.shotgun_sharpshot_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_15",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/Shotgun_Fire_Tail_Stereo_01.Shotgun_Fire_Tail_Stereo_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_16",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/shotgun_sharpshot_01.shotgun_sharpshot_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_17",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Pistol_SixShooter/Sixshooter_Fire_Distant_01.Sixshooter_Fire_Distant_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_18",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Pistol_SixShooter/Sixshooter_Fire_Distant_02.Sixshooter_Fire_Distant_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_19",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Pistol_SixShooter/Sixshooter_Fire_Medium_01.Sixshooter_Fire_Medium_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_20",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Athena/Sounds/Weapons/Pistol_SixShooter/Sixshooter_Fire_Medium_02.Sixshooter_Fire_Medium_02",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Shotgun/Shotgun_Fire_Tail_Stereo_01.Shotgun_Fire_Tail_Stereo_01",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  },
+  {
+    "Type": "SoundNodeWavePlayer",
+    "Name": "SoundNodeWavePlayer_9",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SoundNodeWavePlayer'",
+    "Outer": {
+      "ObjectName": "SoundCue'Weapon_PSTL_SixShooter_Athena_Cue'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Weapons/Pistol_SixShooter/Weapon_PSTL_SixShooter_Athena_Cue.0"
+    },
+    "Properties": {
+      "SoundWaveAssetPtr": {
+        "AssetPathName": "/Game/Sounds/Fort_Weapons/Distant/Distant_low_shot_01b.Distant_low_shot_01b",
+        "SubPathString": ""
+      }
+    },
+    "SoundWave": null
+  }
+]

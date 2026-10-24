@@ -1,0 +1,164 @@
+[
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_BP_TRV_SWA_Boat_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "Athena_BP_TRV_SWA_Boat_01_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'Athena_BP_TRV_SWA_Boat_01_C:SimpleConstructionScript_32'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'BuildingProp'",
+      "ObjectPath": "/Script/FortniteGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'Athena_BP_TRV_SWA_Boat_01_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.0"
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'Athena_BP_TRV_SWA_Boat_01_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.0"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "Athena_BP_TRV_SWA_Boat_01_C'Default__Athena_BP_TRV_SWA_Boat_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.2"
+    }
+  },
+  {
+    "Type": "Athena_BP_TRV_SWA_Boat_01_C",
+    "Name": "Default__Athena_BP_TRV_SWA_Boat_01_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.Athena_BP_TRV_SWA_Boat_01_C'",
+    "Package": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TRV_SWA_Boat_01'",
+        "ObjectPath": "FortniteGame/Content/Environments/Props/Transylvania/Props/Meshes/SM_TRV_SWA_Boat_01.2"
+      },
+      "ResourceType": "EFortResourceType::Wood",
+      "StaticMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_BP_TRV_SWA_Boat_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.6"
+      },
+      "BuildingResourceAmountOverride": {
+        "CurveTable": {
+          "ObjectName": "CurveTable'ResourceRates'",
+          "ObjectPath": "FortniteGame/Content/Balance/DataTables/ResourceRates.0"
+        },
+        "RowName": "PropWoodHigh"
+      },
+      "DeathParticles": {
+        "ObjectName": "ParticleSystem'P_General_Deco_Destruction_Medium'",
+        "ObjectPath": "FortniteGame/Content/Effects/Fort_Effects/World/Destruction/Base_Effects/P_General_Deco_Destruction_Medium.38"
+      },
+      "BuildingAttachmentSlot": "SLOT_Floor",
+      "AttributeInitKey": {
+        "AttributeInitCategory": "PropWood",
+        "AttributeInitSubCategory": "4"
+      },
+      "NavigationObstacleOverride": "ENavigationObstacleOverride::ForceEnabled",
+      "bCanExportNavigationCollisions": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__Athena_BP_TRV_SWA_Boat_01_C:StaticMeshComponent0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.6"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_269",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_BP_TRV_SWA_Boat_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_273",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'Athena_BP_TRV_SWA_Boat_01_C:SimpleConstructionScript_32'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.5"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'Athena_BP_TRV_SWA_Boat_01_C:SceneComponent_269'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.3"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_32",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'Athena_BP_TRV_SWA_Boat_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'Athena_BP_TRV_SWA_Boat_01_C:SimpleConstructionScript_32.SCS_Node_273'",
+        "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.4"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "StaticMeshComponent0",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "Athena_BP_TRV_SWA_Boat_01_C'Default__Athena_BP_TRV_SWA_Boat_01_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Environments/Blueprints/Athena_BP_TRV_SWA_Boat_01.2"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_TRV_SWA_Boat_01'",
+        "ObjectPath": "FortniteGame/Content/Environments/Props/Transylvania/Props/Meshes/SM_TRV_SWA_Boat_01.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "Custom"
+      }
+    }
+  }
+]

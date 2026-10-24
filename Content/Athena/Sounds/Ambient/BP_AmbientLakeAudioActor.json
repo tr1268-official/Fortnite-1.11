@@ -1,0 +1,382 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "WaterLoopAudio",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AmbientLakeAudioActor_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.11"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AmbientLakeAudioActor_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.1"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientLakeAudioActor_C:WaterLoopAudio'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientLakeAudioActor_C:DefaultSceneRoot'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.6"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientLakeAudioActor_C:AttenuationOverride'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.13"
+      },
+      {
+        "ObjectName": "StructProperty'BP_AmbientLakeAudioActor_C:AttenuationExtents'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.12"
+      },
+      {
+        "ObjectName": "FloatProperty'BP_AmbientLakeAudioActor_C:FalloffDistance'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'BP_AmbientLakeAudioActor_C:Sound'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.7"
+      }
+    ],
+    "FuncMap": {
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_AmbientLakeAudioActor_C:UserConstructionScript'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.1"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AmbientLakeAudioActor_C'Default__BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.3"
+    }
+  },
+  {
+    "Type": "BP_AmbientLakeAudioActor_C",
+    "Name": "Default__BP_AmbientLakeAudioActor_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.BP_AmbientLakeAudioActor_C'",
+    "Package": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor",
+    "Properties": {
+      "AttenuationOverride": {
+        "bAttenuate": true,
+        "bSpatialize": false,
+        "bAttenuateWithLPF": false,
+        "bEnableListenerFocus": false,
+        "bEnableFocusInterpolation": false,
+        "bEnableOcclusion": false,
+        "bUseComplexCollisionForOcclusion": false,
+        "bEnableReverbSend": true,
+        "bApplyNormalizationToStereoSounds": false,
+        "bEnableLogFrequencyScaling": false,
+        "OmniRadius": 0.0,
+        "StereoSpread": 0.0,
+        "SpatializationAlgorithm": "SPATIALIZATION_Default",
+        "SpatializationPluginSettings": null,
+        "LPFRadiusMin": 3000.0,
+        "LPFRadiusMax": 6000.0,
+        "AbsorptionMethod": "EAirAbsorptionMethod::Linear",
+        "CustomLowpassAirAbsorptionCurve": {
+          "EditorCurveData": {
+            "PreInfinityExtrap": "RCCE_Constant",
+            "PostInfinityExtrap": "RCCE_Constant",
+            "DefaultValue": 3.4028235E+38,
+            "Keys": [],
+            "KeyHandlesToIndices": {}
+          },
+          "ExternalCurve": null
+        },
+        "CustomHighpassAirAbsorptionCurve": {
+          "EditorCurveData": {
+            "PreInfinityExtrap": "RCCE_Constant",
+            "PostInfinityExtrap": "RCCE_Constant",
+            "DefaultValue": 3.4028235E+38,
+            "Keys": [],
+            "KeyHandlesToIndices": {}
+          },
+          "ExternalCurve": null
+        },
+        "LPFFrequencyAtMin": 20000.0,
+        "LPFFrequencyAtMax": 20000.0,
+        "HPFFrequencyAtMin": 0.0,
+        "HPFFrequencyAtMax": 0.0,
+        "FocusAzimuth": 30.0,
+        "NonFocusAzimuth": 60.0,
+        "FocusDistanceScale": 1.0,
+        "NonFocusDistanceScale": 1.0,
+        "FocusPriorityScale": 1.0,
+        "NonFocusPriorityScale": 1.0,
+        "FocusVolumeAttenuation": 1.0,
+        "NonFocusVolumeAttenuation": 1.0,
+        "FocusAttackInterpSpeed": 1.0,
+        "FocusReleaseInterpSpeed": 1.0,
+        "OcclusionTraceChannel": "ECC_Visibility",
+        "OcclusionLowPassFilterFrequency": 20000.0,
+        "OcclusionVolumeAttenuation": 1.0,
+        "OcclusionInterpolationTime": 0.1,
+        "OcclusionPluginSettings": null,
+        "ReverbSendMethod": "EReverbSendMethod::Linear",
+        "ReverbPluginSettings": null,
+        "ReverbWetLevelMin": 0.3,
+        "ReverbWetLevelMax": 0.95,
+        "ReverbDistanceMin": 400.0,
+        "ReverbDistanceMax": 4000.0,
+        "CustomReverbSendCurve": {
+          "EditorCurveData": {
+            "PreInfinityExtrap": "RCCE_Constant",
+            "PostInfinityExtrap": "RCCE_Constant",
+            "DefaultValue": 3.4028235E+38,
+            "Keys": [],
+            "KeyHandlesToIndices": {}
+          },
+          "ExternalCurve": null
+        },
+        "ManualReverbSendLevel": 0.2,
+        "DistanceAlgorithm": "EAttenuationDistanceModel::Linear",
+        "CustomAttenuationCurve": {
+          "EditorCurveData": {
+            "PreInfinityExtrap": "RCCE_Constant",
+            "PostInfinityExtrap": "RCCE_Constant",
+            "DefaultValue": 3.4028235E+38,
+            "Keys": [],
+            "KeyHandlesToIndices": {}
+          },
+          "ExternalCurve": null
+        },
+        "AttenuationShape": "EAttenuationShape::Box",
+        "dBAttenuationAtMax": -60.0,
+        "AttenuationShapeExtents": {
+          "X": 400.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ConeOffset": 0.0,
+        "FalloffDistance": 3600.0
+      },
+      "AttenuationExtents": {
+        "X": 1000.0,
+        "Y": 1000.0,
+        "Z": 1000.0
+      },
+      "FalloffDistance": 1000.0
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "WaterLoopAudio_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'AudioComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "Properties": {
+      "bOverrideAttenuation": true
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "FalloffDistance",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "DefaultSceneRoot",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Sound",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "PropertyClass": {
+      "ObjectName": "Class'SoundBase'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AmbientLakeAudioActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.8"
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.10"
+        }
+      ],
+      "VariableGuid": "D9F4CE45-45A159C4-E648EE83-E9410221",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_AmbientLakeAudioActor_C:WaterLoopAudio_GEN_VARIABLE'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.4"
+      },
+      "VariableGuid": "3A1DB62C-48747E35-CDBF988D-8998AB03",
+      "InternalVariableName": "WaterLoopAudio"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.9"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.9"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.10"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AmbientLakeAudioActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.9"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AttenuationExtents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "AttenuationOverride",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_AmbientLakeAudioActor_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/Sounds/Ambient/BP_AmbientLakeAudioActor.2"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SoundAttenuationSettings'",
+      "ObjectPath": "/Script/Engine"
+    }
+  }
+]

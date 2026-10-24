@@ -1,0 +1,864 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "AthenaFPS_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaFPS",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'AthenaFPS_C:WidgetTree'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.42"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/Athena/HUD/AthenaFPS.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'AthenaFPS_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'FortHUDElementWidget'",
+      "ObjectPath": "/Script/FortniteUI"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaFPS_C:UberGraphFrame'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.0"
+      },
+      {
+        "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+      },
+      {
+        "ObjectName": "Function'AthenaFPS_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.11"
+      },
+      {
+        "ObjectName": "Function'AthenaFPS_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.10"
+      },
+      {
+        "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaFPS_C:FPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_AthenaFPS": {
+        "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+      },
+      "Tick": {
+        "ObjectName": "Function'AthenaFPS_C:Tick'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.10"
+      },
+      "Construct": {
+        "ObjectName": "Function'AthenaFPS_C:Construct'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.11"
+      },
+      "ShowFPSChanged": {
+        "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "AthenaFPS_C'Default__AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.2"
+    }
+  },
+  {
+    "Type": "AthenaFPS_C",
+    "Name": "Default__AthenaFPS_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaFPS.AthenaFPS_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaFPS",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bCanEverPaint": false
+    }
+  },
+  {
+    "Type": "AthenaFPS_C",
+    "Name": "WidgetArchetype",
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "WidgetBlueprintGeneratedClass'FortniteGame/Content/Athena/HUD/AthenaFPS.AthenaFPS_C'",
+    "Package": "FortniteGame/Content/Athena/HUD/AthenaFPS",
+    "Template": {
+      "ObjectName": "AthenaFPS_C'Default__AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.2"
+    },
+    "Properties": {
+      "FPS": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.FPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.40"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.43"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FPS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_AthenaFPS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.EntryPoint'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.5"
+      },
+      {
+        "ObjectName": "DelegateProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.18"
+      },
+      {
+        "ObjectName": "StructProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_Event_MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.38"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.22"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.CallFunc_GetOwningPlayer_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_DynamicCast_AsFort_Player_Controller_Athena'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.31"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.CallFunc_GetOwningPlayer_ReturnValue2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.30"
+      },
+      {
+        "ObjectName": "IntProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.CallFunc_GetFPSForHUD_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_DynamicCast_AsFort_Player_Controller_Athena2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.32"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.K2Node_DynamicCast_bSuccess2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.8"
+      },
+      {
+        "ObjectName": "StrProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.CallFunc_BuildString_Int_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.37"
+      },
+      {
+        "ObjectName": "TextProperty'AthenaFPS_C:ExecuteUbergraph_AthenaFPS.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.41"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.10"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'AthenaFPS_C:Tick.MyGeometry'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.9"
+      },
+      {
+        "ObjectName": "FloatProperty'AthenaFPS_C:Tick.InDeltaTime'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ShowFPSChanged",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'AthenaFPS_C:ShowFPSChanged.bShowFPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.13"
+      },
+      {
+        "ObjectName": "BoolProperty'AthenaFPS_C:ShowFPSChanged.Temp_bool_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.14"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.20"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable2'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.21"
+      },
+      {
+        "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.K2Node_Select_Default'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bShowFPS",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BoolProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.K2Node_Select_Default'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.19"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.20"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ByteProperty'",
+    "Outer": {
+      "ObjectName": "EnumProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable2'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.21"
+    },
+    "Enum": null
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'OnShowFPSChange__DelegateSignature'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaFPS_C:ShowFPSChanged.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.15"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.16"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'EnumProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ShowFPSChanged'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.12"
+    },
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'AthenaFPS_C:ShowFPSChanged.Temp_byte_Variable2.UnderlyingType'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.17"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'FloatProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:Tick'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.10"
+    },
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaFPS_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.42"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'AthenaFPS_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'AthenaFPS_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.35"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.43"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.36"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'AthenaFPS_C:WidgetTree.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.24"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'AthenaFPS_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.24"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'AthenaFPS_C:WidgetTree.FPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.39"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Outer": {
+      "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.25"
+    },
+    "Properties": {
+      "Padding": {
+        "Left": 5.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.FPS'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.40"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetFPSForHUD_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IntProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOwningPlayer_ReturnValue2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Controller_Athena",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerControllerAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsFort_Player_Controller_Athena2",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'FortPlayerControllerAthena'",
+      "ObjectPath": "/Script/FortniteGame"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaFPS_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.42"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'AthenaFPS_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Overlay'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.43"
+    },
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.36"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'AthenaFPS_C:WidgetTree.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.33"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'AthenaFPS_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.33"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'AthenaFPS_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.24"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Outer": {
+      "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.34"
+    },
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.34"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.25"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_BuildString_Int_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StrProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StructProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "FPS",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'AthenaFPS_C:WidgetTree'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.42"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7A7623C44716103DA72FA6A476BAF101",
+        "SourceString": "120 FPS",
+        "LocalizedString": "120 FPS"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'AthenaFPS_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.26"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "FPS",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextBlock'",
+    "Outer": {
+      "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.43"
+    },
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7A7623C44716103DA72FA6A476BAF101",
+        "SourceString": "120 FPS",
+        "LocalizedString": "120 FPS"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NotoSans'",
+          "ObjectPath": "FortniteGame/Content/UI/Foundation/Fonts/NotoSans.0"
+        },
+        "TypefaceFontName": "NotoSans-Bold",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.27"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TextProperty'",
+    "Outer": {
+      "ObjectName": "Function'AthenaFPS_C:ExecuteUbergraph_AthenaFPS'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.6"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'AthenaFPS_C'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.1"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'AthenaFPS_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.33"
+      },
+      "AllWidgets": [
+        {
+          "ObjectName": "Overlay'AthenaFPS_C:WidgetTree.Overlay_0'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.33"
+        },
+        {
+          "ObjectName": "HorizontalBox'AthenaFPS_C:WidgetTree.HorizontalBox_1'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.24"
+        },
+        {
+          "ObjectName": "TextBlock'AthenaFPS_C:WidgetTree.FPS'",
+          "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.39"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'WidgetTree'",
+    "Outer": {
+      "ObjectName": "AthenaFPS_C'WidgetArchetype'",
+      "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.3"
+    },
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "FortniteGame/Content/Athena/HUD/AthenaFPS.34"
+      }
+    }
+  }
+]
